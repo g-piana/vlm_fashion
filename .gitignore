@@ -1,0 +1,44 @@
+# Models & outputs (large, not versioned)
+models/
+outputs/
+*.gguf
+*.safetensors
+*.bin
+
+# Data (images are large)
+data/raw/images/
+data/processed/
+data/splits/
+
+# Keep the raw labels file
+!data/raw/labels.json
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Env
+.env
+*.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Wandb / tensorboard
+wandb/
+runs/
