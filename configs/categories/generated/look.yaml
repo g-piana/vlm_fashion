@@ -1,0 +1,397 @@
+# Auto-generated — includes all taxonomy for multi-item images
+
+inherits: _base
+image_type: look
+includes_all_generated: true
+taxonomy:
+  outerwear-men:
+  - down
+  - parka
+  - poncho
+  - raincoat
+  - tent coat
+  coats-men:
+  - caban
+  - coat
+  - duffle coat
+  - fur coat
+  - mantle
+  - trenchcoat
+  denim-men:
+  - dungaree
+  - jacket
+  - jeans
+  - jumpsuit
+  - pants
+  - shorts
+  - skirt
+  - shirt
+  - other-denim
+  jackets-men:
+  - baseball
+  - biker
+  - blazer
+  - bolero
+  - bomber
+  - down
+  - fur jacket
+  - jacket
+  - lumber
+  - parka
+  - spencer
+  - tailored
+  knitwear-men:
+  - cardigan
+  - knit coat
+  - knit jacket
+  - knit pants
+  - knit skirt
+  - knit top
+  - knit vest
+  - sweater
+  - other-knitwear
+  military-men:
+  - coat
+  - jacket
+  - jumpsuit
+  - pants
+  - shirt
+  - shorts
+  - skirt
+  - other-miltary
+  pants-men:
+  - capri
+  - cargo
+  - chinos
+  - dress pants
+  - dungarees
+  - jumpsuit
+  - leggings
+  - pajama pants
+  - palazzo pants
+  - pants
+  shorts-men:
+  - bermuda
+  - cargo shorts
+  - chino shorts
+  - shorts
+  shirts-men:
+  - shirt
+  - polo
+  - safari
+  - sweatshirt
+  - t-shirt
+  - western
+  - other-top
+  suits-men:
+  - three-piece
+  - tuxedo
+  - two-piece
+  - vest
+  beachwear-men:
+  - jammers
+  - kaftan
+  - shorts
+  - swim-brief
+  underwear-men:
+  - boxer
+  - briefs
+  - slip
+  - trunk
+  activewear-men:
+  - jacket
+  - jumpsuit
+  - pants
+  - shirt
+  - short
+  - skirt
+  - sweatpants
+  - vest
+  messengers-men:
+  - messenger
+  handbags-men:
+  - basket
+  - boston bag
+  - doctor's bag
+  - handbag
+  - top handle bag
+  clutches-men:
+  - clutch
+  - envelope
+  - minaudiére
+  - pochette
+  - pouch
+  shoulder-bags-men: []
+  totes-men:
+  - tote
+  backpacks-men:
+  - backpack
+  belt-bags-men:
+  - belt bag
+  flat-shoes-men:
+  - boat shoe
+  - derby
+  - desert
+  - driving shoe
+  - lace up
+  - loafer
+  - monk strap
+  - mule
+  - oxford
+  - slip on
+  - slipper
+  - other flat shoes
+  sandals-men:
+  - sandal
+  - sandal boot
+  - slider
+  - thong
+  - wedge sandal
+  boots-and-booties-men:
+  - ankle boot
+  - boot
+  - lace up boot
+  - shoe boot
+  - snow boot
+  sneakers-men:
+  - high-top sneaker
+  - low-top sneaker
+  - tennis shoe
+  briefcases-men: []
+  suitcases-men: []
+  cosmetic-cases-men: []
+  trunks-men: []
+  duffles-men:
+  - duffle
+  wheel-luggage-men: []
+  hardside-luggage-men: []
+  softside-luggage-men: []
+  golf-bags-men: []
+  tennis-bags-men: []
+  hat-boxes-men: []
+  ties-men: []
+  scarves-men: []
+  belts-men: []
+  gloves-men: []
+  hats-men: []
+  sunglasses-men: []
+  eyeglasses-men: []
+  goggles-men: []
+  bracelets-men: []
+  earrings-men: []
+  necklaces-men: []
+  rings-men: []
+  watches-men: []
+  outerwear-women:
+  - down
+  - parka
+  - poncho
+  - raincoat
+  - tent coat
+  coats-women:
+  - caban
+  - coat
+  - duffle coat
+  - fur coat
+  - mantle
+  - trenchcoat
+  denim-women:
+  - dress
+  - dungaree
+  - jacket
+  - jeans
+  - jumpsuit
+  - pants
+  - shorts
+  - skirt
+  - shirt
+  - other-denim
+  dresses-women:
+  - long-dress
+  - midi-dress
+  - mini-dress
+  jackets-women:
+  - baseball
+  - biker
+  - blazer
+  - bolero
+  - bomber
+  - down
+  - fur jacket
+  - jacket
+  - lumber
+  - parka
+  - spencer
+  - tailored
+  knitwear-women:
+  - cardigan
+  - knit coat
+  - knit dress
+  - knit jacket
+  - knit pants
+  - knit skirt
+  - knit top
+  - knit vest
+  - sweater
+  - other-knitwear
+  military-women:
+  - coat
+  - jacket
+  - jumpsuit
+  - pants
+  - shirt
+  - shorts
+  - skirt
+  - other-miltary
+  pants-women:
+  - capri
+  - cargo
+  - chinos
+  - dress pants
+  - dungarees
+  - jumpsuit
+  - leggings
+  - pajama pants
+  - palazzo pants
+  - pants
+  shorts-women:
+  - bermuda
+  - cargo shorts
+  - chino shorts
+  - shorts
+  shirts-women:
+  - camisole
+  - shirt
+  - blouse
+  - polo
+  - safari
+  - sweatshirt
+  - t-shirt
+  - western
+  - other-top
+  skirts-women:
+  - long-skirt
+  - midi-skirt
+  - mini-skirt
+  suits-women:
+  - skirt-suit
+  - three-piece
+  - tuxedo
+  - two-piece
+  - vest
+  beachwear-women:
+  - bikini
+  - kaftan
+  - one-piece
+  - shorts
+  lingerie-women:
+  - bra
+  - bustier
+  - corset
+  - slip
+  - thong
+  activewear-women:
+  - jacket
+  - jumpsuit
+  - pants
+  - shirt
+  - short
+  - skirt
+  - sweatpants
+  - vest
+  handbags-women:
+  - basket
+  - boston bag
+  - doctor's bag
+  - handbag
+  - top handle bag
+  clutches-women:
+  - clutch
+  - envelope
+  - minaudiére
+  - pochette
+  - pouch
+  shoulder-bags-women:
+  - bucket bag
+  - camera bag
+  - chain bag
+  - crossbody bag
+  - hobo bag
+  - saddle bag
+  - satchel bag
+  - shoulder bag
+  - underarm bag
+  backpacks-women:
+  - backpack
+  messengers-women:
+  - messenger
+  totes-women:
+  - tote
+  waist-bags-women:
+  - waist bag
+  flat-shoes-women:
+  - ballerina
+  - boat shoe
+  - derby
+  - desert
+  - driving shoe
+  - lace up
+  - loafer
+  - monk strap
+  - mule
+  - oxford
+  - slip on
+  - slipper
+  - other flat shoes
+  heeled-shoes-women:
+  - d'orsay pump
+  - decollete
+  - lace up
+  - loafer pump
+  - mary jane pump
+  - mule
+  - pump
+  - slingback
+  - wedge pump
+  sandals-women:
+  - mule
+  - sandal
+  - sandal boot
+  - slider
+  - thong
+  - wedge sandal
+  boots-and-booties-women:
+  - ankle boot
+  - boot
+  - lace up boot
+  - over the knee
+  - snow boot
+  sneakers-women:
+  - high-top sneaker
+  - low-top sneaker
+  - tennis shoe
+  briefcases-women: []
+  suitcases-women: []
+  cosmetic-cases-women: []
+  trunks-women: []
+  duffles-women:
+  - duffle
+  wheel-luggage-women: []
+  hardside-luggage-women: []
+  softside-luggage-women: []
+  golf-bags-women: []
+  tennis-bags-women: []
+  hat-boxes-women: []
+  ties-women: []
+  scarves-women: []
+  belts-women: []
+  gloves-women: []
+  hats-women: []
+  sunglasses-women: []
+  eyeglasses-women: []
+  goggles-women: []
+  bracelets-women: []
+  earrings-women: []
+  necklaces-women: []
+  rings-women: []
+  watches-women: []

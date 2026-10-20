@@ -1,0 +1,49 @@
+# Auto-generated from category_hierarchy.yaml — do not edit manually.
+# Re-generate with: python scripts/generate_category_configs.py
+
+inherits: _base
+gender: women
+macrocategory: shoes
+attribute_template: shoes
+taxonomy:
+  flat-shoes-women:
+  - ballerina
+  - boat shoe
+  - derby
+  - desert
+  - driving shoe
+  - lace up
+  - loafer
+  - monk strap
+  - mule
+  - oxford
+  - slip on
+  - slipper
+  - other flat shoes
+  heeled-shoes-women:
+  - d'orsay pump
+  - decollete
+  - lace up
+  - loafer pump
+  - mary jane pump
+  - mule
+  - pump
+  - slingback
+  - wedge pump
+  sandals-women:
+  - mule
+  - sandal
+  - sandal boot
+  - slider
+  - thong
+  - wedge sandal
+  boots-and-booties-women:
+  - ankle boot
+  - boot
+  - lace up boot
+  - over the knee
+  - snow boot
+  sneakers-women:
+  - high-top sneaker
+  - low-top sneaker
+  - tennis shoe

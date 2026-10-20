@@ -1,0 +1,29 @@
+# Auto-generated from category_hierarchy.yaml — do not edit manually.
+# Re-generate with: python scripts/generate_category_configs.py
+
+inherits: _base
+gender: men
+macrocategory: bags
+attribute_template: bags
+taxonomy:
+  messengers-men:
+  - messenger
+  handbags-men:
+  - basket
+  - boston bag
+  - doctor's bag
+  - handbag
+  - top handle bag
+  clutches-men:
+  - clutch
+  - envelope
+  - minaudiére
+  - pochette
+  - pouch
+  shoulder-bags-men: []
+  totes-men:
+  - tote
+  backpacks-men:
+  - backpack
+  belt-bags-men:
+  - belt bag

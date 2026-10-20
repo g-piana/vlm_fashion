@@ -1,0 +1,12 @@
+# Auto-generated from category_hierarchy.yaml — do not edit manually.
+# Re-generate with: python scripts/generate_category_configs.py
+
+inherits: _base
+gender: women
+macrocategory: jewelry
+attribute_template: jewelry
+taxonomy:
+  bracelets-women: []
+  earrings-women: []
+  necklaces-women: []
+  rings-women: []

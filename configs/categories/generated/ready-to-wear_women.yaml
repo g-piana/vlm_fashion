@@ -1,0 +1,125 @@
+# Auto-generated from category_hierarchy.yaml — do not edit manually.
+# Re-generate with: python scripts/generate_category_configs.py
+
+inherits: _base
+gender: women
+macrocategory: ready-to-wear
+attribute_template: ready_to_wear
+taxonomy:
+  outerwear-women:
+  - down
+  - parka
+  - poncho
+  - raincoat
+  - tent coat
+  coats-women:
+  - caban
+  - coat
+  - duffle coat
+  - fur coat
+  - mantle
+  - trenchcoat
+  denim-women:
+  - dress
+  - dungaree
+  - jacket
+  - jeans
+  - jumpsuit
+  - pants
+  - shorts
+  - skirt
+  - shirt
+  - other-denim
+  dresses-women:
+  - long-dress
+  - midi-dress
+  - mini-dress
+  jackets-women:
+  - baseball
+  - biker
+  - blazer
+  - bolero
+  - bomber
+  - down
+  - fur jacket
+  - jacket
+  - lumber
+  - parka
+  - spencer
+  - tailored
+  knitwear-women:
+  - cardigan
+  - knit coat
+  - knit dress
+  - knit jacket
+  - knit pants
+  - knit skirt
+  - knit top
+  - knit vest
+  - sweater
+  - other-knitwear
+  military-women:
+  - coat
+  - jacket
+  - jumpsuit
+  - pants
+  - shirt
+  - shorts
+  - skirt
+  - other-miltary
+  pants-women:
+  - capri
+  - cargo
+  - chinos
+  - dress pants
+  - dungarees
+  - jumpsuit
+  - leggings
+  - pajama pants
+  - palazzo pants
+  - pants
+  shorts-women:
+  - bermuda
+  - cargo shorts
+  - chino shorts
+  - shorts
+  shirts-women:
+  - camisole
+  - shirt
+  - blouse
+  - polo
+  - safari
+  - sweatshirt
+  - t-shirt
+  - western
+  - other-top
+  skirts-women:
+  - long-skirt
+  - midi-skirt
+  - mini-skirt
+  suits-women:
+  - skirt-suit
+  - three-piece
+  - tuxedo
+  - two-piece
+  - vest
+  beachwear-women:
+  - bikini
+  - kaftan
+  - one-piece
+  - shorts
+  lingerie-women:
+  - bra
+  - bustier
+  - corset
+  - slip
+  - thong
+  activewear-women:
+  - jacket
+  - jumpsuit
+  - pants
+  - shirt
+  - short
+  - skirt
+  - sweatpants
+  - vest

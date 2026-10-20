@@ -1,0 +1,9 @@
+# Auto-generated from category_hierarchy.yaml — do not edit manually.
+# Re-generate with: python scripts/generate_category_configs.py
+
+inherits: _base
+gender: men
+macrocategory: watches
+attribute_template: watches
+taxonomy:
+  watches-men: []

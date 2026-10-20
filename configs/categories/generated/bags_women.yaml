@@ -1,0 +1,38 @@
+# Auto-generated from category_hierarchy.yaml — do not edit manually.
+# Re-generate with: python scripts/generate_category_configs.py
+
+inherits: _base
+gender: women
+macrocategory: bags
+attribute_template: bags
+taxonomy:
+  handbags-women:
+  - basket
+  - boston bag
+  - doctor's bag
+  - handbag
+  - top handle bag
+  clutches-women:
+  - clutch
+  - envelope
+  - minaudiére
+  - pochette
+  - pouch
+  shoulder-bags-women:
+  - bucket bag
+  - camera bag
+  - chain bag
+  - crossbody bag
+  - hobo bag
+  - saddle bag
+  - satchel bag
+  - shoulder bag
+  - underarm bag
+  backpacks-women:
+  - backpack
+  messengers-women:
+  - messenger
+  totes-women:
+  - tote
+  waist-bags-women:
+  - waist bag

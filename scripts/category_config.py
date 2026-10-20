@@ -1,153 +1,249 @@
 """
 Category config loader.
 
-Reads _base.yaml + a category YAML, merges attributes, and builds
-the full system prompt with controlled vocabulary for that category.
+Loads configs from two locations:
+  1. configs/categories/          — hand-written base + attribute templates
+  2. configs/categories/generated/ — auto-generated from taxonomy
+
+The generated configs reference an attribute_template (e.g. "shoes")
+which maps to hand-written attribute definitions in the base configs.
 
 Usage:
-    from category_config import build_system_prompt, load_category_config
-    prompt = build_system_prompt("shoes")           # product image
-    prompt = build_system_prompt("shoes", is_look=True)  # look image
-    prompt = build_system_prompt("look")            # look with all vocabs
+    from category_config import build_system_prompt, list_configs
+    prompt = build_system_prompt("shoes_women")
+    prompt = build_system_prompt("shoes_women", image_type="look")
 """
 
 from __future__ import annotations
 
 import copy
 from pathlib import Path
-from typing import Any
 
 import yaml
 
 CONFIGS_DIR = Path(__file__).resolve().parent.parent / "configs" / "categories"
+GENERATED_DIR = CONFIGS_DIR / "generated"
+
+# ── Attribute templates ──────────────────────────────────────────────────
+# Hand-written attribute sets per macrocategory type. These define the
+# additional structured fields beyond the base (color, material, etc.)
+
+ATTRIBUTE_TEMPLATES = {
+    "shoes": {
+        "toe_shape": {"type": "enum", "values": [
+            "round", "pointed", "square", "almond", "peep-toe", "open-toe", "cap-toe"]},
+        "heel_type": {"type": "enum", "values": [
+            "flat", "kitten", "block", "stiletto", "wedge", "platform",
+            "cone", "spool", "stacked", "sculpted", "none"]},
+        "heel_height": {"type": "enum", "values": [
+            "flat", "low", "mid", "high", "ultra-high"]},
+        "heel_finish": {"type": "enum", "values": [
+            "wrapped", "metallic", "wooden", "lucite", "lacquered", "natural", "null"]},
+        "sole_type": {"type": "enum", "values": [
+            "leather", "rubber", "crepe", "rope", "platform", "lug", "commando", "null"]},
+        "closure": {"type": "enum", "values": [
+            "slip-on", "lace-up", "buckle", "zip", "side-zip", "back-zip",
+            "velcro", "elastic", "tie", "button", "monk-strap", "none"]},
+        "shaft_height": {"type": "enum", "values": [
+            "ankle", "mid-calf", "knee", "over-knee", "null"]},
+    },
+    "bags": {
+        "handle_type": {"type": "enum", "values": [
+            "top-handle", "shoulder-strap", "chain-strap", "wrist-strap",
+            "crossbody-strap", "detachable-strap", "drawstring", "none"]},
+        "bag_closure": {"type": "enum", "values": [
+            "zip", "flap", "drawstring", "clasp", "magnetic-snap", "turn-lock",
+            "frame", "open-top", "buckle", "toggle", "none"]},
+        "hardware_color": {"type": "enum", "values": [
+            "gold", "silver", "gunmetal", "rose-gold", "antique-brass", "black", "none"]},
+        "bag_size": {"type": "enum", "values": [
+            "micro", "mini", "small", "medium", "large", "oversized"]},
+    },
+    "ready_to_wear": {
+        "fit": {"type": "enum", "values": [
+            "slim", "regular", "relaxed", "oversized", "tailored", "cropped",
+            "flared", "straight", "skinny", "wide-leg", "A-line", "bodycon"]},
+        "length": {"type": "enum", "values": [
+            "cropped", "hip", "mid-thigh", "knee", "midi", "maxi", "floor-length", "null"]},
+        "neckline": {"type": "enum", "values": [
+            "crew", "v-neck", "scoop", "boat", "turtleneck", "mock-neck", "cowl",
+            "off-shoulder", "halter", "strapless", "collared", "mandarin",
+            "sweetheart", "square", "keyhole", "henley", "null"]},
+        "collar": {"type": "enum", "values": [
+            "point", "spread", "button-down", "band", "peter-pan", "shawl",
+            "notched-lapel", "peak-lapel", "mandarin", "stand", "none", "null"]},
+        "sleeve_length": {"type": "enum", "values": [
+            "sleeveless", "cap", "short", "elbow", "three-quarter", "long", "null"]},
+        "closure": {"type": "enum", "values": [
+            "button", "zip", "snap", "hook", "tie", "wrap", "pullover",
+            "toggle", "double-breasted", "none"]},
+    },
+    "luggage": {
+        "luggage_type": {"type": "enum", "values": [
+            "hardside", "softside", "wheeled", "duffle", "garment-bag", "null"]},
+    },
+    "accessories": {},
+    "eyewear": {
+        "frame_shape": {"type": "enum", "values": [
+            "aviator", "wayfarer", "round", "cat-eye", "rectangular",
+            "oversized", "shield", "square", "oval", "geometric", "null"]},
+    },
+    "jewelry": {
+        "jewelry_material": {"type": "enum", "values": [
+            "gold", "silver", "rose-gold", "platinum", "stainless-steel",
+            "brass", "copper", "leather", "fabric", "bead", "pearl", "null"]},
+    },
+    "watches": {
+        "dial_shape": {"type": "enum", "values": [
+            "round", "square", "rectangular", "tonneau", "oval", "null"]},
+        "strap_type": {"type": "enum", "values": [
+            "leather", "metal-bracelet", "rubber", "nato", "mesh", "fabric", "null"]},
+    },
+    "generic": {},
+}
 
 
-def _load_yaml(name: str) -> dict:
-    path = CONFIGS_DIR / f"{name}.yaml"
-    if not path.exists():
-        raise FileNotFoundError(f"Category config not found: {path}")
-    with open(path) as f:
-        return yaml.safe_load(f)
+def _load_yaml(path: Path) -> dict:
+    with open(path, encoding="utf-8") as f:
+        return yaml.safe_load(f) or {}
 
 
-def load_category_config(category: str) -> dict:
-    """Load a category config, merging with _base.yaml."""
-    base = _load_yaml("_base")
-    if category == "_base":
-        return base
+def load_base_config() -> dict:
+    return _load_yaml(CONFIGS_DIR / "_base.yaml")
 
-    cat = _load_yaml(category)
 
-    # Merge attributes: category-specific override/extend base
+def load_category_config(name: str) -> dict:
+    """Load a generated or hand-written category config by name.
+
+    Tries generated/ first, then the base configs/ dir.
+    """
+    gen_path = GENERATED_DIR / f"{name}.yaml"
+    base_path = CONFIGS_DIR / f"{name}.yaml"
+
+    if gen_path.exists():
+        config = _load_yaml(gen_path)
+    elif base_path.exists():
+        config = _load_yaml(base_path)
+    else:
+        raise FileNotFoundError(
+            f"No config found for '{name}' in {GENERATED_DIR} or {CONFIGS_DIR}"
+        )
+
+    # Merge with base
+    base = load_base_config()
     merged_attrs = copy.deepcopy(base.get("attributes", {}))
-    merged_attrs.update(cat.get("attributes", {}))
 
-    result = {**base, **cat}
+    # Add macrocategory-specific attributes from template
+    template_key = config.get("attribute_template", "generic")
+    template_attrs = ATTRIBUTE_TEMPLATES.get(template_key, {})
+    merged_attrs.update(template_attrs)
+
+    # Also merge any hand-written attributes in the config itself
+    merged_attrs.update(config.get("attributes", {}))
+
+    result = {**base, **config}
     result["attributes"] = merged_attrs
-
-    # For looks that include multiple categories, merge those too
-    if "includes" in cat:
-        for inc_name in cat["includes"]:
-            inc = _load_yaml(inc_name)
-            for k, v in inc.get("attributes", {}).items():
-                if k not in result["attributes"]:
-                    result["attributes"][k] = v
-            # Merge category_values into a combined list
-            if "category_values" in inc:
-                existing = result.get("category_values", [])
-                result["category_values"] = existing + inc["category_values"]
 
     return result
 
 
-def _format_vocabulary(config: dict) -> str:
-    """Format the controlled vocabulary block for the system prompt."""
+def _format_taxonomy(taxonomy: dict) -> str:
+    """Format taxonomy tree for the system prompt."""
     lines = []
-
-    # Category values
-    if "category_values" in config:
-        vals = ", ".join(config["category_values"])
-        lines.append(f"  category: [{vals}]")
-        lines.append(f"  subcategory: free text, be specific")
-
-    # All attributes
-    for name, spec in config["attributes"].items():
-        if isinstance(spec, dict):
-            if spec.get("values") and not str(spec["values"]).startswith("same_as"):
-                vals = ", ".join(str(v) for v in spec["values"])
-                lines.append(f"  {name}: [{vals}]")
-            elif spec.get("description"):
-                lines.append(f"  {name}: {spec['description']}")
-            elif str(spec.get("values", "")).startswith("same_as:"):
-                ref = str(spec["values"]).replace("same_as:", "")
-                lines.append(f"  {name}: list, same values as {ref}")
+    for cat_slug, subcats in taxonomy.items():
+        if subcats:
+            subcat_str = ", ".join(str(s) for s in subcats)
+            lines.append(f"    {cat_slug}: [{subcat_str}]")
         else:
-            lines.append(f"  {name}: {spec}")
+            lines.append(f"    {cat_slug}: (no subcategories)")
+    return "\n".join(lines)
 
-    # Look-level attributes
-    if "look_attributes" in config:
-        lines.append("")
-        lines.append("  # Look-level attributes (apply to overall image):")
-        for name, spec in config["look_attributes"].items():
-            if isinstance(spec, dict):
-                if spec.get("values") and not str(spec["values"]).startswith("same_as"):
-                    vals = ", ".join(str(v) for v in spec["values"])
-                    lines.append(f"  {name}: [{vals}]")
-                elif spec.get("description"):
-                    lines.append(f"  {name}: {spec['description']}")
 
+def _format_attributes(attrs: dict) -> str:
+    """Format attribute vocabulary for the system prompt."""
+    lines = []
+    for name, spec in attrs.items():
+        if isinstance(spec, dict):
+            vals = spec.get("values")
+            if vals and not str(vals).startswith("same_as"):
+                vals_str = ", ".join(str(v) for v in vals)
+                lines.append(f"    {name}: [{vals_str}]")
+            elif spec.get("description"):
+                lines.append(f"    {name}: {spec['description']}")
+            elif str(vals or "").startswith("same_as:"):
+                ref = str(vals).replace("same_as:", "")
+                lines.append(f"    {name}: list, same values as {ref}")
     return "\n".join(lines)
 
 
 def build_system_prompt(
-    category: str,
+    config_name: str,
     image_type: str = "product",
+    gender: str | None = None,
 ) -> str:
-    """Build the full system prompt for a category and image type.
+    """Build the full system prompt for a config and image type.
 
     Args:
-        category: Category name (e.g. "shoes", "bags", "look")
-        image_type: "product" (single item) or "look" (multi-item)
-
-    Returns:
-        Complete system prompt string with vocabulary.
+        config_name: Config name (e.g. "shoes_women", "bags_men")
+        image_type: "product" or "look"
+        gender: Override gender (otherwise taken from config)
     """
-    config = load_category_config(category)
+    config = load_category_config(config_name)
 
-    # Pick the right prompt template
     templates = config.get("prompt_templates", {})
     template = templates.get(image_type, templates.get("product", ""))
 
-    vocabulary = _format_vocabulary(config)
+    gender = gender or config.get("gender", "unknown")
+    macrocat = config.get("macrocategory", "unknown")
+
+    taxonomy_str = _format_taxonomy(config.get("taxonomy", {}))
+    attrs_str = _format_attributes(config.get("attributes", {}))
 
     prompt = f"""{template}
-Controlled vocabulary:
-{vocabulary}"""
+
+Gender context: {gender}
+Macrocategory: {macrocat}
+
+You MUST classify this item using EXACTLY one category and one subcategory
+from the taxonomy below. Output the exact names as shown.
+
+Taxonomy (category → subcategories):
+{taxonomy_str}
+
+Additional attributes (use controlled vocabulary):
+{attrs_str}"""
 
     return prompt.strip()
 
 
-def get_user_message(category: str = "_base") -> str:
-    """Get the user message template."""
-    config = load_category_config(category)
-    return config.get("prompt_templates", {}).get(
+def get_user_message() -> str:
+    base = load_base_config()
+    return base.get("prompt_templates", {}).get(
         "user_message", "Analyze this fashion product."
     )
 
 
-def list_categories() -> list[str]:
-    """List all available category configs (excluding _base)."""
-    return sorted(
-        p.stem for p in CONFIGS_DIR.glob("*.yaml")
-        if p.stem != "_base"
-    )
+def list_configs() -> list[str]:
+    """List all available configs (generated + hand-written, excluding _base)."""
+    configs = set()
+    for d in [GENERATED_DIR, CONFIGS_DIR]:
+        if d.exists():
+            for p in d.glob("*.yaml"):
+                if p.stem not in ("_base", "_registry"):
+                    configs.add(p.stem)
+    return sorted(configs)
 
 
 if __name__ == "__main__":
-    # Quick test: print all available prompts
-    for cat in list_categories():
+    import sys
+    configs = list_configs()
+    print(f"Available configs ({len(configs)}):")
+    for c in configs:
+        print(f"  {c}")
+
+    if len(sys.argv) > 1:
+        name = sys.argv[1]
         print(f"\n{'='*60}")
-        print(f"Category: {cat}")
+        print(f"System prompt for: {name}")
         print(f"{'='*60}")
-        print(build_system_prompt(cat))
-        print()
+        print(build_system_prompt(name))

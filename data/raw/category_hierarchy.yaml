@@ -1,0 +1,2186 @@
+men:
+  slug: men
+  name: men
+  lab_en: men
+  order: 0
+  macrocategories:
+    ready-to-wear:
+      slug: ready-to-wear
+      name: ready-to-wear
+      lab_en: Ready To Wear
+      order: 0
+      categories:
+        outerwear-men:
+          slug: outerwear-men
+          name: outerwear
+          lab_en: Outerwear
+          order: 0
+          subcategories:
+            down:
+              slug: down
+              name: down
+              lab_en: down
+              order: 0
+            parka:
+              slug: parka
+              name: parka
+              lab_en: parka
+              order: 1
+            poncho:
+              slug: poncho
+              name: poncho
+              lab_en: poncho
+              order: 2
+            raincoat:
+              slug: raincoat
+              name: raincoat
+              lab_en: raincoat
+              order: 3
+            tent coat:
+              slug: tent-coat
+              name: tent coat
+              lab_en: tent coat
+              order: 4
+        coats-men:
+          slug: coats-men
+          name: coats
+          lab_en: Coats
+          order: 1
+          subcategories:
+            caban:
+              slug: caban
+              name: caban
+              lab_en: caban
+              order: 0
+            coat:
+              slug: coat
+              name: coat
+              lab_en: coat
+              order: 1
+            duffle coat:
+              slug: duffle-coat
+              name: duffle coat
+              lab_en: duffle coat
+              order: 2
+            fur coat:
+              slug: fur-coat
+              name: fur coat
+              lab_en: fur coat
+              order: 3
+            mantle:
+              slug: mantle
+              name: mantle
+              lab_en: mantle
+              order: 4
+            trenchcoat:
+              slug: trenchcoat
+              name: trenchcoat
+              lab_en: trenchcoat
+              order: 5
+        denim-men:
+          slug: denim-men
+          name: denim
+          lab_en: Denim
+          order: 2
+          subcategories:
+            dungaree:
+              slug: dungaree
+              name: dungaree
+              lab_en: dungaree
+              order: 0
+            jacket:
+              slug: jacket
+              name: jacket
+              lab_en: jacket
+              order: 1
+            jeans:
+              slug: jeans
+              name: jeans
+              lab_en: jeans
+              order: 2
+            jumpsuit:
+              slug: jumpsuit
+              name: jumpsuit
+              lab_en: jumpsuit
+              order: 3
+            pants:
+              slug: pants
+              name: pants
+              lab_en: pants
+              order: 4
+            shorts:
+              slug: shorts
+              name: shorts
+              lab_en: shorts
+              order: 5
+            skirt:
+              slug: skirt
+              name: skirt
+              lab_en: skirt
+              order: 6
+            shirt:
+              slug: shirt
+              name: shirt
+              lab_en: shirt
+              order: 7
+            other-denim:
+              slug: other-denim
+              name: other-denim
+              lab_en: other-denim
+              order: 8
+        jackets-men:
+          slug: jackets-men
+          name: jackets
+          lab_en: Jackets
+          order: 3
+          subcategories:
+            baseball:
+              slug: baseball
+              name: baseball
+              lab_en: baseball
+              order: 0
+            biker:
+              slug: biker
+              name: biker
+              lab_en: biker
+              order: 1
+            blazer:
+              slug: blazer
+              name: blazer
+              lab_en: blazer
+              order: 2
+            bolero:
+              slug: bolero
+              name: bolero
+              lab_en: bolero
+              order: 3
+            bomber:
+              slug: bomber
+              name: bomber
+              lab_en: bomber
+              order: 4
+            down:
+              slug: down
+              name: down
+              lab_en: down
+              order: 5
+            fur jacket:
+              slug: fur-jacket
+              name: fur jacket
+              lab_en: fur jacket
+              order: 6
+            jacket:
+              slug: jacket
+              name: jacket
+              lab_en: jacket
+              order: 7
+            lumber:
+              slug: lumber
+              name: lumber
+              lab_en: lumber
+              order: 8
+            parka:
+              slug: parka
+              name: parka
+              lab_en: parka
+              order: 9
+            spencer:
+              slug: spencer
+              name: spencer
+              lab_en: spencer
+              order: 10
+            tailored:
+              slug: tailored
+              name: tailored
+              lab_en: tailored
+              order: 11
+        knitwear-men:
+          slug: knitwear-men
+          name: knitwear
+          lab_en: Knitwear
+          order: 4
+          subcategories:
+            cardigan:
+              slug: cardigan
+              name: cardigan
+              lab_en: cardigan
+              order: 0
+            knit coat:
+              slug: knit-coat
+              name: knit coat
+              lab_en: knit coat
+              order: 1
+            knit jacket:
+              slug: knit-jacket
+              name: knit jacket
+              lab_en: knit jacket
+              order: 2
+            knit pants:
+              slug: knit-pants
+              name: knit pants
+              lab_en: knit pants
+              order: 3
+            knit skirt:
+              slug: knit-skirt
+              name: knit skirt
+              lab_en: knit skirt
+              order: 4
+            knit top:
+              slug: knit-top
+              name: knit top
+              lab_en: knit top
+              order: 5
+            knit vest:
+              slug: knit-vest
+              name: knit vest
+              lab_en: knit vest
+              order: 6
+            sweater:
+              slug: sweater
+              name: sweater
+              lab_en: sweater
+              order: 7
+            other-knitwear:
+              slug: other-knitwear
+              name: other-knitwear
+              lab_en: other-knitwear
+              order: 8
+        military-men:
+          slug: military-men
+          name: military
+          lab_en: Military
+          order: 5
+          subcategories:
+            coat:
+              slug: coat
+              name: coat
+              lab_en: coat
+              order: 0
+            jacket:
+              slug: jacket
+              name: jacket
+              lab_en: jacket
+              order: 1
+            jumpsuit:
+              slug: jumpsuit
+              name: jumpsuit
+              lab_en: jumpsuit
+              order: 2
+            pants:
+              slug: pants
+              name: pants
+              lab_en: pants
+              order: 3
+            shirt:
+              slug: shirt
+              name: shirt
+              lab_en: shirt
+              order: 4
+            shorts:
+              slug: shorts
+              name: shorts
+              lab_en: shorts
+              order: 5
+            skirt:
+              slug: skirt
+              name: skirt
+              lab_en: skirt
+              order: 6
+            other-miltary:
+              slug: other-miltary
+              name: other-miltary
+              lab_en: other-miltary
+              order: 7
+        pants-men:
+          slug: pants-men
+          name: pants
+          lab_en: Pants
+          order: 6
+          subcategories:
+            capri:
+              slug: capri
+              name: capri
+              lab_en: capri
+              order: 0
+            cargo:
+              slug: cargo
+              name: cargo
+              lab_en: cargo
+              order: 1
+            chinos:
+              slug: chinos
+              name: chinos
+              lab_en: chinos
+              order: 2
+            dress pants:
+              slug: dress-pants
+              name: dress pants
+              lab_en: dress pants
+              order: 3
+            dungarees:
+              slug: dungarees
+              name: dungarees
+              lab_en: dungarees
+              order: 4
+            jumpsuit:
+              slug: jumpsuit
+              name: jumpsuit
+              lab_en: jumpsuit
+              order: 5
+            leggings:
+              slug: leggings
+              name: leggings
+              lab_en: leggings
+              order: 6
+            pajama pants:
+              slug: pajama-pants
+              name: pajama pants
+              lab_en: pajama pants
+              order: 7
+            palazzo pants:
+              slug: palazzo-pants
+              name: palazzo pants
+              lab_en: palazzo pants
+              order: 8
+            pants:
+              slug: pants
+              name: pants
+              lab_en: pants
+              order: 9
+        shorts-men:
+          slug: shorts-men
+          name: shorts
+          lab_en: Shorts
+          order: 7
+          subcategories:
+            bermuda:
+              slug: bermuda
+              name: bermuda
+              lab_en: bermuda
+              order: 0
+            cargo shorts:
+              slug: cargo-shorts
+              name: cargo shorts
+              lab_en: cargo shorts
+              order: 1
+            chino shorts:
+              slug: chino-shorts
+              name: chino shorts
+              lab_en: chino shorts
+              order: 2
+            shorts:
+              slug: shorts
+              name: shorts
+              lab_en: shorts
+              order: 3
+        shirts-men:
+          slug: shirts-men
+          name: shirts
+          lab_en: Shirts
+          order: 8
+          subcategories:
+            shirt:
+              slug: shirt
+              name: shirt
+              lab_en: shirt
+              order: 0
+            polo:
+              slug: polo
+              name: polo
+              lab_en: polo
+              order: 1
+            safari:
+              slug: safari
+              name: safari
+              lab_en: safari
+              order: 2
+            sweatshirt:
+              slug: sweatshirt
+              name: sweatshirt
+              lab_en: sweatshirt
+              order: 3
+            t-shirt:
+              slug: t-shirt
+              name: t-shirt
+              lab_en: t-shirt
+              order: 4
+            western:
+              slug: western
+              name: western
+              lab_en: western
+              order: 5
+            other-top:
+              slug: other-top
+              name: other-top
+              lab_en: other-top
+              order: 6
+        suits-men:
+          slug: suits-men
+          name: suits
+          lab_en: Suits
+          order: 9
+          subcategories:
+            three-piece:
+              slug: three-piece
+              name: three-piece
+              lab_en: three-piece
+              order: 0
+            tuxedo:
+              slug: tuxedo
+              name: tuxedo
+              lab_en: tuxedo
+              order: 1
+            two-piece:
+              slug: two-piece
+              name: two-piece
+              lab_en: two-piece
+              order: 2
+            vest:
+              slug: vest
+              name: vest
+              lab_en: vest
+              order: 3
+        beachwear-men:
+          slug: beachwear-men
+          name: beachwear
+          lab_en: Beachwear
+          order: 10
+          subcategories:
+            jammers:
+              slug: jammers
+              name: jammers
+              lab_en: jammers
+              order: 0
+            kaftan:
+              slug: kaftan
+              name: kaftan
+              lab_en: kaftan
+              order: 1
+            shorts:
+              slug: shorts
+              name: shorts
+              lab_en: shorts
+              order: 2
+            swim-brief:
+              slug: swim-brief
+              name: swim-brief
+              lab_en: swim-brief
+              order: 3
+        underwear-men:
+          slug: underwear-men
+          name: underwear
+          lab_en: Underwear
+          order: 11
+          subcategories:
+            boxer:
+              slug: boxer
+              name: boxer
+              lab_en: boxer
+              order: 0
+            briefs:
+              slug: briefs
+              name: briefs
+              lab_en: briefs
+              order: 1
+            slip:
+              slug: slip
+              name: slip
+              lab_en: slip
+              order: 2
+            trunk:
+              slug: trunk
+              name: trunk
+              lab_en: trunk
+              order: 3
+        activewear-men:
+          slug: activewear-men
+          name: activewear
+          lab_en: Activewear
+          order: 12
+          subcategories:
+            jacket:
+              slug: jacket
+              name: jacket
+              lab_en: jacket
+              order: 0
+            jumpsuit:
+              slug: jumpsuit
+              name: jumpsuit
+              lab_en: jumpsuit
+              order: 1
+            pants:
+              slug: pants
+              name: pants
+              lab_en: pants
+              order: 2
+            shirt:
+              slug: shirt
+              name: shirt
+              lab_en: shirt
+              order: 3
+            short:
+              slug: short
+              name: short
+              lab_en: short
+              order: 4
+            skirt:
+              slug: skirt
+              name: skirt
+              lab_en: skirt
+              order: 5
+            sweatpants:
+              slug: sweatpants
+              name: sweatpants
+              lab_en: sweatpants
+              order: 6
+            vest:
+              slug: vest
+              name: vest
+              lab_en: vest
+              order: 7
+    bags:
+      slug: bags
+      name: bags
+      lab_en: Bags
+      order: 1
+      categories:
+        messengers-men:
+          slug: messengers-men
+          name: messengers
+          lab_en: Messengers
+          order: 0
+          subcategories:
+            messenger:
+              slug: messenger
+              name: messenger
+              lab_en: messenger
+              order: 0
+        handbags-men:
+          slug: handbags-men
+          name: handbags
+          lab_en: Handbags
+          order: 1
+          subcategories:
+            basket:
+              slug: basket
+              name: basket
+              lab_en: basket
+              order: 0
+            boston bag:
+              slug: boston-bag
+              name: boston bag
+              lab_en: boston bag
+              order: 1
+            doctor's bag:
+              slug: doctor-s-bag
+              name: doctor's bag
+              lab_en: doctor's bag
+              order: 2
+            handbag:
+              slug: handbag
+              name: handbag
+              lab_en: handbag
+              order: 3
+            top handle bag:
+              slug: top-handle-bag
+              name: top handle bag
+              lab_en: top handle bag
+              order: 4
+        clutches-men:
+          slug: clutches-men
+          name: clutches
+          lab_en: Clutches
+          order: 2
+          subcategories:
+            clutch:
+              slug: clutch
+              name: clutch
+              lab_en: clutch
+              order: 0
+            envelope:
+              slug: envelope
+              name: envelope
+              lab_en: envelope
+              order: 1
+            "minaudi\xE9re":
+              slug: "minaudi\xE9re"
+              name: "minaudi\xE9re"
+              lab_en: "minaudi\xE9re"
+              order: 2
+            pochette:
+              slug: pochette
+              name: pochette
+              lab_en: pochette
+              order: 3
+            pouch:
+              slug: pouch
+              name: pouch
+              lab_en: pouch
+              order: 4
+        shoulder-bags-men:
+          slug: shoulder-bags-men
+          name: shoulder-bags
+          lab_en: Shoulder Bags
+          order: 3
+          subcategories: {}
+        totes-men:
+          slug: totes-men
+          name: totes
+          lab_en: Totes
+          order: 4
+          subcategories:
+            tote:
+              slug: tote
+              name: tote
+              lab_en: tote
+              order: 0
+        backpacks-men:
+          slug: backpacks-men
+          name: backpacks
+          lab_en: Backpacks
+          order: 5
+          subcategories:
+            backpack:
+              slug: backpack
+              name: backpack
+              lab_en: backpack
+              order: 0
+        belt-bags-men:
+          slug: belt-bags-men
+          name: belt-bags
+          lab_en: Belt Bags
+          order: 6
+          subcategories:
+            belt bag:
+              slug: belt-bag
+              name: belt bag
+              lab_en: belt bag
+              order: 0
+    shoes:
+      slug: shoes
+      name: shoes
+      lab_en: Shoes
+      order: 2
+      categories:
+        flat-shoes-men:
+          slug: flat-shoes-men
+          name: flat-shoes
+          lab_en: Flat Shoes
+          order: 0
+          subcategories:
+            boat shoe:
+              slug: boat-shoe
+              name: boat shoe
+              lab_en: boat shoe
+              order: 0
+            derby:
+              slug: derby
+              name: derby
+              lab_en: derby
+              order: 1
+            desert:
+              slug: desert
+              name: desert
+              lab_en: desert
+              order: 2
+            driving shoe:
+              slug: driving-shoe
+              name: driving shoe
+              lab_en: driving shoe
+              order: 3
+            lace up:
+              slug: lace-up
+              name: lace up
+              lab_en: lace up
+              order: 4
+            loafer:
+              slug: loafer
+              name: loafer
+              lab_en: loafer
+              order: 5
+            monk strap:
+              slug: monk-strap
+              name: monk strap
+              lab_en: monk strap
+              order: 6
+            mule:
+              slug: mule
+              name: mule
+              lab_en: mule
+              order: 7
+            oxford:
+              slug: oxford
+              name: oxford
+              lab_en: oxford
+              order: 8
+            slip on:
+              slug: slip-on
+              name: slip on
+              lab_en: slip on
+              order: 9
+            slipper:
+              slug: slipper
+              name: slipper
+              lab_en: slipper
+              order: 10
+            other flat shoes:
+              slug: other-flat-shoes
+              name: other flat shoes
+              lab_en: other flat shoes
+              order: 11
+        sandals-men:
+          slug: sandals-men
+          name: sandals
+          lab_en: Sandals
+          order: 1
+          subcategories:
+            sandal:
+              slug: sandal
+              name: sandal
+              lab_en: sandal
+              order: 0
+            sandal boot:
+              slug: sandal-boot
+              name: sandal boot
+              lab_en: sandal boot
+              order: 1
+            slider:
+              slug: slider
+              name: slider
+              lab_en: slider
+              order: 2
+            thong:
+              slug: thong
+              name: thong
+              lab_en: thong
+              order: 3
+            wedge sandal:
+              slug: wedge-sandal
+              name: wedge sandal
+              lab_en: wedge sandal
+              order: 4
+        boots-and-booties-men:
+          slug: boots-and-booties-men
+          name: boots-and-booties
+          lab_en: Boots & Booties
+          order: 2
+          subcategories:
+            ankle boot:
+              slug: ankle-boot
+              name: ankle boot
+              lab_en: ankle boot
+              order: 0
+            boot:
+              slug: boot
+              name: boot
+              lab_en: boot
+              order: 1
+            lace up boot:
+              slug: lace-up-boot
+              name: lace up boot
+              lab_en: lace up boot
+              order: 2
+            shoe boot:
+              slug: shoe-boot
+              name: shoe boot
+              lab_en: shoe boot
+              order: 3
+            snow boot:
+              slug: snow-boot
+              name: snow boot
+              lab_en: snow boot
+              order: 4
+        sneakers-men:
+          slug: sneakers-men
+          name: sneakers
+          lab_en: Sneakers
+          order: 3
+          subcategories:
+            high-top sneaker:
+              slug: high-top-sneaker
+              name: high-top sneaker
+              lab_en: high-top sneaker
+              order: 0
+            low-top sneaker:
+              slug: low-top-sneaker
+              name: low-top sneaker
+              lab_en: low-top sneaker
+              order: 1
+            tennis shoe:
+              slug: tennis-shoe
+              name: tennis shoe
+              lab_en: tennis shoe
+              order: 2
+    luggage:
+      slug: luggage
+      name: luggage
+      lab_en: Luggage
+      order: 3
+      categories:
+        briefcases-men:
+          slug: briefcases-men
+          name: briefcases
+          lab_en: Briefcases
+          order: 0
+          subcategories: {}
+        suitcases-men:
+          slug: suitcases-men
+          name: suitcases
+          lab_en: Suitcases
+          order: 1
+          subcategories: {}
+        cosmetic-cases-men:
+          slug: cosmetic-cases-men
+          name: cosmetic-cases
+          lab_en: Cosmetic Cases
+          order: 2
+          subcategories: {}
+        trunks-men:
+          slug: trunks-men
+          name: trunks
+          lab_en: Trunks
+          order: 3
+          subcategories: {}
+        duffles-men:
+          slug: duffles-men
+          name: duffles
+          lab_en: Duffles
+          order: 4
+          subcategories:
+            duffle:
+              slug: duffle
+              name: duffle
+              lab_en: duffle
+              order: 0
+        wheel-luggage-men:
+          slug: wheel-luggage-men
+          name: wheel-luggage
+          lab_en: Wheel Luggage
+          order: 5
+          subcategories: {}
+        hardside-luggage-men:
+          slug: hardside-luggage-men
+          name: hardside-luggage
+          lab_en: Hardside Luggage
+          order: 6
+          subcategories: {}
+        softside-luggage-men:
+          slug: softside-luggage-men
+          name: softside-luggage
+          lab_en: Softside Luggage
+          order: 7
+          subcategories: {}
+        golf-bags-men:
+          slug: golf-bags-men
+          name: golf-bags
+          lab_en: Golf Bags
+          order: 8
+          subcategories: {}
+        tennis-bags-men:
+          slug: tennis-bags-men
+          name: tennis-bags
+          lab_en: Tennis Bags
+          order: 9
+          subcategories: {}
+        hat-boxes-men:
+          slug: hat-boxes-men
+          name: hat-boxes
+          lab_en: Hat Boxes
+          order: 10
+          subcategories: {}
+    accessories:
+      slug: accessories
+      name: accessories
+      lab_en: Accessories
+      order: 4
+      categories:
+        ties-men:
+          slug: ties-men
+          name: ties
+          lab_en: Ties
+          order: 0
+          subcategories: {}
+        scarves-men:
+          slug: scarves-men
+          name: scarves
+          lab_en: Scarves
+          order: 1
+          subcategories: {}
+        belts-men:
+          slug: belts-men
+          name: belts
+          lab_en: Belts
+          order: 2
+          subcategories: {}
+        gloves-men:
+          slug: gloves-men
+          name: gloves
+          lab_en: Gloves
+          order: 3
+          subcategories: {}
+        hats-men:
+          slug: hats-men
+          name: hats
+          lab_en: Hats
+          order: 4
+          subcategories: {}
+    eyewear:
+      slug: eyewear
+      name: eyewear
+      lab_en: Eyewear
+      order: 5
+      categories:
+        sunglasses-men:
+          slug: sunglasses-men
+          name: sunglasses
+          lab_en: Sunglasses
+          order: 0
+          subcategories: {}
+        eyeglasses-men:
+          slug: eyeglasses-men
+          name: eyeglasses
+          lab_en: Eyeglasses
+          order: 1
+          subcategories: {}
+        goggles-men:
+          slug: goggles-men
+          name: goggles
+          lab_en: Goggles
+          order: 2
+          subcategories: {}
+    jewelry:
+      slug: jewelry
+      name: jewelry
+      lab_en: Jewelry
+      order: 6
+      categories:
+        bracelets-men:
+          slug: bracelets-men
+          name: bracelets
+          lab_en: Bracelets
+          order: 0
+          subcategories: {}
+        earrings-men:
+          slug: earrings-men
+          name: earrings
+          lab_en: Earrings
+          order: 1
+          subcategories: {}
+        necklaces-men:
+          slug: necklaces-men
+          name: necklaces
+          lab_en: Necklaces
+          order: 2
+          subcategories: {}
+        rings-men:
+          slug: rings-men
+          name: rings
+          lab_en: Rings
+          order: 3
+          subcategories: {}
+    watches:
+      slug: watches
+      name: watches
+      lab_en: Watches
+      order: 7
+      categories:
+        watches-men:
+          slug: watches-men
+          name: watches
+          lab_en: Watches
+          order: 0
+          subcategories: {}
+    decor-and-lifestyle:
+      slug: decor-and-lifestyle
+      name: decor-and-lifestyle
+      lab_en: Decor & Lifestyle
+      order: 8
+      categories: {}
+    fragrances-and-make-up:
+      slug: fragrances-and-make-up
+      name: fragrances-and-make-up
+      lab_en: Fragrances & Make Up
+      order: 9
+      categories: {}
+women:
+  slug: women
+  name: women
+  lab_en: women
+  order: 1
+  macrocategories:
+    ready-to-wear:
+      slug: ready-to-wear
+      name: ready-to-wear
+      lab_en: Ready To Wear
+      order: 0
+      categories:
+        outerwear-women:
+          slug: outerwear-women
+          name: outerwear
+          lab_en: Outerwear
+          order: 0
+          subcategories:
+            down:
+              slug: down
+              name: down
+              lab_en: down
+              order: 0
+            parka:
+              slug: parka
+              name: parka
+              lab_en: parka
+              order: 1
+            poncho:
+              slug: poncho
+              name: poncho
+              lab_en: poncho
+              order: 2
+            raincoat:
+              slug: raincoat
+              name: raincoat
+              lab_en: raincoat
+              order: 3
+            tent coat:
+              slug: tent-coat
+              name: tent coat
+              lab_en: tent coat
+              order: 4
+        coats-women:
+          slug: coats-women
+          name: coats
+          lab_en: Coats
+          order: 1
+          subcategories:
+            caban:
+              slug: caban
+              name: caban
+              lab_en: caban
+              order: 0
+            coat:
+              slug: coat
+              name: coat
+              lab_en: coat
+              order: 1
+            duffle coat:
+              slug: duffle-coat
+              name: duffle coat
+              lab_en: duffle coat
+              order: 2
+            fur coat:
+              slug: fur-coat
+              name: fur coat
+              lab_en: fur coat
+              order: 3
+            mantle:
+              slug: mantle
+              name: mantle
+              lab_en: mantle
+              order: 4
+            trenchcoat:
+              slug: trenchcoat
+              name: trenchcoat
+              lab_en: trenchcoat
+              order: 5
+        denim-women:
+          slug: denim-women
+          name: denim
+          lab_en: Denim
+          order: 2
+          subcategories:
+            dress:
+              slug: dress
+              name: dress
+              lab_en: dress
+              order: 0
+            dungaree:
+              slug: dungaree
+              name: dungaree
+              lab_en: dungaree
+              order: 1
+            jacket:
+              slug: jacket
+              name: jacket
+              lab_en: jacket
+              order: 2
+            jeans:
+              slug: jeans
+              name: jeans
+              lab_en: jeans
+              order: 3
+            jumpsuit:
+              slug: jumpsuit
+              name: jumpsuit
+              lab_en: jumpsuit
+              order: 4
+            pants:
+              slug: pants
+              name: pants
+              lab_en: pants
+              order: 5
+            shorts:
+              slug: shorts
+              name: shorts
+              lab_en: shorts
+              order: 6
+            skirt:
+              slug: skirt
+              name: skirt
+              lab_en: skirt
+              order: 7
+            shirt:
+              slug: shirt
+              name: shirt
+              lab_en: shirt
+              order: 8
+            other-denim:
+              slug: other-denim
+              name: other-denim
+              lab_en: other-denim
+              order: 9
+        dresses-women:
+          slug: dresses-women
+          name: dresses
+          lab_en: Dresses
+          order: 3
+          subcategories:
+            long-dress:
+              slug: long-dress
+              name: long-dress
+              lab_en: long-dress
+              order: 0
+            midi-dress:
+              slug: midi-dress
+              name: midi-dress
+              lab_en: midi-dress
+              order: 1
+            mini-dress:
+              slug: mini-dress
+              name: mini-dress
+              lab_en: mini-dress
+              order: 2
+        jackets-women:
+          slug: jackets-women
+          name: jackets
+          lab_en: Jackets
+          order: 4
+          subcategories:
+            baseball:
+              slug: baseball
+              name: baseball
+              lab_en: baseball
+              order: 0
+            biker:
+              slug: biker
+              name: biker
+              lab_en: biker
+              order: 1
+            blazer:
+              slug: blazer
+              name: blazer
+              lab_en: blazer
+              order: 2
+            bolero:
+              slug: bolero
+              name: bolero
+              lab_en: bolero
+              order: 3
+            bomber:
+              slug: bomber
+              name: bomber
+              lab_en: bomber
+              order: 4
+            down:
+              slug: down
+              name: down
+              lab_en: down
+              order: 5
+            fur jacket:
+              slug: fur-jacket
+              name: fur jacket
+              lab_en: fur jacket
+              order: 6
+            jacket:
+              slug: jacket
+              name: jacket
+              lab_en: jacket
+              order: 7
+            lumber:
+              slug: lumber
+              name: lumber
+              lab_en: lumber
+              order: 8
+            parka:
+              slug: parka
+              name: parka
+              lab_en: parka
+              order: 9
+            spencer:
+              slug: spencer
+              name: spencer
+              lab_en: spencer
+              order: 10
+            tailored:
+              slug: tailored
+              name: tailored
+              lab_en: tailored
+              order: 11
+        knitwear-women:
+          slug: knitwear-women
+          name: knitwear
+          lab_en: Knitwear
+          order: 5
+          subcategories:
+            cardigan:
+              slug: cardigan
+              name: cardigan
+              lab_en: cardigan
+              order: 0
+            knit coat:
+              slug: knit-coat
+              name: knit coat
+              lab_en: knit coat
+              order: 1
+            knit dress:
+              slug: knit-dress
+              name: knit dress
+              lab_en: knit dress
+              order: 2
+            knit jacket:
+              slug: knit-jacket
+              name: knit jacket
+              lab_en: knit jacket
+              order: 3
+            knit pants:
+              slug: knit-pants
+              name: knit pants
+              lab_en: knit pants
+              order: 4
+            knit skirt:
+              slug: knit-skirt
+              name: knit skirt
+              lab_en: knit skirt
+              order: 5
+            knit top:
+              slug: knit-top
+              name: knit top
+              lab_en: knit top
+              order: 6
+            knit vest:
+              slug: knit-vest
+              name: knit vest
+              lab_en: knit vest
+              order: 7
+            sweater:
+              slug: sweater
+              name: sweater
+              lab_en: sweater
+              order: 8
+            other-knitwear:
+              slug: other-knitwear
+              name: other-knitwear
+              lab_en: other-knitwear
+              order: 9
+        military-women:
+          slug: military-women
+          name: military
+          lab_en: Military
+          order: 6
+          subcategories:
+            coat:
+              slug: coat
+              name: coat
+              lab_en: coat
+              order: 0
+            jacket:
+              slug: jacket
+              name: jacket
+              lab_en: jacket
+              order: 1
+            jumpsuit:
+              slug: jumpsuit
+              name: jumpsuit
+              lab_en: jumpsuit
+              order: 2
+            pants:
+              slug: pants
+              name: pants
+              lab_en: pants
+              order: 3
+            shirt:
+              slug: shirt
+              name: shirt
+              lab_en: shirt
+              order: 4
+            shorts:
+              slug: shorts
+              name: shorts
+              lab_en: shorts
+              order: 5
+            skirt:
+              slug: skirt
+              name: skirt
+              lab_en: skirt
+              order: 6
+            other-miltary:
+              slug: other-miltary
+              name: other-miltary
+              lab_en: other-miltary
+              order: 7
+        pants-women:
+          slug: pants-women
+          name: pants
+          lab_en: Pants
+          order: 7
+          subcategories:
+            capri:
+              slug: capri
+              name: capri
+              lab_en: capri
+              order: 0
+            cargo:
+              slug: cargo
+              name: cargo
+              lab_en: cargo
+              order: 1
+            chinos:
+              slug: chinos
+              name: chinos
+              lab_en: chinos
+              order: 2
+            dress pants:
+              slug: dress-pants
+              name: dress pants
+              lab_en: dress pants
+              order: 3
+            dungarees:
+              slug: dungarees
+              name: dungarees
+              lab_en: dungarees
+              order: 4
+            jumpsuit:
+              slug: jumpsuit
+              name: jumpsuit
+              lab_en: jumpsuit
+              order: 5
+            leggings:
+              slug: leggings
+              name: leggings
+              lab_en: leggings
+              order: 6
+            pajama pants:
+              slug: pajama-pants
+              name: pajama pants
+              lab_en: pajama pants
+              order: 7
+            palazzo pants:
+              slug: palazzo-pants
+              name: palazzo pants
+              lab_en: palazzo pants
+              order: 8
+            pants:
+              slug: pants
+              name: pants
+              lab_en: pants
+              order: 9
+        shorts-women:
+          slug: shorts-women
+          name: shorts
+          lab_en: Shorts
+          order: 8
+          subcategories:
+            bermuda:
+              slug: bermuda
+              name: bermuda
+              lab_en: bermuda
+              order: 0
+            cargo shorts:
+              slug: cargo-shorts
+              name: cargo shorts
+              lab_en: cargo shorts
+              order: 1
+            chino shorts:
+              slug: chino-shorts
+              name: chino shorts
+              lab_en: chino shorts
+              order: 2
+            shorts:
+              slug: shorts
+              name: shorts
+              lab_en: shorts
+              order: 3
+        shirts-women:
+          slug: shirts-women
+          name: shirts
+          lab_en: Shirts
+          order: 9
+          subcategories:
+            camisole:
+              slug: camisole
+              name: camisole
+              lab_en: camisole
+              order: 0
+            shirt:
+              slug: shirt
+              name: shirt
+              lab_en: shirt
+              order: 1
+            blouse:
+              slug: blouse
+              name: blouse
+              lab_en: blouse
+              order: 2
+            polo:
+              slug: polo
+              name: polo
+              lab_en: polo
+              order: 3
+            safari:
+              slug: safari
+              name: safari
+              lab_en: safari
+              order: 4
+            sweatshirt:
+              slug: sweatshirt
+              name: sweatshirt
+              lab_en: sweatshirt
+              order: 5
+            t-shirt:
+              slug: t-shirt
+              name: t-shirt
+              lab_en: t-shirt
+              order: 6
+            western:
+              slug: western
+              name: western
+              lab_en: western
+              order: 7
+            other-top:
+              slug: other-top
+              name: other-top
+              lab_en: other-top
+              order: 8
+        skirts-women:
+          slug: skirts-women
+          name: skirts
+          lab_en: Skirts
+          order: 10
+          subcategories:
+            long-skirt:
+              slug: long-skirt
+              name: long-skirt
+              lab_en: long-skirt
+              order: 0
+            midi-skirt:
+              slug: midi-skirt
+              name: midi-skirt
+              lab_en: midi-skirt
+              order: 1
+            mini-skirt:
+              slug: mini-skirt
+              name: mini-skirt
+              lab_en: mini-skirt
+              order: 2
+        suits-women:
+          slug: suits-women
+          name: suits
+          lab_en: Suits
+          order: 11
+          subcategories:
+            skirt-suit:
+              slug: skirt-suit
+              name: skirt-suit
+              lab_en: skirt-suit
+              order: 0
+            three-piece:
+              slug: three-piece
+              name: three-piece
+              lab_en: three-piece
+              order: 1
+            tuxedo:
+              slug: tuxedo
+              name: tuxedo
+              lab_en: tuxedo
+              order: 2
+            two-piece:
+              slug: two-piece
+              name: two-piece
+              lab_en: two-piece
+              order: 3
+            vest:
+              slug: vest
+              name: vest
+              lab_en: vest
+              order: 4
+        beachwear-women:
+          slug: beachwear-women
+          name: beachwear
+          lab_en: Beachwear
+          order: 12
+          subcategories:
+            bikini:
+              slug: bikini
+              name: bikini
+              lab_en: bikini
+              order: 0
+            kaftan:
+              slug: kaftan
+              name: kaftan
+              lab_en: kaftan
+              order: 1
+            one-piece:
+              slug: one-piece
+              name: one-piece
+              lab_en: one-piece
+              order: 2
+            shorts:
+              slug: shorts
+              name: shorts
+              lab_en: shorts
+              order: 3
+        lingerie-women:
+          slug: lingerie-women
+          name: lingerie
+          lab_en: Lingerie
+          order: 13
+          subcategories:
+            bra:
+              slug: bra
+              name: bra
+              lab_en: bra
+              order: 0
+            bustier:
+              slug: bustier
+              name: bustier
+              lab_en: bustier
+              order: 1
+            corset:
+              slug: corset
+              name: corset
+              lab_en: corset
+              order: 2
+            slip:
+              slug: slip
+              name: slip
+              lab_en: slip
+              order: 3
+            thong:
+              slug: thong
+              name: thong
+              lab_en: thong
+              order: 4
+        activewear-women:
+          slug: activewear-women
+          name: activewear
+          lab_en: Activewear
+          order: 14
+          subcategories:
+            jacket:
+              slug: jacket
+              name: jacket
+              lab_en: jacket
+              order: 0
+            jumpsuit:
+              slug: jumpsuit
+              name: jumpsuit
+              lab_en: jumpsuit
+              order: 1
+            pants:
+              slug: pants
+              name: pants
+              lab_en: pants
+              order: 2
+            shirt:
+              slug: shirt
+              name: shirt
+              lab_en: shirt
+              order: 3
+            short:
+              slug: short
+              name: short
+              lab_en: short
+              order: 4
+            skirt:
+              slug: skirt
+              name: skirt
+              lab_en: skirt
+              order: 5
+            sweatpants:
+              slug: sweatpants
+              name: sweatpants
+              lab_en: sweatpants
+              order: 6
+            vest:
+              slug: vest
+              name: vest
+              lab_en: vest
+              order: 7
+    bags:
+      slug: bags
+      name: bags
+      lab_en: Bags
+      order: 1
+      categories:
+        handbags-women:
+          slug: handbags-women
+          name: handbags
+          lab_en: Handbags
+          order: 0
+          subcategories:
+            basket:
+              slug: basket
+              name: basket
+              lab_en: basket
+              order: 0
+            boston bag:
+              slug: boston-bag
+              name: boston bag
+              lab_en: boston bag
+              order: 1
+            doctor's bag:
+              slug: doctor-s-bag
+              name: doctor's bag
+              lab_en: doctor's bag
+              order: 2
+            handbag:
+              slug: handbag
+              name: handbag
+              lab_en: handbag
+              order: 3
+            top handle bag:
+              slug: top-handle-bag
+              name: top handle bag
+              lab_en: top handle bag
+              order: 4
+        clutches-women:
+          slug: clutches-women
+          name: clutches
+          lab_en: Clutches
+          order: 1
+          subcategories:
+            clutch:
+              slug: clutch
+              name: clutch
+              lab_en: clutch
+              order: 0
+            envelope:
+              slug: envelope
+              name: envelope
+              lab_en: envelope
+              order: 1
+            "minaudi\xE9re":
+              slug: "minaudi\xE9re"
+              name: "minaudi\xE9re"
+              lab_en: "minaudi\xE9re"
+              order: 2
+            pochette:
+              slug: pochette
+              name: pochette
+              lab_en: pochette
+              order: 3
+            pouch:
+              slug: pouch
+              name: pouch
+              lab_en: pouch
+              order: 4
+        shoulder bags-women:
+          slug: shoulder-bags-women
+          name: shoulder bags
+          lab_en: Shoulder Bags
+          order: 2
+          subcategories:
+            bucket bag:
+              slug: bucket-bag
+              name: bucket bag
+              lab_en: bucket bag
+              order: 0
+            camera bag:
+              slug: camera-bag
+              name: camera bag
+              lab_en: camera bag
+              order: 1
+            chain bag:
+              slug: chain-bag
+              name: chain bag
+              lab_en: chain bag
+              order: 2
+            crossbody bag:
+              slug: crossbody-bag
+              name: crossbody bag
+              lab_en: crossbody bag
+              order: 3
+            hobo bag:
+              slug: hobo-bag
+              name: hobo bag
+              lab_en: hobo bag
+              order: 4
+            saddle bag:
+              slug: saddle-bag
+              name: saddle bag
+              lab_en: saddle bag
+              order: 5
+            satchel bag:
+              slug: satchel-bag
+              name: satchel bag
+              lab_en: satchel bag
+              order: 6
+            shoulder bag:
+              slug: shoulder-bag
+              name: shoulder bag
+              lab_en: shoulder bag
+              order: 7
+            underarm bag:
+              slug: underarm-bag
+              name: underarm bag
+              lab_en: underarm bag
+              order: 8
+        backpacks-women:
+          slug: backpacks-women
+          name: backpacks
+          lab_en: Backpacks
+          order: 3
+          subcategories:
+            backpack:
+              slug: backpack
+              name: backpack
+              lab_en: backpack
+              order: 0
+        messengers-women:
+          slug: messengers-women
+          name: messengers
+          lab_en: Messengers
+          order: 4
+          subcategories:
+            messenger:
+              slug: messenger
+              name: messenger
+              lab_en: messenger
+              order: 0
+        totes-women:
+          slug: totes-women
+          name: totes
+          lab_en: Totes
+          order: 5
+          subcategories:
+            tote:
+              slug: tote
+              name: tote
+              lab_en: tote
+              order: 0
+        waist-bags-women:
+          slug: waist-bags-women
+          name: waist-bags
+          lab_en: Waist Bags
+          order: 6
+          subcategories:
+            waist bag:
+              slug: waist-bag
+              name: waist bag
+              lab_en: waist bag
+              order: 0
+    shoes:
+      slug: shoes
+      name: shoes
+      lab_en: Shoes
+      order: 2
+      categories:
+        flat-shoes-women:
+          slug: flat-shoes-women
+          name: flat-shoes
+          lab_en: Flat Shoes
+          order: 0
+          subcategories:
+            ballerina:
+              slug: ballerina
+              name: ballerina
+              lab_en: ballerina
+              order: 0
+            boat shoe:
+              slug: boat-shoe
+              name: boat shoe
+              lab_en: boat shoe
+              order: 1
+            derby:
+              slug: derby
+              name: derby
+              lab_en: derby
+              order: 2
+            desert:
+              slug: desert
+              name: desert
+              lab_en: desert
+              order: 3
+            driving shoe:
+              slug: driving-shoe
+              name: driving shoe
+              lab_en: driving shoe
+              order: 4
+            lace up:
+              slug: lace-up
+              name: lace up
+              lab_en: lace up
+              order: 5
+            loafer:
+              slug: loafer
+              name: loafer
+              lab_en: loafer
+              order: 6
+            monk strap:
+              slug: monk-strap
+              name: monk strap
+              lab_en: monk strap
+              order: 7
+            mule:
+              slug: mule
+              name: mule
+              lab_en: mule
+              order: 8
+            oxford:
+              slug: oxford
+              name: oxford
+              lab_en: oxford
+              order: 9
+            slip on:
+              slug: slip-on
+              name: slip on
+              lab_en: slip on
+              order: 10
+            slipper:
+              slug: slipper
+              name: slipper
+              lab_en: slipper
+              order: 11
+            other flat shoes:
+              slug: other-flat-shoes
+              name: other flat shoes
+              lab_en: other flat shoes
+              order: 12
+        heeled-shoes-women:
+          slug: heeled-shoes-women
+          name: heeled-shoes
+          lab_en: Heeled Shoes
+          order: 1
+          subcategories:
+            d'orsay pump:
+              slug: d-orsay-pump
+              name: d'orsay pump
+              lab_en: d'orsay pump
+              order: 0
+            decollete:
+              slug: decollete
+              name: decollete
+              lab_en: decollete
+              order: 1
+            lace up:
+              slug: lace-up
+              name: lace up
+              lab_en: lace up
+              order: 2
+            loafer pump:
+              slug: loafer-pump
+              name: loafer pump
+              lab_en: loafer pump
+              order: 3
+            mary jane pump:
+              slug: mary-jane-pump
+              name: mary jane pump
+              lab_en: mary jane pump
+              order: 4
+            mule:
+              slug: mule
+              name: mule
+              lab_en: mule
+              order: 5
+            pump:
+              slug: pump
+              name: pump
+              lab_en: pump
+              order: 6
+            slingback:
+              slug: slingback
+              name: slingback
+              lab_en: slingback
+              order: 7
+            wedge pump:
+              slug: wedge-pump
+              name: wedge pump
+              lab_en: wedge pump
+              order: 8
+        sandals-women:
+          slug: sandals-women
+          name: sandals
+          lab_en: Sandals
+          order: 2
+          subcategories:
+            mule:
+              slug: mule
+              name: mule
+              lab_en: mule
+              order: 0
+            sandal:
+              slug: sandal
+              name: sandal
+              lab_en: sandal
+              order: 1
+            sandal boot:
+              slug: sandal-boot
+              name: sandal boot
+              lab_en: sandal boot
+              order: 2
+            slider:
+              slug: slider
+              name: slider
+              lab_en: slider
+              order: 3
+            thong:
+              slug: thong
+              name: thong
+              lab_en: thong
+              order: 4
+            wedge sandal:
+              slug: wedge-sandal
+              name: wedge sandal
+              lab_en: wedge sandal
+              order: 5
+        boots-and-booties-women:
+          slug: boots-and-booties-women
+          name: boots-and-booties
+          lab_en: Boots & Booties
+          order: 3
+          subcategories:
+            ankle boot:
+              slug: ankle-boot
+              name: ankle boot
+              lab_en: ankle boot
+              order: 0
+            boot:
+              slug: boot
+              name: boot
+              lab_en: boot
+              order: 1
+            lace up boot:
+              slug: lace-up-boot
+              name: lace up boot
+              lab_en: lace up boot
+              order: 2
+            over the knee:
+              slug: over-the-knee
+              name: over the knee
+              lab_en: over the knee
+              order: 3
+            snow boot:
+              slug: snow-boot
+              name: snow boot
+              lab_en: snow boot
+              order: 4
+        sneakers-women:
+          slug: sneakers-women
+          name: sneakers
+          lab_en: Sneakers
+          order: 4
+          subcategories:
+            high-top sneaker:
+              slug: high-top-sneaker
+              name: high-top sneaker
+              lab_en: high-top sneaker
+              order: 0
+            low-top sneaker:
+              slug: low-top-sneaker
+              name: low-top sneaker
+              lab_en: low-top sneaker
+              order: 1
+            tennis shoe:
+              slug: tennis-shoe
+              name: tennis shoe
+              lab_en: tennis shoe
+              order: 2
+    luggage:
+      slug: luggage
+      name: luggage
+      lab_en: Luggage
+      order: 3
+      categories:
+        briefcases-women:
+          slug: briefcases-women
+          name: briefcases
+          lab_en: Briefcases
+          order: 0
+          subcategories: {}
+        suitcases-women:
+          slug: suitcases-women
+          name: suitcases
+          lab_en: Suitcases
+          order: 1
+          subcategories: {}
+        cosmetic-cases-women:
+          slug: cosmetic-cases-women
+          name: cosmetic-cases
+          lab_en: Cosmetic Cases
+          order: 2
+          subcategories: {}
+        trunks-women:
+          slug: trunks-women
+          name: trunks
+          lab_en: Trunks
+          order: 3
+          subcategories: {}
+        duffles-women:
+          slug: duffles-women
+          name: duffles
+          lab_en: Duffles
+          order: 4
+          subcategories:
+            duffle:
+              slug: duffle
+              name: duffle
+              lab_en: duffle
+              order: 0
+        wheel-luggage-women:
+          slug: wheel-luggage-women
+          name: wheel-luggage
+          lab_en: Wheel Luggage
+          order: 5
+          subcategories: {}
+        hardside-luggage-women:
+          slug: hardside-luggage-women
+          name: hardside-luggage
+          lab_en: Hardside Luggage
+          order: 6
+          subcategories: {}
+        softside-luggage-women:
+          slug: softside-luggage-women
+          name: softside-luggage
+          lab_en: Softside Luggage
+          order: 7
+          subcategories: {}
+        golf-bags-women:
+          slug: golf-bags-women
+          name: golf-bags
+          lab_en: Golf Bags
+          order: 8
+          subcategories: {}
+        tennis-bags-women:
+          slug: tennis-bags-women
+          name: tennis-bags
+          lab_en: Tennis Bags
+          order: 9
+          subcategories: {}
+        hat-boxes-women:
+          slug: hat-boxes-women
+          name: hat-boxes
+          lab_en: Hat Boxes
+          order: 10
+          subcategories: {}
+    accessories:
+      slug: accessories
+      name: accessories
+      lab_en: Accessories
+      order: 4
+      categories:
+        ties-women:
+          slug: ties-women
+          name: ties
+          lab_en: Ties
+          order: 0
+          subcategories: {}
+        scarves-women:
+          slug: scarves-women
+          name: scarves
+          lab_en: Scarves
+          order: 1
+          subcategories: {}
+        belts-women:
+          slug: belts-women
+          name: belts
+          lab_en: Belts
+          order: 2
+          subcategories: {}
+        gloves-women:
+          slug: gloves-women
+          name: gloves
+          lab_en: Gloves
+          order: 3
+          subcategories: {}
+        hats-women:
+          slug: hats-women
+          name: hats
+          lab_en: Hats
+          order: 4
+          subcategories: {}
+    eyewear:
+      slug: eyewear
+      name: eyewear
+      lab_en: Eyewear
+      order: 5
+      categories:
+        sunglasses-women:
+          slug: sunglasses-women
+          name: sunglasses
+          lab_en: Sunglasses
+          order: 0
+          subcategories: {}
+        eyeglasses-women:
+          slug: eyeglasses-women
+          name: eyeglasses
+          lab_en: Eyeglasses
+          order: 1
+          subcategories: {}
+        goggles-women:
+          slug: goggles-women
+          name: goggles
+          lab_en: Goggles
+          order: 2
+          subcategories: {}
+    jewelry:
+      slug: jewelry
+      name: jewelry
+      lab_en: Jewelry
+      order: 6
+      categories:
+        bracelets-women:
+          slug: bracelets-women
+          name: bracelets
+          lab_en: Bracelets
+          order: 0
+          subcategories: {}
+        earrings-women:
+          slug: earrings-women
+          name: earrings
+          lab_en: Earrings
+          order: 1
+          subcategories: {}
+        necklaces-women:
+          slug: necklaces-women
+          name: necklaces
+          lab_en: Necklaces
+          order: 2
+          subcategories: {}
+        rings-women:
+          slug: rings-women
+          name: rings
+          lab_en: Rings
+          order: 3
+          subcategories: {}
+    watches:
+      slug: watches
+      name: watches
+      lab_en: Watches
+      order: 7
+      categories:
+        watches-women:
+          slug: watches-women
+          name: watches
+          lab_en: Watches
+          order: 0
+          subcategories: {}
+    decor-and-lifestyle:
+      slug: decor-and-lifestyle
+      name: decor-and-lifestyle
+      lab_en: Decor & Lifestyle
+      order: 8
+      categories: {}
+    fragrances-and-make-up:
+      slug: fragrances-and-make-up
+      name: fragrances-and-make-up
+      lab_en: Fragrances & Make Up
+      order: 9
+      categories: {}

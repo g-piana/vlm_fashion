@@ -1,0 +1,19 @@
+generated_configs:
+- accessories_men
+- accessories_women
+- bags_men
+- bags_women
+- eyewear_men
+- eyewear_women
+- jewelry_men
+- jewelry_women
+- look
+- luggage_men
+- luggage_women
+- ready-to-wear_men
+- ready-to-wear_women
+- shoes_men
+- shoes_women
+- watches_men
+- watches_women
+source: data/raw/category_hierarchy.yaml

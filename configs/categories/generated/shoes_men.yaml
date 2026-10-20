@@ -1,0 +1,37 @@
+# Auto-generated from category_hierarchy.yaml — do not edit manually.
+# Re-generate with: python scripts/generate_category_configs.py
+
+inherits: _base
+gender: men
+macrocategory: shoes
+attribute_template: shoes
+taxonomy:
+  flat-shoes-men:
+  - boat shoe
+  - derby
+  - desert
+  - driving shoe
+  - lace up
+  - loafer
+  - monk strap
+  - mule
+  - oxford
+  - slip on
+  - slipper
+  - other flat shoes
+  sandals-men:
+  - sandal
+  - sandal boot
+  - slider
+  - thong
+  - wedge sandal
+  boots-and-booties-men:
+  - ankle boot
+  - boot
+  - lace up boot
+  - shoe boot
+  - snow boot
+  sneakers-men:
+  - high-top sneaker
+  - low-top sneaker
+  - tennis shoe

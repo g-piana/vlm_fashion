@@ -1,0 +1,20 @@
+# Auto-generated from category_hierarchy.yaml — do not edit manually.
+# Re-generate with: python scripts/generate_category_configs.py
+
+inherits: _base
+gender: men
+macrocategory: luggage
+attribute_template: luggage
+taxonomy:
+  briefcases-men: []
+  suitcases-men: []
+  cosmetic-cases-men: []
+  trunks-men: []
+  duffles-men:
+  - duffle
+  wheel-luggage-men: []
+  hardside-luggage-men: []
+  softside-luggage-men: []
+  golf-bags-men: []
+  tennis-bags-men: []
+  hat-boxes-men: []

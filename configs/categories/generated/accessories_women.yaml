@@ -1,0 +1,13 @@
+# Auto-generated from category_hierarchy.yaml — do not edit manually.
+# Re-generate with: python scripts/generate_category_configs.py
+
+inherits: _base
+gender: women
+macrocategory: accessories
+attribute_template: accessories
+taxonomy:
+  ties-women: []
+  scarves-women: []
+  belts-women: []
+  gloves-women: []
+  hats-women: []

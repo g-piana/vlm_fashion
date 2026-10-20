@@ -1,0 +1,111 @@
+# Auto-generated from category_hierarchy.yaml — do not edit manually.
+# Re-generate with: python scripts/generate_category_configs.py
+
+inherits: _base
+gender: men
+macrocategory: ready-to-wear
+attribute_template: ready_to_wear
+taxonomy:
+  outerwear-men:
+  - down
+  - parka
+  - poncho
+  - raincoat
+  - tent coat
+  coats-men:
+  - caban
+  - coat
+  - duffle coat
+  - fur coat
+  - mantle
+  - trenchcoat
+  denim-men:
+  - dungaree
+  - jacket
+  - jeans
+  - jumpsuit
+  - pants
+  - shorts
+  - skirt
+  - shirt
+  - other-denim
+  jackets-men:
+  - baseball
+  - biker
+  - blazer
+  - bolero
+  - bomber
+  - down
+  - fur jacket
+  - jacket
+  - lumber
+  - parka
+  - spencer
+  - tailored
+  knitwear-men:
+  - cardigan
+  - knit coat
+  - knit jacket
+  - knit pants
+  - knit skirt
+  - knit top
+  - knit vest
+  - sweater
+  - other-knitwear
+  military-men:
+  - coat
+  - jacket
+  - jumpsuit
+  - pants
+  - shirt
+  - shorts
+  - skirt
+  - other-miltary
+  pants-men:
+  - capri
+  - cargo
+  - chinos
+  - dress pants
+  - dungarees
+  - jumpsuit
+  - leggings
+  - pajama pants
+  - palazzo pants
+  - pants
+  shorts-men:
+  - bermuda
+  - cargo shorts
+  - chino shorts
+  - shorts
+  shirts-men:
+  - shirt
+  - polo
+  - safari
+  - sweatshirt
+  - t-shirt
+  - western
+  - other-top
+  suits-men:
+  - three-piece
+  - tuxedo
+  - two-piece
+  - vest
+  beachwear-men:
+  - jammers
+  - kaftan
+  - shorts
+  - swim-brief
+  underwear-men:
+  - boxer
+  - briefs
+  - slip
+  - trunk
+  activewear-men:
+  - jacket
+  - jumpsuit
+  - pants
+  - shirt
+  - short
+  - skirt
+  - sweatpants
+  - vest
