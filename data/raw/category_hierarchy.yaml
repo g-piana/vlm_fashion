@@ -602,10 +602,10 @@ men:
               name: envelope
               lab_en: envelope
               order: 1
-            "minaudi\xE9re":
-              slug: "minaudi\xE9re"
-              name: "minaudi\xE9re"
-              lab_en: "minaudi\xE9re"
+            "minaudiére":
+              slug: "minaudiére"
+              name: "minaudiére"
+              lab_en: "minaudiére"
               order: 2
             pochette:
               slug: pochette
@@ -1667,10 +1667,10 @@ women:
               name: envelope
               lab_en: envelope
               order: 1
-            "minaudi\xE9re":
-              slug: "minaudi\xE9re"
-              name: "minaudi\xE9re"
-              lab_en: "minaudi\xE9re"
+            "minaudiére":
+              slug: "minaudiére"
+              name: "minaudiére"
+              lab_en: "minaudiére"
               order: 2
             pochette:
               slug: pochette
@@ -1794,66 +1794,36 @@ women:
               name: ballerina
               lab_en: ballerina
               order: 0
-            boat shoe:
-              slug: boat-shoe
-              name: boat shoe
-              lab_en: boat shoe
-              order: 1
-            derby:
-              slug: derby
-              name: derby
-              lab_en: derby
-              order: 2
-            desert:
-              slug: desert
-              name: desert
-              lab_en: desert
-              order: 3
-            driving shoe:
-              slug: driving-shoe
-              name: driving shoe
-              lab_en: driving shoe
-              order: 4
+            d'orsay flat:
+              slug: d-orsay-flat
+              name: d'orsay flat
+              lab_en: d'orsay flat
+              order: 5
             lace up:
               slug: lace-up
               name: lace up
               lab_en: lace up
-              order: 5
+              order: 7
             loafer:
               slug: loafer
               name: loafer
               lab_en: loafer
-              order: 6
-            monk strap:
-              slug: monk-strap
-              name: monk strap
-              lab_en: monk strap
-              order: 7
-            mule:
-              slug: mule
-              name: mule
-              lab_en: mule
               order: 8
-            oxford:
-              slug: oxford
-              name: oxford
-              lab_en: oxford
-              order: 9
-            slip on:
-              slug: slip-on
-              name: slip on
-              lab_en: slip on
-              order: 10
-            slipper:
-              slug: slipper
-              name: slipper
-              lab_en: slipper
-              order: 11
             other flat shoes:
               slug: other-flat-shoes
               name: other flat shoes
               lab_en: other flat shoes
+              order: 10
+            slip on:
+              slug: slip-on
+              name: slip on
+              lab_en: slip on
               order: 12
+            slipper:
+              slug: slipper
+              name: slipper
+              lab_en: slipper
+              order: 13
         heeled-shoes-women:
           slug: heeled-shoes-women
           name: heeled-shoes
@@ -1864,11 +1834,6 @@ women:
               slug: d-orsay-pump
               name: d'orsay pump
               lab_en: d'orsay pump
-              order: 0
-            decollete:
-              slug: decollete
-              name: decollete
-              lab_en: decollete
               order: 1
             lace up:
               slug: lace-up
@@ -1951,26 +1916,26 @@ women:
               slug: ankle-boot
               name: ankle boot
               lab_en: ankle boot
-              order: 0
+              order: 1
             boot:
               slug: boot
               name: boot
               lab_en: boot
-              order: 1
+              order: 2
             lace up boot:
               slug: lace-up-boot
               name: lace up boot
               lab_en: lace up boot
-              order: 2
+              order: 3
             over the knee:
               slug: over-the-knee
               name: over the knee
               lab_en: over the knee
-              order: 3
-            snow boot:
-              slug: snow-boot
-              name: snow boot
-              lab_en: snow boot
+              order: 0
+            shoe boot:
+              slug: shoe-boot
+              name: shoe boot
+              lab_en: shoe boot
               order: 4
         sneakers-women:
           slug: sneakers-women
@@ -1983,16 +1948,11 @@ women:
               name: high-top sneaker
               lab_en: high-top sneaker
               order: 0
-            low-top sneaker:
-              slug: low-top-sneaker
-              name: low-top sneaker
-              lab_en: low-top sneaker
+            sneaker:
+              slug: sneaker
+              name: sneaker
+              lab_en: sneaker
               order: 1
-            tennis shoe:
-              slug: tennis-shoe
-              name: tennis shoe
-              lab_en: tennis shoe
-              order: 2
     luggage:
       slug: luggage
       name: luggage

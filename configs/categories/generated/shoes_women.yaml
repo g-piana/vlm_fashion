@@ -8,21 +8,14 @@ attribute_template: shoes
 taxonomy:
   flat-shoes-women:
   - ballerina
-  - boat shoe
-  - derby
-  - desert
-  - driving shoe
+  - d'orsay flat
   - lace up
   - loafer
-  - monk strap
-  - mule
-  - oxford
+  - other flat shoes
   - slip on
   - slipper
-  - other flat shoes
   heeled-shoes-women:
   - d'orsay pump
-  - decollete
   - lace up
   - loafer pump
   - mary jane pump
@@ -42,8 +35,7 @@ taxonomy:
   - boot
   - lace up boot
   - over the knee
-  - snow boot
+  - shoe boot
   sneakers-women:
   - high-top sneaker
-  - low-top sneaker
-  - tennis shoe
+  - sneaker
