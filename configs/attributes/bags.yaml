@@ -1,0 +1,19 @@
+# Bag-specific attributes — loaded on top of _base.yaml for all bag configs.
+
+handle_type:
+  type: enum
+  values: [top-handle, shoulder-strap, chain-strap, wrist-strap,
+           crossbody-strap, detachable-strap, drawstring, none]
+
+bag_closure:
+  type: enum
+  values: [zip, flap, drawstring, clasp, magnetic-snap, turn-lock,
+           frame, open-top, buckle, toggle, none]
+
+hardware_color:
+  type: enum
+  values: [gold, silver, gunmetal, rose-gold, antique-brass, black, none]
+
+bag_size:
+  type: enum
+  values: [micro, mini, small, medium, large, oversized]

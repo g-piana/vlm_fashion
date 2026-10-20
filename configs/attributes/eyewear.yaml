@@ -1,0 +1,15 @@
+# Eyewear-specific attributes
+
+frame_shape:
+  type: enum
+  values: [aviator, wayfarer, round, cat-eye, rectangular,
+           oversized, shield, square, oval, geometric, null]
+
+lens_color:
+  type: enum
+  values: [black, brown, grey, green, blue, mirrored, gradient,
+           clear, yellow, pink, null]
+
+frame_material:
+  type: enum
+  values: [acetate, metal, titanium, plastic, wood, horn, null]

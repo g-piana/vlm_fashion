@@ -331,14 +331,21 @@ taxonomy:
   - waist bag
   flat-shoes-women:
   - ballerina
-  - d'orsay flat
+  - boat shoe
+  - derby
+  - desert
+  - driving shoe
   - lace up
   - loafer
-  - other flat shoes
+  - monk strap
+  - mule
+  - oxford
   - slip on
   - slipper
+  - other flat shoes
   heeled-shoes-women:
   - d'orsay pump
+  - decollete
   - lace up
   - loafer pump
   - mary jane pump
@@ -358,10 +365,11 @@ taxonomy:
   - boot
   - lace up boot
   - over the knee
-  - shoe boot
+  - snow boot
   sneakers-women:
   - high-top sneaker
-  - sneaker
+  - low-top sneaker
+  - tennis shoe
   briefcases-women: []
   suitcases-women: []
   cosmetic-cases-women: []

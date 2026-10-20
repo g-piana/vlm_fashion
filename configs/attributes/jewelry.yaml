@@ -1,0 +1,11 @@
+# Jewelry-specific attributes
+
+jewelry_material:
+  type: enum
+  values: [gold, silver, rose-gold, platinum, stainless-steel,
+           brass, copper, leather, fabric, bead, pearl, null]
+
+gemstone:
+  type: enum
+  values: [diamond, ruby, sapphire, emerald, pearl, crystal,
+           cubic zirconia, turquoise, onyx, opal, none, null]

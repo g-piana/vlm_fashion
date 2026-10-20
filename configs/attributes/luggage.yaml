@@ -1,0 +1,9 @@
+# Luggage-specific attributes
+
+luggage_type:
+  type: enum
+  values: [hardside, softside, wheeled, duffle, garment-bag, null]
+
+hardware_color:
+  type: enum
+  values: [gold, silver, gunmetal, black, none]

@@ -1,0 +1,13 @@
+# Watch-specific attributes
+
+dial_shape:
+  type: enum
+  values: [round, square, rectangular, tonneau, oval, null]
+
+strap_type:
+  type: enum
+  values: [leather, metal-bracelet, rubber, nato, mesh, fabric, null]
+
+movement:
+  type: enum
+  values: [quartz, automatic, mechanical, digital, null]

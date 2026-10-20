@@ -1,0 +1,43 @@
+# Ready-to-wear specific attributes — loaded on top of _base.yaml.
+
+fit:
+  type: enum
+  values: [slim, regular, relaxed, oversized, tailored, cropped,
+           flared, straight, skinny, wide-leg, A-line, bodycon]
+
+length:
+  type: enum
+  values: [cropped, hip, mid-thigh, knee, midi, maxi, floor-length, null]
+
+neckline:
+  type: enum
+  values: [crew, v-neck, scoop, boat, turtleneck, mock-neck, cowl,
+           off-shoulder, halter, strapless, collared, mandarin,
+           sweetheart, square, keyhole, henley, null]
+
+collar:
+  type: enum
+  values: [point, spread, button-down, band, peter-pan, shawl,
+           notched-lapel, peak-lapel, mandarin, stand, none, null]
+
+sleeve_length:
+  type: enum
+  values: [sleeveless, cap, short, elbow, three-quarter, long, null]
+
+sleeve_type:
+  type: enum
+  values: [set-in, raglan, dolman, puff, bell, bishop, balloon,
+           flutter, null]
+
+closure:
+  type: enum
+  values: [button, zip, snap, hook, tie, wrap, pullover, toggle,
+           double-breasted, none]
+
+waist:
+  type: enum
+  values: [natural, high, low, drop, elasticated, belted, null]
+
+lining:
+  type: enum
+  values: [fully lined, half lined, unlined, null]

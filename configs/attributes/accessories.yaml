@@ -1,0 +1,9 @@
+# Accessories-specific attributes
+
+accessory_closure:
+  type: enum
+  values: [buckle, snap, tie, clip, magnetic, wrap, none, null]
+
+hardware_color:
+  type: enum
+  values: [gold, silver, gunmetal, rose-gold, antique-brass, black, none]
