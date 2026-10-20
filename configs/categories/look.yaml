@@ -1,0 +1,27 @@
+# Look — multi-item images (runway, editorial, outfit)
+#
+# Uses ALL category vocabularies combined so the model can tag each
+# visible item with its category-specific attributes.
+# The output TAGS section is a JSON array, not a single object.
+
+inherits: _base
+
+# For looks, the model needs access to all category vocabularies.
+# The prompt builder merges attributes from all registered categories.
+includes:
+  - shoes
+  - bags
+  - ready_to_wear
+
+# Additional look-level attributes (apply to the overall image, not per item)
+look_attributes:
+  styling:
+    type: list
+    values: [layered, monochrome, color-blocked, tonal, mixed-textures,
+             maximalist, minimalist, androgynous, athleisure, boho,
+             classic, contemporary, streetwear, avant-garde]
+
+  color_palette:
+    type: list
+    description: "2-4 dominant colors across the entire look"
+    values: same_as:primary_color

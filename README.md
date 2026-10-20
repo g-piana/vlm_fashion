@@ -1,33 +1,38 @@
 # Local VLM — Fashion Product Descriptions & Tags
 
-Single-model pipeline using **Qwen3-VL-8B** to generate both concise
-descriptions and structured JSON tags from fashion product images.
-Runs entirely on local hardware (RTX 3090, 128 GB RAM).
+Single-model pipeline using **Qwen3-VL-8B** to generate concise descriptions
+and structured JSON tags from fashion product images. Supports multiple
+categories (shoes, bags, ready-to-wear) and multi-item runway looks.
 
-| Task | Output | Example |
-|---|---|---|
-| Description | 2-3 sentence natural language | "Stiletto-heel open-toe sandal in black..." |
-| Tags | Structured JSON with controlled vocabulary | `{"category": "sandal", "heel_type": "stiletto", ...}` |
+## Architecture
+
+```
+Image → ResNet classifier → category / image_type
+                ↓
+        Route to category prompt config
+                ↓
+       Qwen3-VL (single LoRA adapter) → description + tags
+```
+
+One fine-tuned model, many category vocabularies. Each category has its own
+YAML config defining the relevant attributes and controlled vocabulary. The
+system prompt is built dynamically at inference time based on the category.
 
 ## Quick start
 
 ```bash
-# 1. Prepare data
-python scripts/prepare_dataset.py \
-    --input data/raw/labels.json \
-    --images-dir data/raw/images \
-    --output-dir data/splits
+# 1. Prepare data (merges all label files, applies per-category prompts)
+python scripts/prepare_dataset.py
 
-# 2. Fine-tune
-python scripts/train_qwen3vl.py --config configs/qwen3vl_qlora.yaml
+# 2. Fine-tune (one adapter, all categories)
+python scripts/train_qwen3vl.py --config configs/model.yaml
 
-# 3. Inference (with adapter)
-python scripts/infer.py --image path/to/shoe.jpg --adapter models/qwen3vl/final
+# 3. Inference
+python scripts/infer.py --image shoe.jpg --category shoes
+python scripts/infer.py --image runway.jpg --category look
+python scripts/infer.py --manifest batch.csv --adapter models/qwen3vl/final
 
-# 4. Zero-shot (no fine-tuning, base model)
-python scripts/infer.py --image path/to/shoe.jpg
-
-# 5. Evaluate
+# 4. Evaluate
 python scripts/evaluate.py \
     --predictions outputs/results.json \
     --ground-truth data/splits/test.parquet
@@ -38,72 +43,60 @@ python scripts/evaluate.py \
 ```
 local-vlm/
 ├── configs/
-│   └── qwen3vl_qlora.yaml       # Model, LoRA, training, and controlled vocabulary
+│   ├── model.yaml                # Shared: model, LoRA, training params
+│   └── categories/
+│       ├── _base.yaml            # Shared attributes (color, material, ...)
+│       ├── shoes.yaml            # + heel_type, toe_shape, sole_type, ...
+│       ├── bags.yaml             # + handle_type, bag_closure, hardware, ...
+│       ├── ready_to_wear.yaml    # + fit, neckline, collar, sleeve, ...
+│       └── look.yaml             # Multi-item: merges all category vocabs
 ├── data/
-│   ├── raw/                      # Original images + labels.json
-│   │   └── images/               # (symlink to E: drive)
-│   └── splits/                   # train/val/test parquet files
+│   ├── raw/
+│   │   ├── labels/               # JSON files per category/batch
+│   │   └── images/               # Symlink to image storage
+│   └── splits/                   # train/val/test parquet
 ├── scripts/
-│   ├── prepare_dataset.py        # Data prep + splits
-│   ├── train_qwen3vl.py          # QLoRA fine-tuning via Unsloth
-│   ├── infer.py                  # Inference (single or batch)
-│   └── evaluate.py               # ROUGE-L, BERTScore, tag accuracy/F1
-├── models/                       # Saved LoRA adapters (git-ignored)
-├── outputs/                      # Inference results (git-ignored)
-├── requirements.txt
-└── README.md
+│   ├── category_config.py        # Config loader & prompt builder
+│   ├── prepare_dataset.py        # Merge labels, build prompts, split
+│   ├── train_qwen3vl.py          # QLoRA fine-tuning
+│   ├── infer.py                  # Inference with category routing
+│   └── evaluate.py               # Per-category metrics
+├── models/                       # LoRA adapters (git-ignored)
+└── outputs/                      # Results (git-ignored)
 ```
 
-## Data format
+## Label format
 
-Input `labels.json`:
+Each JSON file in `data/raw/labels/` is a list of samples:
 
 ```json
 [
   {
     "image": "BG53049-01.jpg",
-    "description": "Stiletto-heel open-toe sandal in black features a tall heel with metallic finish...",
+    "category_config": "shoes",
+    "image_type": "product",
+    "description": "Stiletto-heel open-toe sandal in black...",
     "tags": {
       "category": "sandal",
       "subcategory": "stiletto sandal",
       "toe_shape": "open-toe",
       "heel_type": "stiletto",
-      "heel_height": "high",
-      "closure": "slip-on",
       "primary_color": "black",
-      "secondary_colors": ["silver"],
       "material": "patent leather",
-      "embellishments": ["fringe", "raw edges"],
-      "style_tags": ["strappy", "cage", "avant-garde"],
-      "occasion": ["evening", "editorial"],
-      "season": "all-season"
+      ...
     }
   }
 ]
 ```
 
-## Output format
+For looks (runway/editorial), `image_type` is `"look"` and `tags` is an
+**array** of items.
 
-The model produces:
+## Adding a new category
 
-```
-DESCRIPTION:
-Stiletto-heel open-toe sandal in black features a tall, slender heel
-with a metallic finish. Multiple wide straps wrap around the foot and
-ankle in a crisscrossing construction. Raw fringe edges outline each
-strap, creating texture throughout the design.
+1. Create `configs/categories/your_category.yaml` with `inherits: _base`
+2. Define category-specific attributes and values
+3. Add labelled data to `data/raw/labels/your_category_batch01.json`
+4. Re-run `prepare_dataset.py` and `train_qwen3vl.py`
 
-TAGS:
-{
-  "category": "sandal",
-  "subcategory": "stiletto sandal",
-  "toe_shape": "open-toe",
-  ...
-}
-```
-
-## Controlled vocabulary
-
-All tag values are constrained to a fixed vocabulary defined in
-`configs/qwen3vl_qlora.yaml`. This ensures consistent, machine-readable
-output suitable for database ingestion and search/filter UIs.
+The model improves across all categories with each new batch of data.

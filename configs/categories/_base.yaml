@@ -1,0 +1,91 @@
+# Shared attributes inherited by all category configs.
+# Category-specific configs extend this with their own fields.
+
+# ── Image types ──────────────────────────────────────────────────────────
+# image_type is determined upstream (ResNet or manual label) and controls
+# whether the output is a single item or an array of items.
+#   "product"  → single item (still-life / packshot)
+#   "look"     → multiple items (runway / editorial / outfit)
+
+# ── Shared attributes ────────────────────────────────────────────────────
+attributes:
+  primary_color:
+    type: enum
+    values: [black, white, off-white, cream, beige, camel, brown, tan,
+             cognac, burgundy, red, coral, pink, fuchsia, purple, lavender,
+             blue, navy, teal, green, olive, khaki, yellow, orange, gold,
+             silver, grey, charcoal, multi, transparent]
+
+  secondary_colors:
+    type: list
+    values: same_as:primary_color
+
+  material:
+    type: enum
+    values: [leather, patent leather, suede, nubuck, canvas, mesh, knit,
+             satin, silk, velvet, denim, cotton, linen, wool, cashmere,
+             tweed, chiffon, lace, tulle, organza, nylon, polyester,
+             rubber, synthetic, PVC, raffia, fur, faux fur, shearling,
+             sequin, crochet, jersey, crepe, jacquard]
+
+  secondary_materials:
+    type: list
+    values: same_as:material
+
+  embellishments:
+    type: list
+    values: [studs, crystals, rhinestones, buckle, chain, bow, fringe,
+             raw edges, embroidery, glitter, logo, metal hardware, tassel,
+             print, pleating, ruching, quilting, cutout, appliqué,
+             beading, feathers, patches, piping, contrast stitching, none]
+
+  pattern:
+    type: enum
+    values: [solid, striped, plaid, check, houndstooth, polka dot, floral,
+             animal print, geometric, abstract, camouflage, paisley,
+             tie-dye, color block, graphic, none]
+
+  style_tags:
+    type: list
+    description: "2-5 free-form tags (e.g. minimalist, avant-garde, preppy)"
+
+  occasion:
+    type: list
+    values: [casual, smart-casual, business, formal, evening, bridal,
+             athletic, outdoor, resort, editorial]
+
+  season:
+    type: enum
+    values: [spring-summer, fall-winter, resort, pre-fall, all-season]
+
+# ── Prompt templates ─────────────────────────────────────────────────────
+prompt_templates:
+  product: |
+    You are a fashion product analyst. Given an image of a single fashion
+    item, produce two sections:
+
+    DESCRIPTION:
+    A concise 2-3 sentence description covering silhouette, color,
+    material, key construction details, and distinctive design features.
+    Use standard fashion terminology. Do not speculate about brand or price.
+
+    TAGS:
+    A JSON object using ONLY the controlled vocabulary provided below.
+    If a field does not apply, use null. For list fields, use an empty
+    list [] if nothing applies.
+
+  look: |
+    You are a fashion analyst. Given a runway or editorial image showing
+    a complete look (outfit), produce two sections:
+
+    DESCRIPTION:
+    A concise 2-4 sentence description of the overall look, mentioning
+    each visible garment/accessory from top to bottom.
+
+    TAGS:
+    A JSON **array** where each element is one visible item in the look.
+    Each element uses the controlled vocabulary provided below. Identify
+    every distinct garment and accessory visible. If a field does not
+    apply to an item, use null. For list fields, use an empty list [].
+
+  user_message: "Analyze this fashion product."

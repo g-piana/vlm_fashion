@@ -1,11 +1,11 @@
 """
 Fine-tune Qwen3-VL-8B with QLoRA for fashion product analysis.
 
-Single-model approach: trains the model to produce both a concise
-description and structured JSON tags in one pass.
+Trains ONE adapter on all categories — the per-category vocabulary
+is embedded in each training example's system prompt.
 
 Usage:
-    python scripts/train_qwen3vl.py --config configs/qwen3vl_qlora.yaml
+    python scripts/train_qwen3vl.py --config configs/model.yaml
 """
 
 from __future__ import annotations
@@ -92,7 +92,7 @@ def format_sample(sample: dict) -> dict:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", type=str, default="configs/qwen3vl_qlora.yaml")
+    parser.add_argument("--config", type=str, default="configs/model.yaml")
     args = parser.parse_args()
 
     cfg = load_config(args.config)
@@ -104,9 +104,9 @@ def main():
 
     trainable = sum(p.numel() for p in model.parameters() if p.requires_grad)
     total = sum(p.numel() for p in model.parameters())
-    log.info("Trainable: %s / %s (%.2f%%)", f"{trainable:,}", f"{total:,}", 100 * trainable / total)
+    log.info("Trainable: %s / %s (%.2f%%)",
+             f"{trainable:,}", f"{total:,}", 100 * trainable / total)
 
-    log.info("Loading data from %s", data_cfg["train_path"])
     train_ds = load_dataset_from_parquet(data_cfg["train_path"], data_cfg.get("max_samples"))
     val_ds = load_dataset_from_parquet(data_cfg["val_path"])
     train_ds = train_ds.map(format_sample, remove_columns=train_ds.column_names)

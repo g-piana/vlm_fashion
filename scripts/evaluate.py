@@ -1,9 +1,5 @@
 """
-Evaluate fine-tuned model outputs against ground truth.
-
-Metrics:
-  - Descriptions: ROUGE-L, BERTScore, average length
-  - Tags: per-field accuracy, list-field F1
+Evaluate model outputs against ground truth, with per-category breakdown.
 
 Usage:
     python scripts/evaluate.py \
@@ -16,6 +12,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -24,73 +21,103 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
 log = logging.getLogger(__name__)
 
 
-def evaluate_descriptions(predictions: list[dict], gt_map: dict[str, str]):
+def parse_assistant_text(text: str) -> dict:
+    desc = ""
+    desc_match = re.search(r"DESCRIPTION:\s*\n(.+?)(?:\n\nTAGS:|\Z)", text, re.DOTALL)
+    if desc_match:
+        desc = desc_match.group(1).strip()
+    tags = None
+    tags_match = re.search(r"TAGS:\s*\n([\[\{].+)", text, re.DOTALL)
+    if tags_match:
+        try:
+            tags = json.loads(tags_match.group(1))
+        except json.JSONDecodeError:
+            pass
+    return {"description": desc, "tags": tags}
+
+
+def build_gt_map(gt_df: pd.DataFrame) -> dict:
+    gt_map = {}
+    for _, row in gt_df.iterrows():
+        convs = json.loads(row["conversations"])
+        for msg in convs:
+            if msg["role"] == "assistant":
+                parsed = parse_assistant_text(msg["content"])
+                gt_map[row["image_path"]] = {
+                    **parsed,
+                    "category_config": row.get("category_config", "unknown"),
+                }
+                break
+    return gt_map
+
+
+def evaluate_descriptions(predictions, gt_map):
     from rouge_score import rouge_scorer
     scorer = rouge_scorer.RougeScorer(["rougeL"], use_stemmer=True)
 
-    rouge_scores, pred_lengths, gt_lengths = [], [], []
+    by_category: dict[str, list[float]] = {}
+    overall = []
 
     for pred in predictions:
         img = pred.get("image", "")
         desc = pred.get("description", "")
         if not desc or img not in gt_map:
             continue
-        gt_desc = gt_map[img]["description"]
-        score = scorer.score(gt_desc, desc)
-        rouge_scores.append(score["rougeL"].fmeasure)
-        pred_lengths.append(len(desc.split()))
-        gt_lengths.append(len(gt_desc.split()))
+        gt = gt_map[img]
+        score = scorer.score(gt["description"], desc)["rougeL"].fmeasure
+        overall.append(score)
+        cat = gt.get("category_config", "unknown")
+        by_category.setdefault(cat, []).append(score)
 
-    if not rouge_scores:
-        log.warning("No matched samples for description evaluation")
+    if not overall:
         return
 
-    print("\n── Description Evaluation ──")
-    print(f"  Matched samples:     {len(rouge_scores)}")
-    print(f"  ROUGE-L (avg):       {sum(rouge_scores)/len(rouge_scores):.4f}")
-    print(f"  Avg pred length:     {sum(pred_lengths)/len(pred_lengths):.1f} words")
-    print(f"  Avg GT length:       {sum(gt_lengths)/len(gt_lengths):.1f} words")
-
-    try:
-        from bert_score import score as bert_score
-        refs = [gt_map[p["image"]]["description"] for p in predictions
-                if p.get("description") and p["image"] in gt_map]
-        preds = [p["description"] for p in predictions
-                 if p.get("description") and p["image"] in gt_map]
-        _, _, F1 = bert_score(preds, refs, lang="en", verbose=False)
-        print(f"  BERTScore F1 (avg):  {F1.mean().item():.4f}")
-    except ImportError:
-        log.info("pip install bert-score for BERTScore")
+    print(f"\n── Description Evaluation ({len(overall)} samples) ──")
+    print(f"  Overall ROUGE-L:  {sum(overall)/len(overall):.4f}")
+    for cat, scores in sorted(by_category.items()):
+        avg = sum(scores) / len(scores)
+        print(f"  {cat:20s} ROUGE-L: {avg:.4f} (n={len(scores)})")
 
 
-def evaluate_tags(predictions: list[dict], gt_map: dict[str, dict]):
-    string_fields = ["category", "subcategory", "toe_shape", "heel_type",
-                     "heel_height", "closure", "primary_color", "material", "season"]
-    list_fields = ["secondary_colors", "embellishments", "style_tags", "occasion"]
+def evaluate_tags(predictions, gt_map):
+    all_string_fields = set()
+    all_list_fields = set()
 
-    field_correct = {f: 0 for f in string_fields}
-    field_total = {f: 0 for f in string_fields}
-    list_f1 = {f: [] for f in list_fields}
+    # Discover fields from ground truth
+    for gt in gt_map.values():
+        tags = gt.get("tags")
+        if isinstance(tags, dict):
+            for k, v in tags.items():
+                if isinstance(v, list):
+                    all_list_fields.add(k)
+                elif v is not None:
+                    all_string_fields.add(k)
+
+    field_correct = {f: 0 for f in all_string_fields}
+    field_total = {f: 0 for f in all_string_fields}
+    list_f1 = {f: [] for f in all_list_fields}
     matched = 0
 
     for pred in predictions:
         img = pred.get("image", "")
         tags = pred.get("tags")
-        if not tags or img not in gt_map or not gt_map[img].get("tags"):
+        if not isinstance(tags, dict) or img not in gt_map:
             continue
-        gt = gt_map[img]["tags"]
+        gt_tags = gt_map[img].get("tags")
+        if not isinstance(gt_tags, dict):
+            continue
         matched += 1
 
-        for f in string_fields:
-            if f in gt and gt[f]:
+        for f in all_string_fields:
+            if f in gt_tags and gt_tags[f] is not None:
                 field_total[f] += 1
-                if str(tags.get(f, "")).lower().strip() == str(gt[f]).lower().strip():
+                if str(tags.get(f, "")).lower().strip() == str(gt_tags[f]).lower().strip():
                     field_correct[f] += 1
 
-        for f in list_fields:
-            if f in gt and gt[f]:
+        for f in all_list_fields:
+            if f in gt_tags and gt_tags[f]:
                 pred_set = set(str(t).lower() for t in (tags.get(f) or []))
-                gt_set = set(str(t).lower() for t in gt[f])
+                gt_set = set(str(t).lower() for t in gt_tags[f])
                 if pred_set or gt_set:
                     tp = len(pred_set & gt_set)
                     p = tp / len(pred_set) if pred_set else 0
@@ -99,14 +126,14 @@ def evaluate_tags(predictions: list[dict], gt_map: dict[str, dict]):
                     list_f1[f].append(f1)
 
     print(f"\n── Tag Evaluation ({matched} matched) ──")
-    for f in string_fields:
+    for f in sorted(all_string_fields):
         if field_total[f]:
             acc = field_correct[f] / field_total[f]
-            print(f"  {f:20s} accuracy: {acc:.3f} ({field_correct[f]}/{field_total[f]})")
-    for f in list_fields:
+            print(f"  {f:25s} accuracy: {acc:.3f} ({field_correct[f]}/{field_total[f]})")
+    for f in sorted(all_list_fields):
         if list_f1[f]:
             avg = sum(list_f1[f]) / len(list_f1[f])
-            print(f"  {f:20s} F1 (avg): {avg:.3f} (n={len(list_f1[f])})")
+            print(f"  {f:25s} F1 (avg): {avg:.3f} (n={len(list_f1[f])})")
 
 
 def main():
@@ -119,34 +146,7 @@ def main():
         predictions = json.load(f)
 
     gt_df = pd.read_parquet(args.ground_truth)
-
-    # Build ground-truth lookup from parquet conversations
-    gt_map = {}
-    for _, row in gt_df.iterrows():
-        convs = json.loads(row["conversations"])
-        assistant_text = ""
-        for msg in convs:
-            if msg["role"] == "assistant":
-                assistant_text = msg["content"]
-                break
-
-        # Parse description
-        desc = ""
-        import re
-        desc_match = re.search(r"DESCRIPTION:\s*\n(.+?)(?:\n\nTAGS:|\Z)", assistant_text, re.DOTALL)
-        if desc_match:
-            desc = desc_match.group(1).strip()
-
-        # Parse tags
-        tags = None
-        tags_match = re.search(r"TAGS:\s*\n(\{.+\})", assistant_text, re.DOTALL)
-        if tags_match:
-            try:
-                tags = json.loads(tags_match.group(1))
-            except json.JSONDecodeError:
-                pass
-
-        gt_map[row["image_path"]] = {"description": desc, "tags": tags}
+    gt_map = build_gt_map(gt_df)
 
     evaluate_descriptions(predictions, gt_map)
     evaluate_tags(predictions, gt_map)

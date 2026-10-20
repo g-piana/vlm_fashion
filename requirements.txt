@@ -19,10 +19,6 @@ nltk
 rouge-score
 bert-score
 
-# Inference serving (optional)
-# vllm>=0.6.0       # uncomment for vLLM serving
-# ollama             # alternative: pip install ollama
-
 # Utilities
 pyyaml
 tqdm
