@@ -36,7 +36,7 @@ import torch
 from PIL import Image
 from tqdm import tqdm
 
-from category_config import build_system_prompt, get_user_message, list_categories
+from category_config import build_system_prompt, get_user_message, list_configs
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
 log = logging.getLogger(__name__)
@@ -139,7 +139,7 @@ def main():
     group.add_argument("--manifest", type=Path,
                        help="CSV with image_path, category_config, image_type")
     parser.add_argument("--category", type=str, default="shoes",
-                        choices=list_categories(),
+                        choices=list_configs(),
                         help="Category config to use (ignored with --manifest)")
     parser.add_argument("--image-type", type=str, default="product",
                         choices=["product", "look"])

@@ -1,0 +1,357 @@
+# WHITE FAMILY
+white:
+  slug: white
+  lab_en: white
+  primary: true
+  prim_colour: white
+  order: 10
+  hexcode: '#F4F5F0'
+ivory:
+  slug: ivory
+  lab_en: ivory
+  primary: false
+  prim_colour: white
+  order: 11
+  hexcode: '#F3ECE0'
+
+# GREY FAMILY
+grey:
+  slug: grey
+  lab_en: grey
+  primary: true
+  prim_colour: grey
+  order: 20
+  hexcode: '#8E918F'
+slate:
+  slug: slate
+  lab_en: slate
+  primary: false
+  prim_colour: grey
+  order: 21
+  hexcode: '#697A7E'
+# PINK FAMILY
+pink:
+  slug: pink
+  lab_en: pink
+  primary: true
+  prim_colour: pink
+  order: 30
+  hexcode: '#F0A1BF'
+nude:
+  slug: nude
+  lab_en: nude
+  primary: false
+  prim_colour: pink
+  order: 31
+  hexcode: '#F2D3BC'
+rose:
+  slug: rose
+  lab_en: rose
+  primary: false
+  prim_colour: pink
+  order: 32
+  hexcode: '#CE8498'
+fuchsia:
+  slug: fuchsia
+  lab_en: fuchsia
+  primary: false
+  prim_colour: pink
+  order: 33
+  hexcode: '#D33479'
+
+# PURPLE FAMILY
+purple:
+  slug: purple
+  lab_en: purple
+  primary: true
+  prim_colour: purple
+  order: 40
+  hexcode: '#603F83'
+lavender:
+  slug: lavender
+  lab_en: lavender
+  primary: false
+  prim_colour: purple
+  order: 41
+  hexcode: '#AFA4CE'
+amethyst:
+  slug: amethyst
+  lab_en: amethyst
+  primary: false
+  prim_colour: purple
+  order: 42
+  hexcode: '#926AA6'
+plum:
+  slug: plum
+  lab_en: plum
+  primary: false
+  prim_colour: purple
+  order: 43
+  hexcode: '#5A315D'
+
+# BLUE FAMILY
+blue:
+  slug: blue
+  lab_en: blue
+  primary: true
+  prim_colour: blue
+  order: 50
+  hexcode: '#00539C'
+sky-blue:
+  slug: sky-blue
+  lab_en: sky-blue
+  primary: false
+  prim_colour: blue
+  order: 51
+  hexcode: '#8ABAD3'
+azure:
+  slug: azure
+  lab_en: azure
+  primary: false
+  prim_colour: blue
+  order: 52
+  hexcode: '#4D91C6'
+navy:
+  slug: navy
+  lab_en: navy
+  primary: false
+  prim_colour: blue
+  order: 53
+  hexcode: '#29304E'
+teal:
+  slug: teal
+  lab_en: teal
+  primary: false
+  prim_colour: blue
+  order: 54
+  hexcode: '#007F7C'
+turquoise:
+  slug: turquoise
+  lab_en: turquoise
+  primary: false
+  prim_colour: blue
+  order: 55
+  hexcode: '#45B5AA'
+
+# GREEN FAMILY
+green:
+  slug: green
+  lab_en: green
+  primary: true
+  prim_colour: green
+  order: 60
+  hexcode: '#339C5E'
+mint:
+  slug: mint
+  lab_en: mint
+  primary: false
+  prim_colour: green
+  order: 61
+  hexcode: '#AFDDCC'
+emerald:
+  slug: emerald
+  lab_en: emerald
+  primary: false
+  prim_colour: green
+  order: 62
+  hexcode: '#009473'
+olive:
+  slug: olive
+  lab_en: olive
+  primary: false
+  prim_colour: green
+  order: 63
+  hexcode: '#676232'
+forest:
+  slug: forest
+  lab_en: forest
+  primary: false
+  prim_colour: green
+  order: 64
+  hexcode: '#264E36'
+khaki:
+  slug: khaki
+  lab_en: khaki
+  primary: false
+  prim_colour: green
+  order: 65
+  hexcode: '#A39264'
+
+# YELLOW FAMILY
+yellow:
+  slug: yellow
+  lab_en: yellow
+  primary: true
+  prim_colour: yellow
+  order: 70
+  hexcode: '#F7D000'
+lemon:
+  slug: lemon
+  lab_en: lemon
+  primary: false
+  prim_colour: yellow
+  order: 71
+  hexcode: '#EAD94E'
+amber:
+  slug: amber
+  lab_en: amber
+  primary: false
+  prim_colour: yellow
+  order: 72
+  hexcode: '#EFAD55'
+mustard:
+  slug: mustard
+  lab_en: mustard
+  primary: false
+  prim_colour: yellow
+  order: 73
+  hexcode: '#C89720'
+
+# ORANGE FAMILY
+orange:
+  slug: orange
+  lab_en: orange
+  primary: true
+  prim_colour: orange
+  order: 80
+  hexcode: '#FF7420'
+peach:
+  slug: peach
+  lab_en: peach
+  primary: false
+  prim_colour: orange
+  order: 81
+  hexcode: '#FFBE98'
+coral:
+  slug: coral
+  lab_en: coral
+  primary: false
+  prim_colour: orange
+  order: 82
+  hexcode: '#FF6F61'
+rust:
+  slug: rust
+  lab_en: rust
+  primary: false
+  prim_colour: orange
+  order: 83
+  hexcode: '#B55A30'
+
+# RED FAMILY
+red:
+  slug: red
+  lab_en: red
+  primary: true
+  prim_colour: red
+  order: 90
+  hexcode: '#BF1932'
+ruby:
+  slug: ruby
+  lab_en: ruby
+  primary: false
+  prim_colour: red
+  order: 91
+  hexcode: '#A21441'
+burgundy:
+  slug: burgundy
+  lab_en: burgundy
+  primary: false
+  prim_colour: red
+  order: 92
+  hexcode: '#64313E'
+
+# BEIGE FAMILY
+beige:
+  slug: beige
+  lab_en: beige
+  primary: true
+  prim_colour: beige
+  order: 100
+  hexcode: '#D5BA98'
+taupe:
+  slug: taupe
+  lab_en: taupe
+  primary: false
+  prim_colour: beige
+  order: 101
+  hexcode: '#8D7E71'
+
+# BROWN FAMILY
+brown:
+  slug: brown
+  lab_en: brown
+  primary: true
+  prim_colour: brown
+  order: 110
+  hexcode: '#684832'
+tan:
+  slug: tan
+  lab_en: tan
+  primary: false
+  prim_colour: brown
+  order: 111
+  hexcode: '#B69574'
+caramel:
+  slug: caramel
+  lab_en: caramel
+  primary: false
+  prim_colour: brown
+  order: 112
+  hexcode: '#C37C54'
+chocolate:
+  slug: chocolate
+  lab_en: chocolate
+  primary: false
+  prim_colour: brown
+  order: 113
+  hexcode: '#56352D'
+
+# BLACK FAMILY
+black:
+  slug: black
+  lab_en: black
+  primary: true
+  prim_colour: black
+  order: 120
+  hexcode: '#26262A'
+charcoal:
+  slug: charcoal
+  lab_en: charcoal
+  primary: false
+  prim_colour: black
+  order: 121
+  hexcode: '#413E3D'
+
+# GOLD FAMILY
+gold:
+  slug: gold
+  lab_en: gold
+  primary: true
+  prim_colour: gold
+  order: 130
+  hexcode: '#CF9F52'
+bronze:
+  slug: bronze
+  lab_en: bronze
+  primary: false
+  prim_colour: gold
+  order: 131
+  hexcode: '#977547'
+
+# SILVER FAMILY
+silver:
+  slug: silver
+  lab_en: silver
+  primary: true
+  prim_colour: silver
+  order: 140
+  hexcode: '#A2A2A1'
+
+# MULTICOLOUR FAMILY
+multicolor:
+  slug: multicolor
+  lab_en: multicolor
+  primary: true
+  prim_colour: multicolor
+  order: 150
+  hexcode: '#FFFFFF'

@@ -1,0 +1,290 @@
+00_alpaca:
+  name: alpaca
+  slug: alpaca
+  lab_en: alpaca
+  group: fabrics
+00_angora:
+  name: angora
+  slug: angora
+  lab_en: angora
+  group: fabrics
+00_camel-hair:
+  name: camel-hair
+  slug: camel-hair
+  lab_en: camel-hair
+  group: fabrics
+00_canvas:
+  name: canvas
+  slug: canvas
+  lab_en: canvas
+  group: fabrics
+00_cashmere:
+  name: cashmere
+  slug: cashmere
+  lab_en: cashmere
+  group: fabrics
+00_cotton:
+  name: cotton
+  slug: cotton
+  lab_en: cotton
+  group: fabrics
+00_denim:
+  name: denim
+  slug: denim
+  lab_en: denim
+  group: fabrics
+00_hemp:
+  name: hemp
+  slug: hemp
+  lab_en: hemp
+  group: fabrics
+00_horse-hair:
+  name: horse-hair
+  slug: horse-hair
+  lab_en: horse-hair
+  group: fabrics
+00_linen:
+  name: linen
+  slug: linen
+  lab_en: linen
+  group: fabrics
+00_mohair:
+  name: mohair
+  slug: mohair
+  lab_en: mohair
+  group: fabrics
+00_silk:
+  name: silk
+  slug: silk
+  lab_en: silk
+  group: fabrics
+00_vicuna:
+  name: vicuna
+  slug: vicuna
+  lab_en: vicuna
+  group: fabrics
+00_wool:
+  name: wool
+  slug: wool
+  lab_en: wool
+  group: fabrics
+01_acetate:
+  name: acetate
+  slug: acetate
+  lab_en: acetate
+  group: synthetics
+01_acrylic:
+  name: acrylic
+  slug: acrylic
+  lab_en: acrylic
+  group: synthetics
+01_aramyd:
+  name: aramyd
+  slug: aramyd
+  lab_en: aramyd
+  group: synthetics
+01_elastane:
+  name: elastane
+  slug: elastane
+  lab_en: elastane
+  group: synthetics
+01_nylon:
+  name: nylon
+  slug: nylon
+  lab_en: nylon
+  group: synthetics
+01_polyester:
+  name: polyester
+  slug: polyester
+  lab_en: polyester
+  group: synthetics
+01_rayon:
+  name: rayon
+  slug: rayon
+  lab_en: rayon
+  group: synthetics
+02_alligator:
+  name: alligator
+  slug: alligator
+  lab_en: alligator
+  group: leathers
+02_antelope:
+  name: antelope
+  slug: antelope
+  lab_en: antelope
+  group: leathers
+02_buffalo:
+  name: buffalo
+  slug: buffalo
+  lab_en: buffalo
+  group: leathers
+02_calfskin:
+  name: calfskin
+  slug: calfskin
+  lab_en: calfskin
+  group: leathers
+02_cattle:
+  name: cattle
+  slug: cattle
+  lab_en: cattle
+  group: leathers
+02_crocodile:
+  name: crocodile
+  slug: crocodile
+  lab_en: crocodile
+  group: leathers
+02_deerskin:
+  name: deerskin
+  slug: deerskin
+  lab_en: deerskin
+  group: leathers
+02_goat:
+  name: goat
+  slug: goat
+  lab_en: goat
+  group: leathers
+02_lambskin:
+  name: lambskin
+  slug: lambskin
+  lab_en: lambskin
+  group: leathers
+02_leather:
+  name: leather
+  slug: leather
+  lab_en: leather
+  group: leathers
+02_lizard:
+  name: lizard
+  slug: lizard
+  lab_en: lizard
+  group: leathers
+02_ostrich:
+  name: ostrich
+  slug: ostrich
+  lab_en: ostrich
+  group: leathers
+02_pigskin:
+  name: pigskin
+  slug: pigskin
+  lab_en: pigskin
+  group: leathers
+02_ponyskin:
+  name: ponyskin
+  slug: ponyskin
+  lab_en: ponyskin
+  group: leathers
+02_python:
+  name: python
+  slug: python
+  lab_en: python
+  group: leathers
+02_sheep:
+  name: sheep
+  slug: sheep
+  lab_en: sheep
+  group: leathers
+02_snakeskin:
+  name: snakeskin
+  slug: snakeskin
+  lab_en: snakeskin
+  group: leathers
+02_suede:
+  name: suede
+  slug: suede
+  lab_en: suede
+  group: leathers
+03_antelope:
+  name: antelope
+  slug: antelope
+  lab_en: antelope
+  group: furs
+03_chinchilla:
+  name: chinchilla
+  slug: chinchilla
+  lab_en: chinchilla
+  group: furs
+03_fox:
+  name: fox
+  slug: fox
+  lab_en: fox
+  group: furs
+03_kangaroo:
+  name: kangaroo
+  slug: kangaroo
+  lab_en: kangaroo
+  group: furs
+03_lapin:
+  name: lapin
+  slug: lapin
+  lab_en: lapin
+  group: furs
+03_lynx:
+  name: lynx
+  slug: lynx
+  lab_en: lynx
+  group: furs
+03_mink:
+  name: mink
+  slug: mink
+  lab_en: mink
+  group: furs
+03_sable:
+  name: sable
+  slug: sable
+  lab_en: sable
+  group: furs
+03_persian lamb:
+  name: persian lamb
+  slug: persian lamb
+  lab_en: persian lamb
+  group: furs
+04_bamboo:
+  name: bamboo
+  slug: bamboo
+  lab_en: bamboo
+  group: others
+04_crystals:
+  name: crystals
+  slug: crystals
+  lab_en: crystals
+  group: others
+04_feathers:
+  name: feathers
+  slug: feathers
+  lab_en: feathers
+  group: others
+04_marabou:
+  name: marabou
+  slug: marabour
+  lab_en: marabou
+  group: others
+04_metal:
+  name: metal
+  slug: metal
+  lab_en: metal
+  group: others
+04_jute:
+  name: jute
+  slug: jute
+  lab_en: jute
+  group: others
+04_steel:
+  name: steel
+  slug: steel
+  lab_en: steel
+  group: others
+04_stones:
+  name: stones
+  slug: stones
+  lab_en: stones
+  group: others
+04_synthetic-leather:
+  name: synthetic-leather
+  slug: synthetic-leather
+  lab_en: synthetic-leather
+  group: others
+04_wood:
+  name: wood
+  slug: wood
+  lab_en: wood
+  group: others

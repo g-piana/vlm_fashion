@@ -1,32 +1,31 @@
 # Shoe-specific attributes — loaded on top of _base.yaml for all shoe configs.
 # Edit values here; changes apply to both shoes_men and shoes_women.
+model_details:
+  type: enum
+  values: [ankle-strap, ankle-wrap, apron-toe, comma-heel, cone-heel, cross-over, double-strap,
+            flat-heel, french-heel, high-heel, kitten-heel, lace-up, low-heel, mid-heel, multi-strap,
+            open-toe, platform, pointed-toe, quilted, round-toe, single-strap, sling-back, slouch, square-toe,
+            stiletto-heel, strappy, t-bar, wedge-heel, zip-up]
+
 
 toe_shape:
   type: enum
-  values: [round, pointed, square, almond, peep-toe, open-toe, cap-toe]
+  values: [almond-toe, apron-toe, cap-toe, peep-toe, plain-toe, pointed-toe, round-toe, split-toe, square-toe]
 
 heel_type:
   type: enum
-  values: [flat, kitten, block, stiletto, wedge, platform, cone, spool,
-           stacked, sculpted, none]
+  values: [block-heel, comma-heel, cone-heel, french-heel, kitten-heel, stiletto-heel, wedge-heel, none]
 
 heel_height:
   type: enum
-  values: [flat, low, mid, high, ultra-high]
-
-heel_finish:
-  type: enum
-  values: [wrapped, metallic, wooden, lucite, lacquered, natural, null]
+  values: [flat-heel, low-heel, mid-heel, high-heel]
 
 sole_type:
   type: enum
-  values: [leather, rubber, crepe, rope, platform, lug, commando, null]
+  values: [flatform, lug-sole, platform, slouch, none]
 
 closure:
   type: enum
   values: [slip-on, lace-up, buckle, zip, side-zip, back-zip,
            velcro, elastic, tie, button, monk-strap, none]
 
-shaft_height:
-  type: enum
-  values: [ankle, mid-calf, knee, over-knee, null]

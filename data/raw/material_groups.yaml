@@ -1,0 +1,25 @@
+00_fabrics:
+  name: fabrics
+  slug: fabrics
+  lab_en: fabrics
+  order: 0
+01_synthetics:
+  name: synthetics
+  slug: synthetics
+  lab_en: synthetics
+  order: 1
+02_leathers:
+  name: leathers
+  slug: leathers
+  lab_en: leathers
+  order: 2
+03_furs:
+  name: furs
+  slug: furs
+  lab_en: furs
+  order: 3
+04_others:
+  name: others
+  slug: others
+  lab_en: others
+  order: 4

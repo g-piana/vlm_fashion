@@ -1,0 +1,583 @@
+"""
+Label review tool — local web app for reviewing and correcting VLM drafts.
+
+Loads a draft JSON from infer.py, serves a browser UI where you can see
+each image alongside its description and tags, edit them, and export
+corrected labels in the training format.
+
+Usage:
+    python scripts/review_labels.py \
+        --drafts outputs/shoes_women_draft.json \
+        --category shoes_women \
+        --port 8501
+
+    Then open http://localhost:8501 in your browser.
+
+Controls:
+    - Edit description text directly
+    - Edit each tag field (dropdowns for enum, text input for free-form)
+    - Mark as "skip" to exclude from training
+    - Save progress at any time (auto-saves on navigate)
+    - Export final labels.json when done
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import logging
+import os
+import sys
+from http.server import HTTPServer, SimpleHTTPRequestHandler
+from pathlib import Path
+from urllib.parse import parse_qs, urlparse
+
+# Add scripts dir to path for category_config import
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from category_config import load_category_config
+
+logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
+log = logging.getLogger(__name__)
+
+
+def load_vocabularies(category: str) -> dict:
+    """Extract all enum/list values from a category config for dropdowns."""
+    config = load_category_config(category)
+    vocabs = {}
+
+    # Taxonomy
+    taxonomy = config.get("taxonomy", {})
+    all_categories = list(taxonomy.keys())
+    all_subcategories = []
+    for subcats in taxonomy.values():
+        all_subcategories.extend(subcats)
+    vocabs["_taxonomy"] = taxonomy
+    vocabs["_categories"] = all_categories
+    vocabs["_subcategories"] = sorted(set(all_subcategories))
+
+    # Attributes
+    for name, spec in config.get("attributes", {}).items():
+        if isinstance(spec, dict):
+            vals = spec.get("values")
+            if isinstance(vals, list):
+                vocabs[name] = vals
+            elif isinstance(vals, str) and vals.startswith("same_as:"):
+                ref = vals.replace("same_as:", "")
+                if ref in vocabs:
+                    vocabs[name] = vocabs[ref]
+
+    return vocabs
+
+
+def build_html(drafts: list[dict], vocabs: dict, category: str, save_path: str) -> str:
+    """Build the single-page review app HTML."""
+    drafts_json = json.dumps(drafts, ensure_ascii=False)
+    vocabs_json = json.dumps(vocabs, ensure_ascii=False)
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Label Review — {category}</title>
+<style>
+* {{ margin: 0; padding: 0; box-sizing: border-box; }}
+body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+       background: #1a1a2e; color: #eee; padding: 0; }}
+
+.header {{ background: #16213e; padding: 12px 24px; display: flex;
+           justify-content: space-between; align-items: center;
+           position: sticky; top: 0; z-index: 100; border-bottom: 1px solid #333; }}
+.header h1 {{ font-size: 18px; color: #a8d8ea; }}
+.header .info {{ font-size: 14px; color: #888; }}
+.header .actions {{ display: flex; gap: 8px; }}
+
+.btn {{ padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer;
+        font-size: 13px; font-weight: 600; }}
+.btn-primary {{ background: #4a9eff; color: #fff; }}
+.btn-primary:hover {{ background: #3a8eef; }}
+.btn-danger {{ background: #e74c3c; color: #fff; }}
+.btn-danger:hover {{ background: #c0392b; }}
+.btn-success {{ background: #27ae60; color: #fff; }}
+.btn-success:hover {{ background: #219a52; }}
+.btn-secondary {{ background: #444; color: #ccc; }}
+.btn-secondary:hover {{ background: #555; }}
+.btn-skip {{ background: #e67e22; color: #fff; }}
+.btn-skip.active {{ background: #c0392b; }}
+
+.nav {{ display: flex; gap: 4px; align-items: center; }}
+.nav .btn {{ padding: 8px 12px; }}
+.counter {{ font-size: 14px; color: #aaa; margin: 0 8px; min-width: 80px; text-align: center; }}
+
+.main {{ display: grid; grid-template-columns: 1fr 1fr; height: calc(100vh - 52px); }}
+
+.image-panel {{ background: #111; display: flex; align-items: center;
+                justify-content: center; overflow: hidden; padding: 16px; }}
+.image-panel img {{ max-width: 100%; max-height: calc(100vh - 84px); object-fit: contain; }}
+
+.edit-panel {{ padding: 20px; overflow-y: auto; height: calc(100vh - 52px); }}
+
+.field-group {{ margin-bottom: 16px; }}
+.field-group label {{ display: block; font-size: 12px; font-weight: 600;
+                      color: #a8d8ea; margin-bottom: 4px; text-transform: uppercase;
+                      letter-spacing: 0.5px; }}
+.field-group textarea {{ width: 100%; background: #16213e; border: 1px solid #333;
+                         color: #eee; padding: 10px; border-radius: 6px; font-size: 14px;
+                         line-height: 1.5; resize: vertical; font-family: inherit; }}
+.field-group select {{ width: 100%; background: #16213e; border: 1px solid #333;
+                       color: #eee; padding: 8px; border-radius: 6px; font-size: 13px; }}
+.field-group input[type="text"] {{ width: 100%; background: #16213e; border: 1px solid #333;
+                                   color: #eee; padding: 8px; border-radius: 6px; font-size: 13px; }}
+
+.tags-section {{ border-top: 1px solid #333; padding-top: 16px; margin-top: 8px; }}
+.tags-section h3 {{ font-size: 14px; color: #a8d8ea; margin-bottom: 12px; }}
+
+.tag-grid {{ display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }}
+
+.multi-select {{ display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }}
+.multi-select .chip {{ padding: 3px 10px; border-radius: 12px; font-size: 12px;
+                       cursor: pointer; border: 1px solid #444; background: #16213e; color: #aaa;
+                       transition: all 0.15s; user-select: none; }}
+.multi-select .chip.selected {{ background: #4a9eff; color: #fff; border-color: #4a9eff; }}
+
+.status-bar {{ position: fixed; bottom: 0; left: 0; right: 0; background: #16213e;
+               border-top: 1px solid #333; padding: 8px 24px; display: flex;
+               justify-content: space-between; font-size: 12px; color: #888; }}
+
+.progress-bar {{ height: 3px; background: #333; position: fixed; bottom: 32px; left: 0; right: 0; }}
+.progress-fill {{ height: 100%; background: #4a9eff; transition: width 0.3s; }}
+
+.skipped {{ opacity: 0.4; }}
+.filename {{ font-size: 11px; color: #666; margin-top: 4px; word-break: break-all; }}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Label Review — {category}</h1>
+  <div class="nav">
+    <button class="btn btn-secondary" onclick="navigate(-1)">← Prev</button>
+    <span class="counter" id="counter">1 / 0</span>
+    <button class="btn btn-secondary" onclick="navigate(1)">Next →</button>
+  </div>
+  <div class="actions">
+    <button class="btn btn-skip" id="skipBtn" onclick="toggleSkip()">Skip</button>
+    <button class="btn btn-primary" onclick="saveProgress()">Save Progress</button>
+    <button class="btn btn-success" onclick="exportLabels()">Export labels.json</button>
+  </div>
+</div>
+
+<div class="main">
+  <div class="image-panel">
+    <img id="productImage" src="" alt="Product image" />
+  </div>
+  <div class="edit-panel" id="editPanel"></div>
+</div>
+
+<div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+<div class="status-bar">
+  <span id="statusLeft">Loading...</span>
+  <span id="statusRight"></span>
+</div>
+
+<script>
+const DRAFTS = {drafts_json};
+const VOCABS = {vocabs_json};
+const CATEGORY = "{category}";
+const SAVE_PATH = "{save_path}";
+
+let currentIdx = 0;
+let reviewed = new Set();
+
+// Load saved progress from localStorage
+const savedKey = 'review_' + CATEGORY;
+try {{
+  const saved = localStorage.getItem(savedKey);
+  if (saved) {{
+    const parsed = JSON.parse(saved);
+    parsed.forEach((s, i) => {{
+      if (i < DRAFTS.length) {{
+        DRAFTS[i].description = s.description ?? DRAFTS[i].description;
+        DRAFTS[i].tags = s.tags ?? DRAFTS[i].tags;
+        DRAFTS[i]._skip = s._skip ?? false;
+        if (s._reviewed) reviewed.add(i);
+      }}
+    }});
+  }}
+}} catch(e) {{}}
+
+function navigate(delta) {{
+  saveCurrent();
+  currentIdx = Math.max(0, Math.min(DRAFTS.length - 1, currentIdx + delta));
+  render();
+}}
+
+function render() {{
+  const item = DRAFTS[currentIdx];
+  if (!item) return;
+
+  // Image — try multiple path resolutions for WSL/Windows
+  const imgPath = item.image || '';
+  document.getElementById('productImage').src = '/image?path=' + encodeURIComponent(imgPath);
+
+  // Counter
+  document.getElementById('counter').textContent =
+    `${{currentIdx + 1}} / ${{DRAFTS.length}}`;
+
+  // Skip button
+  const skipBtn = document.getElementById('skipBtn');
+  skipBtn.textContent = item._skip ? 'Unskip' : 'Skip';
+  skipBtn.className = 'btn btn-skip' + (item._skip ? ' active' : '');
+
+  // Build edit panel
+  const panel = document.getElementById('editPanel');
+  panel.className = 'edit-panel' + (item._skip ? ' skipped' : '');
+
+  let html = '';
+
+  // Filename
+  html += `<div class="filename">${{imgPath.split('/').pop()}}</div>`;
+
+  // Description
+  html += `<div class="field-group">
+    <label>Description</label>
+    <textarea id="descField" rows="4">${{escHtml(item.description || '')}}</textarea>
+  </div>`;
+
+  // Tags section
+  html += '<div class="tags-section"><h3>Tags</h3><div class="tag-grid">';
+
+  const tags = item.tags || {{}};
+
+  // Category + subcategory (special: linked dropdowns)
+  html += buildSelect('category', tags.category, VOCABS._categories);
+  const subcats = tags.category ? (VOCABS._taxonomy[tags.category] || []) : VOCABS._subcategories;
+  html += buildSelect('subcategory', tags.subcategory, subcats);
+
+  // All other attributes
+  const skip = new Set(['category', 'subcategory']);
+  for (const [name, spec] of Object.entries(VOCABS)) {{
+    if (name.startsWith('_') || skip.has(name)) continue;
+    if (!Array.isArray(spec)) continue;
+
+    const val = tags[name];
+    if (Array.isArray(val)) {{
+      html += buildMultiSelect(name, val, spec);
+    }} else {{
+      html += buildSelect(name, val, spec);
+    }}
+  }}
+
+  // style_tags as free text (comma-separated)
+  if (!VOCABS.style_tags) {{
+    const stVal = Array.isArray(tags.style_tags) ? tags.style_tags.join(', ') : (tags.style_tags || '');
+    html += `<div class="field-group">
+      <label>style_tags</label>
+      <input type="text" id="tag_style_tags" value="${{escHtml(stVal)}}"
+             placeholder="comma-separated tags" />
+    </div>`;
+  }}
+
+  html += '</div></div>';
+  panel.innerHTML = html;
+
+  // Wire category change to update subcategory dropdown
+  const catSelect = document.getElementById('tag_category');
+  if (catSelect) {{
+    catSelect.addEventListener('change', () => {{
+      const newCat = catSelect.value;
+      const subSelect = document.getElementById('tag_subcategory');
+      if (subSelect) {{
+        const newSubcats = VOCABS._taxonomy[newCat] || [];
+        subSelect.innerHTML = '<option value="">(none)</option>' +
+          newSubcats.map(s => `<option value="${{s}}">${{s}}</option>`).join('');
+      }}
+    }});
+  }}
+
+  // Progress
+  const pct = (reviewed.size / DRAFTS.length * 100);
+  document.getElementById('progressFill').style.width = pct + '%';
+  document.getElementById('statusLeft').textContent =
+    `${{reviewed.size}} reviewed, ${{DRAFTS.filter(d => d._skip).length}} skipped`;
+  document.getElementById('statusRight').textContent =
+    `${{DRAFTS.length - reviewed.size}} remaining`;
+}}
+
+function buildSelect(name, value, options) {{
+  const opts = ['<option value="">(none)</option>'].concat(
+    (options || []).map(o => {{
+      const sel = (String(o) === String(value)) ? ' selected' : '';
+      return `<option value="${{o}}"${{sel}}>${{o}}</option>`;
+    }})
+  );
+  return `<div class="field-group">
+    <label>${{name}}</label>
+    <select id="tag_${{name}}">${{opts.join('')}}</select>
+  </div>`;
+}}
+
+function buildMultiSelect(name, selected, options) {{
+  const selSet = new Set((selected || []).map(String));
+  const chips = (options || []).map(o => {{
+    const cls = selSet.has(String(o)) ? 'chip selected' : 'chip';
+    return `<span class="${{cls}}" data-field="${{name}}" data-value="${{o}}"
+                  onclick="toggleChip(this)">${{o}}</span>`;
+  }}).join('');
+  return `<div class="field-group">
+    <label>${{name}}</label>
+    <div class="multi-select" id="tag_${{name}}">${{chips}}</div>
+  </div>`;
+}}
+
+function toggleChip(el) {{
+  el.classList.toggle('selected');
+}}
+
+function saveCurrent() {{
+  const item = DRAFTS[currentIdx];
+  if (!item) return;
+
+  // Read description
+  const descEl = document.getElementById('descField');
+  if (descEl) item.description = descEl.value.trim();
+
+  // Read tags
+  if (!item.tags) item.tags = {{}};
+
+  // Enum selects
+  document.querySelectorAll('.edit-panel select').forEach(sel => {{
+    const name = sel.id.replace('tag_', '');
+    item.tags[name] = sel.value || null;
+  }});
+
+  // Multi-selects (chips)
+  document.querySelectorAll('.edit-panel .multi-select').forEach(container => {{
+    const name = container.id.replace('tag_', '');
+    item.tags[name] = Array.from(container.querySelectorAll('.chip.selected'))
+      .map(c => c.dataset.value);
+  }});
+
+  // Free text inputs
+  document.querySelectorAll('.edit-panel input[type="text"]').forEach(inp => {{
+    const name = inp.id.replace('tag_', '');
+    if (name === 'style_tags') {{
+      item.tags[name] = inp.value.split(',').map(s => s.trim()).filter(Boolean);
+    }} else {{
+      item.tags[name] = inp.value.trim() || null;
+    }}
+  }});
+
+  reviewed.add(currentIdx);
+}}
+
+function toggleSkip() {{
+  DRAFTS[currentIdx]._skip = !DRAFTS[currentIdx]._skip;
+  render();
+}}
+
+function saveProgress() {{
+  saveCurrent();
+  const data = DRAFTS.map((d, i) => ({{
+    description: d.description,
+    tags: d.tags,
+    _skip: d._skip || false,
+    _reviewed: reviewed.has(i),
+  }}));
+  localStorage.setItem(savedKey, JSON.stringify(data));
+
+  // Also save to server
+  fetch('/save', {{
+    method: 'POST',
+    headers: {{ 'Content-Type': 'application/json' }},
+    body: JSON.stringify(DRAFTS),
+  }});
+  document.getElementById('statusLeft').textContent = 'Progress saved!';
+  setTimeout(render, 1500);
+}}
+
+function exportLabels() {{
+  saveCurrent();
+  const labels = DRAFTS
+    .filter(d => !d._skip && d.description)
+    .map(d => ({{
+      image: d.image.split('/').pop(),
+      category_config: d.category_config || CATEGORY,
+      image_type: d.image_type || 'product',
+      description: d.description,
+      tags: d.tags,
+    }}));
+
+  fetch('/export', {{
+    method: 'POST',
+    headers: {{ 'Content-Type': 'application/json' }},
+    body: JSON.stringify(labels),
+  }}).then(r => r.json()).then(data => {{
+    document.getElementById('statusLeft').textContent =
+      `Exported ${{labels.length}} labels to ${{data.path}}`;
+  }});
+}}
+
+function escHtml(s) {{
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+          .replace(/"/g,'&quot;');
+}}
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {{
+  if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') return;
+  if (e.key === 'ArrowLeft') navigate(-1);
+  if (e.key === 'ArrowRight') navigate(1);
+  if (e.key === 's' && (e.ctrlKey || e.metaKey)) {{ e.preventDefault(); saveProgress(); }}
+}});
+
+render();
+</script>
+</body>
+</html>"""
+
+
+class ReviewHandler(SimpleHTTPRequestHandler):
+    """HTTP handler for the review tool."""
+
+    html_content: str = ""
+    drafts: list = []
+    export_dir: Path = Path("data/raw/labels")
+    category: str = "shoes_women"
+
+    def do_GET(self):
+        parsed = urlparse(self.path)
+
+        if parsed.path == "/":
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            self.wfile.write(self.html_content.encode("utf-8"))
+
+        elif parsed.path == "/image":
+            params = parse_qs(parsed.query)
+            img_path = params.get("path", [""])[0]
+            self._serve_image(img_path)
+
+        else:
+            self.send_error(404)
+
+    def do_POST(self):
+        content_len = int(self.headers.get("Content-Length", 0))
+        body = self.rfile.read(content_len)
+
+        if self.path == "/save":
+            data = json.loads(body)
+            save_path = Path("outputs") / f"{self.category}_review_progress.json"
+            save_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(save_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": True}).encode())
+
+        elif self.path == "/export":
+            labels = json.loads(body)
+            self.export_dir.mkdir(parents=True, exist_ok=True)
+            export_path = self.export_dir / f"{self.category}_batch01.json"
+            with open(export_path, "w", encoding="utf-8") as f:
+                json.dump(labels, f, indent=2, ensure_ascii=False)
+            log.info("Exported %d labels to %s", len(labels), export_path)
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json")
+            self.end_headers()
+            self.wfile.write(json.dumps({"ok": True, "path": str(export_path)}).encode())
+
+        else:
+            self.send_error(404)
+
+    def _serve_image(self, img_path: str):
+        """Serve an image file, handling WSL /mnt/ paths."""
+        path = Path(img_path)
+        if not path.exists():
+            # Try common path transformations
+            alternatives = [
+                Path(img_path.replace("\\", "/")),
+                Path("/mnt/e") / Path(img_path).name,
+            ]
+            for alt in alternatives:
+                if alt.exists():
+                    path = alt
+                    break
+
+        if not path.exists():
+            self.send_error(404, f"Image not found: {img_path}")
+            return
+
+        suffix = path.suffix.lower()
+        content_types = {
+            ".jpg": "image/jpeg", ".jpeg": "image/jpeg",
+            ".png": "image/png", ".webp": "image/webp",
+            ".gif": "image/gif",
+        }
+        ct = content_types.get(suffix, "application/octet-stream")
+
+        self.send_response(200)
+        self.send_header("Content-Type", ct)
+        self.send_header("Cache-Control", "max-age=3600")
+        self.end_headers()
+        with open(path, "rb") as f:
+            self.wfile.write(f.read())
+
+    def log_message(self, format, *args):
+        # Suppress per-request logging noise
+        if "/image" not in str(args):
+            log.info(format, *args)
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Label review tool")
+    parser.add_argument("--drafts", type=Path, required=True,
+                        help="Draft JSON from infer.py")
+    parser.add_argument("--category", type=str, default="shoes_women")
+    parser.add_argument("--export-dir", type=Path, default=Path("data/raw/labels"))
+    parser.add_argument("--port", type=int, default=8501)
+    args = parser.parse_args()
+
+    with open(args.drafts, encoding="utf-8") as f:
+        drafts = json.load(f)
+    log.info("Loaded %d draft items from %s", len(drafts), args.drafts)
+
+    # Load saved progress if it exists
+    progress_path = Path("outputs") / f"{args.category}_review_progress.json"
+    if progress_path.exists():
+        with open(progress_path, encoding="utf-8") as f:
+            saved = json.load(f)
+        log.info("Loaded saved progress from %s", progress_path)
+        for i, s in enumerate(saved):
+            if i < len(drafts):
+                drafts[i] = s
+
+    vocabs = load_vocabularies(args.category)
+    log.info("Loaded vocabularies for %s: %d fields", args.category, len(vocabs))
+
+    html = build_html(drafts, vocabs, args.category, str(args.export_dir))
+
+    # Configure handler
+    ReviewHandler.html_content = html
+    ReviewHandler.drafts = drafts
+    ReviewHandler.export_dir = args.export_dir
+    ReviewHandler.category = args.category
+
+    server = HTTPServer(("0.0.0.0", args.port), ReviewHandler)
+    log.info("Review tool running at http://localhost:%d", args.port)
+    log.info("  Category: %s", args.category)
+    log.info("  Items: %d", len(drafts))
+    log.info("  Export dir: %s", args.export_dir)
+    log.info("  Keyboard: ← → navigate, Ctrl+S save")
+
+    try:
+        server.serve_forever()
+    except KeyboardInterrupt:
+        log.info("Shutting down.")
+        server.shutdown()
+
+
+if __name__ == "__main__":
+    main()

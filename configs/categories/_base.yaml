@@ -11,10 +11,11 @@
 attributes:
   primary_color:
     type: enum
-    values: [black, white, off-white, cream, beige, camel, brown, tan,
-             cognac, burgundy, red, coral, pink, fuchsia, purple, lavender,
-             blue, navy, teal, green, olive, khaki, yellow, orange, gold,
-             silver, grey, charcoal, multi, transparent]
+    values: [white, ivory, grey, slate, pink, nude, rose, fuchsia, purple, lavender,
+       amethyst, plum, blue, sky-blue, azure, navy, teal, turquoise, green, mint,
+       emerald, olive, forest, khaki, yellow, lemon, amber, mustard, orange,
+       peach, coral, rust, red, ruby, burgundy, beige, taupe, brown, tan,
+       caramel, chocolate, black, charcoal, gold, bronze, silver, multicolor]
 
   secondary_colors:
     type: list
@@ -22,32 +23,49 @@ attributes:
 
   material:
     type: enum
-    values: [leather, patent leather, suede, nubuck, canvas, mesh, knit,
-             satin, silk, velvet, denim, cotton, linen, wool, cashmere,
-             tweed, chiffon, lace, tulle, organza, nylon, polyester,
-             rubber, synthetic, PVC, raffia, fur, faux fur, shearling,
-             sequin, crochet, jersey, crepe, jacquard]
+    values: [alpaca, angora, camel-hair, canvas, cashmere, cotton, denim, hemp,
+       horse-hair, linen, mohair, silk, vicuna, wool, acetate, acrylic, aramyd,
+       elastane, nylon, polyester, rayon, alligator, antelope, buffalo, calfskin,
+       cattle, crocodile, deerskin, goat, lambskin, leather, lizard, ostrich,
+       pigskin, ponyskin, python, sheep, snakeskin, suede, antelope, chinchilla,
+       fox, kangaroo, lapin, lynx, mink, sable, persian lamb, bamboo, crystals,
+       feathers, marabour, metal, jute, steel, stones, synthetic-leather, wood]
 
   secondary_materials:
     type: list
     values: same_as:material
 
   embellishments:
-    type: list
-    values: [studs, crystals, rhinestones, buckle, chain, bow, fringe,
-             raw edges, embroidery, glitter, logo, metal hardware, tassel,
-             print, pleating, ruching, quilting, cutout, appliqué,
-             beading, feathers, patches, piping, contrast stitching, none]
+    type: enum
+    values: [bead, bird-element, bow, braid, buckle, butterfly-element, button, chain,
+       charme, crown-element, crystal, dragon-element, embroidery, eyelet,
+       feather, flower, fringe, fur, gemstone, hardware, heart-element, lace,
+       leaf-element, leopard-element, logo, logo-element, mesh-insert,
+       metal-plate, mirror, moon-element, o-ring, patch, pearl, pin, pom-pom,
+       ribbon, rope, sequin, shell, skull-element, snake-element, star-element,
+       stud, tassel, trim, web, zipper, none]
 
   pattern:
     type: enum
-    values: [solid, striped, plaid, check, houndstooth, polka dot, floral,
-             animal print, geometric, abstract, camouflage, paisley,
-             tie-dye, color block, graphic, none]
+    values: [botanical-pattern, camouflage, checks, cheetah, chevron, cow, diamond,
+       floral-pattern, gingham, giraffe, graphic-pattern, herringbone,
+       pied-de-poule, leaf-pattern, leopard, marble, optical-pattern,
+       paisley-pattern, pinstripe, polka-dot, python, snake, splatter-pattern,
+       stripes, tartan, tiger, zebra, zigzag, none]
 
   style_tags:
-    type: list
-    description: "2-5 free-form tags (e.g. minimalist, avant-garde, preppy)"
+    type: enum
+    values: [african, art-deco, athleisure, avant-garde, baroque, boho, bon-ton,
+       casual, chic, childlike, chinoiserie, classic, color-blocking,
+       conservative, corporate, cottagecore, cyberpunk, cyborg, dandy,
+       deconstructed, deluxe, disco, eclecticism, eighties, elegant, equestrian,
+       exotic, fantasia, fetish, fifties, flapper, folk, forties, genderless,
+       glam-rock, glamour, gothic, graphic, grunge, heritage, italian, japonisme,
+       jet-set, kinky, maximalist, military, minimalist, mod, nerdy, nineties,
+       normcore, nostalgic, opulent, preppy, punk, quiet-luxury, renaissance,
+       retro, revival, rock, romantic, safari, sensual, seventies, sixties,
+       space-age, sport-luxe, sportive, streetwear, tailored, tailoring,
+       theatrical, thirties, twenties, two-thousands, vintage, western,none]
 
   occasion:
     type: list
@@ -56,7 +74,8 @@ attributes:
 
   season:
     type: enum
-    values: [spring-summer, fall-winter, resort, pre-fall, all-season]
+    values: [spring-summer, fall-winter, cruise, pre-fall, all-season]
+
 
 # ── Prompt templates ─────────────────────────────────────────────────────
 prompt_templates:
