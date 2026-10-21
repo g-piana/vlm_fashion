@@ -139,10 +139,10 @@ taxonomy:
   - mule
   - oxford
   - slip on
-  - slipper
   - other flat shoes
   sandals-men:
-  - sandal
+  - flat sandal
+  - heeled sandal
   - sandal boot
   - slider
   - thong
@@ -336,7 +336,7 @@ taxonomy:
   - loafer
   - other flat shoes
   - slip on
-  - slipper
+  - mule
   heeled-shoes-women:
   - d'orsay pump
   - lace up
@@ -347,8 +347,8 @@ taxonomy:
   - slingback
   - wedge pump
   sandals-women:
-  - mule
-  - sandal
+  - flat sandal
+  - heeled sandal
   - sandal boot
   - slider
   - thong

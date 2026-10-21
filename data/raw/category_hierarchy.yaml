@@ -718,27 +718,27 @@ men:
               name: slip on
               lab_en: slip on
               order: 9
-            slipper:
-              slug: slipper
-              name: slipper
-              lab_en: slipper
-              order: 10
             other flat shoes:
               slug: other-flat-shoes
               name: other flat shoes
               lab_en: other flat shoes
-              order: 11
+              order: 10
         sandals-men:
           slug: sandals-men
           name: sandals
           lab_en: Sandals
           order: 1
           subcategories:
-            sandal:
-              slug: sandal
-              name: sandal
-              lab_en: sandal
+            flat sandal:
+              slug: flat-sandal
+              name: flat sandal
+              lab_en: flat sandal
               order: 0
+            heeled sandal:
+              slug: heeled-sandal
+              name: heeled sandal
+              lab_en: heeled sandal
+              order: 1
             sandal boot:
               slug: sandal-boot
               name: sandal boot
@@ -1819,10 +1819,10 @@ women:
               name: slip on
               lab_en: slip on
               order: 12
-            slipper:
-              slug: slipper
-              name: slipper
-              lab_en: slipper
+            mule:
+              slug: mule
+              name: mule
+              lab_en: mule
               order: 13
         heeled-shoes-women:
           slug: heeled-shoes-women
@@ -1876,15 +1876,15 @@ women:
           lab_en: Sandals
           order: 2
           subcategories:
-            mule:
-              slug: mule
-              name: mule
-              lab_en: mule
+            flat sandal:
+              slug: flat-sandal
+              name: flat sandal
+              lab_en: flat sandal
               order: 0
-            sandal:
-              slug: sandal
-              name: sandal
-              lab_en: sandal
+            heeled sandal:
+              slug: heeled-sandal
+              name: heeled sandal
+              lab_en: heeled sandal
               order: 1
             sandal boot:
               slug: sandal-boot

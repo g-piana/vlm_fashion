@@ -148,7 +148,8 @@ body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 .progress-fill {{ height: 100%; background: #4a9eff; transition: width 0.3s; }}
 
 .skipped {{ opacity: 0.4; }}
-.filename {{ font-size: 11px; color: #666; margin-top: 4px; word-break: break-all; }}
+.filename {{ font-size: 16px; color: #f0a1bf; margin-top: 4px; margin-bottom: 8px;
+            font-weight: 600; word-break: break-all; }}
 </style>
 </head>
 <body>
@@ -190,7 +191,7 @@ let currentIdx = 0;
 let reviewed = new Set();
 
 // Load saved progress from localStorage
-const savedKey = 'review_' + CATEGORY;
+const savedKey = 'review_' + CATEGORY + '_' + SAVE_PATH.replace(/[^a-z0-9]/gi, '_');
 try {{
   const saved = localStorage.getItem(savedKey);
   if (saved) {{
@@ -236,7 +237,7 @@ function render() {{
   let html = '';
 
   // Filename
-  html += `<div class="filename">${{imgPath.split('/').pop()}}</div>`;
+    html += `<div class="filename">${{imgPath.split('/').pop().replace(/\.[^.]+$/, '')}}</div>`;
 
   // Description
   html += `<div class="field-group">
@@ -444,7 +445,8 @@ class ReviewHandler(SimpleHTTPRequestHandler):
     drafts: list = []
     export_dir: Path = Path("data/raw/labels")
     category: str = "shoes_women"
-
+    batch_name: str = "batch01"
+    
     def do_GET(self):
         parsed = urlparse(self.path)
 
@@ -480,7 +482,8 @@ class ReviewHandler(SimpleHTTPRequestHandler):
         elif self.path == "/export":
             labels = json.loads(body)
             self.export_dir.mkdir(parents=True, exist_ok=True)
-            export_path = self.export_dir / f"{self.category}_batch01.json"
+            batch_name: str = "batch01"
+            export_path = self.export_dir / f"{self.category}_{self.batch_name}.json"
             with open(export_path, "w", encoding="utf-8") as f:
                 json.dump(labels, f, indent=2, ensure_ascii=False)
             log.info("Exported %d labels to %s", len(labels), export_path)
@@ -493,18 +496,10 @@ class ReviewHandler(SimpleHTTPRequestHandler):
             self.send_error(404)
 
     def _serve_image(self, img_path: str):
-        """Serve an image file, handling WSL /mnt/ paths."""
         path = Path(img_path)
         if not path.exists():
-            # Try common path transformations
-            alternatives = [
-                Path(img_path.replace("\\", "/")),
-                Path("/mnt/e") / Path(img_path).name,
-            ]
-            for alt in alternatives:
-                if alt.exists():
-                    path = alt
-                    break
+            self.send_error(404, f"Image not found: {img_path}")
+            return
 
         if not path.exists():
             self.send_error(404, f"Image not found: {img_path}")
@@ -538,6 +533,8 @@ def main():
     parser.add_argument("--category", type=str, default="shoes_women")
     parser.add_argument("--export-dir", type=Path, default=Path("data/raw/labels"))
     parser.add_argument("--port", type=int, default=8501)
+    parser.add_argument("--batch-name", type=str, default=None,
+                    help="Output filename stem, e.g. batch02. Defaults to batch01.")
     args = parser.parse_args()
 
     with open(args.drafts, encoding="utf-8") as f:
@@ -549,7 +546,15 @@ def main():
     if progress_path.exists():
         with open(progress_path, encoding="utf-8") as f:
             saved = json.load(f)
-        log.info("Loaded saved progress from %s", progress_path)
+        # Only apply if the saved paths match the current draft
+        if (len(saved) == len(drafts) and
+                saved[0].get("image") == drafts[0].get("image")):
+            log.info("Loaded saved progress from %s", progress_path)
+            for i, s in enumerate(saved):
+                if i < len(drafts):
+                    drafts[i] = s
+        else:
+            log.info("Saved progress is for a different batch — ignoring %s", progress_path)
         for i, s in enumerate(saved):
             if i < len(drafts):
                 drafts[i] = s
@@ -564,7 +569,8 @@ def main():
     ReviewHandler.drafts = drafts
     ReviewHandler.export_dir = args.export_dir
     ReviewHandler.category = args.category
-
+    ReviewHandler.batch_name = args.batch_name or "batch01"
+    
     server = HTTPServer(("0.0.0.0", args.port), ReviewHandler)
     log.info("Review tool running at http://localhost:%d", args.port)
     log.info("  Category: %s", args.category)

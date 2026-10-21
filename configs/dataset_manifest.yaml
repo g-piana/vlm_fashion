@@ -14,6 +14,9 @@ batches:
   - name: shoes_women_batch01
     labels: data/raw/labels/shoes_women_batch01.json
     images_dir: data/raw/images/shoes_women_batch01
+  - name: shoes_women_batch02
+    labels: data/raw/labels/shoes_women_batch02.json
+    images_dir: data/raw/images/shoes_women_batch02
     # images_dir can be a symlink to /mnt/e/vlm_images/...
 
   # - name: shoes_women_batch02
