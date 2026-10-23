@@ -6,7 +6,7 @@ model_details:
 
 
 handle_type:
-  type: enum
+  type: list
   values: [top-handle, shoulder-strap, chain-strap, wrist-strap,
            crossbody-strap, detachable-strap, cut-out-handle, none]
 

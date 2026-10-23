@@ -22,6 +22,7 @@ import yaml
 from sklearn.model_selection import train_test_split
 
 from category_config import build_system_prompt, get_user_message
+from taxonomy_utils import validate_samples
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
 log = logging.getLogger(__name__)
@@ -117,6 +118,10 @@ def main():
     parser = argparse.ArgumentParser(description="Prepare dataset from manifest")
     parser.add_argument("--manifest", type=Path,
                         default=Path("configs/dataset_manifest.yaml"))
+    parser.add_argument("--strict", action="store_true",
+                        help="treat vocabulary warnings as fatal too")
+    parser.add_argument("--no-validate", action="store_true",
+                        help="skip taxonomy/vocabulary validation")
     args = parser.parse_args()
 
     if not args.manifest.exists():
@@ -147,6 +152,10 @@ def main():
         return
 
     log.info("Total: %d valid samples from %d batches", len(all_samples), len(batches_cfg))
+
+    if not args.no_validate:
+        if not validate_samples(all_samples, strict=args.strict):
+            return
 
     # Stratified split by category_config
     categories = [s.get("category_config", "unknown") for s in all_samples]

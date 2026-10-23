@@ -10,7 +10,7 @@
       "primary_color": "pink",
       "material": "leather",
       "secondary_materials": [
-        "synthetic-leather"
+        "faux-leather"
       ],
       "embellishments": [
         "none"
@@ -57,7 +57,9 @@
       "embellishments": [],
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "model_details": [
         "ankle-strap",
@@ -82,7 +84,7 @@
       "subcategory": "wedge sandal",
       "primary_color": "pink",
       "secondary_colors": [],
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": "sequin",
       "pattern": "none",
@@ -158,7 +160,7 @@
       "secondary_colors": [
         "brown"
       ],
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [
         "bead"
@@ -204,7 +206,7 @@
       ],
       "material": [
         "jute",
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -287,7 +289,7 @@
       "primary_color": "tan",
       "material": "leather",
       "secondary_materials": [
-        "synthetic-leather"
+        "faux-leather"
       ],
       "embellishments": [
         "none"
@@ -332,7 +334,7 @@
       "secondary_colors": [],
       "material": [
         "leather",
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -468,7 +470,7 @@
       ],
       "material": [
         "canvas",
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -596,7 +598,9 @@
         "chic",
         "minimalist"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "model_details": [
         "round-toe"
@@ -696,7 +700,7 @@
       "category": "flat-shoes-women",
       "subcategory": "mule",
       "primary_color": "black",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [
         "bow"
@@ -859,7 +863,7 @@
       "secondary_colors": [
         "orange"
       ],
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [
         "bow"
@@ -899,7 +903,7 @@
       "subcategory": "thong",
       "primary_color": "silver",
       "secondary_colors": [],
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [
         "crystal"
@@ -942,7 +946,7 @@
       ],
       "material": [
         "leather",
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -1083,7 +1087,7 @@
       "category": "sandals-women",
       "subcategory": "thong",
       "primary_color": "coral",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": "buckle",
       "pattern": "none",
@@ -1093,7 +1097,9 @@
         "color-blocking",
         "retro"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "spring-summer",
       "model_details": [
         "platform",
@@ -1116,7 +1122,7 @@
       "category": "flat-shoes-women",
       "subcategory": "mule",
       "primary_color": "black",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": "mesh-insert",
       "pattern": "none",
@@ -1192,7 +1198,7 @@
       "category": "sandals-women",
       "subcategory": "thong",
       "primary_color": "pink",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": "buckle",
       "pattern": "none",

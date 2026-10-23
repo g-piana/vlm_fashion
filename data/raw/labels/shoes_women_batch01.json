@@ -50,13 +50,15 @@
       "category": "boots-and-booties-women",
       "subcategory": "boot",
       "primary_color": "black",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "embellishments": "sequin",
       "style_tags": [
         "chic",
         "glamour"
       ],
-      "occasion": "evening",
+      "occasion": [
+        "evening"
+      ],
       "season": "all-season",
       "toe_shape": "round-toe",
       "heel_type": "stiletto-heel",
@@ -121,7 +123,7 @@
       "category": "boots-and-booties-women",
       "subcategory": "ankle boot",
       "primary_color": "yellow",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "style_tags": [
         "chic",
         "minimalist"
@@ -202,7 +204,9 @@
         "elegant",
         "retro"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "spring-summer",
       "toe_shape": null,
       "heel_type": "kitten-heel",
@@ -223,7 +227,6 @@
     "image_type": "product",
     "description": "A lime-green patent leather slide sandal featuring a wide strap with two metallic circular embellishments over the instep. The shoe has a flat, contoured sole with a contrasting dark outsole and a minimalist, slip-on construction. The glossy finish and bold color give it a chic, modern profile.",
     "tags": {
-      "macrocategory": "sandals-women",
       "subcategory": "slider",
       "primary_color": "green",
       "material": "leather",
@@ -307,7 +310,9 @@
         "chic",
         "elegant"
       ],
-      "occasion": "evening",
+      "occasion": [
+        "evening"
+      ],
       "season": "all-season",
       "toe_shape": null,
       "heel_type": "kitten-heel",
@@ -337,7 +342,9 @@
       "embellishments": [],
       "pattern": "none",
       "style_tags": [],
-      "occasion": "evening",
+      "occasion": [
+        "evening"
+      ],
       "season": "all-season",
       "toe_shape": "peep-toe",
       "heel_type": "comma-heel",
@@ -358,7 +365,6 @@
     "image_type": "product",
     "description": "A single pink mule sandal with a distinctive spherical metallic heel and a minimalist open-toe design. The upper is crafted from a matte pink suede-like material, featuring a wide, continuous strap across the vamp. The heel is a low, sculpted block with a polished silver metallic finish, contrasting with the soft pink upper.",
     "tags": {
-      "macrocategory": "sandals-women",
       "subcategory": "mule",
       "primary_color": "pink",
       "material": "suede",
@@ -366,7 +372,9 @@
       "embellishments": [],
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "spring-summer",
       "toe_shape": null,
       "heel_type": "block-heel",
@@ -395,7 +403,9 @@
       "embellishments": [],
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": null,
       "heel_type": "kitten-heel",
@@ -629,13 +639,15 @@
       "category": "sandals-women",
       "subcategory": "heeled sandal",
       "primary_color": "silver",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "embellishments": "crystal",
       "style_tags": [
         "chic",
         "glamour"
       ],
-      "occasion": "evening",
+      "occasion": [
+        "evening"
+      ],
       "season": "all-season",
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
@@ -660,12 +672,14 @@
       "category": "sandals-women",
       "subcategory": "heeled sandal",
       "primary_color": "pink",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "spring-summer",
       "toe_shape": null,
       "heel_type": "block-heel",
@@ -689,7 +703,7 @@
       "category": "heeled-shoes-women",
       "subcategory": "mule",
       "primary_color": "blue",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": "none",
       "pattern": "none",
@@ -796,7 +810,7 @@
       "category": "sandals-women",
       "subcategory": "heeled sandal",
       "primary_color": "white",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "closure": "slip-on",
       "heel_type": "block-heel",
       "heel_height": "high-heel",
@@ -835,7 +849,7 @@
       "category": "sandals-women",
       "subcategory": "heeled sandal",
       "primary_color": "black",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": "none",
       "pattern": "none",
@@ -843,7 +857,9 @@
         "chic",
         "minimalist"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "spring-summer",
       "toe_shape": null,
       "heel_type": "block-heel",
@@ -871,7 +887,9 @@
         "chic",
         "minimalist"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "spring-summer",
       "toe_shape": null,
       "heel_type": "block-heel",
@@ -971,7 +989,7 @@
       "category": "heeled-shoes-women",
       "subcategory": "pump",
       "primary_color": "blue",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
@@ -1051,7 +1069,7 @@
       "category": "heeled-shoes-women",
       "subcategory": "wedge pump",
       "primary_color": "white",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "closure": "lace-up",
       "toe_shape": "pointed-toe",
       "heel_type": "wedge-heel",
@@ -1062,7 +1080,9 @@
         "minimalist",
         "sport-luxe"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "pattern": "none",
       "secondary_colors": null,
@@ -1273,7 +1293,9 @@
       "embellishments": "crystal",
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "round-toe",
       "heel_type": "wedge-heel",
@@ -1329,10 +1351,9 @@
     "image_type": "product",
     "description": "A vibrant fuchsia mule sandal with a flat, contoured sole and a wide strap across the vamp secured by a square gold-tone metal plate. The upper appears to be made of smooth synthetic-leather, featuring a peep-toe silhouette and a slip-on construction. The design is minimalist with a single metallic embellishment as the focal point.",
     "tags": {
-      "macrocategory": "sandals-women",
       "subcategory": "mule",
       "primary_color": "fuchsia",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "embellishments": [
         "buckle"
       ],
@@ -1689,7 +1710,6 @@
     "image_type": "product",
     "description": "A black platform wedge sandal featuring a peep-toe silhouette and an ankle strap with a buckle closure. The upper is adorned with a sparkling star pattern created using blue and silver rhinestones. The construction includes a thick, supportive wedge heel and platform sole, crafted from a suede-like material.",
     "tags": {
-      "macrocategory": "sandals-women",
       "subcategory": "wedge sandal",
       "primary_color": "black",
       "secondary_colors": [
@@ -1743,7 +1763,9 @@
       "embellishments": "none",
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
@@ -1775,7 +1797,9 @@
         "chic",
         "minimalist"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "spring-summer",
       "embellishments": "none",
       "pattern": "none",
@@ -1792,7 +1816,6 @@
     "image_type": "product",
     "description": "A sleek, modern thong sandal featuring a glossy black patent leather upper with a contrasting gold-tone metallic accent bar across the instep. The flat sole incorporates a beige insole and a low, block heel with a black and beige layered design. The toe strap is secured with a small gold-tone circular fastener, contributing to its minimalist yet bold aesthetic.",
     "tags": {
-      "macrocategory": "sandals-women",
       "subcategory": "thong",
       "primary_color": "black",
       "secondary_colors": [
@@ -2122,7 +2145,7 @@
       "primary_color": "white",
       "material": "leather",
       "secondary_materials": [
-        "synthetic-leather"
+        "faux-leather"
       ],
       "embellishments": [
         "stud"
@@ -2277,7 +2300,6 @@
       "category": "heeled-shoes-women",
       "subcategory": "pump",
       "primary_color": "navy",
-      "secondary_color": "beige",
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
@@ -2305,7 +2327,9 @@
       "heel_height": "low-heel",
       "sole_type": "none",
       "closure": "buckle",
-      "secondary_colors": null,
+      "secondary_colors": [
+        "beige"
+      ],
       "model_details": [
         "kitten-heel",
         "pointed-toe"
@@ -2321,12 +2345,14 @@
       "category": "heeled-shoes-women",
       "subcategory": "wedge pump",
       "primary_color": "gold",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "peep-toe",
       "heel_type": "wedge-heel",
@@ -2368,10 +2394,9 @@
     "image_type": "product",
     "description": "A navy blue denim-textured wedge pump featuring a peep-toe silhouette and a decorative bow embellishment at the vamp. The shoe has a woven espadrille-style wedge heel and a slip-on construction with a padded insole. The material appears to be synthetic-leather or coated fabric with a denim-like weave, accented by a metallic buckle on the bow.",
     "tags": {
-      "macrocategory": "heeled-shoes-women",
       "subcategory": "wedge pump",
       "primary_color": "navy",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "embellishments": [
         "bow",
         "buckle"
@@ -2836,7 +2861,9 @@
       "embellishments": [],
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "round-toe",
       "heel_type": "wedge-heel",
@@ -2897,7 +2924,7 @@
         "green",
         "yellow"
       ],
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": "none",
       "pattern": "floral-pattern",
@@ -2933,7 +2960,6 @@
       "category": "heeled-shoes-women",
       "subcategory": "wedge pump",
       "primary_color": "yellow",
-      "secondary_color": "black",
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
@@ -2959,7 +2985,9 @@
       "heel_height": "mid-heel",
       "sole_type": "platform",
       "closure": "slip-on",
-      "secondary_colors": null,
+      "secondary_colors": [
+        "black"
+      ],
       "model_details": null
     }
   },
@@ -2984,7 +3012,9 @@
         "punk",
         "sport-luxe"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "plain-toe",
       "heel_type": "none",
@@ -3009,7 +3039,7 @@
       ],
       "material": [
         "leather",
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -3092,7 +3122,9 @@
       "embellishments": [],
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "round-toe",
       "heel_type": "none",
@@ -3115,7 +3147,7 @@
         "black"
       ],
       "material": [
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [
         "leather"
@@ -3156,7 +3188,7 @@
         "white",
         "black"
       ],
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": "none",
       "pattern": "none",
@@ -3207,7 +3239,9 @@
         "chic",
         "minimalist"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "plain-toe",
       "heel_type": "none",
@@ -3231,7 +3265,9 @@
       "embellishments": [],
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "fall-winter",
       "toe_shape": "round-toe",
       "heel_type": "none",
@@ -3255,7 +3291,7 @@
         "brown",
         "black"
       ],
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [
         "suede"
       ],
@@ -3499,7 +3535,7 @@
       "category": "heeled-shoes-women",
       "subcategory": "pump",
       "primary_color": "black",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "embellishments": [
         "bow"
       ],
@@ -3890,7 +3926,7 @@
       "category": "flat-shoes-women",
       "subcategory": "slip on",
       "primary_color": "black",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": "none",
       "pattern": "none",
@@ -3898,7 +3934,9 @@
         "casual",
         "minimalist"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "round-toe",
       "heel_type": "none",
@@ -3931,7 +3969,9 @@
         "deconstructed",
         "sportive"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "fall-winter",
       "toe_shape": "plain-toe",
       "embellishments": [
@@ -4062,7 +4102,9 @@
         "chic",
         "sport-luxe"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "plain-toe",
       "heel_type": "none",
@@ -4130,7 +4172,9 @@
       "embellishments": "bow",
       "pattern": "none",
       "style_tags": [],
-      "occasion": "smart-casual",
+      "occasion": [
+        "smart-casual"
+      ],
       "season": "all-season",
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
@@ -4680,7 +4724,7 @@
       "category": "sandals-women",
       "subcategory": "slider",
       "primary_color": "fuchsia",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "closure": "slip-on",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
@@ -4689,7 +4733,9 @@
         "casual",
         "minimalist"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "spring-summer",
       "toe_shape": null,
       "embellishments": "none",
@@ -4741,7 +4787,6 @@
     "image_type": "product",
     "description": "A single flat sandal featuring a wide, padded strap adorned with a cluster of multicolored crystals and stones. The sole is a light tan leather with a thin, flat heel, and the overall silhouette is minimalist with a rounded toe. The primary material appears to be leather, with the embellishment serving as the main design feature.",
     "tags": {
-      "macrocategory": "sandals-women",
       "subcategory": "slider",
       "primary_color": "nude",
       "material": "leather",
@@ -4889,7 +4934,6 @@
     "image_type": "product",
     "description": "A tan leather thong sandal featuring a decorative floral embellishment with multi-toned crystals and metallic accents on the toe strap. The design includes a thin ankle strap with a buckle closure and a flat, contoured sole. The overall silhouette is minimalist with a focus on ornate detailing at the front.",
     "tags": {
-      "macrocategory": "sandals-women",
       "subcategory": "thong",
       "primary_color": "tan",
       "material": "leather",
@@ -5050,7 +5094,7 @@
       "secondary_colors": [
         "coral"
       ],
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "embellishments": [
         "bow"
       ],
@@ -5089,7 +5133,7 @@
       "category": "heeled-shoes-women",
       "subcategory": "wedge pump",
       "primary_color": "navy",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [
         "bow"
@@ -5138,7 +5182,9 @@
         "casual",
         "chic"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "spring-summer",
       "toe_shape": "plain-toe",
       "closure": "slip-on",
@@ -5167,7 +5213,7 @@
         "red",
         "black"
       ],
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [
         "flower"
@@ -5178,7 +5224,9 @@
         "chic",
         "color-blocking"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "plain-toe",
       "heel_type": "none",
@@ -5194,8 +5242,6 @@
     "image_type": "product",
     "description": "A sport-luxe sneaker with a bold color-blocked design featuring turquoise, white, and a blue-green patterned panel. Constructed with synthetic-leather overlays and a thick, textured white platform sole, it has black laces and a padded collar for comfort. The silhouette is modern and chunky, with a rounded toe and contrasting white piping.",
     "tags": {
-      "macrocategory": "sneakers-women",
-      "subsubcategory": "sneaker",
       "primary_color": "turquoise",
       "secondary_colors": [
         "white",
@@ -5203,7 +5249,7 @@
         "green"
       ],
       "material": [
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -5379,7 +5425,9 @@
         "sport-luxe",
         "none"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "round-toe",
       "heel_type": "none",
@@ -5397,8 +5445,6 @@
     "image_type": "product",
     "description": "A women's sneaker featuring a mixed-material construction with snakeskin-patterned panels and glossy rose-brown synthetic leather accents. The design includes a thick, chunky wedge heel with a black rubber lug sole and metallic gold-tone eyelets for the decorative, textured laces. The silhouette is modern and sport-luxe with a rounded toe and layered color blocking.",
     "tags": {
-      "macrocategory": "sneakers-women",
-      "subsubcategory": "sneaker",
       "primary_color": "rose",
       "secondary_colors": [
         "brown",
@@ -5406,7 +5452,7 @@
       ],
       "material": [
         "leather",
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -5527,7 +5573,7 @@
       ],
       "material": [
         "leather",
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -5580,7 +5626,9 @@
         "eclecticism",
         "gothic"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "fall-winter",
       "toe_shape": "plain-toe",
       "heel_type": "block-heel",
@@ -5644,7 +5692,7 @@
       "category": "boots-and-booties-women",
       "subcategory": "lace up boot",
       "primary_color": "black",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": "none",
       "pattern": "none",
@@ -5653,7 +5701,9 @@
         "elegant",
         "minimalist"
       ],
-      "occasion": "smart-casual",
+      "occasion": [
+        "smart-casual"
+      ],
       "season": "all-season",
       "toe_shape": "plain-toe",
       "heel_type": "wedge-heel",
@@ -5853,7 +5903,9 @@
         "casual",
         "chic"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "spring-summer",
       "toe_shape": null,
       "heel_type": "none",
@@ -6292,7 +6344,7 @@
         "leather"
       ],
       "secondary_materials": [
-        "synthetic-leather"
+        "faux-leather"
       ],
       "embellishments": [
         "mesh-insert",
@@ -6383,7 +6435,9 @@
         "chic",
         "elegant"
       ],
-      "occasion": "evening",
+      "occasion": [
+        "evening"
+      ],
       "season": "fall-winter",
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
@@ -6447,7 +6501,9 @@
       "embellishments": "none",
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "round-toe",
       "heel_type": "none",
@@ -6514,7 +6570,9 @@
         "chic",
         "sport-luxe"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "plain-toe",
       "embellishments": "none",
@@ -6548,7 +6606,9 @@
         "chic",
         "classic"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "secondary_colors": null,
       "secondary_materials": null,
@@ -6572,7 +6632,7 @@
       ],
       "material": [
         "canvas",
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -6615,7 +6675,7 @@
         "black"
       ],
       "material": [
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -6660,7 +6720,7 @@
       ],
       "material": [
         "canvas",
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -6706,7 +6766,7 @@
       ],
       "material": [
         "canvas",
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -6831,7 +6891,9 @@
       "embellishments": [],
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "pointed-toe",
       "heel_type": "none",
@@ -7004,7 +7066,6 @@
     "image_type": "product",
     "description": "A sleek, glossy brown patent leather monk-strap shoe with a cap-toe silhouette and two black buckle closures. The shoe features a low, structured block heel with a contrasting gold trim along the sole edge, creating a refined and classic profile.",
     "tags": {
-      "macrocategory": "flat-shoes-women",
       "subcategory": "loafer",
       "primary_color": "brown",
       "material": "leather",
@@ -7121,7 +7182,7 @@
       "category": "heeled-shoes-women",
       "subcategory": "loafer pump",
       "primary_color": "grey",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "embellishments": "tassel",
       "style_tags": [
         "chic",
@@ -7330,7 +7391,9 @@
         "elegant",
         "gothic"
       ],
-      "occasion": "evening",
+      "occasion": [
+        "evening"
+      ],
       "season": "all-season",
       "toe_shape": "round-toe",
       "heel_type": "stiletto-heel",
@@ -7438,7 +7501,9 @@
         "elegant",
         "minimalist"
       ],
-      "occasion": "smart-casual",
+      "occasion": [
+        "smart-casual"
+      ],
       "season": "spring-summer",
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
@@ -7543,7 +7608,7 @@
       "subcategory": "mule",
       "primary_color": "black",
       "secondary_colors": [],
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": "bow",
       "pattern": "none",
@@ -7742,7 +7807,7 @@
       "category": "boots-and-booties-women",
       "subcategory": "over the knee",
       "primary_color": "black",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": "none",
       "pattern": "none",
@@ -7789,7 +7854,9 @@
       "embellishments": "eyelet",
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
@@ -7985,7 +8052,9 @@
         "minimalist",
         "sportive"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "fall-winter",
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
@@ -8015,7 +8084,9 @@
         "punk",
         "streetwear"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "cap-toe",
       "heel_type": "none",
@@ -8240,7 +8311,9 @@
         "retro",
         "vintage"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "spring-summer",
       "toe_shape": null,
       "heel_type": "block-heel",
@@ -8422,7 +8495,7 @@
       ],
       "material": [
         "wool",
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -8464,7 +8537,7 @@
       "primary_color": "black",
       "material": "canvas",
       "secondary_materials": [
-        "synthetic-leather"
+        "faux-leather"
       ],
       "embellishments": [
         "chain"
@@ -8475,7 +8548,9 @@
         "chic",
         "heritage"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "spring-summer",
       "toe_shape": "round-toe",
       "heel_type": "none",
@@ -8505,7 +8580,7 @@
       ],
       "material": [
         "cotton",
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [
         "jute"
@@ -8546,7 +8621,7 @@
       "category": "sneakers-women",
       "subcategory": "high-top sneaker",
       "primary_color": "black",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [
         "cotton",
         "jute"
@@ -8585,7 +8660,6 @@
     "image_type": "product",
     "description": "A high-top espadrille sneaker with a beige suede upper and contrasting black toe cap and inner lining. Features a braided jute sole and lace-up closure with metallic eyelets. The silhouette is elevated with a thick platform sole and a slightly rounded toe shape.",
     "tags": {
-      "macrocategory": "sneakers-women",
       "primary_color": "beige",
       "secondary_colors": [
         "black"
@@ -8600,7 +8674,9 @@
         "chic",
         "sport-luxe"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "spring-summer",
       "toe_shape": "round-toe",
       "sole_type": "platform",
@@ -8641,7 +8717,9 @@
         "chic",
         "sport-luxe"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "plain-toe",
       "heel_type": "none",
@@ -8827,7 +8905,7 @@
       "secondary_colors": [
         "white"
       ],
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
@@ -8836,7 +8914,9 @@
         "graphic",
         "minimalist"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "square-toe",
       "heel_type": "block-heel",
@@ -8861,7 +8941,7 @@
         "white"
       ],
       "material": [
-        "synthetic-leather"
+        "faux-leather"
       ],
       "secondary_materials": [],
       "embellishments": [
@@ -8906,7 +8986,9 @@
       "embellishments": [],
       "pattern": "none",
       "style_tags": [],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "fall-winter",
       "toe_shape": "plain-toe",
       "heel_type": "none",
@@ -9124,7 +9206,6 @@
     "image_type": "product",
     "description": "A glossy black patent leather flat shoe featuring multiple wide straps across the instep, each adorned with ornate silver-toned decorative hardware. The silhouette is classic and structured with a rounded toe and a low, flat heel. The design emphasizes bold embellishments and a sleek, reflective finish.",
     "tags": {
-      "macrocategory": "sandals-women",
       "subcategory": "other flat shoes",
       "primary_color": "black",
       "material": "leather",
@@ -9209,7 +9290,7 @@
       "category": "flat-shoes-women",
       "subcategory": "loafer",
       "primary_color": "silver",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "closure": "lace-up",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
@@ -9378,7 +9459,7 @@
       "category": "flat-shoes-women",
       "subcategory": "loafer",
       "primary_color": "black",
-      "material": "synthetic-leather",
+      "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": "none",
       "pattern": "none",
@@ -9501,7 +9582,9 @@
         "chic",
         "minimalist"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "embellishments": "none",
       "pattern": "none",
@@ -9624,7 +9707,9 @@
         "sport-luxe",
         "streetwear"
       ],
-      "occasion": "casual",
+      "occasion": [
+        "casual"
+      ],
       "season": "all-season",
       "toe_shape": "plain-toe",
       "heel_type": "none",

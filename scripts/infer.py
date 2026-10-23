@@ -7,7 +7,7 @@ category YAML and injected into the system prompt.
 
 Usage:
     # Single image, explicit category
-    python scripts/infer.py --image shoe.jpg --category shoes
+    python scripts/infer.py --image shoe.jpg --category shoes_women
 
     # Single image, look/runway
     python scripts/infer.py --image runway.jpg --category look
@@ -16,10 +16,10 @@ Usage:
     python scripts/infer.py --manifest data/raw/batch_manifest.csv
 
     # Batch directory (defaults to "shoes" category)
-    python scripts/infer.py --images-dir data/raw/images --category shoes
+    python scripts/infer.py --images-dir data/raw/images --category shoes_women
 
     # With fine-tuned adapter
-    python scripts/infer.py --image shoe.jpg --category shoes \
+    python scripts/infer.py --image shoe.jpg --category shoes_women \
         --adapter models/qwen3vl/final
 """
 
@@ -37,6 +37,7 @@ from PIL import Image
 from tqdm import tqdm
 
 from category_config import build_system_prompt, get_user_message, list_configs
+from taxonomy_utils import apply_taxonomy_rules
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
 log = logging.getLogger(__name__)
@@ -114,7 +115,9 @@ class FashionAnalyzer:
 
         generated = output_ids[0, inputs["input_ids"].shape[1]:]
         text = self.tokenizer.decode(generated, skip_special_tokens=True).strip()
-        return parse_model_output(text)
+        result = parse_model_output(text)
+        # derive category from subcategory + record taxonomy/vocabulary issues
+        return apply_taxonomy_rules(result, category)
 
 
 def load_manifest(path: Path) -> list[dict]:

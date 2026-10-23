@@ -24,6 +24,8 @@ from pathlib import Path
 
 import yaml
 
+from taxonomy_utils import find_duplicate_subcategories
+
 logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
 log = logging.getLogger(__name__)
 
@@ -157,6 +159,9 @@ def main():
             # Count for logging
             n_cats = len(config["taxonomy"])
             n_subcats = sum(len(v) for v in config["taxonomy"].values())
+            dups = find_duplicate_subcategories(config["taxonomy"])
+            if dups:
+                log.warning("%s: subcategory names shared by several categories %s (category cannot be derived from them)", config_name, dups)
             log.info(
                 "Generated %-30s  %2d categories, %3d subcategories",
                 config_name, n_cats, n_subcats,

@@ -16,6 +16,7 @@ import re
 from pathlib import Path
 
 import pandas as pd
+from taxonomy_utils import evaluate_taxonomy
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
 log = logging.getLogger(__name__)
@@ -150,7 +151,7 @@ def main():
 
     evaluate_descriptions(predictions, gt_map)
     evaluate_tags(predictions, gt_map)
-
+    evaluate_taxonomy(predictions, gt_map)
 
 if __name__ == "__main__":
     main()

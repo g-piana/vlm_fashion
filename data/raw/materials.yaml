@@ -13,11 +13,6 @@
   slug: camel-hair
   lab_en: camel-hair
   group: fabrics
-00_canvas:
-  name: canvas
-  slug: canvas
-  lab_en: canvas
-  group: fabrics
 00_cashmere:
   name: cashmere
   slug: cashmere
@@ -27,11 +22,6 @@
   name: cotton
   slug: cotton
   lab_en: cotton
-  group: fabrics
-00_denim:
-  name: denim
-  slug: denim
-  lab_en: denim
   group: fabrics
 00_hemp:
   name: hemp
@@ -113,11 +103,6 @@
   slug: rayon
   lab_en: rayon
   group: synthetics
-02_antelope:
-  name: antelope
-  slug: antelope
-  lab_en: antelope
-  group: leathers
 02_calfskin:
   name: calfskin
   slug: calfskin
@@ -188,15 +173,20 @@
   slug: suede
   lab_en: suede
   group: leathers
-03_antelope:
-  name: antelope
-  slug: antelope
-  lab_en: antelope
+03_astrakhan:
+  name: astrakhan
+  slug: astrakhan
+  lab_en: astrakhan
   group: furs
 03_chinchilla:
   name: chinchilla
   slug: chinchilla
   lab_en: chinchilla
+  group: furs
+03_faux-fur:
+  name: faux-fur
+  slug: faux-fur
+  lab_en: faux-fur
   group: furs
 03_fox:
   name: fox
@@ -228,65 +218,30 @@
   slug: sable
   lab_en: sable
   group: furs
-03_astrakhan:
-  name: astrakhan
-  slug: astrakhan
-  lab_en: astrakhan
-  group: furs
-03_faux-fur:
-  name: faux-fur
-  slug: faux-fur
-  lab_en: faux-fur
-  group: furs
-04_bamboo:
-  name: bamboo
-  slug: bamboo
-  lab_en: bamboo
-  group: others
-04_crystals:
-  name: crystals
-  slug: crystals
-  lab_en: crystals
-  group: others
-04_feathers:
-  name: feathers
-  slug: feathers
-  lab_en: feathers
-  group: others
-04_marabou:
-  name: marabou
-  slug: marabour
-  lab_en: marabou
-  group: others
 04_metal:
   name: metal
   slug: metal
   lab_en: metal
-  group: others
-04_jute:
-  name: jute
-  slug: jute
-  lab_en: jute
   group: others
 04_resin:
   name: resin
   slug: resin
   lab_en: resin
   group: others
-04_stones:
-  name: stones
-  slug: stones
-  lab_en: stones
-  group: others
-04_wood:
-  name: wood
-  slug: wood
-  lab_en: wood
+04_bamboo:
+  name: bamboo
+  slug: bamboo
+  lab_en: bamboo
   group: others
 04_cork:
   name: cork
   slug: cork
   lab_en: cork
+  group: others
+04_jute:
+  name: jute
+  slug: jute
+  lab_en: jute
   group: others
 04_raffia:
   name: raffia
@@ -303,3 +258,13 @@
   slug: straw
   lab_en: straw
   group: others  
+04_wood:
+  name: wood
+  slug: wood
+  lab_en: wood
+  group: others
+04_feathers:
+  name: feathers
+  slug: feathers
+  lab_en: feathers
+  group: others

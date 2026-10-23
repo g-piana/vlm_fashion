@@ -54,6 +54,12 @@ def load_vocabularies(category: str) -> dict:
     vocabs["_taxonomy"] = taxonomy
     vocabs["_categories"] = all_categories
     vocabs["_subcategories"] = sorted(set(all_subcategories))
+    # list-typed attributes -> multi-select chips; allowed keys -> strip typos on export
+    vocabs["_multi"] = [
+        n for n, s in config.get("attributes", {}).items()
+        if isinstance(s, dict) and s.get("type") == "list"
+    ]
+    vocabs["_allowed_keys"] = ["category", "subcategory"] + list(config.get("attributes", {}).keys())
 
     # Attributes
     for name, spec in config.get("attributes", {}).items():
@@ -251,9 +257,9 @@ function render() {{
   const tags = item.tags || {{}};
 
   // Category + subcategory (special: linked dropdowns)
-  html += buildSelect('category', tags.category, VOCABS._categories);
-  const subcats = tags.category ? (VOCABS._taxonomy[tags.category] || []) : VOCABS._subcategories;
-  html += buildSelect('subcategory', tags.subcategory, subcats);
+  html += buildTaxonomySelect(tags.category, tags.subcategory);
+  // category + subcategory are chosen together (see buildTaxonomySelect)
+  // (single linked select above)
 
   // All other attributes
   const skip = new Set(['category', 'subcategory']);
@@ -262,8 +268,8 @@ function render() {{
     if (!Array.isArray(spec)) continue;
 
     const val = tags[name];
-    if (Array.isArray(val)) {{
-      html += buildMultiSelect(name, val, spec);
+    if (Array.isArray(val) || (VOCABS._multi || []).includes(name)) {{
+      html += buildMultiSelect(name, Array.isArray(val) ? val : (val ? [val] : []), spec);
     }} else {{
       html += buildSelect(name, val, spec);
     }}
@@ -303,6 +309,35 @@ function render() {{
     `${{reviewed.size}} reviewed, ${{DRAFTS.filter(d => d._skip).length}} skipped`;
   document.getElementById('statusRight').textContent =
     `${{DRAFTS.length - reviewed.size}} remaining`;
+}}
+
+function buildTaxonomySelect(cat, sub) {{
+  // One select for category + subcategory: picking a subcategory sets its category,
+  // so an invalid pair cannot be created. Categories without subcategories are
+  // listed as plain options.
+  const tax = VOCABS._taxonomy || {{}};
+  const cur = (cat && tax[cat] && (sub ? tax[cat].includes(sub) : tax[cat].length === 0))
+    ? cat + '||' + (sub || '') : '';
+  let opts = '<option value="">(none)</option>';
+  for (const [c, subs] of Object.entries(tax)) {{
+    if (subs.length === 0) {{
+      const v = c + '||';
+      opts += '<option value="' + escHtml(v) + '"' + (v === cur ? ' selected' : '') + '>' + escHtml(c) + '</option>';
+    }} else {{
+      opts += '<optgroup label="' + escHtml(c) + '">';
+      for (const s of subs) {{
+        const v = c + '||' + s;
+        opts += '<option value="' + escHtml(v) + '"' + (v === cur ? ' selected' : '') + '>' + escHtml(s) + '</option>';
+      }}
+      opts += '</optgroup>';
+    }}
+  }}
+  const warn = ((cat || sub) && !cur)
+    ? '<div style="color:#e67e22;font-size:12px;margin-top:4px">Draft had ' + escHtml(String(cat)) + ' / ' +
+      escHtml(String(sub)) + ' (not a valid pair): pick the subcategory.</div>'
+    : '';
+  return '<div class="field-group"><label>category / subcategory</label>' +
+         '<select id="taxonomy_select">' + opts + '</select>' + warn + '</div>';
 }}
 
 function buildSelect(name, value, options) {{
@@ -349,6 +384,12 @@ function saveCurrent() {{
   // Enum selects
   document.querySelectorAll('.edit-panel select').forEach(sel => {{
     const name = sel.id.replace('tag_', '');
+    if (sel.id === 'taxonomy_select') {{
+      const parts = (sel.value || '').split('||');
+      item.tags.category = parts[0] || null;
+      item.tags.subcategory = parts[1] || null;
+      return;
+    }}
     item.tags[name] = sel.value || null;
   }});
 
@@ -399,6 +440,25 @@ function saveProgress() {{
 
 function exportLabels() {{
   saveCurrent();
+  const allowedKeys = new Set(VOCABS._allowed_keys || []);
+  const exportable = DRAFTS.filter(d => !d._skip && d.description);
+  exportable.forEach(d => {{
+    if (d.tags && allowedKeys.size) {{
+      Object.keys(d.tags).forEach(k => {{ if (!allowedKeys.has(k)) delete d.tags[k]; }});
+    }}
+  }});
+  const badItems = exportable.filter(d => {{
+    const t = d.tags || {{}};
+    const subs = (VOCABS._taxonomy || {{}})[t.category];
+    if (!subs) return true;
+    if (subs.length === 0) return !!t.subcategory;
+    return !subs.includes(t.subcategory);
+  }});
+  if (badItems.length) {{
+    alert('Cannot export: missing or invalid category/subcategory in ' + badItems.length +
+          ' item(s):\\n' + badItems.slice(0, 15).map(d => d.image.split('/').pop()).join('\\n'));
+    return;
+  }}
   const labels = DRAFTS
     .filter(d => !d._skip && d.description)
     .map(d => ({{
