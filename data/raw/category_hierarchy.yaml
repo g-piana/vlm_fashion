@@ -1636,21 +1636,26 @@ women:
               name: boston bag
               lab_en: boston bag
               order: 1
+            box bag:
+              slug: box-bag
+              name: box bag
+              lab_en: box bag
+              order: 2
             doctor's bag:
               slug: doctor-s-bag
               name: doctor's bag
               lab_en: doctor's bag
-              order: 2
-            handbag:
-              slug: handbag
-              name: handbag
-              lab_en: handbag
               order: 3
+            duffle bag:
+              slug: duffle-bag
+              name: duffle bag
+              lab_en: duffle bag
+              order: 4
             top handle bag:
               slug: top-handle-bag
               name: top handle bag
               lab_en: top handle bag
-              order: 4
+              order: 5
         clutches-women:
           slug: clutches-women
           name: clutches
@@ -1667,21 +1672,16 @@ women:
               name: envelope
               lab_en: envelope
               order: 1
-            "minaudiére":
-              slug: "minaudiére"
-              name: "minaudiére"
-              lab_en: "minaudiére"
+            "minaudière":
+              slug: "minaudiere"
+              name: "minaudière"
+              lab_en: "minaudière"
               order: 2
-            pochette:
-              slug: pochette
-              name: pochette
-              lab_en: pochette
-              order: 3
             pouch:
               slug: pouch
               name: pouch
               lab_en: pouch
-              order: 4
+              order: 3
         shoulder bags-women:
           slug: shoulder-bags-women
           name: shoulder bags
@@ -1698,41 +1698,26 @@ women:
               name: camera bag
               lab_en: camera bag
               order: 1
-            chain bag:
-              slug: chain-bag
-              name: chain bag
-              lab_en: chain bag
-              order: 2
-            crossbody bag:
-              slug: crossbody-bag
-              name: crossbody bag
-              lab_en: crossbody bag
-              order: 3
             hobo bag:
               slug: hobo-bag
               name: hobo bag
               lab_en: hobo bag
-              order: 4
+              order: 2
             saddle bag:
               slug: saddle-bag
               name: saddle bag
               lab_en: saddle bag
-              order: 5
+              order: 3
             satchel bag:
               slug: satchel-bag
               name: satchel bag
               lab_en: satchel bag
-              order: 6
-            shoulder bag:
-              slug: shoulder-bag
-              name: shoulder bag
-              lab_en: shoulder bag
-              order: 7
+              order: 4
             underarm bag:
               slug: underarm-bag
               name: underarm bag
               lab_en: underarm bag
-              order: 8
+              order: 5
         backpacks-women:
           slug: backpacks-women
           name: backpacks
@@ -1744,6 +1729,11 @@ women:
               name: backpack
               lab_en: backpack
               order: 0
+            sling bag:
+              slug: sling-bag
+              name: sling bag
+              lab_en: sling bag
+              order: 1
         messengers-women:
           slug: messengers-women
           name: messengers

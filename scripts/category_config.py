@@ -24,7 +24,10 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONFIGS_DIR = PROJECT_ROOT / "configs" / "categories"
 GENERATED_DIR = CONFIGS_DIR / "generated"
 ATTRIBUTES_DIR = PROJECT_ROOT / "configs" / "attributes"
+GUIDELINES_DIR = PROJECT_ROOT / "configs" / "guidelines"
 
+def load_guidelines(macrocat: str) -> dict:
+    return _load_yaml(GUIDELINES_DIR / f"{macrocat}.yaml")
 
 def _load_yaml(path: Path) -> dict:
     if not path.exists():
@@ -74,6 +77,12 @@ def load_category_config(name: str) -> dict:
     result = {**base, **config}
     result["attributes"] = merged_attrs
 
+    macrocat = config.get("macrocategory")
+    if macrocat and not config.get("includes_all_generated"):
+        guidelines = load_guidelines(macrocat)
+        if guidelines:
+            result["guidelines"] = guidelines
+
     return result
 
 
@@ -85,6 +94,16 @@ def _format_taxonomy(taxonomy: dict) -> str:
             lines.append(f"    {cat_slug}: [{subcat_str}]")
         else:
             lines.append(f"    {cat_slug}: (no subcategories)")
+    return "\n".join(lines)
+
+def _format_guidelines(taxonomy: dict, guidelines: dict) -> str:
+    if not guidelines:
+        return ""
+    lines = []
+    for subcats in taxonomy.values():
+        for s in subcats:
+            if s in guidelines:
+                lines.append(f"    {s}: {guidelines[s]}")
     return "\n".join(lines)
 
 
@@ -120,6 +139,11 @@ def build_system_prompt(
     taxonomy_str = _format_taxonomy(config.get("taxonomy", {}))
     attrs_str = _format_attributes(config.get("attributes", {}))
 
+    g_str = _format_guidelines(config.get("taxonomy", {}), config.get("guidelines", {}))
+    guidelines_block = (
+        f"\n\nSubcategory guidelines (decisive visual markers):\n{g_str}" if g_str else ""
+    )
+
     prompt = f"""{template}
 
 Gender context: {gender}
@@ -129,7 +153,7 @@ You MUST classify this item using EXACTLY one category and one subcategory
 from the taxonomy below. Output the exact names as shown.
 
 Taxonomy (category → subcategories):
-{taxonomy_str}
+{taxonomy_str}{guidelines_block}
 
 Additional attributes (use controlled vocabulary):
 {attrs_str}"""

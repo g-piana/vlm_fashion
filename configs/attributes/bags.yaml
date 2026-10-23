@@ -1,14 +1,20 @@
 # Bag-specific attributes — loaded on top of _base.yaml for all bag configs.
 
+model_details:
+  type: enum
+  values: [ quilted, belt-loops, metal-feet, external-pocket ]
+
+
 handle_type:
   type: enum
   values: [top-handle, shoulder-strap, chain-strap, wrist-strap,
-           crossbody-strap, detachable-strap, drawstring, none]
+           crossbody-strap, detachable-strap, cut-out-handle, none]
 
 bag_closure:
   type: enum
-  values: [zip, flap, drawstring, clasp, magnetic-snap, turn-lock,
-           frame, open-top, buckle, toggle, none]
+  values: [zip, front-flap, drawstring, clasp, magnetic-snap, turn-lock,
+           frame, open-top, buckle, toggle, hook-closure, kiss-lock-closure, 
+           lock-closure, piston-closure,button-closure,none]
 
 hardware_color:
   type: enum

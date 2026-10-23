@@ -24,12 +24,13 @@ attributes:
   material:
     type: enum
     values: [alpaca, angora, camel-hair, canvas, cashmere, cotton, denim, hemp,
-       horse-hair, linen, mohair, silk, vicuna, wool, acetate, acrylic, aramyd,
-       elastane, nylon, polyester, rayon, alligator, antelope, buffalo, calfskin,
-       cattle, crocodile, deerskin, goat, lambskin, leather, lizard, ostrich,
-       pigskin, ponyskin, python, sheep, snakeskin, suede, antelope, chinchilla,
-       fox, kangaroo, lapin, lynx, mink, sable, persian lamb, bamboo, crystals,
-       feathers, marabour, metal, jute, steel, stones, synthetic-leather, wood]
+       horse-hair, linen, mohair, silk, vicuna, wool, acetate, acrylic, aramid,
+       elastane, faux-leather, nylon, polyester, pvc, rayon, antelope, calfskin,
+       crocodile, deerskin, goat, lambskin, leather, lizard, nappa, ostrich,
+       pigskin, pony-hair, shearling, python, suede, antelope, chinchilla, fox,
+       kangaroo, lapin, lynx, mink, sable, astrakhan, faux-fur, bamboo, crystals,
+       feathers, marabour, metal, jute, resin, stones, wood, cork, raffia,
+       rubber, straw]
 
   secondary_materials:
     type: list

@@ -61,7 +61,7 @@
 00_vicuna:
   name: vicuna
   slug: vicuna
-  lab_en: vicuna
+  lab_en: vicuña
   group: fabrics
 00_wool:
   name: wool
@@ -78,16 +78,21 @@
   slug: acrylic
   lab_en: acrylic
   group: synthetics
-01_aramyd:
-  name: aramyd
-  slug: aramyd
-  lab_en: aramyd
+01_aramid:
+  name: aramid
+  slug: aramid
+  lab_en: aramid
   group: synthetics
 01_elastane:
   name: elastane
   slug: elastane
   lab_en: elastane
   group: synthetics
+04_faux-leather:
+  name: faux-leather
+  slug: faux-leather
+  lab_en: faux-leather
+  group: others
 01_nylon:
   name: nylon
   slug: nylon
@@ -98,35 +103,25 @@
   slug: polyester
   lab_en: polyester
   group: synthetics
+01_pvc:
+  name: pvc
+  slug: pvc
+  lab_en: pvc
+  group: synthetics
 01_rayon:
   name: rayon
   slug: rayon
   lab_en: rayon
   group: synthetics
-02_alligator:
-  name: alligator
-  slug: alligator
-  lab_en: alligator
-  group: leathers
 02_antelope:
   name: antelope
   slug: antelope
   lab_en: antelope
   group: leathers
-02_buffalo:
-  name: buffalo
-  slug: buffalo
-  lab_en: buffalo
-  group: leathers
 02_calfskin:
   name: calfskin
   slug: calfskin
   lab_en: calfskin
-  group: leathers
-02_cattle:
-  name: cattle
-  slug: cattle
-  lab_en: cattle
   group: leathers
 02_crocodile:
   name: crocodile
@@ -158,6 +153,11 @@
   slug: lizard
   lab_en: lizard
   group: leathers
+02_nappa:
+  name: nappa
+  slug: nappa
+  lab_en: nappa
+  group: leathers  
 02_ostrich:
   name: ostrich
   slug: ostrich
@@ -168,25 +168,20 @@
   slug: pigskin
   lab_en: pigskin
   group: leathers
-02_ponyskin:
-  name: ponyskin
-  slug: ponyskin
-  lab_en: ponyskin
+02_pony-hair:
+  name: pony-hair
+  slug: pony-hair
+  lab_en: pony-hair
+  group: leathers
+02_shearling:
+  name: shearling
+  slug: shearling
+  lab_en: shearling
   group: leathers
 02_python:
   name: python
   slug: python
   lab_en: python
-  group: leathers
-02_sheep:
-  name: sheep
-  slug: sheep
-  lab_en: sheep
-  group: leathers
-02_snakeskin:
-  name: snakeskin
-  slug: snakeskin
-  lab_en: snakeskin
   group: leathers
 02_suede:
   name: suede
@@ -233,10 +228,15 @@
   slug: sable
   lab_en: sable
   group: furs
-03_persian lamb:
-  name: persian lamb
-  slug: persian lamb
-  lab_en: persian lamb
+03_astrakhan:
+  name: astrakhan
+  slug: astrakhan
+  lab_en: astrakhan
+  group: furs
+03_faux-fur:
+  name: faux-fur
+  slug: faux-fur
+  lab_en: faux-fur
   group: furs
 04_bamboo:
   name: bamboo
@@ -268,23 +268,38 @@
   slug: jute
   lab_en: jute
   group: others
-04_steel:
-  name: steel
-  slug: steel
-  lab_en: steel
+04_resin:
+  name: resin
+  slug: resin
+  lab_en: resin
   group: others
 04_stones:
   name: stones
   slug: stones
   lab_en: stones
   group: others
-04_synthetic-leather:
-  name: synthetic-leather
-  slug: synthetic-leather
-  lab_en: synthetic-leather
-  group: others
 04_wood:
   name: wood
   slug: wood
   lab_en: wood
   group: others
+04_cork:
+  name: cork
+  slug: cork
+  lab_en: cork
+  group: others
+04_raffia:
+  name: raffia
+  slug: raffia
+  lab_en: raffia
+  group: others
+04_rubber:
+  name: rubber
+  slug: rubber
+  lab_en: rubber
+  group: others  
+04_straw:
+  name: straw
+  slug: straw
+  lab_en: straw
+  group: others  

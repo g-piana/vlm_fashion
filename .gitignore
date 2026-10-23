@@ -23,3 +23,4 @@ runs/
 unsloth_compiled_cache/
 test_*.py
 test_*.png
+*:Zone.Identifier

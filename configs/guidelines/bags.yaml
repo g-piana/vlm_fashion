@@ -1,0 +1,48 @@
+# Decisive visual markers per bag subcategory, distilled from the taxonomy sheet
+# ("ML recognisability & primary visual marker" + confusion/fallback notes).
+# Keys are subcategory names exactly as in category_hierarchy.yaml.
+# Injected into the system prompt only for bag configs (see category_config.py).
+# Editing this file changes the prompt: re-run prepare_dataset.py afterwards.
+
+basket: >-
+  Woven plant-fibre body (straw, wicker, raffia, rattan, rope) or visible basket-weave texture over the whole body; texture wins over shape. Woven leather (intrecciato) is NOT a basket.
+boston bag: >-
+  Barrel/cylindrical body with rounded end panels, full-length top zip, two short rolled handles, flat base; city size (under ~40 cm). No hinged frame (that is doctor's bag).
+box bag: >-
+  Rigid cube/box body with visible depth (depth about equal to height) and rigid edges, top handle, zip-around or lock closure, often a detachable strap. A flatter structured bag is a top handle bag.
+doctor's bag: >-
+  Trapezoid body wider at the base with a rigid hinged metal frame that opens into a "mouth" (peaked top line), one or two top handles. If the frame is not visible, use top handle bag.
+duffle bag: >-
+  Large barrel or rectangular body (over ~45 cm), full top zip, two handles plus a detachable shoulder strap. Like a boston bag but oversized.
+top handle bag: >-
+  Structured upright body with one rigid handle rising from the top centre, flap or top closure, often a detachable strap; flatter than a box bag, no hinged frame. Also the fallback for a generic bag carried by short handle(s) with no other shape marker.
+clutch: >-
+  Default clutch entry: flat rectangular body with no handle or strap, held in the hand; flap, zip or frame closure. A wrist strap does not change the subcategory. Not envelope (V flap), not pouch (soft).
+envelope: >-
+  Flat rectangle with a triangular (V-shaped) front flap reaching the middle or bottom, handle-less. An envelope-shaped bag WITH a handle or strap takes the matching shape subcategory instead.
+minaudière: >-
+  Small rigid hard-shell box (metal, resin, crystal-covered) with hinged opening, jewel clasp, no handle, reflective or jewelled surface; nothing soft. A larger leather box with a handle is a box bag.
+pouch: >-
+  Soft, gathered or pillow-like unstructured body with rounded volume; frame, magnetic or zip opening. The opposite of the flat rigid clutch. A wrist strap does not change the subcategory.
+bucket bag: >-
+  Round flat base with cylindrical or conical body, drawstring or open top, single shoulder strap. Plant-fibre weave is basket; a crescent shape without a round base is hobo bag.
+camera bag: >-
+  Small boxy rectangle with top zip (often double) and a long crossbody strap, sometimes a tassel on the zip pull. Also the fallback for any boxy or zip-top bag on a strap with no other shape marker.
+hobo bag: >-
+  Crescent/half-moon body with curved bottom and a single shoulder strap, often cut in one piece with the body; soft slouchy or structured (crescent and half-moon bags are hobo). No round base (not bucket); symmetric (not saddle).
+saddle bag: >-
+  Asymmetric kidney/"D"-shaped body with a curved flap and short shoulder strap, often a hanging logo or ring. Judge from the front view; from the side it can look like a hobo.
+satchel bag: >-
+  Structured upright rectangle with a full-width front flap closed by two buckled straps, small top handle plus shoulder strap. Also the fallback for upright/square flap bags on a strap with no other shape marker. Not messenger (landscape, no top handle).
+underarm bag: >-
+  Elongated narrow horizontal body (width at least 2x height) with a short strap that holds it under the arm, often a front flap (baguette). Also the fallback for elongated flap bags on a strap. Rectangular, not curved like a hobo.
+backpack: >-
+  Vertical body with two parallel shoulder straps on the back panel and a top grab handle. Mini backpacks stay here. One diagonal strap is a sling bag.
+sling bag: >-
+  Teardrop or vertical backpack-like body with ONE strap running diagonally across the back or chest. Not backpack (two straps), not waist bag (horizontal curved pouch).
+messenger: >-
+  Wide landscape-format body, large flap covering most of the front, wide adjustable crossbody strap, no top handle. Not satchel (upright, top handle).
+tote: >-
+  Large open-top (or top-zip) rectangle or trapezoid with two parallel long handles reaching the shoulder. Plant-fibre texture is basket; smaller structured single-handle bags are top handle bags.
+waist bag: >-
+  Small horizontal curved pouch worn at the hip on its own strap with clip buckle, or attached to a real belt (belt loops); may be worn crossbody. Not sling bag (vertical and larger).

@@ -1,0 +1,147 @@
+        handbags-women:
+          slug: handbags-women
+          name: handbags
+          lab_en: Handbags
+          order: 0
+          subcategories:
+            basket:
+              slug: basket
+              name: basket
+              lab_en: basket
+              order: 0
+            boston bag:
+              slug: boston-bag
+              name: boston bag
+              lab_en: boston bag
+              order: 1
+            box bag:
+              slug: box-bag
+              name: box bag
+              lab_en: box bag
+              order: 2
+            doctor's bag:
+              slug: doctor-s-bag
+              name: doctor's bag
+              lab_en: doctor's bag
+              order: 3
+            duffle bag:
+              slug: duffle-bag
+              name: duffle bag
+              lab_en: duffle bag
+              order: 4
+            top handle bag:
+              slug: top-handle-bag
+              name: top handle bag
+              lab_en: top handle bag
+              order: 5
+        clutches-women:
+          slug: clutches-women
+          name: clutches
+          lab_en: Clutches
+          order: 1
+          subcategories:
+            clutch:
+              slug: clutch
+              name: clutch
+              lab_en: clutch
+              order: 0
+            envelope:
+              slug: envelope
+              name: envelope
+              lab_en: envelope
+              order: 1
+            "minaudière":
+              slug: "minaudiere"
+              name: "minaudière"
+              lab_en: "minaudière"
+              order: 2
+            pouch:
+              slug: pouch
+              name: pouch
+              lab_en: pouch
+              order: 3
+        shoulder bags-women:
+          slug: shoulder-bags-women
+          name: shoulder bags
+          lab_en: Shoulder Bags
+          order: 2
+          subcategories:
+            bucket bag:
+              slug: bucket-bag
+              name: bucket bag
+              lab_en: bucket bag
+              order: 0
+            camera bag:
+              slug: camera-bag
+              name: camera bag
+              lab_en: camera bag
+              order: 1
+            hobo bag:
+              slug: hobo-bag
+              name: hobo bag
+              lab_en: hobo bag
+              order: 2
+            saddle bag:
+              slug: saddle-bag
+              name: saddle bag
+              lab_en: saddle bag
+              order: 3
+            satchel bag:
+              slug: satchel-bag
+              name: satchel bag
+              lab_en: satchel bag
+              order: 4
+            underarm bag:
+              slug: underarm-bag
+              name: underarm bag
+              lab_en: underarm bag
+              order: 5
+        backpacks-women:
+          slug: backpacks-women
+          name: backpacks
+          lab_en: Backpacks
+          order: 3
+          subcategories:
+            backpack:
+              slug: backpack
+              name: backpack
+              lab_en: backpack
+              order: 0
+            sling bag:
+              slug: sling-bag
+              name: sling bag
+              lab_en: sling bag
+              order: 1
+        messengers-women:
+          slug: messengers-women
+          name: messengers
+          lab_en: Messengers
+          order: 4
+          subcategories:
+            messenger:
+              slug: messenger
+              name: messenger
+              lab_en: messenger
+              order: 0
+        totes-women:
+          slug: totes-women
+          name: totes
+          lab_en: Totes
+          order: 5
+          subcategories:
+            tote:
+              slug: tote
+              name: tote
+              lab_en: tote
+              order: 0
+        waist-bags-women:
+          slug: waist-bags-women
+          name: waist-bags
+          lab_en: Waist Bags
+          order: 6
+          subcategories:
+            waist bag:
+              slug: waist-bag
+              name: waist bag
+              lab_en: waist bag
+              order: 0
