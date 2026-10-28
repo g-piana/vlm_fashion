@@ -196,20 +196,37 @@ const SAVE_PATH = "{save_path}";
 let currentIdx = 0;
 let reviewed = new Set();
 
-// Load saved progress from localStorage
-const savedKey = 'review_' + CATEGORY + '_' + SAVE_PATH.replace(/[^a-z0-9]/gi, '_');
+// Saved progress belongs to ONE drafts file: the key contains a hash of its image
+// list, and items are matched by image filename, never by position. Another batch
+// (or another run with different images) can therefore never pick this state up.
+const imgName = (d) => String((d && d.image) || '').split('/').pop();
+function hashStr(s) {{
+  let h = 5381;
+  for (let i = 0; i < s.length; i++) {{ h = ((h << 5) + h + s.charCodeAt(i)) | 0; }}
+  return (h >>> 0).toString(36);
+}}
+const draftSig = hashStr(DRAFTS.map(imgName).join('|'));
+const savedKey = 'review2_' + CATEGORY + '_' + draftSig;
 try {{
-  const saved = localStorage.getItem(savedKey);
-  if (saved) {{
-    const parsed = JSON.parse(saved);
-    parsed.forEach((s, i) => {{
-      if (i < DRAFTS.length) {{
-        DRAFTS[i].description = s.description ?? DRAFTS[i].description;
-        DRAFTS[i].tags = s.tags ?? DRAFTS[i].tags;
-        DRAFTS[i]._skip = s._skip ?? false;
+  if (new URLSearchParams(window.location.search).has('fresh')) {{
+    localStorage.removeItem(savedKey);
+    console.log('fresh start: saved progress for this drafts file deleted');
+  }} else {{
+    const saved = localStorage.getItem(savedKey);
+    if (saved) {{
+      const byImage = new Map(JSON.parse(saved).filter(s => s.image).map(s => [s.image, s]));
+      let restored = 0;
+      DRAFTS.forEach((d, i) => {{
+        const s = byImage.get(imgName(d));
+        if (!s) return;
+        d.description = s.description ?? d.description;
+        d.tags = s.tags ?? d.tags;
+        d._skip = s._skip ?? false;
         if (s._reviewed) reviewed.add(i);
-      }}
-    }});
+        restored++;
+      }});
+      console.log('restored ' + restored + ' / ' + DRAFTS.length + ' items from saved progress');
+    }}
   }}
 }} catch(e) {{}}
 
@@ -243,7 +260,7 @@ function render() {{
   let html = '';
 
   // Filename
-    html += `<div class="filename">${{imgPath.split('/').pop().replace(/\.[^.]+$/, '')}}</div>`;
+    html += `<div class="filename">${{imgPath.split('/').pop().replace(/\\.[^.]+$/, '')}}</div>`;
 
   // Description
   html += `<div class="field-group">
@@ -268,10 +285,15 @@ function render() {{
     if (!Array.isArray(spec)) continue;
 
     const val = tags[name];
-    if (Array.isArray(val) || (VOCABS._multi || []).includes(name)) {{
+    if ((VOCABS._multi || []).includes(name)) {{
       html += buildMultiSelect(name, Array.isArray(val) ? val : (val ? [val] : []), spec);
     }} else {{
-      html += buildSelect(name, val, spec);
+      html += buildSelect(name, Array.isArray(val) ? (val[0] ?? null) : val, spec) +
+        ((Array.isArray(val) && val.length > 1)
+          ? '<div style="color:#e67e22;font-size:12px;grid-column:1/-1">' + escHtml(name) +
+            ': the draft had several values (' + escHtml(val.join(', ')) +
+            '); only the first is kept. Check the secondary fields.</div>'
+          : '');
     }}
   }}
 
@@ -311,33 +333,60 @@ function render() {{
     `${{DRAFTS.length - reviewed.size}} remaining`;
 }}
 
+function pickTaxonomy(el) {{
+  const box = document.getElementById('taxonomy_chips');
+  box.querySelectorAll('.tax-chip').forEach(c => c.classList.remove('selected'));
+  box.querySelectorAll('.tax-cat').forEach(t => t.classList.toggle('active', t.dataset.cat === el.dataset.cat));
+  el.classList.add('selected');
+  box.dataset.value = el.dataset.value;
+}}
+
 function buildTaxonomySelect(cat, sub) {{
-  // One select for category + subcategory: picking a subcategory sets its category,
-  // so an invalid pair cannot be created. Categories without subcategories are
-  // listed as plain options.
-  const tax = VOCABS._taxonomy || {{}};
-  const cur = (cat && tax[cat] && (sub ? tax[cat].includes(sub) : tax[cat].length === 0))
-    ? cat + '||' + (sub || '') : '';
-  let opts = '<option value="">(none)</option>';
-  for (const [c, subs] of Object.entries(tax)) {{
-    if (subs.length === 0) {{
-      const v = c + '||';
-      opts += '<option value="' + escHtml(v) + '"' + (v === cur ? ' selected' : '') + '>' + escHtml(c) + '</option>';
-    }} else {{
-      opts += '<optgroup label="' + escHtml(c) + '">';
-      for (const s of subs) {{
-        const v = c + '||' + s;
-        opts += '<option value="' + escHtml(v) + '"' + (v === cur ? ' selected' : '') + '>' + escHtml(s) + '</option>';
-      }}
-      opts += '</optgroup>';
-    }}
+  // Categories as titles, subcategories as single-choice chips. Picking a chip
+  // sets category + subcategory together, so an invalid pair cannot be created.
+  if (!document.getElementById('taxStyle')) {{
+    const st = document.createElement('style');
+    st.id = 'taxStyle';
+    st.textContent =
+      '.tax-cat {{ font-size: 12px; font-weight: 600; color: #7f8ea3; text-transform: uppercase; letter-spacing: 0.5px; margin: 12px 0 4px; }}' +
+      '.tax-cat.active {{ color: #a8d8ea; }}' +
+      '.tax-chips {{ display: flex; flex-wrap: wrap; gap: 4px; }}' +
+      '.tax-chip {{ padding: 3px 10px; border-radius: 12px; font-size: 12px; cursor: pointer; border: 1px solid #444; background: #16213e; color: #aaa; user-select: none; transition: all 0.15s; }}' +
+      '.tax-chip.selected {{ background: #4a9eff; color: #fff; border-color: #4a9eff; }}';
+    document.head.appendChild(st);
   }}
-  const warn = ((cat || sub) && !cur)
-    ? '<div style="color:#e67e22;font-size:12px;margin-top:4px">Draft had ' + escHtml(String(cat)) + ' / ' +
-      escHtml(String(sub)) + ' (not a valid pair): pick the subcategory.</div>'
-    : '';
-  return '<div class="field-group"><label>category / subcategory</label>' +
-         '<select id="taxonomy_select">' + opts + '</select>' + warn + '</div>';
+  const tax = VOCABS._taxonomy || {{}};
+  let cur = '';
+  let msg = '';
+  if (sub) {{
+    const owners = Object.keys(tax).filter(c => tax[c].includes(sub));
+    if (cat && tax[cat] && tax[cat].includes(sub)) {{
+      cur = cat + '||' + sub;
+    }} else if (owners.length === 1) {{
+      cur = owners[0] + '||' + sub;
+      if (cat) msg = 'Draft category ' + escHtml(String(cat)) + ' was corrected from the subcategory.';
+    }}
+  }} else if (cat && tax[cat] && tax[cat].length === 0) {{
+    cur = cat + '||';
+  }}
+  if (!cur && (cat || sub)) {{
+    msg = 'Draft had ' + escHtml(String(cat)) + ' / ' + escHtml(String(sub)) + ' (not a valid pair): pick the subcategory.';
+  }}
+  let html = '<div class="field-group" style="grid-column: 1 / -1"><label>category / subcategory</label>' +
+             '<div id="taxonomy_chips" data-value="' + escHtml(cur) + '">';
+  for (const [c, subs] of Object.entries(tax)) {{
+    const active = cur.split('||')[0] === c ? ' active' : '';
+    const title = c.replace(/-(women|men)$/, '').replace(/-/g, ' ');
+    html += '<div class="tax-cat' + active + '" data-cat="' + escHtml(c) + '">' + escHtml(title) + '</div><div class="tax-chips">';
+    for (const s of (subs.length ? subs : [''])) {{
+      const v = c + '||' + s;
+      html += '<span class="tax-chip' + (v === cur ? ' selected' : '') + '" data-cat="' + escHtml(c) +
+              '" data-value="' + escHtml(v) + '" onclick="pickTaxonomy(this)">' + escHtml(s || '(no subcategory)') + '</span>';
+    }}
+    html += '</div>';
+  }}
+  html += '</div>' + (msg ? '<div style="color:#e67e22;font-size:12px;margin-top:6px">' + msg + '</div>' : '') + '</div>';
+  return html;
 }}
 
 function buildSelect(name, value, options) {{
@@ -393,6 +442,14 @@ function saveCurrent() {{
     item.tags[name] = sel.value || null;
   }});
 
+  // Category / subcategory (single-choice chips)
+  const taxBox = document.getElementById('taxonomy_chips');
+  if (taxBox) {{
+    const parts = (taxBox.dataset.value || '').split('||');
+    item.tags.category = parts[0] || null;
+    item.tags.subcategory = parts[1] || null;
+  }}
+
   // Multi-selects (chips)
   document.querySelectorAll('.edit-panel .multi-select').forEach(container => {{
     const name = container.id.replace('tag_', '');
@@ -425,6 +482,7 @@ function saveProgress() {{
     tags: d.tags,
     _skip: d._skip || false,
     _reviewed: reviewed.has(i),
+    image: imgName(d),
   }}));
   localStorage.setItem(savedKey, JSON.stringify(data));
 
@@ -445,6 +503,17 @@ function exportLabels() {{
   exportable.forEach(d => {{
     if (d.tags && allowedKeys.size) {{
       Object.keys(d.tags).forEach(k => {{ if (!allowedKeys.has(k)) delete d.tags[k]; }});
+      const multiKeys = new Set(VOCABS._multi || []);
+      Object.keys(d.tags).forEach(k => {{
+        if (k === 'category' || k === 'subcategory') return;
+        const v = d.tags[k];
+        if (multiKeys.has(k)) {{
+          if (v === null || v === undefined) d.tags[k] = [];
+          else if (!Array.isArray(v)) d.tags[k] = [v];
+        }} else if (Array.isArray(v) && v.length <= 1) {{
+          d.tags[k] = v.length ? v[0] : null;
+        }}
+      }});
     }}
   }});
   const badItems = exportable.filter(d => {{
@@ -502,6 +571,7 @@ class ReviewHandler(SimpleHTTPRequestHandler):
     """HTTP handler for the review tool."""
 
     html_content: str = ""
+    progress_path: Path = Path("outputs") / "review_progress.json"
     drafts: list = []
     export_dir: Path = Path("data/raw/labels")
     category: str = "shoes_women"
@@ -530,7 +600,7 @@ class ReviewHandler(SimpleHTTPRequestHandler):
 
         if self.path == "/save":
             data = json.loads(body)
-            save_path = Path("outputs") / f"{self.category}_review_progress.json"
+            save_path = self.progress_path
             save_path.parent.mkdir(parents=True, exist_ok=True)
             with open(save_path, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
@@ -601,23 +671,21 @@ def main():
         drafts = json.load(f)
     log.info("Loaded %d draft items from %s", len(drafts), args.drafts)
 
-    # Load saved progress if it exists
-    progress_path = Path("outputs") / f"{args.category}_review_progress.json"
+    # Saved progress belongs to ONE drafts file (progress file named after it) and
+    # is matched to items by image filename, so it can never land on other images.
+    progress_path = Path("outputs") / f"{Path(args.drafts).stem}_review_progress.json"
+    ReviewHandler.progress_path = progress_path
     if progress_path.exists():
         with open(progress_path, encoding="utf-8") as f:
             saved = json.load(f)
-        # Only apply if the saved paths match the current draft
-        if (len(saved) == len(drafts) and
-                saved[0].get("image") == drafts[0].get("image")):
-            log.info("Loaded saved progress from %s", progress_path)
-            for i, s in enumerate(saved):
-                if i < len(drafts):
-                    drafts[i] = s
-        else:
-            log.info("Saved progress is for a different batch — ignoring %s", progress_path)
-        for i, s in enumerate(saved):
-            if i < len(drafts):
+        by_image = {Path(s.get("image", "")).name: s for s in saved if s.get("image")}
+        restored = 0
+        for i, d in enumerate(drafts):
+            s = by_image.get(Path(d.get("image", "")).name)
+            if s:
                 drafts[i] = s
+                restored += 1
+        log.info("Restored %d/%d items from %s", restored, len(drafts), progress_path)
 
     vocabs = load_vocabularies(args.category)
     log.info("Loaded vocabularies for %s: %d fields", args.category, len(vocabs))

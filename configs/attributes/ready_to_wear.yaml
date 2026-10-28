@@ -1,5 +1,25 @@
 # Ready-to-wear specific attributes — loaded on top of _base.yaml.
 
+model_details:
+  type: list
+  values: [ A-line, ankle-length, asymmetric, backless, baggy, balconette, balloon,
+            bandeau, bell-bottom, belted, boat-neck, button-down, button-front,
+            cable-knit, capri-length, cargo-pocket, chest-pocket, collar,
+            collarless, cropped, cuffed, cut-out, double-breasted, drawstring,
+            empire-line, epaulette, fitted, flap-pocket, frayed, high-neck, high-waisted,
+            hooded, kangaroo-pocket, long-length, long-sleeve, low-waisted, mandarin-collar,
+            midi-length, mini-length, off-the-shoulder, one-button, one-shoulder,
+            one-sleeve, oversized, patch-pocket, pencil, piping, pleated, 
+            plunging-neckline, pussy-bow, quilted, ripped, round-neck, 
+            ruching, ruffles, sheer, short-sleeve, single-breasted, sleeveless, 
+            slim-fit, spaghetti-straps, storm-flap, strapless, three-button, 
+            three-quarter-sleeve, toggle-closure, triangle, turtleneck, two-button, 
+            v-neck, welt-pocket, wide-leg, zip-closure]
+
+finishing:
+  type: list
+  values: [denim, tweed, velvet, satin, lace, knit, jersey, corduroy, jacquard, tulle, chiffon, crochet]
+
 fit:
   type: enum
   values: [slim, regular, relaxed, oversized, tailored, cropped,

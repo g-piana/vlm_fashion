@@ -28,6 +28,9 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 BASE = ROOT / "configs" / "categories" / "_base.yaml"
 
+# values added to _base.yaml by hand on purpose (the extractor never produces them)
+IGNORE_EXTRA = {"none"}
+
 # attribute in _base.yaml -> default source file
 DEFAULT_SOURCES = {
     "material": ROOT / "data/raw/materials.yaml",
@@ -35,6 +38,7 @@ DEFAULT_SOURCES = {
     "embellishments": ROOT / "data/raw/embellishments.yaml",
     "pattern": ROOT / "data/raw/patterns.yaml",
     "style_tags": ROOT / "data/raw/styles.yaml",
+    "finishing": ROOT / "data/raw/finishings.yaml",
 }
 
 
@@ -76,7 +80,7 @@ def main() -> int:
         base = set(base_vals)
         if attr == "embellishments":
             pass
-        missing, stale = sorted(src - base), sorted(base - src)
+        missing, stale = sorted(src - base), sorted(base - src - IGNORE_EXTRA)
         dups = sorted(v for v, c in Counter(base_vals).items() if c > 1)
         if not missing and not stale:
             print(f"  {attr:15s} OK ({len(base)} values)" + (f"   [duplicates in list: {dups}]" if dups else ""))
@@ -87,6 +91,23 @@ def main() -> int:
             print(f"      in source, missing from _base.yaml: {missing}")
         if stale:
             print(f"      in _base.yaml, not in source:       {stale}")
+    # per-macrocategory lists in configs/attributes/*.yaml must be subsets of the source
+    print("\nPer-macrocategory lists (configs/attributes/*.yaml):")
+    for tmpl in sorted((ROOT / "configs" / "attributes").glob("*.yaml")):
+        spec = _load(tmpl)
+        for attr, path in sources.items():
+            vals = (spec.get(attr) or {}).get("values") if isinstance(spec.get(attr), dict) else None
+            if not isinstance(vals, list):
+                continue
+            if not path.exists():
+                print(f"  {tmpl.name}: {attr} NOT CHECKED (source file not found: {path})")
+                continue
+            unknown = sorted(str(v) for v in vals if v is not None and str(v) not in set(source_slugs(_load(path))))
+            if unknown:
+                bad = True
+                print(f"  {tmpl.name}: {attr} has values not in the source file: {unknown}")
+            else:
+                print(f"  {tmpl.name}: {attr} OK ({len(vals)} values)")
     if bad:
         print("\nRe-run scripts/extract_vocabularies.py and paste the block into _base.yaml.")
     return 1 if bad else 0

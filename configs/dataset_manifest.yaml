@@ -9,23 +9,25 @@
 #   2. Review and export labels JSON
 #   3. Add an entry here
 #   4. Re-run: python scripts/prepare_dataset.py
+# images_dir can be a symlink to /mnt/e/vlm_images/...
 
 batches:
   - name: shoes_women_batch01
     labels: data/raw/labels/shoes_women_batch01.json
     images_dir: data/raw/images/shoes_women_batch01
+
   - name: shoes_women_batch02
     labels: data/raw/labels/shoes_women_batch02.json
     images_dir: data/raw/images/shoes_women_batch02
-    # images_dir can be a symlink to /mnt/e/vlm_images/...
 
-  # - name: shoes_women_batch02
-  #   labels: data/raw/labels/shoes_women_batch02.json
-  #   images_dir: data/raw/images/shoes_women_batch02
+  - name: bags_women_batch01
+    labels: data/raw/labels/bags_women_batch01.json
+    images_dir: data/raw/images/bags_women_batch01
 
-  # - name: bags_women_batch01
-  #   labels: data/raw/labels/bags_women_batch01.json
-  #   images_dir: data/raw/images/bags_women_batch01
+  - name: bags_women_batch02
+    labels: data/raw/labels/bags_women_batch02.json
+    images_dir: data/raw/images/bags_women_batch02
+
 
 # Split configuration
 splits:

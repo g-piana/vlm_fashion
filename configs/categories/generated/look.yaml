@@ -330,14 +330,14 @@ taxonomy:
   flat-shoes-women:
   - ballerina
   - d'orsay flat
-  - lace up
+  - flat lace up
   - loafer
+  - mule
   - other flat shoes
   - slip on
-  - mule
   heeled-shoes-women:
   - d'orsay pump
-  - lace up
+  - heeled lace up
   - loafer pump
   - mary jane pump
   - mule
@@ -356,7 +356,6 @@ taxonomy:
   - boot
   - lace up boot
   - over the knee
-  - shoe boot
   sneakers-women:
   - high-top sneaker
   - sneaker

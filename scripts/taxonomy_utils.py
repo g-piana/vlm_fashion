@@ -162,6 +162,9 @@ def validate_tags(spec: ConfigSpec, tags) -> list[Issue]:
         info = spec.attrs[key]
         if info["multi"] and not isinstance(value, list):
             issues.append(("warning", f"{key}: expected a list, got {type(value).__name__}"))
+        elif not info["multi"] and isinstance(value, list):
+            issues.append(("warning", f"{key}: holds a list but is declared `type: enum` "
+                                      "(declare `type: list`, or keep a single value)"))
         if info["values"] is None:
             continue
         for item in (value if isinstance(value, list) else [value]):
@@ -192,6 +195,21 @@ def repair_tags(spec: ConfigSpec, tags, strip_unknown: bool = False):
             t["category"] = owners[0]
         elif len(owners) > 1 and cat not in owners:
             changes.append(f"subcategory {sub!r} is ambiguous {owners}; category {cat!r} kept")
+
+    # list-declared fields are always lists: null -> [], "x" -> ["x"]  (safe direction only)
+    # single-valued fields never keep a one-element list: ["x"] -> "x", [] -> null
+    for key, info in spec.attrs.items():
+        if key not in t:
+            continue
+        if info["multi"]:
+            if t[key] is None:
+                t[key] = []
+            elif isinstance(t[key], str):
+                changes.append(f"{key}: {t[key]!r} -> [{t[key]!r}]")
+                t[key] = [t[key]]
+        elif isinstance(t[key], list) and len(t[key]) <= 1:
+            changes.append(f"{key}: {t[key]!r} -> single value")
+            t[key] = t[key][0] if t[key] else None
 
     if strip_unknown:
         for key in list(t):

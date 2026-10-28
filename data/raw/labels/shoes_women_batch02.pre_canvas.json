@@ -1,0 +1,1514 @@
+[
+  {
+    "image": "A8W1047-1357302.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A women's wedge sandal featuring a peep-toe silhouette with a single ankle strap secured by a silver-toned buckle. The upper is crafted from smooth pink leather, while the distinctive wedge heel and platform are constructed from layered, textured straps in earthy brown and tan tones, creating a woven, espadrille-inspired aesthetic. The design combines a classic sandal structure with a bold, architectural heel.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "wedge sandal",
+      "primary_color": "pink",
+      "material": "leather",
+      "secondary_materials": [
+        "faux-leather"
+      ],
+      "embellishments": [
+        "none"
+      ],
+      "pattern": "none",
+      "style_tags": [
+        "boho",
+        "casual",
+        "chic"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "resort"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "ankle-strap",
+        "platform",
+        "wedge-heel"
+      ],
+      "toe_shape": "peep-toe",
+      "heel_type": "wedge-heel",
+      "heel_height": "mid-heel",
+      "sole_type": "platform",
+      "closure": "buckle",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "B322010.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A sleek, glossy black patent leather thong sandal featuring a flat heel with a gold-tone accent and a crisscross strap design over the instep. The silhouette is defined by thin, intersecting straps forming a T-strap configuration, with a slender ankle strap secured by a small buckle. The sole is flat and appears to be made of a light-colored material, contrasting with the dark upper.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "black",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": "none",
+      "style_tags": [],
+      "occasion": [
+        "casual"
+      ],
+      "season": "all-season",
+      "model_details": [
+        "ankle-strap",
+        "flat-heel",
+        "t-bar"
+      ],
+      "toe_shape": "round-toe",
+      "heel_type": "block-heel",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "buckle",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "B5S1081.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A blush pink wedge sandal featuring a platform sole and a high wedge heel. The upper is constructed with a peep-toe design and crisscross straps, accented with glittery silver sequin trim along the straps and ankle strap. The ankle strap fastens with a gold-toned buckle.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "wedge sandal",
+      "primary_color": "pink",
+      "secondary_colors": [],
+      "material": "faux-leather",
+      "secondary_materials": [],
+      "embellishments": "sequin",
+      "pattern": "none",
+      "style_tags": [],
+      "occasion": [],
+      "season": [],
+      "model_details": [
+        "ankle-strap",
+        "cross-over",
+        "platform",
+        "wedge-heel"
+      ],
+      "toe_shape": "peep-toe",
+      "heel_type": "wedge-heel",
+      "heel_height": "high-heel",
+      "sole_type": "platform",
+      "closure": "buckle"
+    }
+  },
+  {
+    "image": "B5S1099.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A pink wedge sandal featuring a strappy, crisscross design with decorative metallic studs and multicolored crystal embellishments. The upper is constructed from smooth, glossy pink leather with a padded ankle strap and gold-tone buckle closure. The wedge heel provides elevation and a modern silhouette.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "wedge sandal",
+      "primary_color": "pink",
+      "material": "leather",
+      "embellishments": [
+        "crystal",
+        "stud"
+      ],
+      "style_tags": [
+        "chic",
+        "elegant",
+        "gothic",
+        "maximalist"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "evening"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "ankle-strap",
+        "open-toe",
+        "wedge-heel"
+      ],
+      "toe_shape": null,
+      "heel_type": "wedge-heel",
+      "heel_height": "mid-heel",
+      "sole_type": null,
+      "closure": "buckle",
+      "secondary_colors": null,
+      "secondary_materials": null,
+      "pattern": null
+    }
+  },
+  {
+    "image": "B6S1119.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A single women's wedge sandal featuring a textured blue and brown woven upper with a peep-toe silhouette. The shoe is constructed with a prominent woven wedge heel and a slingback strap secured by a metallic buckle. A decorative, beaded embellishment adorns the toe area, adding a touch of detail to the otherwise minimalist design.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "wedge sandal",
+      "primary_color": "blue",
+      "secondary_colors": [
+        "brown"
+      ],
+      "material": "faux-leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "bead"
+      ],
+      "pattern": "none",
+      "style_tags": [
+        "casual",
+        "chic",
+        "elegant"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "resort"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "sling-back",
+        "wedge-heel"
+      ],
+      "toe_shape": "peep-toe",
+      "heel_type": "wedge-heel",
+      "heel_height": "mid-heel",
+      "sole_type": "platform",
+      "closure": "slip-on"
+    }
+  },
+  {
+    "image": "B6S1303-0813L21.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A women's wedge sandal featuring a woven espadrille-style sole and a wide, metallic gold strap across the instep. The heel is a textured, woven wedge in a matching brown tone, while the back strap is adorned with a shimmering teal and brown snakeskin-patterned material. The design combines casual espadrille construction with a bold, eye-catching embellishment.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "wedge sandal",
+      "primary_color": "gold",
+      "secondary_colors": [
+        "teal",
+        "brown"
+      ],
+      "material": [
+        "jute",
+        "faux-leather"
+      ],
+      "secondary_materials": [],
+      "embellishments": [
+        "none"
+      ],
+      "pattern": "none",
+      "style_tags": [
+        "casual",
+        "chic",
+        "retro"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "open-toe",
+        "slouch",
+        "wedge-heel"
+      ],
+      "toe_shape": null,
+      "heel_type": "wedge-heel",
+      "heel_height": "mid-heel",
+      "sole_type": "platform",
+      "closure": "slip-on"
+    }
+  },
+  {
+    "image": "B6S1404.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A vibrant green wedge sandal featuring a peep-toe silhouette with a contrasting cream-colored platform and heel. The design includes a single adjustable ankle strap with a gold-tone buckle and distinctive scalloped green trim along the platform edge. Constructed with smooth leather-like material, the shoe combines retro styling with a bold color contrast.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "wedge sandal",
+      "primary_color": "green",
+      "secondary_colors": [],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": "none",
+      "style_tags": [
+        "chic",
+        "retro",
+        "vintage"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "evening"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "ankle-strap",
+        "platform",
+        "wedge-heel"
+      ],
+      "toe_shape": "peep-toe",
+      "heel_type": "wedge-heel",
+      "heel_height": "mid-heel",
+      "sole_type": "platform",
+      "closure": "buckle"
+    }
+  },
+  {
+    "image": "B6S1420-0025404.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A tan leather wedge sandal featuring a peep-toe silhouette and a single adjustable strap across the ankle. The defining feature is its thick, multi-layered espadrille-style wedge heel and sole, constructed with woven jute and leather accents in coordinating tones. The upper is crafted from smooth leather with visible stitching details.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "wedge sandal",
+      "primary_color": "tan",
+      "material": "leather",
+      "secondary_materials": [
+        "faux-leather"
+      ],
+      "embellishments": [
+        "none"
+      ],
+      "pattern": "none",
+      "style_tags": [
+        "boho",
+        "casual",
+        "chic"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "resort"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "ankle-strap",
+        "platform",
+        "wedge-heel"
+      ],
+      "toe_shape": "peep-toe",
+      "heel_type": "wedge-heel",
+      "heel_height": "mid-heel",
+      "sole_type": "platform",
+      "closure": "slip-on",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "B6S1463.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A single women's wedge sandal featuring a metallic gold leather upper with a peep-toe silhouette and a slip-on closure. The heel and platform are constructed from a woven black and tan natural fiber in a checkerboard pattern, creating a bold contrast with the upper. The design combines a sleek, minimalist upper with a textured, artisanal heel structure.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "wedge sandal",
+      "primary_color": "gold",
+      "secondary_colors": [],
+      "material": [
+        "leather",
+        "faux-leather"
+      ],
+      "secondary_materials": [],
+      "embellishments": [
+        "none"
+      ],
+      "pattern": "none",
+      "style_tags": [
+        "casual",
+        "chic",
+        "eclecticism",
+        "retro"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "resort"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "platform",
+        "wedge-heel"
+      ],
+      "toe_shape": "peep-toe",
+      "heel_type": "wedge-heel",
+      "heel_height": "mid-heel",
+      "sole_type": "platform",
+      "closure": "slip-on"
+    }
+  },
+  {
+    "image": "B7S1106-1087226.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A tan patent leather wedge sandal featuring a prominent cork-textured wedge heel and a decorative metal chain and lace-up detail at the vamp. The shoe includes a thin ankle strap with a silver-toned buckle for secure fit. The design combines a sleek, modern silhouette with textured material contrast and metallic embellishments.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "wedge sandal",
+      "primary_color": "tan",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "chain",
+        "lace"
+      ],
+      "pattern": "none",
+      "style_tags": [
+        "chic",
+        "elegant",
+        "minimalist"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "evening"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "ankle-strap",
+        "lace-up",
+        "open-toe",
+        "slouch",
+        "wedge-heel"
+      ],
+      "toe_shape": null,
+      "heel_type": "wedge-heel",
+      "heel_height": "mid-heel",
+      "sole_type": "none",
+      "closure": "buckle",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "B7S1106-1088513.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A single green wedge sandal featuring a textured cork heel and smooth leather straps. The design includes a decorative braided metal chain detail at the toe strap and a buckle closure on the ankle strap. The silhouette is defined by a high wedge heel and a rounded toe.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "wedge sandal",
+      "primary_color": "green",
+      "material": [
+        "leather"
+      ],
+      "embellishments": [
+        "chain"
+      ],
+      "style_tags": [
+        "chic",
+        "elegant",
+        "minimalist"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "evening"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "ankle-strap",
+        "open-toe",
+        "wedge-heel"
+      ],
+      "toe_shape": null,
+      "heel_type": "wedge-heel",
+      "heel_height": "high-heel",
+      "sole_type": null,
+      "closure": "buckle",
+      "secondary_colors": null,
+      "secondary_materials": null,
+      "pattern": null
+    }
+  },
+  {
+    "image": "B7S1174-1094D28.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A women's wedge sandal featuring a braided rope heel and sole in a slate grey hue, paired with a canvas upper in alternating grey and white stripes. The open-toe design is accented with gold-embroidered script lettering on the vamp. The construction includes a white rubber sole and a slip-on closure.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "wedge sandal",
+      "primary_color": "grey",
+      "secondary_colors": [
+        "white"
+      ],
+      "material": [
+        "cotton",
+        "faux-leather"
+      ],
+      "secondary_materials": [],
+      "embellishments": [
+        "embroidery"
+      ],
+      "pattern": "stripes",
+      "style_tags": [
+        "casual",
+        "chic",
+        "elegant"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "resort"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "open-toe",
+        "wedge-heel"
+      ],
+      "toe_shape": null,
+      "heel_type": "wedge-heel",
+      "heel_height": "mid-heel",
+      "sole_type": "platform",
+      "closure": "slip-on"
+    }
+  },
+  {
+    "image": "B7S1201-119735J.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A women's red suede wedge sandal featuring a peep-toe silhouette and a single adjustable ankle strap with a gold-tone buckle. The sandal is constructed with contrasting white stitching along the edges and has a mid-height wedge heel. The design combines classic sandal structure with a secure ankle closure for support.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "wedge sandal",
+      "primary_color": "red",
+      "material": "suede",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": "none",
+      "style_tags": [
+        "chic",
+        "elegant",
+        "minimalist"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "evening"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "ankle-strap",
+        "wedge-heel"
+      ],
+      "toe_shape": "peep-toe",
+      "heel_type": "wedge-heel",
+      "heel_height": "mid-heel",
+      "sole_type": null,
+      "closure": "buckle",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "B7S3014-0615515.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A single teal loafer-style  flat mule with a flat heel and a contrasting wood-toned sole. The upper is crafted from smooth leather with a prominent, stitched leather tab at the vamp, characteristic of a penny loafer silhouette. The design is minimalist with clean lines and a rounded toe.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "mule",
+      "primary_color": "teal",
+      "material": "leather",
+      "embellishments": "none",
+      "style_tags": [
+        "chic",
+        "classic",
+        "minimalist"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [],
+      "toe_shape": "round-toe",
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "slip-on",
+      "secondary_colors": null,
+      "secondary_materials": null,
+      "pattern": null
+    }
+  },
+  {
+    "image": "B7S3036-1082404.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "Flat shoe  flat mule featuring a tan leather upper with contrasting beige trim and a white, segmented rubber sole. The design includes a rounded toe and a minimalist, streamlined silhouette with a low-profile, flat heel. The construction highlights clean stitching and a slipper-style opening for easy wear.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "mule",
+      "primary_color": "tan",
+      "secondary_colors": [
+        "white",
+        "beige"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": "none",
+      "pattern": "none",
+      "style_tags": [
+        "casual",
+        "chic",
+        "minimalist"
+      ],
+      "occasion": [
+        "casual"
+      ],
+      "season": "all-season",
+      "model_details": [
+        "round-toe"
+      ],
+      "toe_shape": "round-toe",
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "slip-on"
+    }
+  },
+  {
+    "image": "B7W1067-0350CJ5.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A women's mule-style flat mule featuring a low block heel and a peep-toe silhouette. Constructed from black suede with a contrasting burgundy velvet panel accented by red stitching along the vamp. The design includes a slip-on closure and a rounded toe.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "mule",
+      "primary_color": "black",
+      "secondary_colors": [
+        "burgundy"
+      ],
+      "material": "suede",
+      "secondary_materials": [],
+      "embellishments": [
+        "none"
+      ],
+      "pattern": "none",
+      "style_tags": [
+        "casual",
+        "chic",
+        "elegant"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "square-toe"
+      ],
+      "toe_shape": "square-toe",
+      "heel_type": "block-heel",
+      "heel_height": "low-heel",
+      "sole_type": "none",
+      "closure": "slip-on"
+    }
+  },
+  {
+    "image": "B7W3010-0013302.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "Glossy coral-pink flat mule featuring a minimalist silhouette with a pointed toe and a distinctive spherical, metallic heel. The smooth, patent-like leather construction is accented by a thin, contrasting tan sole and a clean, slip-on design. The heel is a sculptural, translucent sphere with a metallic finish, adding a modern, avant-garde element to the otherwise classic mule shape.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "mule",
+      "primary_color": "coral",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": "none",
+      "style_tags": [
+        "avant-garde",
+        "chic",
+        "minimalist"
+      ],
+      "occasion": [
+        "smart-casual",
+        "evening"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "open-toe",
+        "pointed-toe"
+      ],
+      "toe_shape": "pointed-toe",
+      "heel_type": "block-heel",
+      "heel_height": "low-heel",
+      "sole_type": "none",
+      "closure": "slip-on",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "B8S3021-1493999.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A sleek, black flat mule featuring a pointed toe and a decorative bow embellishment at the vamp. The upper is constructed from a textured, glitter-flecked mesh material with a contrasting black patent leather trim along the opening. The shoe has a low-profile, flat heel and a slip-on silhouette.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "mule",
+      "primary_color": "black",
+      "material": "faux-leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "bow"
+      ],
+      "pattern": "none",
+      "style_tags": [
+        "chic",
+        "elegant",
+        "minimalist"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter",
+        "all-season"
+      ],
+      "model_details": [
+        "pointed-toe"
+      ],
+      "toe_shape": "pointed-toe",
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "slip-on",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "B8S3026-1494WHA.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A women's flat mule featuring a pointed toe and a slip-on silhouette with a contrasting blue and white diagonal stripe pattern. The upper is constructed from smooth leather with a decorative bow made from the same striped fabric at the vamp. The shoe has a low-profile, flat heel and a rounded, open back.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "mule",
+      "primary_color": "blue",
+      "secondary_colors": [
+        "white"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "bow"
+      ],
+      "pattern": "stripes",
+      "style_tags": [
+        "casual",
+        "chic"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "open-toe"
+      ],
+      "toe_shape": "pointed-toe",
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "slip-on"
+    }
+  },
+  {
+    "image": "B8S3036-0163314.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A vibrant red satin  flat mule featuring a pointed toe and a decorative, multi-colored crystal embellishment at the vamp. The slip-on design is constructed with a flat heel and a soft, draped satin overlay that extends over the instep. The silhouette is elegant and feminine, designed for a polished, evening-ready look.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "mule",
+      "primary_color": "red",
+      "material": "silk",
+      "embellishments": [
+        "crystal"
+      ],
+      "style_tags": [
+        "chic",
+        "elegant",
+        "romantic"
+      ],
+      "occasion": [
+        "evening",
+        "bridal"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "pointed-toe"
+      ],
+      "toe_shape": "pointed-toe",
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "slip-on",
+      "secondary_colors": null,
+      "secondary_materials": null,
+      "pattern": null
+    }
+  },
+  {
+    "image": "B8W3028-0163999.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A sleek, black satin flat mule featuring a pointed toe and a decorative, textured spiral embellishment at the vamp. The shoe has a flat, low-profile sole and a minimalist silhouette with a mule-style open back. The satin material has a subtle sheen, and the spiral detail adds a sculptural, three-dimensional accent.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "mule",
+      "primary_color": "black",
+      "material": "silk",
+      "embellishments": [
+        "tassel"
+      ],
+      "style_tags": [
+        "chic",
+        "elegant",
+        "minimalist"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "evening"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter",
+        "all-season"
+      ],
+      "model_details": [
+        "pointed-toe"
+      ],
+      "toe_shape": "pointed-toe",
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "slip-on",
+      "secondary_colors": null,
+      "secondary_materials": null,
+      "pattern": null
+    }
+  },
+  {
+    "image": "B8W3038-1557ARE.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A pointed-toe mule featuring a flat heel and a decorative bow made from the same patterned fabric. The upper is crafted from a jacquard-like textile in a mustard-yellow and rust-orange floral pattern, with a contrasting black insole and sole. The silhouette is sleek and slip-on, designed for easy wear with a decorative flourish at the vamp.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "mule",
+      "primary_color": "yellow",
+      "secondary_colors": [
+        "orange"
+      ],
+      "material": "faux-leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "bow"
+      ],
+      "pattern": "floral-pattern",
+      "style_tags": [
+        "chic",
+        "elegant",
+        "romantic"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "open-toe",
+        "pointed-toe"
+      ],
+      "toe_shape": "pointed-toe",
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "slip-on"
+    }
+  },
+  {
+    "image": "B9S2014-0027L12.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A metallic silver thong sandal with a gold-toned thong strap adorned with a cluster of clear and brownish crystals. The flat sole features a contrasting brown wood-like trim and a silver insole. The design combines minimalist silhouette with sparkling embellishments for a chic, evening-ready look.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "silver",
+      "secondary_colors": [],
+      "material": "faux-leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "crystal"
+      ],
+      "pattern": "none",
+      "style_tags": [
+        "chic",
+        "elegant"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "evening"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter",
+        "all-season"
+      ],
+      "model_details": [],
+      "toe_shape": null,
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "slip-on"
+    }
+  },
+  {
+    "image": "B9S2014-1691347.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A women's flat thong sandal featuring a vibrant red patent leather thong strap adorned with a row of sparkling red and pink crystals. The footbed showcases a bold floral pattern in shades of red, pink, and white, set atop a brown wooden sole. The design combines a classic thong silhouette with glamorous embellishments for a casual yet eye-catching look.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "red",
+      "secondary_colors": [
+        "white",
+        "pink"
+      ],
+      "material": [
+        "leather",
+        "faux-leather"
+      ],
+      "secondary_materials": [],
+      "embellishments": [
+        "crystal"
+      ],
+      "pattern": "floral-pattern",
+      "style_tags": [
+        "boho",
+        "casual",
+        "chic"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "resort"
+      ],
+      "season": [
+        "spring-summer"
+      ],
+      "model_details": [],
+      "toe_shape": null,
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "slouch",
+      "closure": "slip-on"
+    }
+  },
+  {
+    "image": "C0S2002-0141999.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A sleek, black patent leather thong sandal featuring a decorative braided knot embellishment at the toe strap and a gold-toned buckle closure on the ankle strap. The silhouette is minimalist with a flat sole and rounded toe, designed for a modern, chic aesthetic.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "braid",
+        "buckle"
+      ],
+      "style_tags": [
+        "chic",
+        "minimalist"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual"
+      ],
+      "season": [
+        "spring-summer",
+        "all-season"
+      ],
+      "model_details": [],
+      "toe_shape": null,
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "buckle",
+      "secondary_colors": null,
+      "secondary_materials": null,
+      "pattern": null
+    }
+  },
+  {
+    "image": "C0S2003-0141.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A sleek, glossy black patent leather thong sandal featuring a decorative braided knot embellishment at the toe strap and a gold-toned buckle on the ankle strap. The design combines a classic T-strap silhouette with a flat, minimalist sole and a smooth, reflective finish.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "braid"
+      ],
+      "style_tags": [
+        "chic",
+        "classic",
+        "elegant"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "evening"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter",
+        "all-season"
+      ],
+      "model_details": [
+        "slouch",
+        "t-bar"
+      ],
+      "toe_shape": null,
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "slip-on",
+      "secondary_colors": null,
+      "secondary_materials": null,
+      "pattern": null
+    }
+  },
+  {
+    "image": "C0S2004.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "Low-heeled thong sandal featuring a black upper with cream-colored footbed. T-bar construction includes an ankle strap with metal buckle closure. Gold-toned hardware embellishment with crystal detailing adorns the center of the T-strap.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "black",
+      "secondary_colors": null,
+      "material": "leather",
+      "secondary_materials": null,
+      "embellishments": "crystal",
+      "pattern": null,
+      "style_tags": null,
+      "occasion": null,
+      "season": null,
+      "model_details": null,
+      "toe_shape": null,
+      "heel_type": "block-heel",
+      "heel_height": "flat-heel",
+      "sole_type": null,
+      "closure": null
+    }
+  },
+  {
+    "image": "C0S2007-0626250.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A single women's thong sandal featuring a glossy coral-red block heel and matching platform sole. The thong strap is constructed from braided synthetic rope in a multi-toned pattern of coral, rust, and blue speckles, secured with a small metallic buckle. The design combines a classic thong silhouette with a modern, chunky heel for a bold, colorful statement.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "coral",
+      "material": "faux-leather",
+      "secondary_materials": [],
+      "embellishments": "buckle",
+      "pattern": "none",
+      "style_tags": [
+        "casual",
+        "chic",
+        "color-blocking",
+        "retro"
+      ],
+      "occasion": [
+        "casual"
+      ],
+      "season": "spring-summer",
+      "model_details": [
+        "platform",
+        "slouch"
+      ],
+      "toe_shape": null,
+      "heel_type": "block-heel",
+      "heel_height": "mid-heel",
+      "sole_type": "platform",
+      "closure": "slip-on",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "C0S3017-0589999.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A sleek, black mule-style slipper featuring a flat heel and a mesh upper with a contrasting textured toe cap. The silhouette is minimalist and modern, with a slip-on construction and a low-profile, block heel for comfort. The design emphasizes clean lines and a monochromatic aesthetic.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "mule",
+      "primary_color": "black",
+      "material": "faux-leather",
+      "secondary_materials": [],
+      "embellishments": "mesh-insert",
+      "pattern": "none",
+      "style_tags": [
+        "chic",
+        "minimalist"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter",
+        "all-season"
+      ],
+      "model_details": [
+        "open-toe",
+        "round-toe"
+      ],
+      "toe_shape": "round-toe",
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "slip-on",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "C0W1032-0640GNR.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A sleek, black suede mule slipper featuring a pointed toe and a low block heel. The upper is adorned with a decorative cluster of cream-colored pearls arranged in a cascading tassel at the vamp. The silhouette is minimalist with a slip-on construction, emphasizing comfort and a chic, embellished detail.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "mule",
+      "primary_color": "black",
+      "material": "suede",
+      "embellishments": [
+        "tassel"
+      ],
+      "style_tags": [
+        "chic",
+        "elegant"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "pointed-toe"
+      ],
+      "toe_shape": "pointed-toe",
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "slip-on",
+      "secondary_colors": null,
+      "secondary_materials": null,
+      "pattern": null
+    }
+  },
+  {
+    "image": "C1S2011.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A vibrant pink flat thong sandal featuring a textured, tweed-like upper with a frayed, embellished finish. The design includes a T-strap with a decorative gold-tone buckle and a matching ankle strap. The sole is a contrasting terracotta tone, and the silhouette is defined by its flat heel and open-toe construction.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "pink",
+      "material": "faux-leather",
+      "secondary_materials": [],
+      "embellishments": "buckle",
+      "pattern": "none",
+      "style_tags": [
+        "chic",
+        "color-blocking",
+        "elegant",
+        "maximalist"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "resort"
+      ],
+      "season": [
+        "spring-summer",
+        "all-season"
+      ],
+      "model_details": [
+        "ankle-strap"
+      ],
+      "toe_shape": null,
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "slip-on",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "C1W2001-0788999.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A black, flat-heel thong sandal featuring a quilted leather sole and suede straps, including a T-strap adorned with a row of silver-toned crystals. The ankle strap is secured with a silver buckle, and the overall silhouette is minimalist with a square toe. The design combines classic sandal structure with subtle embellishment for a chic, evening-appropriate look.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "black",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": "crystal",
+      "pattern": "none",
+      "style_tags": [
+        "chic",
+        "elegant",
+        "minimalist"
+      ],
+      "occasion": [
+        "smart-casual",
+        "evening"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "ankle-strap",
+        "square-toe"
+      ],
+      "toe_shape": "square-toe",
+      "heel_type": "block-heel",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "buckle",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "C6W2011-0060999.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A black flat thong sandal featuring a quilted leather sole and multiple thin straps forming a crisscross pattern across the instep and ankle. The design is accented by a decorative flower embellishment with a pearl center on the vamp. The ankle strap includes a small gold-tone buckle for closure.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "black",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "flower",
+        "pearl"
+      ],
+      "pattern": "none",
+      "style_tags": [
+        "chic",
+        "classic",
+        "elegant"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "evening"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter",
+        "all-season"
+      ],
+      "model_details": [
+        "ankle-strap",
+        "open-toe"
+      ],
+      "toe_shape": null,
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "buckle",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "C6W2012-0177OAN.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A sleek, dark grey T-strap thong sandal featuring a textured, ribbed leather upper with a buckle closure at the ankle. The flat, metallic-toned sole provides a modern contrast to the matte finish of the straps. The design is minimalist with clean lines and a classic T-strap silhouette.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "grey",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": "none",
+      "pattern": "none",
+      "style_tags": [
+        "chic",
+        "minimalist"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "ankle-strap",
+        "flat-heel"
+      ],
+      "toe_shape": null,
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "buckle",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "C7S2005-0262VAC.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A teal leather thong sandal featuring a T-strap design with two decorative floral appliqués, each centered with a pearl. The sandal has a low, block heel and a buckle closure on the ankle strap, with the brand logo visible on the strap. The silhouette is classic and feminine, designed for smart-casual wear.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "teal",
+      "material": "leather",
+      "embellishments": [
+        "logo-element",
+        "pearl"
+      ],
+      "style_tags": [
+        "chic",
+        "elegant"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual"
+      ],
+      "season": [
+        "spring-summer"
+      ],
+      "model_details": [
+        "open-toe",
+        "t-bar"
+      ],
+      "toe_shape": null,
+      "heel_type": "block-heel",
+      "heel_height": "low-heel",
+      "sole_type": "none",
+      "closure": "buckle",
+      "secondary_colors": null,
+      "secondary_materials": null,
+      "pattern": null
+    }
+  },
+  {
+    "image": "C8S2010.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A minimalist navy blue thong sandal with a slender kitten heel featuring a gold-tone CC logo cap. The design includes a single adjustable ankle strap with a metallic buckle and a wide, flat vamp strap. Constructed from a matte-finish suede-like material, the silhouette is sleek and modern with a square toe.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "navy",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "logo-element"
+      ],
+      "pattern": "none",
+      "style_tags": [
+        "chic",
+        "classic",
+        "elegant"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual",
+        "evening"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "kitten-heel",
+        "open-toe",
+        "sling-back",
+        "t-bar"
+      ],
+      "toe_shape": "square-toe",
+      "heel_type": "kitten-heel",
+      "heel_height": "low-heel",
+      "sole_type": "none",
+      "closure": "slip-on",
+      "secondary_colors": null
+    }
+  },
+  {
+    "image": "C8S2018.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A single brown suede thong sandal featuring a quilted upper and a prominent gold-tone metal logo emblem at the toe strap. The design includes a thin ankle strap with a silver-toned buckle for adjustability and a flat, black rubber sole. The silhouette is minimalist with a rounded toe and a low-profile construction.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "brown",
+      "material": "suede",
+      "embellishments": [
+        "logo-element"
+      ],
+      "style_tags": [
+        "chic",
+        "classic",
+        "elegant"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "flat-heel",
+        "quilted",
+        "t-bar"
+      ],
+      "toe_shape": "round-toe",
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "slip-on",
+      "secondary_colors": null,
+      "secondary_materials": null,
+      "pattern": null
+    }
+  },
+  {
+    "image": "C9S2007.jpg",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A black suede thong sandal featuring a T-strap design with two pearl embellishments at the instep and a gold-tone CC logo. The sandal has a flat heel and a slingback strap with a buckle closure. The insole is white, contrasting with the black upper.",
+    "tags": {
+      "category": "sandals-women",
+      "subcategory": "thong",
+      "primary_color": "black",
+      "material": "suede",
+      "embellishments": [
+        "logo-element",
+        "pearl"
+      ],
+      "style_tags": [
+        "chic",
+        "classic"
+      ],
+      "occasion": [
+        "casual",
+        "smart-casual"
+      ],
+      "season": [
+        "spring-summer",
+        "fall-winter"
+      ],
+      "model_details": [
+        "flat-heel",
+        "sling-back",
+        "slouch",
+        "t-bar"
+      ],
+      "toe_shape": null,
+      "heel_type": "none",
+      "heel_height": "flat-heel",
+      "sole_type": "none",
+      "closure": "buckle",
+      "secondary_colors": null,
+      "secondary_materials": null,
+      "pattern": null
+    }
+  }
+]

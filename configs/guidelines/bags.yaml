@@ -27,15 +27,15 @@ pouch: >-
 bucket bag: >-
   Round flat base with cylindrical or conical body, drawstring or open top, single shoulder strap. Plant-fibre weave is basket; a crescent shape without a round base is hobo bag.
 camera bag: >-
-  Small boxy rectangle with top zip (often double) and a long crossbody strap, sometimes a tassel on the zip pull. Also the fallback for any boxy or zip-top bag on a strap with no other shape marker.
+  Small boxy rectangle with top zip (often double) and a long crossbody strap, sometimes a tassel on the zip pull. Also the fallback for boxy or zip-top bags on a strap that have NO front flap.
 hobo bag: >-
-  Crescent/half-moon body with curved bottom and a single shoulder strap, often cut in one piece with the body; soft slouchy or structured (crescent and half-moon bags are hobo). No round base (not bucket); symmetric (not saddle).
+  Crescent/half-moon body with curved bottom and a single shoulder strap, often cut in one piece with the body; soft slouchy or structured (crescent and half-moon bags are hobo). Has NO front flap: an elongated flap bag is an underarm bag even if its lower edge is curved. No round base (not bucket); symmetric (not saddle).
 saddle bag: >-
   Asymmetric kidney/"D"-shaped body with a curved flap and short shoulder strap, often a hanging logo or ring. Judge from the front view; from the side it can look like a hobo.
 satchel bag: >-
   Structured upright rectangle with a full-width front flap closed by two buckled straps, small top handle plus shoulder strap. Also the fallback for upright/square flap bags on a strap with no other shape marker. Not messenger (landscape, no top handle).
 underarm bag: >-
-  Elongated narrow horizontal body (width at least 2x height) with a short strap that holds it under the arm, often a front flap (baguette). Also the fallback for elongated flap bags on a strap. Rectangular, not curved like a hobo.
+  Elongated narrow horizontal body (width at least 2x height) with a short strap that holds it under the arm, usually a front flap (baguette). Also the fallback for elongated flap bags on a strap or chain, even with a slightly curved lower edge. Rectangular or gently curved, not a soft slouchy crescent.
 backpack: >-
   Vertical body with two parallel shoulder straps on the back panel and a top grab handle. Mini backpacks stay here. One diagonal strap is a sling bag.
 sling bag: >-

@@ -1788,32 +1788,32 @@ women:
               slug: d-orsay-flat
               name: d'orsay flat
               lab_en: d'orsay flat
-              order: 5
-            lace up:
-              slug: lace-up
-              name: lace up
-              lab_en: lace up
-              order: 7
+              order: 1
+            flat lace up:
+              slug: flat-lace-up
+              name: flat lace up
+              lab_en: flat lace up
+              order: 2
             loafer:
               slug: loafer
               name: loafer
               lab_en: loafer
-              order: 8
-            other flat shoes:
-              slug: other-flat-shoes
-              name: other flat shoes
-              lab_en: other flat shoes
-              order: 10
-            slip on:
-              slug: slip-on
-              name: slip on
-              lab_en: slip on
-              order: 12
+              order: 3
             mule:
               slug: mule
               name: mule
               lab_en: mule
-              order: 13
+              order: 4
+            other flat shoes:
+              slug: other-flat-shoes
+              name: other flat shoes
+              lab_en: other flat shoes
+              order: 5
+            slip on:
+              slug: slip-on
+              name: slip on
+              lab_en: slip on
+              order: 6
         heeled-shoes-women:
           slug: heeled-shoes-women
           name: heeled-shoes
@@ -1825,10 +1825,10 @@ women:
               name: d'orsay pump
               lab_en: d'orsay pump
               order: 1
-            lace up:
-              slug: lace-up
-              name: lace up
-              lab_en: lace up
+            heeled lace up:
+              slug: heeled-lace-up
+              name: heeled lace up
+              lab_en: heeled lace up
               order: 2
             loafer pump:
               slug: loafer-pump
@@ -1922,11 +1922,6 @@ women:
               name: over the knee
               lab_en: over the knee
               order: 0
-            shoe boot:
-              slug: shoe-boot
-              name: shoe boot
-              lab_en: shoe boot
-              order: 4
         sneakers-women:
           slug: sneakers-women
           name: sneakers

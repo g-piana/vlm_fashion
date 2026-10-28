@@ -23,6 +23,7 @@ from sklearn.model_selection import train_test_split
 
 from category_config import build_system_prompt, get_user_message
 from taxonomy_utils import validate_samples
+from splits import assign_splits, write_test_files
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
 log = logging.getLogger(__name__)
@@ -122,6 +123,8 @@ def main():
                         help="treat vocabulary warnings as fatal too")
     parser.add_argument("--no-validate", action="store_true",
                         help="skip taxonomy/vocabulary validation")
+    parser.add_argument("--resplit", action="store_true",
+                        help="rebuild the frozen test set (normally never needed)")
     args = parser.parse_args()
 
     if not args.manifest.exists():
@@ -157,21 +160,18 @@ def main():
         if not validate_samples(all_samples, strict=args.strict):
             return
 
-    # Stratified split by category_config
-    categories = [s.get("category_config", "unknown") for s in all_samples]
-    can_stratify = len(set(categories)) > 1
-
-    train_val, test = train_test_split(
-        all_samples, test_size=test_ratio, random_state=seed,
-        stratify=categories if can_stratify else None,
+    # Sticky split: stratified by (category_config, subcategory); test images are frozen
+    # in configs/split_registry.json and only NEW images can ever join the test set.
+    parts = assign_splits(
+        all_samples,
+        Path(manifest.get("split_registry", "configs/split_registry.json")),
+        test_per_subcategory=splits_cfg.get("test_per_subcategory", 2),
+        min_images_for_test=splits_cfg.get("min_images_for_test", 5),
+        val_ratio=val_ratio, seed=seed, resplit=args.resplit,
     )
-    cat_tv = [s.get("category_config", "unknown") for s in train_val]
-    relative_val = val_ratio / (1.0 - test_ratio)
-    train, val = train_test_split(
-        train_val, test_size=relative_val, random_state=seed,
-        stratify=cat_tv if can_stratify else None,
-    )
+    train, val, test = parts["train"], parts["val"], parts["test"]
     log.info("Split: train=%d, val=%d, test=%d", len(train), len(val), len(test))
+    write_test_files(test, output_dir)
 
     for name, split in [("train", train), ("val", val), ("test", test)]:
         df = build_dataframe(split)
