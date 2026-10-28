@@ -6,7 +6,7 @@ model_details:
 
 finishing:
   type: list
-  values: [canvas, jacquard, patent, saffiano, embossed, croc-effect, python-effect, metallic, satin, velvet, crochet, denim]
+  values: [canvas, jacquard, patent, saffiano, grained, embossed, croc-effect, python-effect, printed, metallic, satin, velvet, crochet, denim]
 
 handle_type:
   type: list

@@ -33,7 +33,7 @@ def sample_id(s: dict) -> str:
 
 def group_key(s: dict) -> tuple[str, str]:
     tags = s.get("tags") if isinstance(s.get("tags"), dict) else {}
-    return (s.get("category_config") or "unknown", str(tags.get("subcategory") or "?"))
+    return (s.get("category_config") or "unknown", f'{tags.get("category") or "?"}/{tags.get("subcategory") or "?"}')
 
 
 def assign_splits(samples: list[dict], registry_path: Path, test_per_subcategory: int = 2,

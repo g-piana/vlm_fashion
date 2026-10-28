@@ -28,6 +28,13 @@ batches:
     labels: data/raw/labels/bags_women_batch02.json
     images_dir: data/raw/images/bags_women_batch02
 
+  - name: bags_women_batch03
+    labels: data/raw/labels/bags_women_batch03.json
+    images_dir: data/raw/images/bags_women_batch03
+  
+  - name: shoes_women_batch03
+    labels: data/raw/labels/shoes_women_batch03.json
+    images_dir: data/raw/images/shoes_women_batch03
 
 # Split configuration
 splits:
