@@ -232,10 +232,10 @@
     "image": "A8W1045-0866BAK.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A black suede peep-toe pump featuring a distinctive wraparound ankle strap with a tied bow, accented by transparent acrylic crisscross straps over the instep. The shoe has a medium-height comma heel and a pointed toe silhouette, creating a sleek, elegant profile.",
+    "description": "A black suede peep-toe heeled sandal featuring a distinctive wraparound ankle strap with a tied bow, accented by transparent acrylic crisscross straps over the instep. The shoe has a medium-height comma heel, creating a sleek, elegant profile.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "pump",
+      "category": "sandals-women",
+      "subcategory": "heeled sandal",
       "primary_color": "black",
       "material": "suede",
       "secondary_materials": [],
@@ -245,10 +245,11 @@
       "heel_type": "comma-heel",
       "heel_height": "mid-heel",
       "sole_type": "none",
-      "closure": "none",
+      "closure": "lace-up",
       "secondary_colors": [],
       "model_details": [
-        "ankle-strap"
+        "ankle-wrap",
+        "strappy"
       ],
       "finishing": []
     }
@@ -307,10 +308,10 @@
     "image": "A8W4009-0733999.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek black suede pump featuring a pointed toe and a slender comma heel. The design includes a distinctive wrap-around lace-up closure at the ankle for a secure fit and a modern silhouette. The interior lining appears to be a contrasting light tone, enhancing comfort and visual contrast.",
+    "description": "A sleek black suede d'orsay pump featuring a pointed toe and a slender comma heel. The design includes a distinctive wrap-around lace-up closure at the ankle for a secure fit and a modern silhouette. The interior lining appears to be a contrasting light tone, enhancing comfort and visual contrast.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "pump",
+      "subcategory": "d'orsay pump",
       "primary_color": "black",
       "material": "suede",
       "closure": "lace-up",
@@ -322,7 +323,9 @@
       "embellishments": [],
       "pattern": null,
       "sole_type": null,
-      "model_details": [],
+      "model_details": [
+        "ankle-wrap"
+      ],
       "finishing": []
     }
   },
@@ -835,8 +838,8 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
-        "buckle",
-        "crystal"
+        "crystal",
+        "buckle"
       ],
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
@@ -1351,13 +1354,13 @@
     "image": "B5S3015.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A vibrant blue peep-toe pump featuring a stiletto heel and a single slingback strap with a silver-toned buckle. The upper is crafted from textured leather with a peep-toe silhouette and a platform sole. The design combines elegance with a modern, bold color statement.",
+    "description": "A vibrant blue peep-toe slingback featuring a stiletto heel and a silver-toned buckle. The upper is crafted from textured leather with a peep-toe silhouette and a platform sole. The design combines elegance with a modern, bold color statement.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "pump",
+      "subcategory": "slingback",
       "primary_color": "blue",
       "material": "leather",
-      "closure": "slip-on",
+      "closure": "buckle",
       "toe_shape": "peep-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
@@ -1466,16 +1469,15 @@
       "embellishments": [
         "stud"
       ],
-      "toe_shape": null,
+      "toe_shape": "plain-toe",
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
       "sole_type": "platform",
-      "closure": "slip-on",
+      "closure": "buckle",
       "secondary_colors": [],
       "pattern": null,
       "model_details": [
-        "ankle-strap",
-        "sling-back"
+        "ankle-strap"
       ],
       "finishing": []
     }
@@ -1509,10 +1511,10 @@
     "image": "B5S4016.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A pointed-toe pump featuring a two-tone design with a beige upper and a contrasting red snakeskin-patterned toe cap. Constructed with thin, crisscross ankle straps secured by a buckle, it sits on a slender stiletto heel. The silhouette is elegant and elongating, with a glossy finish on the heel and inner lining.",
+    "description": "A pointed-toe d’orsay pump with open sides featuring a two-tone design with a beige upper and a contrasting red snakeskin-patterned toe cap. Constructed with thin, crisscross ankle straps secured by a buckle, it sits on a slender stiletto heel. The silhouette is elegant and elongating, with a glossy finish on the heel and inner lining.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "pump",
+      "subcategory": "d'orsay pump",
       "primary_color": "beige",
       "secondary_colors": [
         "red"
@@ -1527,9 +1529,13 @@
       "sole_type": "none",
       "closure": "buckle",
       "model_details": [
+        "ankle-strap",
         "cross-over"
       ],
-      "finishing": []
+      "finishing": [
+        "metallic",
+        "python-effect"
+      ]
     }
   },
   {
@@ -1561,16 +1567,17 @@
     "image": "B5S4025.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A pointed-toe pump featuring a two-tone design with a navy blue denim-textured upper and beige leather accents. The shoe is secured with a T-strap closure adorned with a gold-tone buckle and metallic rectangular embellishments. The silhouette is defined by a slender kitten heel and a d'orsay cutout at the vamp.",
+    "description": "A pointed-toe pump featuring a two-tone design with a navy blue denim-textured upper and beige leather accents. The shoe is secured with a T-strap closure adorned with a gold-tone buckle and metallic rectangular embellishments. The silhouette is defined by a slender kitten heel and a d'orsay cutout at the sides of the arch.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "pump",
+      "subcategory": "d'orsay pump",
       "primary_color": "navy",
       "material": "leather",
-      "secondary_materials": [],
+      "secondary_materials": [
+        "cotton"
+      ],
       "embellishments": [
-        "buckle",
-        "metal-plate"
+        "stud"
       ],
       "pattern": "none",
       "toe_shape": "pointed-toe",
@@ -1581,8 +1588,13 @@
       "secondary_colors": [
         "beige"
       ],
-      "model_details": [],
-      "finishing": []
+      "model_details": [
+        "ankle-strap",
+        "t-bar"
+      ],
+      "finishing": [
+        "denim"
+      ]
     }
   },
   {
@@ -1641,10 +1653,9 @@
     "tags": {
       "subcategory": "wedge pump",
       "primary_color": "navy",
-      "material": "faux-leather",
+      "material": "cotton",
       "embellishments": [
-        "bow",
-        "buckle"
+        "bow"
       ],
       "toe_shape": "peep-toe",
       "heel_type": "wedge-heel",
@@ -1654,7 +1665,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
-      "sole_type": null,
+      "sole_type": "platform",
       "model_details": [],
       "finishing": [
         "denim"
@@ -1665,10 +1676,10 @@
     "image": "B5S6201.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, pointed-toe pump featuring a metallic silver snakeskin-effect leather upper with a thin, stiletto heel. The design includes a single adjustable ankle strap with a small buckle closure for a secure fit. The interior lining appears to be a contrasting warm brown tone.",
+    "description": "A sleek, pointed-toe d'orsay pump featuring a metallic silver snakeskin-effect leather upper with a thin, stiletto heel. The design includes a single diagonal strap across the instep with a buckle. The interior lining appears to be a contrasting warm brown tone.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "pump",
+      "subcategory": "d'orsay pump",
       "primary_color": "silver",
       "material": "leather",
       "secondary_materials": [],
@@ -1676,12 +1687,12 @@
       "pattern": "none",
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
-      "heel_height": "high-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],
       "model_details": [
-        "ankle-strap"
+        "single-strap"
       ],
       "finishing": [
         "metallic",
@@ -1697,7 +1708,7 @@
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "pump",
-      "primary_color": "black",
+      "primary_color": "charcoal",
       "material": "suede",
       "closure": "slip-on",
       "toe_shape": "pointed-toe",
@@ -1720,7 +1731,7 @@
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "pump",
-      "primary_color": "green",
+      "primary_color": "emerald",
       "material": "suede",
       "closure": "slip-on",
       "toe_shape": "pointed-toe",
@@ -1766,7 +1777,7 @@
     "image": "B5S6245.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, black leather pump featuring a pointed toe and a slender stiletto heel. The silhouette is accentuated by a distinctive d'orsay-style cutout at the vamp, revealing the inner lining. Constructed with smooth leather and a minimalist design, it presents a classic, elegant profile.",
+    "description": "A sleek, black leather pump featuring a pointed toe and a slender stiletto heel. The silhouette is accentuated by a distinctive d'orsay-style cutout at the arch, revealing the inner lining and a distinctive folded collar at the heel counter. Constructed with smooth leather and a minimalist design, it presents a classic, elegant profile.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "d'orsay pump",
@@ -1924,7 +1935,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "zigzag",
-      "toe_shape": null,
+      "toe_shape": "plain-toe",
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
       "sole_type": "platform",
@@ -2335,14 +2346,16 @@
     "image": "B5W4013-0972.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, pointed-toe pump in a glossy taupe patent leather with a T-strap design and a slender stiletto heel. The shoe features a thin ankle strap with a silver-toned buckle for secure closure and a contrasting black insole. The minimalist silhouette is accentuated by the high-gloss finish and sharp lines.",
+    "description": "A sleek, pointed-toe d'orsay pump in a glossy taupe patent leather with a stud-embellished T-strap design and a slender stiletto heel. The shoe features a thin ankle strap with a silver-toned buckle for secure closure and a contrasting black insole. The minimalist silhouette is accentuated by the high-gloss finish and sharp lines.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "pump",
+      "subcategory": "d'orsay pump",
       "primary_color": "taupe",
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [],
+      "embellishments": [
+        "stud"
+      ],
       "pattern": "none",
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
@@ -2351,7 +2364,8 @@
       "closure": "buckle",
       "secondary_colors": [],
       "model_details": [
-        "ankle-strap"
+        "ankle-strap",
+        "t-bar"
       ],
       "finishing": [
         "patent"
@@ -2362,31 +2376,32 @@
     "image": "B5W4021.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A striking, multi-toned pump featuring a pointed toe and a slender stiletto heel, constructed with contrasting panels of glossy pink and vibrant red satin-like material. The design includes a thin ankle strap with a gold-tone buckle and crisscross straps across the instep, creating a modern, architectural silhouette. The interior lining is a natural tan leather.",
+    "description": "A striking, multi-toned d'orsay pump featuring a pointed toe and a slender stiletto heel, constructed with contrasting panels of glossy pink and vibrant red satin-like material. The design includes a thin ankle strap with a gold-tone buckle and crisscross straps across the instep, creating a modern, architectural silhouette. The interior lining is a natural tan leather.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "pump",
-      "primary_color": "red",
+      "subcategory": "d'orsay pump",
+      "primary_color": "coral",
       "secondary_colors": [
-        "pink"
+        "pink",
+        "purple"
       ],
-      "material": "silk",
+      "material": "polyester",
       "secondary_materials": [
         "leather"
       ],
-      "embellishments": [
-        "buckle"
-      ],
+      "embellishments": [],
       "pattern": "none",
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
       "sole_type": "none",
-      "closure": "slip-on",
+      "closure": "buckle",
       "model_details": [
-        "ankle-strap"
+        "ankle-strap",
+        "cross-over"
       ],
       "finishing": [
+        "metallic",
         "satin"
       ]
     }
@@ -2395,13 +2410,13 @@
     "image": "B5W4022-0010.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A striking red suede pump featuring a pointed toe, slender stiletto heel, and a distinctive crisscross ankle strap closure with a silver-toned buckle. The silhouette is elongated and elegant, with a contrasting black inner lining and sole. The suede material provides a soft, matte texture that enhances the shoe's modern, chic profile.",
+    "description": "A striking coral suede pump featuring a pointed toe, slender stiletto heel, and a distinctive crisscross multi-strap wrapping the ankle, closed with a rear zip. The silhouette is elongated and elegant, with a contrasting black inner lining and sole. The suede material provides a soft, matte texture that enhances the shoe's modern, chic profile.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "pump",
-      "primary_color": "red",
+      "subcategory": "d'orsay pump",
+      "primary_color": "coral",
       "material": "suede",
-      "closure": "buckle",
+      "closure": "zip",
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
@@ -2411,7 +2426,8 @@
       "pattern": null,
       "sole_type": null,
       "model_details": [
-        "ankle-strap"
+        "ankle-wrap",
+        "multi-strap"
       ],
       "finishing": []
     }
@@ -2507,7 +2523,7 @@
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
-      "sole_type": "none",
+      "sole_type": "platform",
       "closure": "slip-on",
       "model_details": [],
       "finishing": []
@@ -2602,12 +2618,10 @@
     "description": "A single mustard-yellow patent leather pump featuring a pointed toe, a Mary Jane-style strap with a silver-toned buckle closure, and a chunky block heel. The shoe has a glossy finish and a contrasting black insole and heel cap.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "pump",
-      "primary_color": "yellow",
+      "subcategory": "mary jane pump",
+      "primary_color": "mustard",
       "material": "leather",
-      "embellishments": [
-        "buckle"
-      ],
+      "embellishments": [],
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
@@ -2616,7 +2630,9 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
-      "model_details": [],
+      "model_details": [
+        "single-strap"
+      ],
       "finishing": [
         "patent"
       ]
@@ -2629,16 +2645,14 @@
     "description": "A pointed-toe pump featuring a bold leopard print in tan and black, crafted from textured animal-printed leather with a contrasting black block heel. The design includes a Mary Jane-style strap with a gold-tone buckle closure across the instep. The silhouette is classic and elegant, with a structured heel and a smooth, dark interior lining.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "pump",
-      "primary_color": "black",
+      "subcategory": "mary jane pump",
+      "primary_color": "tan",
       "secondary_colors": [
-        "tan"
+        "black"
       ],
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [
-        "buckle"
-      ],
+      "embellishments": [],
       "pattern": "leopard",
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
@@ -2875,10 +2889,10 @@
     "image": "B5W7096-0406999.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A glossy black patent leather Oxford-style shoe featuring a chunky block heel and platform sole. The design includes traditional brogue perforations and serrated edge detailing along the vamp and quarter panels, with black laces for closure. The silhouette is classic and structured, with a rounded toe and elevated profile.",
+    "description": "A glossy black patent leather Oxford-style heeled shoe featuring a chunky block heel and platform sole. The design includes traditional brogue perforations and serrated edge detailing along the vamp and quarter panels, with black laces for closure. The silhouette is classic and structured, with a rounded toe and elevated profile.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "loafer pump",
+      "subcategory": "heeled lace up",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
@@ -3635,26 +3649,26 @@
     "image": "B6W6031.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A classic Mary Jane pump featuring a black leather upper with contrasting gold metallic accents on the inner lining and toe cap. The design includes two adjustable straps with gold-toned buckle closures over the instep. The silhouette is defined by a substantial block heel and a rounded toe.",
+    "description": "A classic Mary Jane pump with a rounded toe and a substantial high block heel. The upper is black leather on the toe cap, the lower vamp edge and the heel counter, set against a bronze metallic panel across the upper vamp and the collar. Two adjustable instep straps close with gold-toned buckles, and the lining is dark.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "mary jane pump",
       "primary_color": "black",
       "secondary_colors": [
-        "gold"
+        "bronze"
       ],
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [
-        "buckle"
-      ],
+      "embellishments": [],
       "pattern": "none",
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "high-heel",
       "sole_type": "none",
       "closure": "buckle",
-      "model_details": [],
+      "model_details": [
+        "double-strap"
+      ],
       "finishing": [
         "metallic"
       ]
@@ -3664,11 +3678,11 @@
     "image": "B6W6033-0909686.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, cap-toe pump featuring a two-tone design with a metallic silver body and black toe cap. Constructed with a block heel adorned with pearl and crystal embellishments, it is secured by two black strap buckles across the instep. The silhouette is classic and refined, with a pointed toe and smooth leather finish.",
+    "description": "A Mary Jane pump with a rounded toe and a short block heel. The upper is metallic blue-grey leather with a black patent toe cap and two black patent instep straps, each closed with a silver-toned buckle. The block heel is covered in silver textured leather and set with pearls and crystals.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "pump",
-      "primary_color": "silver",
+      "subcategory": "mary jane pump",
+      "primary_color": "slate",
       "secondary_colors": [
         "black"
       ],
@@ -3679,13 +3693,16 @@
         "pearl"
       ],
       "pattern": "none",
-      "toe_shape": "pointed-toe",
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "low-heel",
       "sole_type": "none",
       "closure": "buckle",
-      "model_details": [],
+      "model_details": [
+        "double-strap"
+      ],
       "finishing": [
+        "patent",
         "metallic"
       ]
     }
@@ -4039,15 +4056,15 @@
     "image": "B7S1274-0010800.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A single women's high-heeled pump featuring a rich burgundy suede upper with dramatic ruching across the vamp and a pointed peep-toe silhouette. The shoe is constructed with a slender stiletto heel and a minimalist, slip-on closure. The ruched design creates a sculptural, draped effect that adds volume and texture to the otherwise sleek profile.",
+    "description": "A heeled mule with a peep-toe and an open back, in burgundy suede. The upper is heavily ruched across the vamp, creating a draped, sculptural effect, and sits on a curved mid-height heel.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "pump",
+      "subcategory": "mule",
       "primary_color": "burgundy",
       "material": "suede",
       "toe_shape": "peep-toe",
-      "heel_type": "stiletto-heel",
-      "heel_height": "high-heel",
+      "heel_type": "comma-heel",
+      "heel_height": "mid-heel",
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -4730,7 +4747,7 @@
       "primary_color": "grey",
       "material": "leather",
       "embellishments": [
-        "tassel"
+        "fringe"
       ],
       "toe_shape": "square-toe",
       "heel_type": "block-heel",

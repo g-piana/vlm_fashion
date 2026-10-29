@@ -15,7 +15,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "pattern": "none",
       "handle_type": [
@@ -80,7 +80,7 @@
         "leather"
       ],
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "pattern": null,
       "model_details": [],
@@ -111,7 +111,7 @@
         "bamboo"
       ],
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "pattern": "none",
       "handle_type": [
@@ -146,7 +146,6 @@
         "leather"
       ],
       "embellishments": [
-        "hardware",
         "web"
       ],
       "pattern": "none",
@@ -185,8 +184,7 @@
       ],
       "secondary_colors": [],
       "embellishments": [
-        "hardware",
-        "logo-element"
+        "logo"
       ],
       "pattern": null,
       "model_details": [],
@@ -212,7 +210,7 @@
         "leather"
       ],
       "embellishments": [
-        "logo-element",
+        "logo",
         "web"
       ],
       "pattern": "none",
@@ -277,7 +275,7 @@
         "leather"
       ],
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "pattern": null,
       "model_details": [],
@@ -308,7 +306,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "pattern": "chevron",
       "handle_type": [],
@@ -335,9 +333,7 @@
       "secondary_materials": [],
       "embellishments": [
         "buckle",
-        "hardware",
-        "stud",
-        "zipper"
+        "stud"
       ],
       "pattern": "none",
       "model_details": [],
@@ -363,7 +359,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "handle_type": [
         "top-handle",
@@ -393,7 +389,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "pattern": "chevron",
       "handle_type": [
@@ -432,8 +428,7 @@
         "red"
       ],
       "embellishments": [
-        "hardware",
-        "logo-element",
+        "logo",
         "web"
       ],
       "pattern": null,
@@ -457,7 +452,7 @@
         "leather"
       ],
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "pattern": "none",
       "handle_type": [
@@ -489,8 +484,7 @@
         "leather"
       ],
       "embellishments": [
-        "hardware",
-        "logo-element"
+        "logo"
       ],
       "pattern": null,
       "model_details": [],
@@ -547,9 +541,7 @@
       "subcategory": "hobo bag",
       "primary_color": "black",
       "material": "leather",
-      "embellishments": [
-        "hardware"
-      ],
+      "embellishments": [],
       "handle_type": [
         "top-handle"
       ],
@@ -574,7 +566,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "handle_type": [
         "top-handle",
@@ -697,7 +689,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "handle_type": [
         "top-handle"
@@ -785,7 +777,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "pattern": "none",
       "model_details": [],
@@ -842,7 +834,7 @@
       "primary_color": "brown",
       "material": "leather",
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "handle_type": [
         "top-handle"
@@ -910,7 +902,7 @@
         "nylon"
       ],
       "embellishments": [
-        "logo-element",
+        "logo",
         "web"
       ],
       "pattern": "leopard",

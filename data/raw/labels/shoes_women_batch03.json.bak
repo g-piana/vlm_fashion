@@ -146,7 +146,7 @@
         "suede"
       ],
       "embellishments": [
-        "logo-element",
+        "logo",
         "pearl"
       ],
       "pattern": "none",
@@ -170,7 +170,7 @@
       "primary_color": "burgundy",
       "material": "leather",
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
@@ -197,7 +197,7 @@
       "primary_color": "navy",
       "material": "leather",
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
@@ -227,7 +227,7 @@
       "secondary_materials": [],
       "embellishments": [
         "buckle",
-        "logo-element"
+        "logo"
       ],
       "pattern": "none",
       "model_details": [
@@ -723,7 +723,7 @@
       "material": "leather",
       "embellishments": [
         "buckle",
-        "metal-plate"
+        "logo"
       ],
       "toe_shape": "plain-toe",
       "heel_type": "none",

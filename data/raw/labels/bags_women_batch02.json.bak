@@ -207,8 +207,7 @@
       "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [
-        "chain",
-        "hardware"
+        "chain"
       ],
       "pattern": null,
       "model_details": [],
@@ -330,7 +329,7 @@
         "leather"
       ],
       "embellishments": [
-        "logo-element",
+        "logo",
         "web"
       ],
       "pattern": "none",
@@ -400,7 +399,7 @@
         "leather"
       ],
       "embellishments": [
-        "logo-element",
+        "logo",
         "web"
       ],
       "pattern": "none",
@@ -430,8 +429,7 @@
       "material": "cotton",
       "secondary_materials": [],
       "embellishments": [
-        "hardware",
-        "logo-element",
+        "logo",
         "web"
       ],
       "pattern": "none",
@@ -467,7 +465,7 @@
         "leather"
       ],
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "pattern": "none",
       "handle_type": [

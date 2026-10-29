@@ -3,11 +3,11 @@
 model_details:
   type: list
   values: [ankle-strap, ankle-wrap, cross-over, double-strap,
-          multi-strap, quilted, single-strap, sling-back, strappy, t-bar]
+          multi-strap, quilted, single-strap, strappy, t-bar]
 
 finishing:
   type: list
-  values: [patent, metallic, satin, velvet, canvas, jacquard, knit, croc-effect, python-effect, tweed, denim, lace]
+  values: [patent, grained, metallic, satin, velvet, canvas, jacquard, knit, croc-effect, python-effect, tweed, denim, lace]
 
 toe_shape:
   type: enum

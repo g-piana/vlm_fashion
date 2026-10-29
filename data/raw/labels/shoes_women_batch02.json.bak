@@ -322,7 +322,7 @@
         "faux-leather"
       ],
       "embellishments": [
-        "braid",
+        "trim",
         "embroidery"
       ],
       "pattern": "stripes",
@@ -664,7 +664,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
-        "braid",
+        "trim",
         "buckle"
       ],
       "model_details": [],
@@ -692,7 +692,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
-        "braid"
+        "trim"
       ],
       "model_details": [
         "t-bar"
@@ -930,7 +930,7 @@
       "primary_color": "teal",
       "material": "leather",
       "embellishments": [
-        "logo-element",
+        "logo",
         "pearl"
       ],
       "model_details": [
@@ -959,7 +959,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "pattern": "none",
       "model_details": [
@@ -986,7 +986,7 @@
       "primary_color": "brown",
       "material": "suede",
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "model_details": [
         "quilted",
@@ -1014,7 +1014,7 @@
       "primary_color": "black",
       "material": "suede",
       "embellishments": [
-        "logo-element",
+        "logo",
         "pearl"
       ],
       "model_details": [

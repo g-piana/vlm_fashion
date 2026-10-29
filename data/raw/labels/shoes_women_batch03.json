@@ -10,6 +10,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
+        "bow",
         "stud"
       ],
       "toe_shape": "round-toe",
@@ -96,8 +97,10 @@
       ],
       "pattern": "none",
       "model_details": [],
-      "finishing": [],
-      "toe_shape": "peep-toe",
+      "finishing": [
+        "grained"
+      ],
+      "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
       "sole_type": "none",
@@ -108,7 +111,7 @@
     "image": "d-orsay-flat__C1W4003-0787ANT.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, flat-heel Mary Jane-style ballerina with a pointed toe and a single strap across the instep, fastened with a silver-toned buckle. The upper is constructed from textured black leather with a contrasting smooth black panel at the toe cap. The silhouette is minimalist with a low-profile sole and a cutout detail at the heel counter.",
+    "description": "A sleek, flat-heel D'Orsay flat with a pointed toe and a single strap across the instep, fastened with a silver-toned buckle. The upper is constructed from textured black leather with a contrasting smooth black panel at the toe cap. The silhouette is minimalist with a low-profile sole and a cutout detail at the heel counter.",
     "tags": {
       "category": "flat-shoes-women",
       "subcategory": "d'orsay flat",
@@ -133,7 +136,7 @@
     "image": "d-orsay-flat__C6S4028-0130VVE.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A women's flat T-strap sandal featuring a cap-toe silhouette with a contrasting black suede toe cap and olive green satin upper. The design is accentuated by a pearl-embellished T-strap and ankle strap, with a pearl-encrusted CC logo buckle. The flat heel and slip-on construction offer a classic, elegant profile.",
+    "description": "A women's flat T-strap D'Orsay flat featuring a cap-toe silhouette with a contrasting black suede toe cap and olive green satin upper. The design is accentuated by a pearl-embellished T-strap and ankle strap, with a pearl-encrusted CC logo buckle. The flat heel and slip-on construction offer a classic, elegant profile.",
     "tags": {
       "category": "flat-shoes-women",
       "subcategory": "d'orsay flat",
@@ -146,17 +149,20 @@
         "suede"
       ],
       "embellishments": [
-        "logo-element",
+        "logo",
         "pearl"
       ],
       "pattern": "none",
-      "toe_shape": "cap-toe",
+      "toe_shape": "round-toe",
       "heel_type": "none",
       "heel_height": "flat-heel",
       "sole_type": "none",
       "closure": "buckle",
       "finishing": [],
-      "model_details": []
+      "model_details": [
+        "ankle-strap",
+        "t-bar"
+      ]
     }
   },
   {
@@ -170,10 +176,10 @@
       "primary_color": "burgundy",
       "material": "leather",
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "toe_shape": "round-toe",
-      "heel_type": "block-heel",
+      "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "none",
       "closure": "buckle",
@@ -197,10 +203,10 @@
       "primary_color": "navy",
       "material": "leather",
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "toe_shape": "pointed-toe",
-      "heel_type": "block-heel",
+      "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "none",
       "closure": "slip-on",
@@ -226,16 +232,15 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
-        "buckle",
-        "logo-element"
+        "gemstone",
+        "logo"
       ],
       "pattern": "none",
       "model_details": [
-        "ankle-strap"
+        "ankle-strap",
+        "t-bar"
       ],
-      "finishing": [
-        "satin"
-      ],
+      "finishing": [],
       "toe_shape": "almond-toe",
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
@@ -253,9 +258,7 @@
       "subcategory": "d'orsay flat",
       "primary_color": "black",
       "material": "leather",
-      "embellishments": [
-        "buckle"
-      ],
+      "embellishments": [],
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
@@ -265,32 +268,34 @@
       "secondary_materials": [],
       "pattern": null,
       "finishing": [],
-      "model_details": []
+      "model_details": [
+        "t-bar"
+      ]
     }
   },
   {
     "image": "d-orsay-pump__A8W5005-1525ELB.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, black pointed-toe pump featuring a perforated, sequined upper with a wide, cylindrical ankle strap for support. The shoe is constructed with a slender, metallic kitten heel and a minimalist, elegant silhouette. The material appears to be a textured leather or faux-leather with a subtle sheen, accented by the reflective sequins.",
+    "description": "A black d’orsay pump with a pointed toe and a wide ankle cuff, in perforated glossy leather, open at the sides of the arch. It stands on a slim, angular metallic kitten heel.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "d'orsay pump",
       "primary_color": "black",
       "material": "leather",
-      "embellishments": [
-        "sequin"
-      ],
+      "embellishments": [],
       "toe_shape": "pointed-toe",
       "heel_type": "kitten-heel",
       "heel_height": "low-heel",
-      "closure": "slip-on",
+      "closure": "zip",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
       "finishing": [],
       "sole_type": null,
-      "model_details": []
+      "model_details": [
+        "ankle-strap"
+      ]
     }
   },
   {
@@ -304,7 +309,6 @@
       "primary_color": "purple",
       "material": "leather",
       "embellishments": [
-        "bow",
         "tassel"
       ],
       "toe_shape": "pointed-toe",
@@ -332,12 +336,12 @@
       "primary_color": "nude",
       "material": "leather",
       "embellishments": [
-        "buckle"
+        "stud"
       ],
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
-      "closure": "slip-on",
+      "closure": "buckle",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
@@ -345,7 +349,10 @@
         "patent"
       ],
       "sole_type": null,
-      "model_details": []
+      "model_details": [
+        "ankle-strap",
+        "t-bar"
+      ]
     }
   },
   {
@@ -377,7 +384,7 @@
     "image": "d-orsay-pump__B5W4020-0429NZ1.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, pointed-toe pump featuring a contrasting black patent leather toe cap and suede body, secured with a thin ankle strap and small metallic buckle. The shoe is constructed with a slender stiletto heel and a peep-toe opening, creating a modern, elegant silhouette. The material combination and minimalist design emphasize a chic, sophisticated aesthetic.",
+    "description": "A sleek, pointed-toe d'orsay pump featuring a contrasting black patent leather toe cap and suede body, secured with a thin ankle strap and small metallic buckle. The shoe is constructed with a slender stiletto heel and a peep-toe opening, creating a modern, elegant silhouette. The material combination and minimalist design emphasize a chic, sophisticated aesthetic.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "d'orsay pump",
@@ -507,8 +514,8 @@
     "image_type": "product",
     "description": "A vibrant fuchsia patent leather lace-up shoe with a distinctive white, scalloped platform sole and a contrasting tan midsole. The silhouette is a classic derby-style flat with a rounded toe and visible stitching details. The glossy finish of the upper contrasts with the textured, chunky sole.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "flat lace up",
+      "category": "heeled-shoes-women",
+      "subcategory": "heeled lace up",
       "primary_color": "fuchsia",
       "material": "leather",
       "secondary_materials": [],
@@ -532,8 +539,8 @@
     "image_type": "product",
     "description": "A tan leather lace-up shoe with a distinctive two-part sole: a woven grey espadrille-style midsole and a white, jagged rubber outsole. The silhouette is a classic lace-up with a rounded toe and pebbled leather upper. The construction features visible stitching and matching tan laces.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "flat lace up",
+      "category": "heeled-shoes-women",
+      "subcategory": "heeled lace up",
       "primary_color": "tan",
       "material": "leather",
       "secondary_materials": [],
@@ -555,8 +562,8 @@
     "image_type": "product",
     "description": "A women's oxford-style lace-up shoe in a rich burgundy hue, crafted from smooth leather with visible contrast stitching and a matching cap toe. The silhouette is classic and structured, featuring a low block heel and a rounded toe for a refined, conservative look. The lacing system provides a secure fit, while the uniform color creates a sleek, monochromatic profile.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "flat lace up",
+      "category": "heeled-shoes-women",
+      "subcategory": "heeled lace up",
       "primary_color": "burgundy",
       "material": "leather",
       "closure": "lace-up",
@@ -578,8 +585,8 @@
     "image_type": "product",
     "description": "A women's lace-up shoe featuring a cap-toe silhouette with a glossy black patent leather toe cap and heel counter, contrasted by a white ribbed fabric panel across the vamp. The shoe has a low block heel and is constructed with black laces threaded through metal eyelets. The design combines classic oxford styling with a modern, textured accent panel.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "flat lace up",
+      "category": "heeled-shoes-women",
+      "subcategory": "heeled lace up",
       "primary_color": "black",
       "secondary_colors": [
         "white"
@@ -607,8 +614,8 @@
     "image_type": "product",
     "description": "A women's lace-up shoe featuring a translucent, metallic silver upper with a subtle floral pattern and a matching silver block heel. The design includes silver laces threaded through metal eyelets and a contrasting brown sole. The silhouette is classic oxford with a pointed toe and clean, structured lines.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "flat lace up",
+      "category": "heeled-shoes-women",
+      "subcategory": "heeled lace up",
       "primary_color": "silver",
       "material": "faux-leather",
       "closure": "lace-up",
@@ -695,7 +702,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
-        "bow"
+        "crystal"
       ],
       "pattern": "none",
       "model_details": [
@@ -721,10 +728,7 @@
       "subcategory": "flat sandal",
       "primary_color": "blue",
       "material": "leather",
-      "embellishments": [
-        "buckle",
-        "metal-plate"
-      ],
+      "embellishments": [],
       "toe_shape": "plain-toe",
       "heel_type": "none",
       "heel_height": "flat-heel",
@@ -734,7 +738,10 @@
       "secondary_materials": [],
       "pattern": null,
       "finishing": [],
-      "model_details": []
+      "model_details": [
+        "ankle-strap",
+        "t-bar"
+      ]
     }
   },
   {
@@ -751,7 +758,8 @@
         "buckle"
       ],
       "model_details": [
-        "ankle-strap"
+        "ankle-strap",
+        "t-bar"
       ],
       "finishing": [
         "metallic"
@@ -787,7 +795,8 @@
       "pattern": null,
       "finishing": [],
       "model_details": [
-        "ankle-strap"
+        "ankle-strap",
+        "double-strap"
       ]
     }
   },
@@ -1029,7 +1038,7 @@
       "primary_color": "silver",
       "material": "leather",
       "embellishments": [
-        "tassel"
+        "fringe"
       ],
       "toe_shape": "square-toe",
       "heel_type": "block-heel",
@@ -1061,7 +1070,7 @@
       "model_details": [],
       "toe_shape": "square-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "high-heel",
       "sole_type": "platform",
       "closure": "slip-on",
       "secondary_colors": [],
@@ -1078,7 +1087,7 @@
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "mary jane pump",
-      "primary_color": "yellow",
+      "primary_color": "mustard",
       "material": "leather",
       "closure": "buckle",
       "toe_shape": "pointed-toe",
@@ -1111,7 +1120,7 @@
         "ankle-strap"
       ],
       "finishing": [
-        "metallic"
+        "grained"
       ],
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
@@ -1132,9 +1141,7 @@
       "subcategory": "mary jane pump",
       "primary_color": "pink",
       "material": "faux-leather",
-      "embellishments": [
-        "buckle"
-      ],
+      "embellishments": [],
       "model_details": [],
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
@@ -1169,7 +1176,8 @@
       ],
       "pattern": "none",
       "model_details": [
-        "ankle-strap"
+        "ankle-strap",
+        "double-strap"
       ],
       "finishing": [
         "metallic"
@@ -1196,7 +1204,8 @@
       "embellishments": [],
       "pattern": "none",
       "model_details": [
-        "ankle-wrap"
+        "ankle-wrap",
+        "strappy"
       ],
       "finishing": [],
       "toe_shape": "peep-toe",
@@ -1227,7 +1236,9 @@
       "finishing": [
         "patent"
       ],
-      "model_details": [],
+      "model_details": [
+        "strappy"
+      ],
       "sole_type": null
     }
   },
@@ -1292,6 +1303,7 @@
       "primary_color": "black",
       "material": "suede",
       "embellishments": [
+        "logo",
         "pearl"
       ],
       "toe_shape": "pointed-toe",
@@ -1304,7 +1316,8 @@
       "finishing": [],
       "sole_type": null,
       "model_details": [
-        "ankle-strap"
+        "ankle-strap",
+        "strappy"
       ]
     }
   },
@@ -1353,6 +1366,7 @@
       ],
       "model_details": [
         "ankle-strap",
+        "multi-strap",
         "strappy"
       ],
       "closure": "slip-on",
@@ -1379,7 +1393,8 @@
       "embellishments": [],
       "pattern": "none",
       "model_details": [
-        "ankle-strap"
+        "ankle-strap",
+        "t-bar"
       ],
       "finishing": [
         "patent"
@@ -1433,7 +1448,7 @@
       "secondary_materials": [],
       "embellishments": [
         "crystal",
-        "sequin"
+        "stud"
       ],
       "pattern": "none",
       "model_details": [],
@@ -1458,6 +1473,7 @@
       "material": "leather",
       "embellishments": [
         "crystal",
+        "gemstone",
         "pearl"
       ],
       "toe_shape": null,
@@ -1529,7 +1545,6 @@
       "primary_color": "blue",
       "material": "suede",
       "embellishments": [
-        "crystal",
         "gemstone"
       ],
       "toe_shape": null,

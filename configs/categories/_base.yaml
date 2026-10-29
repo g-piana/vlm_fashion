@@ -39,13 +39,13 @@ attributes:
 
   embellishments:
     type: list
-    values: [bead, bird-element, bow, braid, buckle, butterfly-element, button, chain,
-       charme, crown-element, crystal, dragon-element, embroidery, eyelet,
-       feather, flower, fringe, fur, gemstone, hardware, heart-element, lace,
-       leaf-element, leopard-element, logo, logo-element, mesh-insert,
-       metal-plate, mirror, moon-element, o-ring, patch, pearl, pin, pom-pom,
-       ribbon, rope, sequin, shell, skull-element, snake-element, star-element,
-       stud, tassel, tiger-element, trim, web, zipper]
+    values:
+      [bead, bow, button, charm, crystal, feather, flower, fringe, fur, gemstone,
+       logo, mesh-insert, mirror, patch, pearl, pom-pom, ribbon, rope, sequin,
+       tassel, trim, web, buckle, chain, eyelet, horsebit, stud, embroidery,
+       lace, bird-element, butterfly-element, crown-element, dragon-element,
+       heart-element, leaf-element, leopard-element, moon-element, skull-element,
+       snake-element, star-element, tiger-element]
 
   pattern:
     type: enum

@@ -322,7 +322,7 @@
         "faux-leather"
       ],
       "embellishments": [
-        "braid",
+        "trim",
         "embroidery"
       ],
       "pattern": "stripes",
@@ -442,9 +442,9 @@
     "image": "B7W3010-0013302.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "Glossy coral-pink flat mule featuring a minimalist silhouette with a pointed toe and a distinctive spherical, metallic heel. The smooth, patent-like leather construction is accented by a thin, contrasting tan sole and a clean, slip-on design. The heel is a sculptural, translucent sphere with a metallic finish, adding a modern, avant-garde element to the otherwise classic mule shape.",
+    "description": "Glossy coral-pink heeled mule featuring a minimalist silhouette with a pointed toe and a distinctive spherical, metallic heel. The smooth, patent-like leather construction is accented by a thin, contrasting tan sole and a clean, slip-on design. The heel is a sculptural, translucent sphere with a metallic finish, adding a modern, avant-garde element to the otherwise classic mule shape.",
     "tags": {
-      "category": "flat-shoes-women",
+      "category": "heeled-shoes-women",
       "subcategory": "mule",
       "primary_color": "coral",
       "material": "leather",
@@ -609,7 +609,8 @@
       "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [
-        "crystal"
+        "crystal",
+        "gemstone"
       ],
       "pattern": "none",
       "model_details": [],
@@ -641,7 +642,7 @@
         "faux-leather"
       ],
       "embellishments": [
-        "crystal"
+        "gemstone"
       ],
       "pattern": "floral-pattern",
       "model_details": [],
@@ -663,11 +664,10 @@
       "subcategory": "thong",
       "primary_color": "black",
       "material": "leather",
-      "embellishments": [
-        "braid",
-        "buckle"
+      "embellishments": [],
+      "model_details": [
+        "t-bar"
       ],
-      "model_details": [],
       "toe_shape": null,
       "heel_type": "none",
       "heel_height": "flat-heel",
@@ -691,9 +691,7 @@
       "subcategory": "thong",
       "primary_color": "black",
       "material": "leather",
-      "embellishments": [
-        "braid"
-      ],
+      "embellishments": [],
       "model_details": [
         "t-bar"
       ],
@@ -796,7 +794,7 @@
       "primary_color": "black",
       "material": "suede",
       "embellishments": [
-        "tassel"
+        "pearl"
       ],
       "model_details": [],
       "toe_shape": "pointed-toe",
@@ -821,9 +819,7 @@
       "primary_color": "pink",
       "material": "faux-leather",
       "secondary_materials": [],
-      "embellishments": [
-        "buckle"
-      ],
+      "embellishments": [],
       "pattern": "none",
       "model_details": [
         "ankle-strap"
@@ -930,7 +926,7 @@
       "primary_color": "teal",
       "material": "leather",
       "embellishments": [
-        "logo-element",
+        "logo",
         "pearl"
       ],
       "model_details": [
@@ -959,11 +955,11 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "pattern": "none",
       "model_details": [
-        "sling-back",
+        "ankle-strap",
         "t-bar"
       ],
       "toe_shape": "square-toe",
@@ -986,7 +982,7 @@
       "primary_color": "brown",
       "material": "suede",
       "embellishments": [
-        "logo-element"
+        "logo"
       ],
       "model_details": [
         "quilted",
@@ -1014,11 +1010,10 @@
       "primary_color": "black",
       "material": "suede",
       "embellishments": [
-        "logo-element",
+        "logo",
         "pearl"
       ],
       "model_details": [
-        "sling-back",
         "t-bar"
       ],
       "toe_shape": null,
