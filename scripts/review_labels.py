@@ -163,6 +163,10 @@ body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 <div class="header">
   <h1>Label Review — {category}</h1>
   <div class="nav">
+    <input id="filterInput" type="text" placeholder="filter: pump, d'orsay, -wedge" onchange="applyFilter()"
+           style="width:210px;padding:6px 8px;border-radius:6px;border:1px solid #444;background:#0f1a30;color:#eee;font-size:12px;" />
+    <label style="font-size:12px;color:#aaa;white-space:nowrap;margin-right:8px;">
+      <input type="checkbox" id="filterNew" onchange="applyFilter()" /> unreviewed</label>
     <button class="btn btn-secondary" onclick="navigate(-1)">← Prev</button>
     <span class="counter" id="counter">1 / 0</span>
     <button class="btn btn-secondary" onclick="navigate(1)">Next →</button>
@@ -194,6 +198,7 @@ const CATEGORY = "{category}";
 const SAVE_PATH = "{save_path}";
 
 let currentIdx = 0;
+let visible = [];
 let reviewed = new Set();
 
 // Saved progress belongs to ONE drafts file: the key contains a hash of its image
@@ -230,9 +235,42 @@ try {{
   }}
 }} catch(e) {{}}
 
+// ── Filter: only some items are visited; Export / Save still cover ALL items ──
+function applyFilter() {{
+  saveCurrent();
+  const raw = (document.getElementById('filterInput').value || '').toLowerCase();
+  const newOnly = document.getElementById('filterNew').checked;
+  const terms = raw.split(',').map(s => s.trim()).filter(Boolean);
+  const inc = terms.filter(t => !t.startsWith('-'));
+  const exc = terms.filter(t => t.startsWith('-')).map(t => t.slice(1).trim()).filter(Boolean);
+  const active = inc.length > 0 || exc.length > 0 || newOnly;
+  visible = [];
+  if (active) {{
+    DRAFTS.forEach((d, i) => {{
+      const t = d.tags || {{}};
+      const hay = [t.subcategory, t.category, String(d.image || '').split('/').pop()].join(' ').toLowerCase();
+      if (newOnly && reviewed.has(i)) return;
+      if (exc.some(x => hay.includes(x))) return;
+      if (inc.length && !inc.some(x => hay.includes(x))) return;
+      visible.push(i);
+    }});
+    if (visible.length && !visible.includes(currentIdx)) {{
+      currentIdx = visible.find(i => i >= currentIdx);
+      if (currentIdx === undefined) currentIdx = visible[0];
+    }}
+  }}
+  render();
+  if (active && !visible.length) {{
+    document.getElementById('counter').textContent = '0 matches';
+  }}
+}}
+
 function navigate(delta) {{
   saveCurrent();
-  currentIdx = Math.max(0, Math.min(DRAFTS.length - 1, currentIdx + delta));
+  const vis = visible.length ? visible : DRAFTS.map((_, i) => i);
+  let pos = vis.indexOf(currentIdx);
+  if (pos < 0) pos = 0;
+  currentIdx = vis[Math.max(0, Math.min(vis.length - 1, pos + delta))];
   render();
 }}
 
@@ -246,7 +284,9 @@ function render() {{
 
   // Counter
   document.getElementById('counter').textContent =
-    `${{currentIdx + 1}} / ${{DRAFTS.length}}`;
+    (visible.length
+      ? `${{visible.indexOf(currentIdx) + 1}} / ${{visible.length}} (of ${{DRAFTS.length}})`
+      : `${{currentIdx + 1}} / ${{DRAFTS.length}}`);
 
   // Skip button
   const skipBtn = document.getElementById('skipBtn');
@@ -552,6 +592,12 @@ function escHtml(s) {{
   return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
           .replace(/"/g,'&quot;');
 }}
+
+// optional: open the page with ?filter=pump,d'orsay
+try {{
+  const f = new URLSearchParams(window.location.search).get('filter');
+  if (f) {{ document.getElementById('filterInput').value = f; applyFilter(); }}
+}} catch(e) {{}}
 
 // Keyboard navigation
 document.addEventListener('keydown', (e) => {{

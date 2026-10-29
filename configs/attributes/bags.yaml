@@ -6,12 +6,12 @@ model_details:
 
 finishing:
   type: list
-  values: [canvas, jacquard, patent, saffiano, grained, embossed, croc-effect, python-effect, printed, metallic, satin, velvet, crochet, denim]
+  values: [canvas, jacquard, patent, saffiano, grained, embossed, croc-effect, python-effect, printed, metallic, satin, velvet, denim, woven-leather]
 
 handle_type:
   type: list
   values: [top-handle, shoulder-strap, chain-strap, wrist-strap,
-           crossbody-strap, detachable-strap, cut-out-handle, none]
+           crossbody-strap, detachable-strap, cut-out-handle]
 
 bag_closure:
   type: list

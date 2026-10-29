@@ -16,11 +16,6 @@
       "handle_type": [
         "top-handle"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "grained"
       ],
@@ -46,11 +41,6 @@
       "material": "leather",
       "embellishments": [
         "tassel"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "finishing": [
         "grained"
@@ -83,11 +73,6 @@
       "primary_color": "brown",
       "material": "leather",
       "embellishments": [],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -116,11 +101,6 @@
       "primary_color": "burgundy",
       "material": "leather",
       "embellishments": [],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -150,11 +130,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "minimalist"
-      ],
       "finishing": [
         "grained"
       ],
@@ -185,7 +160,6 @@
       "primary_color": "orange",
       "material": "leather",
       "embellishments": [],
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -214,10 +188,6 @@
       "subcategory": "backpack",
       "primary_color": "tan",
       "material": "leather",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "handle_type": [
         "top-handle",
         "shoulder-strap"
@@ -245,10 +215,6 @@
       "subcategory": "backpack",
       "primary_color": "red",
       "material": "leather",
-      "style_tags": [
-        "chic",
-        "classic"
-      ],
       "finishing": [],
       "bag_closure": [
         "zip"
@@ -280,11 +246,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "embossed"
       ],
@@ -320,11 +281,6 @@
       "handle_type": [
         "top-handle"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "minimalist"
-      ],
       "finishing": [],
       "secondary_colors": [],
       "embellishments": [],
@@ -356,11 +312,6 @@
         "buckle"
       ],
       "pattern": "none",
-      "style_tags": [
-        "casual",
-        "chic",
-        "sport-luxe"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -390,11 +341,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "minimalist",
-        "sport-luxe"
-      ],
       "finishing": [
         "grained"
       ],
@@ -428,11 +374,6 @@
         "tassel"
       ],
       "pattern": "none",
-      "style_tags": [
-        "boho",
-        "casual",
-        "chic"
-      ],
       "finishing": [
         "grained"
       ],
@@ -462,13 +403,10 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_closure": [
         "drawstring"
       ],
@@ -493,11 +431,6 @@
       ],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "boho",
-        "casual",
-        "chic"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -527,9 +460,6 @@
       "material": "raffia",
       "embellishments": [
         "bead"
-      ],
-      "style_tags": [
-        "boho"
       ],
       "handle_type": [
         "top-handle"
@@ -561,7 +491,6 @@
       ],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -592,10 +521,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "casual",
-        "chic"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -624,11 +549,6 @@
       ],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "boho",
-        "casual",
-        "chic"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -658,10 +578,6 @@
       "embellishments": [
         "logo-element"
       ],
-      "style_tags": [
-        "chic",
-        "preppy"
-      ],
       "handle_type": [
         "top-handle"
       ],
@@ -689,7 +605,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -723,9 +638,6 @@
         "buckle"
       ],
       "pattern": "none",
-      "style_tags": [
-        "boho"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -754,11 +666,6 @@
       ],
       "embellishments": [],
       "pattern": null,
-      "style_tags": [
-        "boho",
-        "casual",
-        "chic"
-      ],
       "handle_type": [
         "top-handle"
       ],
@@ -798,11 +705,6 @@
         "web"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "jacquard"
       ],
@@ -830,7 +732,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -860,11 +761,6 @@
         "hardware",
         "logo-element"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "top-handle"
       ],
@@ -892,11 +788,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "handle_type": [
         "top-handle"
@@ -928,7 +819,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -958,10 +848,6 @@
       "embellishments": [
         "tassel"
       ],
-      "style_tags": [
-        "chic",
-        "classic"
-      ],
       "handle_type": [
         "top-handle"
       ],
@@ -988,7 +874,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -1018,7 +903,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -1048,10 +932,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -1079,11 +959,6 @@
       "embellishments": [
         "hardware",
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "handle_type": [
         "top-handle",
@@ -1116,7 +991,6 @@
       "secondary_colors": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1143,12 +1017,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "diamond",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant",
-        "heritage"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -1175,11 +1043,6 @@
       "subcategory": "box bag",
       "primary_color": "black",
       "material": "leather",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "top-handle"
       ],
@@ -1213,11 +1076,6 @@
         "front-flap"
       ],
       "hardware_color": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "minimalist"
-      ],
       "finishing": [],
       "secondary_colors": [],
       "secondary_materials": [],
@@ -1240,7 +1098,6 @@
       "secondary_colors": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -1268,10 +1125,6 @@
       "material": "leather",
       "embellishments": [
         "bird-element"
-      ],
-      "style_tags": [
-        "chic",
-        "elegant"
       ],
       "handle_type": [
         "shoulder-strap"
@@ -1303,7 +1156,6 @@
       ],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1330,11 +1182,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "minimalist"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1361,7 +1208,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "patent"
       ],
@@ -1390,7 +1236,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -1419,10 +1264,6 @@
       "embellishments": [
         "hardware",
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic"
       ],
       "handle_type": [
         "shoulder-strap"
@@ -1454,7 +1295,6 @@
       "secondary_colors": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -1482,7 +1322,6 @@
         "eyelet"
       ],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -1518,11 +1357,6 @@
         "top-handle",
         "crossbody-strap"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "grained"
       ],
@@ -1546,10 +1380,6 @@
       "subcategory": "bucket bag",
       "primary_color": "tan",
       "material": "leather",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "handle_type": [
         "shoulder-strap"
       ],
@@ -1578,11 +1408,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "minimalist"
       ],
       "handle_type": [
         "shoulder-strap"
@@ -1613,7 +1438,6 @@
         "eyelet"
       ],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1640,7 +1464,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "saffiano"
       ],
@@ -1672,7 +1495,6 @@
         "hardware"
       ],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1705,10 +1527,6 @@
         "hardware"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1735,11 +1553,6 @@
         "hardware"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "minimalist"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1772,11 +1585,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "printed"
       ],
@@ -1804,11 +1612,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "minimalist",
-        "sport-luxe"
-      ],
       "finishing": [
         "grained"
       ],
@@ -1837,7 +1640,6 @@
       "secondary_colors": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -1870,11 +1672,6 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "secondary_colors": [],
       "embellishments": [],
@@ -1897,7 +1694,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "patent"
       ],
@@ -1928,12 +1724,6 @@
       "embellishments": [
         "buckle"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant",
-        "heritage"
-      ],
       "handle_type": [
         "top-handle",
         "shoulder-strap"
@@ -1962,12 +1752,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "heritage",
-        "minimalist"
-      ],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -1995,7 +1779,6 @@
       "secondary_colors": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -2023,11 +1806,6 @@
       "material": "leather",
       "embellishments": [
         "buckle"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "finishing": [],
       "handle_type": [
@@ -2058,13 +1836,6 @@
       "primary_color": "tan",
       "material": "leather",
       "embellishments": [],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant",
-        "heritage",
-        "minimalist"
-      ],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -2093,7 +1864,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -2127,11 +1897,6 @@
         "sequin"
       ],
       "pattern": "floral-pattern",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "romantic"
-      ],
       "finishing": [
         "satin"
       ],
@@ -2159,11 +1924,6 @@
       "embellishments": [
         "logo-element"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "bag_closure": [
         "clasp"
@@ -2190,11 +1950,8 @@
       "secondary_colors": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_closure": [
         "zip"
       ],
@@ -2220,11 +1977,6 @@
         "hardware",
         "logo-element"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "bag_closure": [
         "zip"
       ],
@@ -2233,9 +1985,7 @@
       "secondary_colors": [],
       "pattern": "none",
       "secondary_materials": [],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_size": "small",
       "model_details": []
     }
@@ -2254,11 +2004,8 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_closure": [
         "clasp"
       ],
@@ -2279,11 +2026,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "finishing": [
         "grained"
@@ -2314,11 +2056,6 @@
         "clasp"
       ],
       "hardware_color": "gold",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "secondary_colors": [],
       "embellishments": [
@@ -2343,11 +2080,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "finishing": [
         "grained"
@@ -2378,7 +2110,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -2404,11 +2135,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -2439,11 +2165,6 @@
       "handle_type": [
         "top-handle"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "patent"
       ],
@@ -2470,7 +2191,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "patent"
       ],
@@ -2501,11 +2221,6 @@
       "secondary_colors": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "heritage"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -2532,12 +2247,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant",
-        "heritage"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -2563,7 +2272,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "patent"
       ],
@@ -2596,7 +2304,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -2625,7 +2332,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -2651,7 +2357,6 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -2686,10 +2391,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "stripes",
-      "style_tags": [
-        "chic",
-        "sport-luxe"
-      ],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -2718,11 +2419,6 @@
       ],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -2748,10 +2444,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic"
-      ],
       "finishing": [
         "grained"
       ],
@@ -2781,7 +2473,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -2821,11 +2512,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "printed"
       ],
@@ -2859,11 +2545,6 @@
       ],
       "hardware_color": "silver",
       "bag_size": "large",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
@@ -2887,10 +2568,6 @@
       ],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -2918,7 +2595,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -2947,11 +2623,6 @@
       "embellishments": [
         "logo-element"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "bag_closure": [
         "front-flap"
@@ -2977,11 +2648,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "finishing": [],
       "bag_closure": [
@@ -3009,11 +2675,6 @@
       "embellishments": [
         "logo-element"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "bag_closure": [
         "clasp"
@@ -3039,11 +2700,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "handle_type": [
         "chain-strap",
@@ -3074,11 +2730,6 @@
       "embellishments": [
         "logo-element"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "bag_closure": [
         "front-flap"
@@ -3104,11 +2755,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "finishing": [
         "saffiano"
@@ -3138,11 +2784,6 @@
       "embellishments": [
         "logo-element"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "bag_closure": [
         "front-flap"
@@ -3171,10 +2812,6 @@
       ],
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "minimalist"
       ],
       "handle_type": [
         "shoulder-strap"
@@ -3209,11 +2846,6 @@
       ],
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "finishing": [],
       "handle_type": [
@@ -3250,12 +2882,6 @@
         "buckle"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant",
-        "minimalist"
-      ],
       "finishing": [
         "grained"
       ],
@@ -3282,11 +2908,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -3315,11 +2936,6 @@
         "logo-element"
       ],
       "pattern": "floral-pattern",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "embossed"
       ],
@@ -3346,11 +2962,6 @@
       "subcategory": "messenger",
       "primary_color": "tan",
       "material": "leather",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "shoulder-strap"
       ],
@@ -3380,7 +2991,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -3406,11 +3016,6 @@
       "subcategory": "messenger",
       "primary_color": "tan",
       "material": "leather",
-      "style_tags": [
-        "chic",
-        "classic",
-        "minimalist"
-      ],
       "handle_type": [
         "shoulder-strap"
       ],
@@ -3439,10 +3044,6 @@
       "material": "leather",
       "embellishments": [
         "tassel"
-      ],
-      "style_tags": [
-        "casual",
-        "chic"
       ],
       "handle_type": [
         "shoulder-strap"
@@ -3475,11 +3076,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "glamour"
-      ],
       "finishing": [
         "satin"
       ],
@@ -3507,10 +3103,6 @@
       "material": "leather",
       "embellishments": [
         "gemstone"
-      ],
-      "style_tags": [
-        "chic",
-        "elegant"
       ],
       "finishing": [
         "grained"
@@ -3541,11 +3133,6 @@
         "clasp"
       ],
       "hardware_color": "gold",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "glamour"
-      ],
       "finishing": [
         "metallic"
       ],
@@ -3573,11 +3160,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "patent",
         "embossed"
@@ -3607,7 +3189,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "embossed"
       ],
@@ -3617,9 +3198,7 @@
       "hardware_color": "gold",
       "bag_size": "small",
       "secondary_colors": [],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "model_details": []
     }
   },
@@ -3635,11 +3214,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "finishing": [
         "patent"
@@ -3667,11 +3241,6 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "satin"
       ],
@@ -3703,11 +3272,6 @@
         "crystal",
         "sequin"
       ],
-      "style_tags": [
-        "chic",
-        "elegant",
-        "glamour"
-      ],
       "finishing": [
         "patent"
       ],
@@ -3738,10 +3302,6 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "style_tags": [
-        "chic",
-        "elegant"
-      ],
       "bag_closure": [
         "frame"
       ],
@@ -3770,16 +3330,10 @@
         "crystal"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant"
-      ],
       "finishing": [
         "satin"
       ],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_closure": [
         "clasp"
       ],
@@ -3802,10 +3356,6 @@
       "embellishments": [
         "crystal"
       ],
-      "style_tags": [
-        "chic",
-        "elegant"
-      ],
       "bag_closure": [
         "clasp"
       ],
@@ -3813,9 +3363,7 @@
       "finishing": [
         "satin"
       ],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "secondary_colors": [],
       "pattern": null,
       "secondary_materials": [],
@@ -3841,11 +3389,6 @@
         "embroidery"
       ],
       "pattern": "floral-pattern",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "romantic"
-      ],
       "finishing": [],
       "handle_type": [
         "wrist-strap"
@@ -3875,17 +3418,11 @@
       "finishing": [
         "satin"
       ],
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_size": "small",
       "model_details": []
     }
@@ -3903,11 +3440,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "glamour"
-      ],
       "finishing": [
         "metallic"
       ],
@@ -3936,13 +3468,10 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "diamond",
-      "style_tags": [],
       "finishing": [
         "embossed"
       ],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_closure": [
         "zip"
       ],
@@ -3967,17 +3496,11 @@
       ],
       "hardware_color": "gold",
       "finishing": [],
-      "style_tags": [
-        "chic",
-        "classic"
-      ],
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_size": "small",
       "model_details": []
     }
@@ -3995,11 +3518,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "romantic"
-      ],
       "finishing": [
         "satin"
       ],
@@ -4030,10 +3548,6 @@
         "zip"
       ],
       "hardware_color": "gold",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "finishing": [],
       "secondary_colors": [],
       "secondary_materials": [],
@@ -4055,10 +3569,6 @@
       "material": "cotton",
       "embellishments": [
         "crystal"
-      ],
-      "style_tags": [
-        "chic",
-        "glamour"
       ],
       "bag_closure": [
         "clasp"
@@ -4092,11 +3602,6 @@
         "fringe"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "romantic"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -4122,11 +3627,6 @@
       "embellishments": [
         "hardware",
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "equestrian"
       ],
       "handle_type": [
         "shoulder-strap"
@@ -4156,11 +3656,6 @@
       "embellishments": [
         "stud"
       ],
-      "style_tags": [
-        "chic",
-        "elegant",
-        "minimalist"
-      ],
       "handle_type": [
         "shoulder-strap"
       ],
@@ -4189,11 +3684,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "minimalist"
-      ],
       "finishing": [
         "embossed"
       ],
@@ -4230,11 +3720,6 @@
         "buckle"
       ],
       "pattern": "none",
-      "style_tags": [
-        "casual",
-        "chic",
-        "minimalist"
-      ],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -4260,7 +3745,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "embossed"
       ],
@@ -4287,11 +3771,6 @@
       "primary_color": "red",
       "material": "leather",
       "hardware_color": "gold",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "shoulder-strap"
       ],
@@ -4329,11 +3808,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "minimalist"
-      ],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -4356,11 +3830,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "handle_type": [
         "shoulder-strap"
@@ -4391,12 +3860,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant",
-        "minimalist"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -4426,7 +3889,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -4454,7 +3916,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -4485,7 +3946,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -4513,7 +3973,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -4541,12 +4000,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant",
-        "tailored"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -4574,11 +4027,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "grained"
       ],
@@ -4609,12 +4057,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant",
-        "tailored"
-      ],
       "finishing": [
         "grained"
       ],
@@ -4644,7 +4086,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -4675,11 +4116,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "athleisure",
-        "casual",
-        "sportive"
-      ],
       "finishing": [],
       "handle_type": [
         "crossbody-strap"
@@ -4707,7 +4143,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "saffiano"
       ],
@@ -4736,7 +4171,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -4767,10 +4201,6 @@
       ],
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "minimalist"
       ],
       "finishing": [
         "grained"
@@ -4808,10 +4238,6 @@
       "handle_type": [
         "crossbody-strap"
       ],
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "finishing": [],
       "bag_size": "medium",
       "secondary_colors": [],
@@ -4833,7 +4259,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -4863,9 +4288,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "minimalist"
-      ],
       "finishing": [
         "grained"
       ],
@@ -4892,10 +4314,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "finishing": [
         "grained"
       ],
@@ -4930,11 +4348,6 @@
         "top-handle",
         "chain-strap"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "grained"
       ],
@@ -4957,11 +4370,6 @@
       "primary_color": "orange",
       "material": "leather",
       "embellishments": [],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "top-handle",
         "shoulder-strap"
@@ -4998,11 +4406,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -5036,11 +4439,6 @@
         "logo-element"
       ],
       "pattern": "diamond",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -5074,11 +4472,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "grained",
         "printed"
@@ -5107,7 +4500,6 @@
       "secondary_colors": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -5143,11 +4535,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "satin"
       ],
@@ -5183,11 +4570,6 @@
         "logo-element"
       ],
       "pattern": "diamond",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -5213,11 +4595,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "handle_type": [
         "top-handle"
@@ -5253,12 +4630,6 @@
       "handle_type": [
         "top-handle"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant",
-        "preppy"
-      ],
       "finishing": [],
       "bag_size": "medium",
       "secondary_colors": [],
@@ -5284,11 +4655,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "finishing": [],
       "handle_type": [
@@ -5318,7 +4684,6 @@
       "secondary_colors": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -5350,11 +4715,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "grained"
       ],
@@ -5382,12 +4742,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant",
-        "minimalist"
-      ],
       "finishing": [
         "grained"
       ],
@@ -5414,10 +4768,6 @@
       "primary_color": "olive",
       "material": "leather",
       "embellishments": [],
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "handle_type": [
         "top-handle"
       ],
@@ -5450,10 +4800,6 @@
         "open-top"
       ],
       "hardware_color": "gold",
-      "style_tags": [
-        "chic",
-        "classic"
-      ],
       "finishing": [],
       "secondary_colors": [],
       "embellishments": [
@@ -5483,11 +4829,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "minimalist"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -5513,7 +4854,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -5545,11 +4885,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "printed"
       ],
@@ -5584,11 +4919,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -5622,10 +4952,6 @@
         "logo-element"
       ],
       "pattern": "stripes",
-      "style_tags": [
-        "casual",
-        "chic"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -5658,10 +4984,6 @@
         "logo-element"
       ],
       "pattern": "floral-pattern",
-      "style_tags": [
-        "casual",
-        "chic"
-      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -5692,10 +5014,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic"
-      ],
       "finishing": [
         "grained"
       ],
@@ -5720,10 +5038,6 @@
       "subcategory": "underarm bag",
       "primary_color": "tan",
       "material": "leather",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "handle_type": [
         "top-handle"
       ],
@@ -5752,7 +5066,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "diamond",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -5785,11 +5098,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -5812,10 +5120,6 @@
       "subcategory": "underarm bag",
       "primary_color": "pink",
       "material": "suede",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "handle_type": [
         "shoulder-strap"
       ],
@@ -5845,7 +5149,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "embossed"
       ],
@@ -5873,7 +5176,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -5901,7 +5203,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "embossed"
       ],
@@ -5930,11 +5231,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "minimalist"
-      ],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -5962,10 +5258,6 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -5991,7 +5283,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "grained"
       ],
@@ -6027,10 +5318,6 @@
       "bag_closure": [
         "zip"
       ],
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": "none",
@@ -6051,13 +5338,8 @@
       "bag_closure": [
         "zip"
       ],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "hardware_color": "black",
-      "style_tags": [
-        "minimalist"
-      ],
       "finishing": [],
       "secondary_colors": [],
       "embellishments": [],
@@ -6080,11 +5362,8 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_closure": [
         "turn-lock"
       ],
@@ -6110,11 +5389,8 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_closure": [
         "zip"
       ],
@@ -6140,10 +5416,6 @@
         "front-flap"
       ],
       "hardware_color": "silver",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "finishing": [
         "grained"
       ],
@@ -6170,11 +5442,6 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "botanical-pattern",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "printed"
       ],
@@ -6182,9 +5449,7 @@
       "bag_size": "small",
       "secondary_colors": [],
       "secondary_materials": [],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_closure": [
         "zip"
       ],
@@ -6203,13 +5468,10 @@
       "material": "leather",
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "finishing": [
         "embossed"
       ],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_closure": [
         "zip"
       ],
@@ -6238,11 +5500,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "finishing": [
         "printed"
       ],
@@ -6280,15 +5537,8 @@
         "stud"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "sport-luxe",
-        "streetwear"
-      ],
       "finishing": [],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_closure": [
         "zip"
       ],

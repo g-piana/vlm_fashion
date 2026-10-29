@@ -2,10 +2,8 @@
 # Edit values here; changes apply to both shoes_men and shoes_women.
 model_details:
   type: list
-  values: [ankle-strap, ankle-wrap, apron-toe, comma-heel, cone-heel, cross-over, double-strap,
-            flat-heel, french-heel, high-heel, kitten-heel, lace-up, low-heel, mid-heel, multi-strap,
-            open-toe, platform, pointed-toe, quilted, round-toe, single-strap, sling-back, slouch, square-toe,
-            stiletto-heel, strappy, t-bar, wedge-heel, zip-up]
+  values: [ankle-strap, ankle-wrap, cross-over, double-strap,
+          multi-strap, quilted, single-strap, sling-back, strappy, t-bar]
 
 finishing:
   type: list

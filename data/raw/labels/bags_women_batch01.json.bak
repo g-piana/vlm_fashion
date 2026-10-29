@@ -18,11 +18,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "top-handle",
         "shoulder-strap"
@@ -54,11 +49,6 @@
         "leopard-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "chain-strap"
       ],
@@ -93,11 +83,6 @@
         "logo-element"
       ],
       "pattern": null,
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "model_details": [],
       "handle_type": [
         "chain-strap"
@@ -129,11 +114,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "top-handle",
         "shoulder-strap"
@@ -170,11 +150,6 @@
         "web"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "heritage"
-      ],
       "model_details": [],
       "handle_type": [
         "top-handle",
@@ -202,11 +177,6 @@
       "primary_color": "white",
       "material": "leather",
       "hardware_color": "gold",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "shoulder-strap"
       ],
@@ -246,11 +216,6 @@
         "web"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "shoulder-strap"
       ],
@@ -282,10 +247,6 @@
         "web"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "handle_type": [
         "shoulder-strap"
       ],
@@ -319,11 +280,6 @@
         "logo-element"
       ],
       "pattern": null,
-      "style_tags": [
-        "chic",
-        "classic",
-        "heritage"
-      ],
       "model_details": [],
       "handle_type": [
         "top-handle",
@@ -355,13 +311,7 @@
         "logo-element"
       ],
       "pattern": "chevron",
-      "style_tags": [
-        "chic",
-        "classic"
-      ],
-      "handle_type": [
-        "none"
-      ],
+      "handle_type": [],
       "bag_closure": [
         "zip"
       ],
@@ -390,11 +340,6 @@
         "zipper"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "minimalist"
-      ],
       "model_details": [],
       "handle_type": [
         "wrist-strap"
@@ -419,11 +364,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "handle_type": [
         "top-handle",
@@ -456,11 +396,6 @@
         "logo-element"
       ],
       "pattern": "chevron",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "chain-strap"
       ],
@@ -485,11 +420,6 @@
       "primary_color": "black",
       "material": "leather",
       "hardware_color": "gold",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "shoulder-strap",
         "crossbody-strap"
@@ -530,11 +460,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "top-handle",
         "shoulder-strap"
@@ -568,11 +493,6 @@
         "logo-element"
       ],
       "pattern": null,
-      "style_tags": [
-        "chic",
-        "classic",
-        "heritage"
-      ],
       "model_details": [],
       "handle_type": [
         "top-handle"
@@ -599,12 +519,6 @@
       "material": "leather",
       "embellishments": [
         "leopard-element"
-      ],
-      "style_tags": [
-        "chic",
-        "elegant",
-        "gothic",
-        "romantic"
       ],
       "bag_closure": [
         "front-flap"
@@ -636,11 +550,6 @@
       "embellishments": [
         "hardware"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "top-handle"
       ],
@@ -666,11 +575,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "handle_type": [
         "top-handle",
@@ -705,11 +609,6 @@
         "tassel"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "romantic"
-      ],
       "handle_type": [
         "shoulder-strap",
         "crossbody-strap"
@@ -738,11 +637,6 @@
       "material": "leather",
       "embellishments": [
         "web"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "heritage"
       ],
       "handle_type": [
         "top-handle"
@@ -782,10 +676,6 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "bag_size": "medium",
       "secondary_colors": [],
       "embellishments": [],
@@ -808,11 +698,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
       ],
       "handle_type": [
         "top-handle"
@@ -845,11 +730,6 @@
         "logo"
       ],
       "pattern": "diamond",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "top-handle"
       ],
@@ -877,11 +757,6 @@
       ],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "top-handle"
       ],
@@ -913,11 +788,6 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "model_details": [],
       "handle_type": [
         "top-handle"
@@ -947,10 +817,6 @@
       "bag_closure": [
         "buckle"
       ],
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "handle_type": [
         "top-handle",
         "shoulder-strap"
@@ -977,11 +843,6 @@
       "material": "leather",
       "embellishments": [
         "logo-element"
-      ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "heritage"
       ],
       "handle_type": [
         "top-handle"
@@ -1012,11 +873,6 @@
       "primary_color": "chocolate",
       "material": "suede",
       "embellishments": [],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "handle_type": [
         "top-handle"
       ],
@@ -1058,11 +914,6 @@
         "web"
       ],
       "pattern": "leopard",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "sport-luxe"
-      ],
       "handle_type": [
         "top-handle"
       ],

@@ -1,0 +1,46 @@
+# What each controlled-vocabulary value MEANS. Printed in the prompt for the values
+# that are actually in a macrocategory's list (bags only see their own finishing
+# values, shoes theirs, ...). Same text in training and inference: editing this file
+# changes the prompts, so re-run prepare_dataset.py and retrain afterwards.
+# Source: product owner's finishing table; "grained" and the patent boundary added.
+
+finishing:
+  boucle: Looped-yarn fabric with a nubbly surface.
+  brocade: Rich jacquard with raised, often metallic motifs; if the motifs are not raised, use jacquard.
+  brushed: Surface brushed to raise soft fibres.
+  canvas: Heavy plain-weave cotton or linen, including coated canvas. A motif woven into the fabric makes it jacquard.
+  chiffon: Sheer, soft, floaty lightweight fabric (includes georgette and voile). A crisp sheer fabric that holds its shape is organza.
+  coated: Surface coated with resin or PVC.
+  corduroy: Cut-pile fabric with raised vertical ribs.
+  crepe-de-chine: Fine, matte, slightly grainy silk crepe.
+  crinkled: Permanently crushed, creased surface.
+  croc-effect: Leather embossed or printed to imitate crocodile.
+  crochet: Open, hand-hooked loop work.
+  denim: Indigo twill cotton with white weft.
+  embossed: Pattern or logo pressed in relief into leather or fabric. A fine regular cross-hatch is saffiano; reptile scales are croc-effect or python-effect.
+  enameled: Vitreous or lacquer enamel on metal or wood.
+  flannel: Soft brushed wool or cotton with a slightly fuzzy surface.
+  fleece: Soft, brushed synthetic knit with a thick, matte, fuzzy surface (includes sherpa fleece).
+  grained: Leather with a visible natural or pebbled grain texture across the surface. A regular cross-hatch is saffiano, a pressed motif is embossed, and smooth leather has no finishing.
+  high-gloss: Polished or glazed mirror shine on natural surfaces (e.g. glazed crocodile); patent is a plastic-like coating on leather.
+  jacquard: Pattern woven into the fabric (e.g. GG jacquard). A printed design is not jacquard.
+  jersey: Fine stretch single knit.
+  knit: Visible knitted stitches (knitwear).
+  lace: Openwork lace fabric; lace used only as trim is an embellishment, not a finishing.
+  metallic: Laminated metallic leather or lamé fabric.
+  organza: Crisp, stiff sheer fabric that holds volume.
+  patent: High-gloss plastic-like coating on leather with mirror-like reflections. Leather that is only moderately shiny is not patent.
+  poplin: Smooth, tight plain-weave cotton.
+  printed: Design printed on the surface, as opposed to woven or embossed; includes all-over monogram or logo prints on coated canvas or leather. Add a pattern tag as well when one applies.
+  python-effect: Leather embossed or printed to imitate python.
+  saffiano: Leather embossed with a fine regular cross-hatch texture, often waxed.
+  satin: Smooth weave with a glossy face.
+  stone-washed: Washed with stones for a faded, softened look.
+  taffeta: Crisp, rustling plain weave with a sheen.
+  terry: Looped pile towelling.
+  tulle: Fine sheer net.
+  tweed: Rough, multicoloured woollen weave.
+  twill: Weave with visible diagonal ribs (includes gabardine).
+  velvet: Short dense cut pile with soft sheen.
+  waxed: Oiled or waxed matte-sheen surface (waxed cotton, oiled leather).
+  woven-leather: Strips of leather interlaced in a basket-weave to form the surface (e.g. intrecciato). Woven plant fibre such as raffia or straw is not woven-leather.

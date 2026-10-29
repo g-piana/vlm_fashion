@@ -26,6 +26,24 @@ GENERATED_DIR = CONFIGS_DIR / "generated"
 ATTRIBUTES_DIR = PROJECT_ROOT / "configs" / "attributes"
 GUIDELINES_DIR = PROJECT_ROOT / "configs" / "guidelines"
 
+def load_value_definitions() -> dict:
+    return _load_yaml(GUIDELINES_DIR / "attribute_values.yaml")
+
+
+def _format_value_definitions(attrs: dict, defs: dict) -> str:
+    lines = []
+    for attr, vals in (defs or {}).items():
+        spec = attrs.get(attr)
+        allowed = spec.get("values") if isinstance(spec, dict) else None
+        if not isinstance(allowed, list):
+            continue
+        items = [f"      {v}: {vals[v]}" for v in allowed if v in vals]
+        if items:
+            lines.append(f"    {attr}:")
+            lines.extend(items)
+    return "\n".join(lines)
+
+
 def load_guidelines(macrocat: str) -> dict:
     return _load_yaml(GUIDELINES_DIR / f"{macrocat}.yaml")
 
@@ -143,6 +161,9 @@ def build_system_prompt(
     guidelines_block = (
         f"\n\nSubcategory guidelines (decisive visual markers):\n{g_str}" if g_str else ""
     )
+    defs_str = _format_value_definitions(config.get("attributes", {}), load_value_definitions())
+    definitions_block = f"\n\nValue definitions (what each value means):\n{defs_str}" if defs_str else ""
+
 
     prompt = f"""{template}
 
@@ -156,7 +177,7 @@ Taxonomy (category → subcategories):
 {taxonomy_str}{guidelines_block}
 
 Additional attributes (use controlled vocabulary):
-{attrs_str}"""
+{attrs_str}{definitions_block}"""
 
     return prompt.strip()
 

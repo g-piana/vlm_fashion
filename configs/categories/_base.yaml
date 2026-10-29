@@ -45,7 +45,7 @@ attributes:
        leaf-element, leopard-element, logo, logo-element, mesh-insert,
        metal-plate, mirror, moon-element, o-ring, patch, pearl, pin, pom-pom,
        ribbon, rope, sequin, shell, skull-element, snake-element, star-element,
-       stud, tassel, trim, web, zipper]
+       stud, tassel, tiger-element, trim, web, zipper]
 
   pattern:
     type: enum
@@ -55,19 +55,19 @@ attributes:
        paisley-pattern, pinstripe, polka-dot, python, snake, splatter-pattern,
        stripes, tartan, tiger, zebra, zigzag, none]
 
-  style_tags:
-    type: list
-    values: [african, art-deco, athleisure, avant-garde, baroque, boho, bon-ton,
-       casual, chic, childlike, chinoiserie, classic, color-blocking,
-       conservative, corporate, cottagecore, cyberpunk, cyborg, dandy,
-       deconstructed, deluxe, disco, eclecticism, eighties, elegant, equestrian,
-       exotic, fantasia, fetish, fifties, flapper, folk, forties, genderless,
-       glam-rock, glamour, gothic, graphic, grunge, heritage, italian, japonisme,
-       jet-set, kinky, maximalist, military, minimalist, mod, nerdy, nineties,
-       normcore, nostalgic, opulent, preppy, punk, quiet-luxury, renaissance,
-       retro, revival, rock, romantic, safari, sensual, seventies, sixties,
-       space-age, sport-luxe, sportive, streetwear, tailored, tailoring,
-       theatrical, thirties, twenties, two-thousands, vintage, western]
+  # style_tags:
+  #   type: list
+  #   values: [african, art-deco, athleisure, avant-garde, baroque, boho, bon-ton,
+  #      casual, chic, childlike, chinoiserie, classic, color-blocking,
+  #      conservative, corporate, cottagecore, cyberpunk, cyborg, dandy,
+  #      deconstructed, deluxe, disco, eclecticism, eighties, elegant, equestrian,
+  #      exotic, fantasia, fetish, fifties, flapper, folk, forties, genderless,
+  #      glam-rock, glamour, gothic, graphic, grunge, heritage, italian, japonisme,
+  #      jet-set, kinky, maximalist, military, minimalist, mod, nerdy, nineties,
+  #      normcore, nostalgic, opulent, preppy, punk, quiet-luxury, renaissance,
+  #      retro, revival, rock, romantic, safari, sensual, seventies, sixties,
+  #      space-age, sport-luxe, sportive, streetwear, tailored, tailoring,
+  #      theatrical, thirties, twenties, two-thousands, vintage, western]
 
   # occasion:
   #   type: list

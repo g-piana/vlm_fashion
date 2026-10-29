@@ -14,15 +14,8 @@
       ],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "boho",
-        "casual",
-        "chic"
-      ],
       "model_details": [
-        "ankle-strap",
-        "platform",
-        "wedge-heel"
+        "ankle-strap"
       ],
       "toe_shape": "peep-toe",
       "heel_type": "wedge-heel",
@@ -46,10 +39,8 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [],
       "model_details": [
         "ankle-strap",
-        "flat-heel",
         "t-bar"
       ],
       "toe_shape": "round-toe",
@@ -79,12 +70,9 @@
         "sequin"
       ],
       "pattern": "none",
-      "style_tags": [],
       "model_details": [
         "ankle-strap",
-        "cross-over",
-        "platform",
-        "wedge-heel"
+        "cross-over"
       ],
       "toe_shape": "peep-toe",
       "heel_type": "wedge-heel",
@@ -110,16 +98,8 @@
         "crystal",
         "stud"
       ],
-      "style_tags": [
-        "chic",
-        "elegant",
-        "gothic",
-        "maximalist"
-      ],
       "model_details": [
-        "ankle-strap",
-        "open-toe",
-        "wedge-heel"
+        "ankle-strap"
       ],
       "toe_shape": null,
       "heel_type": "wedge-heel",
@@ -150,14 +130,8 @@
         "bead"
       ],
       "pattern": "none",
-      "style_tags": [
-        "casual",
-        "chic",
-        "elegant"
-      ],
       "model_details": [
-        "sling-back",
-        "wedge-heel"
+        "sling-back"
       ],
       "toe_shape": "peep-toe",
       "heel_type": "wedge-heel",
@@ -186,16 +160,7 @@
       ],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "casual",
-        "chic",
-        "retro"
-      ],
-      "model_details": [
-        "open-toe",
-        "slouch",
-        "wedge-heel"
-      ],
+      "model_details": [],
       "toe_shape": null,
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
@@ -220,15 +185,8 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "retro",
-        "vintage"
-      ],
       "model_details": [
-        "ankle-strap",
-        "platform",
-        "wedge-heel"
+        "ankle-strap"
       ],
       "toe_shape": "peep-toe",
       "heel_type": "wedge-heel",
@@ -253,15 +211,8 @@
       ],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "boho",
-        "casual",
-        "chic"
-      ],
       "model_details": [
-        "ankle-strap",
-        "platform",
-        "wedge-heel"
+        "ankle-strap"
       ],
       "toe_shape": "peep-toe",
       "heel_type": "wedge-heel",
@@ -288,16 +239,7 @@
       ],
       "embellishments": [],
       "pattern": "checks",
-      "style_tags": [
-        "casual",
-        "chic",
-        "eclecticism",
-        "retro"
-      ],
-      "model_details": [
-        "platform",
-        "wedge-heel"
-      ],
+      "model_details": [],
       "toe_shape": "peep-toe",
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
@@ -324,17 +266,8 @@
         "lace"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "minimalist"
-      ],
       "model_details": [
-        "ankle-strap",
-        "lace-up",
-        "open-toe",
-        "slouch",
-        "wedge-heel"
+        "ankle-strap"
       ],
       "toe_shape": null,
       "heel_type": "wedge-heel",
@@ -358,15 +291,8 @@
       "embellishments": [
         "chain"
       ],
-      "style_tags": [
-        "chic",
-        "elegant",
-        "minimalist"
-      ],
       "model_details": [
-        "ankle-strap",
-        "open-toe",
-        "wedge-heel"
+        "ankle-strap"
       ],
       "toe_shape": null,
       "heel_type": "wedge-heel",
@@ -400,15 +326,7 @@
         "embroidery"
       ],
       "pattern": "stripes",
-      "style_tags": [
-        "casual",
-        "chic",
-        "elegant"
-      ],
-      "model_details": [
-        "open-toe",
-        "wedge-heel"
-      ],
+      "model_details": [],
       "toe_shape": null,
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
@@ -432,14 +350,8 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "minimalist"
-      ],
       "model_details": [
-        "ankle-strap",
-        "wedge-heel"
+        "ankle-strap"
       ],
       "toe_shape": "peep-toe",
       "heel_type": "wedge-heel",
@@ -461,11 +373,6 @@
       "primary_color": "teal",
       "material": "leather",
       "embellishments": [],
-      "style_tags": [
-        "chic",
-        "classic",
-        "minimalist"
-      ],
       "model_details": [],
       "toe_shape": "round-toe",
       "heel_type": "none",
@@ -495,14 +402,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "casual",
-        "chic",
-        "minimalist"
-      ],
-      "model_details": [
-        "round-toe"
-      ],
+      "model_details": [],
       "toe_shape": "round-toe",
       "heel_type": "none",
       "heel_height": "flat-heel",
@@ -527,14 +427,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "casual",
-        "chic",
-        "elegant"
-      ],
-      "model_details": [
-        "square-toe"
-      ],
+      "model_details": [],
       "toe_shape": "square-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
@@ -558,15 +451,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "avant-garde",
-        "chic",
-        "minimalist"
-      ],
-      "model_details": [
-        "open-toe",
-        "pointed-toe"
-      ],
+      "model_details": [],
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
@@ -591,14 +476,7 @@
         "bow"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "minimalist"
-      ],
-      "model_details": [
-        "pointed-toe"
-      ],
+      "model_details": [],
       "toe_shape": "pointed-toe",
       "heel_type": "none",
       "heel_height": "flat-heel",
@@ -626,13 +504,7 @@
         "bow"
       ],
       "pattern": "stripes",
-      "style_tags": [
-        "casual",
-        "chic"
-      ],
-      "model_details": [
-        "open-toe"
-      ],
+      "model_details": [],
       "toe_shape": "pointed-toe",
       "heel_type": "none",
       "heel_height": "flat-heel",
@@ -654,14 +526,7 @@
       "embellishments": [
         "crystal"
       ],
-      "style_tags": [
-        "chic",
-        "elegant",
-        "romantic"
-      ],
-      "model_details": [
-        "pointed-toe"
-      ],
+      "model_details": [],
       "toe_shape": "pointed-toe",
       "heel_type": "none",
       "heel_height": "flat-heel",
@@ -688,14 +553,7 @@
       "embellishments": [
         "tassel"
       ],
-      "style_tags": [
-        "chic",
-        "elegant",
-        "minimalist"
-      ],
-      "model_details": [
-        "pointed-toe"
-      ],
+      "model_details": [],
       "toe_shape": "pointed-toe",
       "heel_type": "none",
       "heel_height": "flat-heel",
@@ -727,15 +585,7 @@
         "bow"
       ],
       "pattern": "floral-pattern",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "romantic"
-      ],
-      "model_details": [
-        "open-toe",
-        "pointed-toe"
-      ],
+      "model_details": [],
       "toe_shape": "pointed-toe",
       "heel_type": "none",
       "heel_height": "flat-heel",
@@ -762,10 +612,6 @@
         "crystal"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant"
-      ],
       "model_details": [],
       "toe_shape": null,
       "heel_type": "none",
@@ -798,11 +644,6 @@
         "crystal"
       ],
       "pattern": "floral-pattern",
-      "style_tags": [
-        "boho",
-        "casual",
-        "chic"
-      ],
       "model_details": [],
       "toe_shape": null,
       "heel_type": "none",
@@ -825,10 +666,6 @@
       "embellishments": [
         "braid",
         "buckle"
-      ],
-      "style_tags": [
-        "chic",
-        "minimalist"
       ],
       "model_details": [],
       "toe_shape": null,
@@ -857,13 +694,7 @@
       "embellishments": [
         "braid"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "model_details": [
-        "slouch",
         "t-bar"
       ],
       "toe_shape": null,
@@ -895,7 +726,6 @@
         "crystal"
       ],
       "pattern": null,
-      "style_tags": [],
       "model_details": [],
       "toe_shape": null,
       "heel_type": "block-heel",
@@ -920,16 +750,7 @@
         "buckle"
       ],
       "pattern": "none",
-      "style_tags": [
-        "casual",
-        "chic",
-        "color-blocking",
-        "retro"
-      ],
-      "model_details": [
-        "platform",
-        "slouch"
-      ],
+      "model_details": [],
       "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
@@ -954,14 +775,7 @@
         "mesh-insert"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
-      "model_details": [
-        "open-toe",
-        "round-toe"
-      ],
+      "model_details": [],
       "toe_shape": "round-toe",
       "heel_type": "none",
       "heel_height": "flat-heel",
@@ -984,13 +798,7 @@
       "embellishments": [
         "tassel"
       ],
-      "style_tags": [
-        "chic",
-        "elegant"
-      ],
-      "model_details": [
-        "pointed-toe"
-      ],
+      "model_details": [],
       "toe_shape": "pointed-toe",
       "heel_type": "none",
       "heel_height": "flat-heel",
@@ -1017,12 +825,6 @@
         "buckle"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "color-blocking",
-        "elegant",
-        "maximalist"
-      ],
       "model_details": [
         "ankle-strap"
       ],
@@ -1052,14 +854,8 @@
         "crystal"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "elegant",
-        "minimalist"
-      ],
       "model_details": [
-        "ankle-strap",
-        "square-toe"
+        "ankle-strap"
       ],
       "toe_shape": "square-toe",
       "heel_type": "block-heel",
@@ -1086,14 +882,8 @@
         "pearl"
       ],
       "pattern": "diamond",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "model_details": [
-        "ankle-strap",
-        "open-toe"
+        "ankle-strap"
       ],
       "toe_shape": null,
       "heel_type": "none",
@@ -1117,13 +907,8 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "minimalist"
-      ],
       "model_details": [
-        "ankle-strap",
-        "flat-heel"
+        "ankle-strap"
       ],
       "toe_shape": null,
       "heel_type": "none",
@@ -1148,12 +933,7 @@
         "logo-element",
         "pearl"
       ],
-      "style_tags": [
-        "chic",
-        "elegant"
-      ],
       "model_details": [
-        "open-toe",
         "t-bar"
       ],
       "toe_shape": null,
@@ -1182,14 +962,7 @@
         "logo-element"
       ],
       "pattern": "none",
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "model_details": [
-        "kitten-heel",
-        "open-toe",
         "sling-back",
         "t-bar"
       ],
@@ -1215,13 +988,7 @@
       "embellishments": [
         "logo-element"
       ],
-      "style_tags": [
-        "chic",
-        "classic",
-        "elegant"
-      ],
       "model_details": [
-        "flat-heel",
         "quilted",
         "t-bar"
       ],
@@ -1250,14 +1017,8 @@
         "logo-element",
         "pearl"
       ],
-      "style_tags": [
-        "chic",
-        "classic"
-      ],
       "model_details": [
-        "flat-heel",
         "sling-back",
-        "slouch",
         "t-bar"
       ],
       "toe_shape": null,
