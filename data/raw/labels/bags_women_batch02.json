@@ -16,7 +16,7 @@
         "leather"
       ],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "handle_type": [
         "shoulder-strap"
       ],
@@ -44,7 +44,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "handle_type": [
         "shoulder-strap"
@@ -168,7 +168,7 @@
         "cotton"
       ],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "handle_type": [
         "top-handle"
@@ -234,7 +234,7 @@
         "web",
         "stud"
       ],
-      "pattern": "none",
+      "pattern": null,
       "handle_type": [
         "shoulder-strap"
       ],
@@ -260,7 +260,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "handle_type": [
         "shoulder-strap"
       ],
@@ -290,7 +290,7 @@
       "embellishments": [
         "web"
       ],
-      "pattern": "none",
+      "pattern": null,
       "handle_type": [
         "top-handle"
       ],
@@ -324,14 +324,14 @@
       "embellishments": [
         "web"
       ],
-      "pattern": "none",
+      "pattern": null,
       "handle_type": [
         "top-handle"
       ],
       "bag_closure": [
         "open-top"
       ],
-      "hardware_color": "none",
+      "hardware_color": null,
       "bag_size": "medium",
       "model_details": [],
       "finishing": [
@@ -392,7 +392,7 @@
         "logo",
         "web"
       ],
-      "pattern": "none",
+      "pattern": null,
       "handle_type": [
         "shoulder-strap"
       ],
@@ -422,7 +422,7 @@
         "logo",
         "web"
       ],
-      "pattern": "none",
+      "pattern": null,
       "handle_type": [
         "detachable-strap"
       ],
@@ -457,7 +457,7 @@
       "embellishments": [
         "logo"
       ],
-      "pattern": "none",
+      "pattern": null,
       "handle_type": [
         "top-handle"
       ],

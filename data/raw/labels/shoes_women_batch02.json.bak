@@ -13,7 +13,7 @@
         "faux-leather"
       ],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap"
       ],
@@ -38,7 +38,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap",
         "t-bar"
@@ -46,7 +46,7 @@
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],
       "finishing": [
@@ -69,7 +69,7 @@
       "embellishments": [
         "sequin"
       ],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap",
         "cross-over"
@@ -129,10 +129,8 @@
       "embellishments": [
         "bead"
       ],
-      "pattern": "none",
-      "model_details": [
-        "sling-back"
-      ],
+      "pattern": null,
+      "model_details": [],
       "toe_shape": "peep-toe",
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
@@ -159,7 +157,7 @@
         "faux-leather"
       ],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "toe_shape": null,
       "heel_type": "wedge-heel",
@@ -184,7 +182,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap"
       ],
@@ -210,7 +208,7 @@
         "faux-leather"
       ],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap"
       ],
@@ -265,14 +263,14 @@
         "chain",
         "lace"
       ],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap"
       ],
       "toe_shape": null,
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],
       "finishing": []
@@ -349,7 +347,7 @@
       "material": "suede",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap"
       ],
@@ -375,9 +373,9 @@
       "embellishments": [],
       "model_details": [],
       "toe_shape": "round-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -401,12 +399,12 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "toe_shape": "round-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "finishing": []
     }
@@ -426,12 +424,12 @@
       "material": "suede",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "toe_shape": "square-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "finishing": [
         "velvet"
@@ -442,20 +440,20 @@
     "image": "B7W3010-0013302.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "Glossy coral-pink flat mule featuring a minimalist silhouette with a pointed toe and a distinctive spherical, metallic heel. The smooth, patent-like leather construction is accented by a thin, contrasting tan sole and a clean, slip-on design. The heel is a sculptural, translucent sphere with a metallic finish, adding a modern, avant-garde element to the otherwise classic mule shape.",
+    "description": "Glossy coral-pink heeled mule featuring a minimalist silhouette with a pointed toe and a distinctive spherical, metallic heel. The smooth, patent-like leather construction is accented by a thin, contrasting tan sole and a clean, slip-on design. The heel is a sculptural, translucent sphere with a metallic finish, adding a modern, avant-garde element to the otherwise classic mule shape.",
     "tags": {
-      "category": "flat-shoes-women",
+      "category": "heeled-shoes-women",
       "subcategory": "mule",
       "primary_color": "coral",
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "finishing": []
@@ -475,12 +473,12 @@
       "embellishments": [
         "bow"
       ],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "toe_shape": "pointed-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "finishing": []
@@ -506,9 +504,9 @@
       "pattern": "stripes",
       "model_details": [],
       "toe_shape": "pointed-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "finishing": []
     }
@@ -528,9 +526,9 @@
       ],
       "model_details": [],
       "toe_shape": "pointed-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -555,9 +553,9 @@
       ],
       "model_details": [],
       "toe_shape": "pointed-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -587,9 +585,9 @@
       "pattern": "floral-pattern",
       "model_details": [],
       "toe_shape": "pointed-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "finishing": [
         "jacquard"
@@ -609,14 +607,15 @@
       "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [
-        "crystal"
+        "crystal",
+        "gemstone"
       ],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "finishing": [
         "metallic"
@@ -641,12 +640,12 @@
         "faux-leather"
       ],
       "embellishments": [
-        "crystal"
+        "gemstone"
       ],
       "pattern": "floral-pattern",
       "model_details": [],
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "slouch",
       "closure": "slip-on",
@@ -663,15 +662,14 @@
       "subcategory": "thong",
       "primary_color": "black",
       "material": "leather",
-      "embellishments": [
-        "trim",
-        "buckle"
+      "embellishments": [],
+      "model_details": [
+        "t-bar"
       ],
-      "model_details": [],
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -691,16 +689,14 @@
       "subcategory": "thong",
       "primary_color": "black",
       "material": "leather",
-      "embellishments": [
-        "trim"
-      ],
+      "embellishments": [],
       "model_details": [
         "t-bar"
       ],
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -749,7 +745,7 @@
       "embellishments": [
         "buckle"
       ],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "toe_shape": null,
       "heel_type": "block-heel",
@@ -774,12 +770,12 @@
       "embellishments": [
         "mesh-insert"
       ],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "toe_shape": "round-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "finishing": []
@@ -796,13 +792,13 @@
       "primary_color": "black",
       "material": "suede",
       "embellishments": [
-        "tassel"
+        "pearl"
       ],
       "model_details": [],
       "toe_shape": "pointed-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -821,17 +817,15 @@
       "primary_color": "pink",
       "material": "faux-leather",
       "secondary_materials": [],
-      "embellishments": [
-        "buckle"
-      ],
-      "pattern": "none",
+      "embellishments": [],
+      "pattern": null,
       "model_details": [
         "ankle-strap"
       ],
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "finishing": [
@@ -853,14 +847,14 @@
       "embellishments": [
         "crystal"
       ],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap"
       ],
       "toe_shape": "square-toe",
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],
       "finishing": []
@@ -886,9 +880,9 @@
         "ankle-strap"
       ],
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],
       "finishing": []
@@ -906,14 +900,14 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap"
       ],
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],
       "finishing": []
@@ -939,7 +933,7 @@
       "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "low-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -961,15 +955,15 @@
       "embellishments": [
         "logo"
       ],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
-        "sling-back",
+        "ankle-strap",
         "t-bar"
       ],
       "toe_shape": "square-toe",
       "heel_type": "kitten-heel",
       "heel_height": "low-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "finishing": []
@@ -993,9 +987,9 @@
         "t-bar"
       ],
       "toe_shape": "round-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -1018,13 +1012,12 @@
         "pearl"
       ],
       "model_details": [
-        "sling-back",
         "t-bar"
       ],
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],
       "secondary_materials": [],

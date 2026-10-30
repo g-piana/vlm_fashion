@@ -20,8 +20,10 @@
         "grained"
       ],
       "secondary_colors": [],
-      "pattern": "none",
-      "embellishments": [],
+      "pattern": null,
+      "embellishments": [
+        "logo"
+      ],
       "bag_size": "small",
       "secondary_materials": [],
       "model_details": [
@@ -50,7 +52,7 @@
         "shoulder-strap"
       ],
       "bag_closure": [
-        "drawstring"
+        "front-flap"
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
@@ -72,14 +74,16 @@
       "subcategory": "backpack",
       "primary_color": "brown",
       "material": "leather",
-      "embellishments": [],
+      "embellishments": [
+        "logo"
+      ],
       "finishing": [],
       "handle_type": [
         "top-handle",
         "shoulder-strap"
       ],
       "bag_closure": [
-        "drawstring",
+        "front-flap",
         "hook-closure"
       ],
       "hardware_color": "gold",
@@ -87,7 +91,9 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
@@ -100,7 +106,9 @@
       "subcategory": "backpack",
       "primary_color": "burgundy",
       "material": "leather",
-      "embellishments": [],
+      "embellishments": [
+        "logo"
+      ],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -129,7 +137,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -193,9 +201,10 @@
         "shoulder-strap"
       ],
       "bag_closure": [
+        "front-flap",
         "drawstring"
       ],
-      "hardware_color": "none",
+      "hardware_color": null,
       "finishing": [],
       "secondary_colors": [],
       "embellishments": [],
@@ -244,8 +253,10 @@
       "subcategory": "backpack",
       "primary_color": "burgundy",
       "material": "leather",
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "finishing": [
         "embossed"
       ],
@@ -311,15 +322,14 @@
       "embellishments": [
         "buckle"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
-        "top-handle",
-        "crossbody-strap"
+        "shoulder-strap"
       ],
       "bag_closure": [
-        "zip",
-        "front-flap"
+        "drawstring",
+        "buckle"
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
@@ -340,7 +350,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -373,7 +383,7 @@
       "embellishments": [
         "tassel"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -402,18 +412,23 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
-      "handle_type": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
       "bag_closure": [
+        "front-flap",
         "drawstring"
       ],
-      "hardware_color": "none",
+      "hardware_color": null,
       "bag_size": "medium",
       "secondary_colors": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
@@ -430,7 +445,7 @@
         "leather"
       ],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -457,7 +472,7 @@
         "green",
         "red"
       ],
-      "material": "raffia",
+      "material": "straw",
       "embellishments": [
         "bead"
       ],
@@ -467,7 +482,7 @@
       "bag_closure": [
         "open-top"
       ],
-      "hardware_color": "none",
+      "hardware_color": null,
       "bag_size": "medium",
       "finishing": [],
       "pattern": null,
@@ -489,8 +504,10 @@
       "secondary_materials": [
         "leather"
       ],
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -498,7 +515,7 @@
       "bag_closure": [
         "open-top"
       ],
-      "hardware_color": "none",
+      "hardware_color": null,
       "bag_size": "large",
       "model_details": []
     }
@@ -520,7 +537,7 @@
       "embellishments": [
         "logo"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -548,7 +565,7 @@
         "wood"
       ],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -604,7 +621,7 @@
       "material": "raffia",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -634,16 +651,14 @@
       "secondary_materials": [
         "leather"
       ],
-      "embellishments": [
-        "buckle"
-      ],
-      "pattern": "none",
+      "embellishments": [],
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
       ],
       "bag_closure": [
-        "zip"
+        "open-top"
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
@@ -701,10 +716,9 @@
         "leather"
       ],
       "embellishments": [
-        "logo",
         "web"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "jacquard"
       ],
@@ -731,7 +745,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -757,9 +771,7 @@
       "subcategory": "boston bag",
       "primary_color": "black",
       "material": "leather",
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "handle_type": [
         "top-handle"
       ],
@@ -785,9 +797,7 @@
       "subcategory": "boston bag",
       "primary_color": "red",
       "material": "leather",
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "handle_type": [
         "top-handle"
       ],
@@ -817,7 +827,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -845,6 +855,7 @@
         "leather"
       ],
       "embellishments": [
+        "logo",
         "tassel"
       ],
       "handle_type": [
@@ -872,13 +883,13 @@
       "primary_color": "tan",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "open-top"
@@ -901,7 +912,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -930,11 +941,11 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "zip"
@@ -987,8 +998,10 @@
       "primary_color": "burgundy",
       "material": "leather",
       "secondary_colors": [],
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1073,7 +1086,7 @@
       "bag_closure": [
         "front-flap"
       ],
-      "hardware_color": "none",
+      "hardware_color": null,
       "finishing": [],
       "secondary_colors": [],
       "secondary_materials": [],
@@ -1094,8 +1107,10 @@
       "primary_color": "tan",
       "material": "leather",
       "secondary_colors": [],
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -1153,7 +1168,7 @@
         "leather"
       ],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1178,8 +1193,10 @@
       "primary_color": "black",
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1205,7 +1222,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "patent"
       ],
@@ -1232,8 +1249,10 @@
       "primary_color": "rust",
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -1290,11 +1309,13 @@
       "primary_color": "black",
       "material": "leather",
       "secondary_colors": [],
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "finishing": [],
       "handle_type": [
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "open-top"
@@ -1318,7 +1339,7 @@
       "embellishments": [
         "eyelet"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -1352,7 +1373,7 @@
       ],
       "handle_type": [
         "top-handle",
-        "crossbody-strap"
+        "detachable-strap"
       ],
       "finishing": [
         "grained"
@@ -1360,6 +1381,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [
+        "logo",
         "eyelet"
       ],
       "pattern": null,
@@ -1383,10 +1405,12 @@
       "bag_closure": [
         "open-top"
       ],
-      "hardware_color": "none",
+      "hardware_color": null,
       "finishing": [],
       "secondary_colors": [],
-      "embellishments": [],
+      "embellishments": [
+        "logo"
+      ],
       "pattern": null,
       "model_details": [],
       "bag_size": "medium",
@@ -1403,9 +1427,7 @@
       "subcategory": "bucket bag",
       "primary_color": "chocolate",
       "material": "leather",
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "handle_type": [
         "shoulder-strap"
       ],
@@ -1434,7 +1456,7 @@
       "embellishments": [
         "eyelet"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1459,8 +1481,10 @@
       "subcategory": "bucket bag",
       "primary_color": "burgundy",
       "material": "leather",
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "finishing": [
         "saffiano"
       ],
@@ -1489,7 +1513,7 @@
       "material": "leather",
       "secondary_colors": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1519,7 +1543,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1543,7 +1567,7 @@
       "primary_color": "tan",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -1572,10 +1596,8 @@
       ],
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [
-        "logo"
-      ],
-      "pattern": "none",
+      "embellishments": [],
+      "pattern": null,
       "finishing": [
         "printed"
       ],
@@ -1602,7 +1624,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -1629,13 +1651,15 @@
       "primary_color": "pink",
       "material": "leather",
       "secondary_colors": [],
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "finishing": [
         "grained"
       ],
       "handle_type": [
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "zip"
@@ -1661,12 +1685,12 @@
         "zip"
       ],
       "handle_type": [
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "finishing": [],
       "secondary_colors": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "secondary_materials": [],
       "model_details": [],
       "bag_size": "medium"
@@ -1683,13 +1707,13 @@
       "primary_color": "burgundy",
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [],
-      "pattern": "none",
-      "finishing": [
-        "patent"
+      "embellishments": [
+        "logo"
       ],
+      "pattern": null,
+      "finishing": [],
       "handle_type": [
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "zip"
@@ -1712,12 +1736,10 @@
       "subcategory": "camera bag",
       "primary_color": "tan",
       "material": "leather",
-      "embellishments": [
-        "buckle"
-      ],
+      "embellishments": [],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "buckle"
@@ -1742,10 +1764,10 @@
       "primary_color": "brown",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "buckle"
@@ -1769,12 +1791,12 @@
       "material": "leather",
       "secondary_colors": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
       "handle_type": [
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "zip"
@@ -1803,8 +1825,7 @@
         "top-handle"
       ],
       "bag_closure": [
-        "zip",
-        "front-flap"
+        "zip"
       ],
       "hardware_color": "gold",
       "bag_size": "small",
@@ -1854,7 +1875,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -1883,10 +1904,7 @@
       ],
       "material": "silk",
       "secondary_materials": [],
-      "embellishments": [
-        "bead",
-        "sequin"
-      ],
+      "embellishments": [],
       "pattern": "floral-pattern",
       "finishing": [
         "satin"
@@ -1912,9 +1930,7 @@
       "subcategory": "clutch",
       "primary_color": "black",
       "material": "leather",
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "finishing": [],
       "bag_closure": [
         "clasp"
@@ -1922,7 +1938,7 @@
       "hardware_color": "gold",
       "secondary_colors": [],
       "secondary_materials": [],
-      "pattern": "none",
+      "pattern": null,
       "handle_type": [],
       "bag_size": "small",
       "model_details": []
@@ -1940,7 +1956,7 @@
       "material": "leather",
       "secondary_colors": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [],
       "bag_closure": [
@@ -1973,7 +1989,7 @@
       "hardware_color": "gold",
       "finishing": [],
       "secondary_colors": [],
-      "pattern": "none",
+      "pattern": null,
       "secondary_materials": [],
       "handle_type": [],
       "bag_size": "small",
@@ -1993,7 +2009,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [],
       "bag_closure": [
@@ -2014,9 +2030,7 @@
       "subcategory": "clutch",
       "primary_color": "black",
       "material": "leather",
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "finishing": [
         "grained"
       ],
@@ -2048,9 +2062,7 @@
       "hardware_color": "gold",
       "finishing": [],
       "secondary_colors": [],
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "pattern": null,
       "secondary_materials": [],
       "handle_type": [],
@@ -2068,9 +2080,7 @@
       "subcategory": "clutch",
       "primary_color": "white",
       "material": "leather",
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "finishing": [
         "grained"
       ],
@@ -2099,7 +2109,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -2109,7 +2119,9 @@
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
@@ -2124,7 +2136,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -2155,9 +2167,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "finishing": [
-        "patent"
-      ],
+      "finishing": [],
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
@@ -2180,7 +2190,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "patent"
       ],
@@ -2210,7 +2220,7 @@
       "material": "leather",
       "secondary_colors": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -2236,7 +2246,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -2261,10 +2271,8 @@
       "primary_color": "brown",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
-      "finishing": [
-        "patent"
-      ],
+      "pattern": null,
+      "finishing": [],
       "handle_type": [
         "top-handle"
       ],
@@ -2293,7 +2301,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -2321,7 +2329,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -2408,15 +2416,13 @@
         "leather"
       ],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
-      "bag_closure": [
-        "open-top"
-      ],
+      "bag_closure": [],
       "hardware_color": "gold",
       "bag_size": "large",
       "model_details": []
@@ -2432,8 +2438,10 @@
       "subcategory": "duffle bag",
       "primary_color": "brown",
       "material": "leather",
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -2462,11 +2470,11 @@
       "primary_color": "orange",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "zip"
@@ -2498,10 +2506,8 @@
       "secondary_materials": [
         "faux-leather"
       ],
-      "embellishments": [
-        "logo"
-      ],
-      "pattern": "none",
+      "embellishments": [],
+      "pattern": null,
       "finishing": [
         "printed"
       ],
@@ -2528,7 +2534,8 @@
       "primary_color": "tan",
       "material": "leather",
       "handle_type": [
-        "shoulder-strap"
+        "top-handle",
+        "detachable-strap"
       ],
       "bag_closure": [
         "zip"
@@ -2537,7 +2544,9 @@
       "bag_size": "large",
       "secondary_colors": [],
       "secondary_materials": [],
-      "embellishments": [],
+      "embellishments": [
+        "logo"
+      ],
       "pattern": null,
       "finishing": [],
       "model_details": []
@@ -2556,12 +2565,14 @@
       "secondary_materials": [
         "leather"
       ],
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "zip"
@@ -2584,7 +2595,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -2610,12 +2621,10 @@
       "subcategory": "envelope",
       "primary_color": "brown",
       "material": "leather",
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "finishing": [],
       "bag_closure": [
-        "front-flap"
+        "clasp"
       ],
       "hardware_color": "gold",
       "bag_size": "small",
@@ -2636,9 +2645,7 @@
       "subcategory": "envelope",
       "primary_color": "beige",
       "material": "leather",
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "finishing": [],
       "bag_closure": [
         "clasp"
@@ -2662,9 +2669,7 @@
       "subcategory": "envelope",
       "primary_color": "black",
       "material": "leather",
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "finishing": [],
       "bag_closure": [
         "clasp"
@@ -2692,8 +2697,7 @@
         "logo"
       ],
       "handle_type": [
-        "chain-strap",
-        "wrist-strap"
+        "chain-strap"
       ],
       "bag_closure": [
         "front-flap"
@@ -2800,9 +2804,7 @@
       "secondary_materials": [
         "suede"
       ],
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "handle_type": [
         "shoulder-strap"
       ],
@@ -2834,10 +2836,10 @@
       "secondary_materials": [
         "leather"
       ],
-      "embellishments": [
-        "logo"
+      "embellishments": [],
+      "finishing": [
+        "canvas"
       ],
-      "finishing": [],
       "handle_type": [
         "top-handle",
         "shoulder-strap"
@@ -2871,7 +2873,7 @@
       "embellishments": [
         "buckle"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -2897,7 +2899,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -2956,14 +2958,16 @@
         "shoulder-strap"
       ],
       "bag_closure": [
-        "toggle"
+        "buckle"
       ],
       "hardware_color": "silver",
       "finishing": [],
       "bag_size": "medium",
       "secondary_colors": [],
       "secondary_materials": [],
-      "embellishments": [],
+      "embellishments": [
+        "logo"
+      ],
       "pattern": null,
       "model_details": []
     }
@@ -2980,7 +2984,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -3062,10 +3066,9 @@
       "material": "silk",
       "secondary_materials": [],
       "embellishments": [
-        "crystal",
-        "logo"
+        "crystal"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "satin"
       ],
@@ -3100,7 +3103,7 @@
       "bag_closure": [
         "front-flap"
       ],
-      "hardware_color": "none",
+      "hardware_color": null,
       "bag_size": "small",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -3146,12 +3149,9 @@
       "primary_color": "black",
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [
-        "logo"
-      ],
-      "pattern": "none",
+      "embellishments": [],
+      "pattern": null,
       "finishing": [
-        "patent",
         "embossed"
       ],
       "handle_type": [
@@ -3178,7 +3178,7 @@
       "material": "metal",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "embossed"
       ],
@@ -3268,7 +3268,7 @@
       "bag_closure": [
         "zip"
       ],
-      "hardware_color": "none",
+      "hardware_color": null,
       "bag_size": "small",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -3293,7 +3293,7 @@
       "material": "leather",
       "embellishments": [],
       "bag_closure": [
-        "frame"
+        "clasp"
       ],
       "hardware_color": "gold",
       "finishing": [],
@@ -3319,7 +3319,7 @@
       "embellishments": [
         "crystal"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "satin"
       ],
@@ -3402,7 +3402,7 @@
       "primary_color": "black",
       "material": "silk",
       "bag_closure": [
-        "kiss-lock-closure"
+        "clasp"
       ],
       "hardware_color": "silver",
       "finishing": [
@@ -3411,7 +3411,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "handle_type": [],
       "bag_size": "small",
       "model_details": []
@@ -3429,7 +3429,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "metallic"
       ],
@@ -3459,7 +3459,7 @@
       "embellishments": [],
       "pattern": "diamond",
       "finishing": [
-        "embossed"
+        "woven-leather"
       ],
       "handle_type": [],
       "bag_closure": [
@@ -3488,8 +3488,10 @@
       "finishing": [],
       "secondary_colors": [],
       "secondary_materials": [],
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "handle_type": [],
       "bag_size": "small",
       "model_details": []
@@ -3507,7 +3509,7 @@
       "material": "silk",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "satin"
       ],
@@ -3561,7 +3563,7 @@
         "crystal"
       ],
       "bag_closure": [
-        "clasp"
+        "kiss-lock-closure"
       ],
       "hardware_color": "rose-gold",
       "bag_size": "small",
@@ -3591,7 +3593,7 @@
         "bead",
         "fringe"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -3614,11 +3616,9 @@
       "subcategory": "saddle bag",
       "primary_color": "brown",
       "material": "leather",
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "handle_type": [
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "front-flap"
@@ -3672,13 +3672,13 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "embossed"
       ],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "front-flap"
@@ -3706,12 +3706,12 @@
         "shearling"
       ],
       "embellishments": [
-        "buckle"
+        "fur"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "front-flap"
@@ -3733,12 +3733,12 @@
       "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
-        "embossed"
+        "printed"
       ],
       "handle_type": [
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "front-flap"
@@ -3770,9 +3770,7 @@
         "grained"
       ],
       "secondary_colors": [],
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "pattern": null,
       "bag_size": "small",
       "secondary_materials": [],
@@ -3791,15 +3789,15 @@
       "material": "leather",
       "secondary_colors": [],
       "secondary_materials": [],
-      "embellishments": [
-        "logo"
-      ],
-      "pattern": "none",
+      "embellishments": [],
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [],
+      "bag_closure": [
+        "front-flap"
+      ],
       "hardware_color": "gold",
       "bag_size": "small",
       "model_details": []
@@ -3815,14 +3813,12 @@
       "subcategory": "saddle bag",
       "primary_color": "brown",
       "material": "leather",
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "handle_type": [
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
-        "zip"
+        "front-flap"
       ],
       "hardware_color": "gold",
       "finishing": [
@@ -3846,11 +3842,10 @@
       "primary_color": "brown",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
-        "top-handle",
-        "shoulder-strap"
+        "top-handle"
       ],
       "bag_closure": [
         "buckle"
@@ -3875,11 +3870,11 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "front-flap"
@@ -3902,7 +3897,7 @@
       "primary_color": "brown",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -3932,11 +3927,11 @@
       "primary_color": "grey",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "buckle"
@@ -3959,7 +3954,7 @@
       "primary_color": "tan",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -3986,7 +3981,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -4013,13 +4008,13 @@
       "primary_color": "tan",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "buckle"
@@ -4043,7 +4038,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -4072,7 +4067,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -4102,7 +4097,7 @@
       "material": "nylon",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "crossbody-strap"
@@ -4110,7 +4105,7 @@
       "bag_closure": [
         "zip"
       ],
-      "hardware_color": "none",
+      "hardware_color": null,
       "bag_size": "small",
       "model_details": [
         "external-pocket"
@@ -4129,7 +4124,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "saffiano"
       ],
@@ -4157,12 +4152,12 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
       "handle_type": [
-        "shoulder-strap"
+        "crossbody-strap"
       ],
       "bag_closure": [
         "zip"
@@ -4186,14 +4181,12 @@
       "secondary_materials": [
         "suede"
       ],
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "finishing": [
         "grained"
       ],
       "handle_type": [
-        "shoulder-strap"
+        "crossbody-strap"
       ],
       "bag_closure": [
         "zip"
@@ -4202,7 +4195,9 @@
       "bag_size": "small",
       "secondary_colors": [],
       "pattern": null,
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
@@ -4245,14 +4240,12 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [
-        "open-top"
-      ],
+      "bag_closure": [],
       "hardware_color": "silver",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -4274,7 +4267,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -4300,13 +4293,11 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
-      "handle_type": [
-        "top-handle"
-      ],
+      "handle_type": [],
       "bag_closure": [
         "zip"
       ],
@@ -4359,7 +4350,7 @@
       "embellishments": [],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "turn-lock"
@@ -4389,14 +4380,12 @@
       ],
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [
-        "logo"
-      ],
-      "pattern": "none",
+      "embellishments": [],
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "turn-lock"
@@ -4421,9 +4410,7 @@
       ],
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "pattern": "diamond",
       "finishing": [],
       "handle_type": [
@@ -4454,10 +4441,8 @@
       ],
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [
-        "logo"
-      ],
-      "pattern": "none",
+      "embellishments": [],
+      "pattern": null,
       "finishing": [
         "grained",
         "printed"
@@ -4485,16 +4470,16 @@
       "material": "calfskin",
       "secondary_colors": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
-        "front-flap"
+        "turn-lock"
       ],
       "hardware_color": "gold",
       "bag_size": "small",
@@ -4516,17 +4501,12 @@
       ],
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [
-        "buckle",
-        "logo"
-      ],
-      "pattern": "none",
-      "finishing": [
-        "satin"
-      ],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
       "handle_type": [
         "top-handle",
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
         "turn-lock"
@@ -4578,9 +4558,7 @@
       "subcategory": "top handle bag",
       "primary_color": "tan",
       "material": "leather",
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "handle_type": [
         "top-handle"
       ],
@@ -4619,9 +4597,7 @@
       "bag_size": "medium",
       "secondary_colors": [],
       "secondary_materials": [],
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "pattern": null,
       "model_details": [
         "metal-feet"
@@ -4638,9 +4614,7 @@
       "subcategory": "top handle bag",
       "primary_color": "black",
       "material": "leather",
-      "embellishments": [
-        "logo"
-      ],
+      "embellishments": [],
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -4668,7 +4642,7 @@
       "material": "leather",
       "secondary_colors": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -4699,7 +4673,7 @@
       "embellishments": [
         "logo"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -4726,7 +4700,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -4752,14 +4726,16 @@
       "subcategory": "tote",
       "primary_color": "olive",
       "material": "leather",
-      "embellishments": [],
+      "embellishments": [
+        "logo"
+      ],
       "handle_type": [
         "top-handle"
       ],
       "bag_closure": [
         "open-top"
       ],
-      "hardware_color": "none",
+      "hardware_color": null,
       "bag_size": "large",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -4813,7 +4789,7 @@
       "embellishments": [
         "logo"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle"
@@ -4837,8 +4813,10 @@
       "primary_color": "ivory",
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -4869,7 +4847,7 @@
       "embellishments": [
         "logo"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "printed"
       ],
@@ -4878,7 +4856,7 @@
         "shoulder-strap"
       ],
       "bag_closure": [
-        "zip"
+        "open-top"
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
@@ -4902,7 +4880,7 @@
       "embellishments": [
         "logo"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "top-handle",
@@ -4997,7 +4975,7 @@
       "embellishments": [
         "logo"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -5028,7 +5006,7 @@
       "bag_closure": [
         "zip"
       ],
-      "hardware_color": "none",
+      "hardware_color": null,
       "finishing": [],
       "secondary_colors": [],
       "secondary_materials": [],
@@ -5081,13 +5059,13 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
-        "shoulder-strap"
+        "detachable-strap"
       ],
       "bag_closure": [
-        "zip"
+        "open-top"
       ],
       "hardware_color": "silver",
       "bag_size": "medium",
@@ -5132,7 +5110,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "embossed"
       ],
@@ -5159,13 +5137,15 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
-      "finishing": [],
+      "pattern": null,
+      "finishing": [
+        "woven-leather"
+      ],
       "handle_type": [
         "top-handle"
       ],
       "bag_closure": [
-        "open-top"
+        "zip"
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
@@ -5186,7 +5166,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "embossed"
       ],
@@ -5214,14 +5194,13 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
       ],
       "bag_closure": [
-        "front-flap",
-        "buckle"
+        "front-flap"
       ],
       "hardware_color": "silver",
       "bag_size": "small",
@@ -5241,7 +5220,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "shoulder-strap"
@@ -5266,7 +5245,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "grained"
       ],
@@ -5276,7 +5255,7 @@
       "bag_closure": [
         "zip"
       ],
-      "hardware_color": "none",
+      "hardware_color": null,
       "bag_size": "small",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -5304,7 +5283,7 @@
       ],
       "secondary_colors": [],
       "secondary_materials": [],
-      "pattern": "none",
+      "pattern": null,
       "handle_type": [],
       "model_details": []
     }
@@ -5326,8 +5305,10 @@
       "hardware_color": "black",
       "finishing": [],
       "secondary_colors": [],
-      "embellishments": [],
-      "pattern": "none",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
       "secondary_materials": [],
       "model_details": [],
       "bag_size": "small"
@@ -5345,11 +5326,11 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [],
       "bag_closure": [
-        "turn-lock"
+        "front-flap"
       ],
       "hardware_color": "gold",
       "bag_size": "small",
@@ -5372,7 +5353,7 @@
       "material": "nylon",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [],
       "bag_closure": [
@@ -5451,7 +5432,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [
         "embossed"
       ],
@@ -5480,10 +5461,8 @@
       ],
       "material": "leather",
       "secondary_materials": [],
-      "embellishments": [
-        "logo"
-      ],
-      "pattern": "none",
+      "embellishments": [],
+      "pattern": null,
       "finishing": [
         "printed"
       ],
@@ -5520,7 +5499,7 @@
       "embellishments": [
         "stud"
       ],
-      "pattern": "none",
+      "pattern": null,
       "finishing": [],
       "handle_type": [],
       "bag_closure": [

@@ -123,7 +123,7 @@ def migrate_tags(spec, tags: dict, value_map: dict, drop_keys: set, log: Counter
                             new.append(repl)
                     else:
                         new.append(v)
-                tags[key] = value = new
+                tags[key] = value = list(dict.fromkeys(new))   # no duplicates after renames
             else:
                 found, repl = _lookup(value_map, key, value)
                 if found:
@@ -183,6 +183,7 @@ def main() -> int:
     for b in batches:
         path = Path(b["labels"])
         if not path.exists():
+            print(f"\n{b.get('name', path.stem)}: labels file not found, SKIPPED: {path}")
             continue
         samples = json.loads(path.read_text(encoding="utf-8"))
         log: Counter = Counter()

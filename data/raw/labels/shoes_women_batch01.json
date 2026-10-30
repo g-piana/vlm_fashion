@@ -14,12 +14,12 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
-      "sole_type": "none",
-      "closure": "none",
+      "sole_type": null,
+      "closure": null,
       "model_details": [],
       "finishing": []
     }
@@ -2831,20 +2831,22 @@
       "category": "flat-shoes-women",
       "subcategory": "slip on",
       "primary_color": "red",
-      "material": null,
+      "material": "cotton",
       "secondary_materials": [],
       "embellishments": [
         "embroidery"
       ],
-      "pattern": "none",
+      "pattern": null,
       "toe_shape": "plain-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "lug-sole",
       "closure": "slip-on",
       "secondary_colors": [],
       "model_details": [],
-      "finishing": []
+      "finishing": [
+        "velvet"
+      ]
     }
   },
   {
@@ -2879,16 +2881,16 @@
     "image_type": "product",
     "description": "A women's red velvet oxford-style shoe featuring a chunky black block heel and platform sole. The design is accented by a black velvet bow tied at the vamp over gold-toned eyelets. The silhouette is classic with a rounded toe and structured construction.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "flat lace up",
+      "category": "heeled-shoes-women",
+      "subcategory": "heeled lace up",
       "primary_color": "red",
       "secondary_colors": [],
-      "material": null,
+      "material": "cotton",
       "secondary_materials": [],
       "embellishments": [
         "bow"
       ],
-      "pattern": "none",
+      "pattern": null,
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
@@ -2959,7 +2961,7 @@
       "category": "flat-shoes-women",
       "subcategory": "slip on",
       "primary_color": "black",
-      "material": null,
+      "material": "cotton",
       "embellishments": [
         "flower"
       ],
@@ -2972,7 +2974,9 @@
       "heel_type": null,
       "heel_height": null,
       "model_details": [],
-      "finishing": []
+      "finishing": [
+        "velvet"
+      ]
     }
   },
   {
@@ -3152,7 +3156,7 @@
     "tags": {
       "category": "boots-and-booties-women",
       "subcategory": "ankle boot",
-      "primary_color": null,
+      "primary_color": "tan",
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
@@ -3160,9 +3164,11 @@
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
-      "secondary_colors": [],
+      "secondary_colors": [
+        "black"
+      ],
       "model_details": [],
       "finishing": []
     }
@@ -3726,14 +3732,17 @@
     "tags": {
       "category": "sneakers-women",
       "subcategory": "sneaker",
-      "primary_color": null,
-      "secondary_colors": [],
+      "primary_color": "caramel",
+      "secondary_colors": [
+        "tan",
+        "black"
+      ],
       "material": "suede",
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "leopard",
       "toe_shape": "round-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "platform",
       "closure": "lace-up",
@@ -3780,14 +3789,14 @@
       "category": "flat-shoes-women",
       "subcategory": "loafer",
       "primary_color": "black",
-      "material": null,
+      "material": "cotton",
       "secondary_materials": [
         "leather"
       ],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "toe_shape": "round-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "slouch",
       "closure": "slip-on",
