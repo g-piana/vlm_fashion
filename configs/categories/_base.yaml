@@ -53,7 +53,7 @@ attributes:
        floral-pattern, gingham, giraffe, graphic-pattern, herringbone,
        pied-de-poule, leaf-pattern, leopard, marble, optical-pattern,
        paisley-pattern, pinstripe, polka-dot, python, snake, splatter-pattern,
-       stripes, tartan, tiger, zebra, zigzag, none]
+       stripes, tartan, tiger, zebra, zigzag]
 
   # style_tags:
   #   type: list

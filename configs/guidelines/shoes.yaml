@@ -1,0 +1,68 @@
+# DRAFT: decisive visual markers per shoe subcategory (same mechanism as bags.yaml).
+# Written from general footwear knowledge, NOT from your taxonomy sheet: check every line
+# against the product owner's definitions and edit freely. Keys are subcategory names
+# exactly as in category_hierarchy.yaml. `mule` exists under flat and heeled shoes, so its
+# text covers both. Loaded for all shoe configs; names that do not exist in a config are ignored.
+# Editing this file changes the prompt: re-run prepare_dataset.py and retrain afterwards.
+
+# ── boots and booties ──
+ankle boot: >-
+  Boot whose shaft ends at or just above the ankle bone (bootie), closed by zip, elastic or pull-on. Front lacing as the main closure makes it a lace up boot.
+boot: >-
+  Boot with a shaft reaching mid-calf up to just below the knee. Shorter is ankle boot, above the knee is over the knee.
+over the knee: >-
+  Boot whose shaft reaches above the knee, usually fitted to the leg.
+lace up boot: >-
+  Boot of any height closed mainly by laces up the front; a lace-up bootie is a lace up boot, not an ankle boot.
+
+# ── flat shoes ──
+ballerina: >-
+  Flat, very low-cut shoe with a thin sole, round or softly squared toe and a piped or elasticated edge, ballet-style. A strap across the instep is not a ballerina.
+d'orsay flat: >-
+  Flat closed-toe shoe with the sides cut away to expose the arch, usually with a pointed toe.
+flat lace up: >-
+  Flat shoe closed by laces over the instep (oxford, derby, brogue) with a dress or leather-sole look. A sporty rubber cupsole makes it a sneaker.
+loafer: >-
+  Flat slip-on with a moccasin-style upper, no laces or buckles, often with a saddle strap, tassel or horsebit. Same style on a raised heel is a loafer pump.
+slip on: >-
+  Flat casual closed shoe put on without laces, straps or buckles, such as an espadrille, elastic-sided or canvas slip-on. Not a loafer (moccasin construction) and not a sneaker (sporty cupsole).
+other flat shoes: >-
+  Flat shoe that fits none of the other flat classes, for example a flat Mary Jane, T-bar flat or other strapped flat.
+
+# ── heeled shoes ──
+pump: >-
+  Closed-toe, closed-back heeled shoe with a low-cut vamp and no strap or laces. A strap across the instep is a mary jane pump, cut-away sides a d'orsay pump.
+mary jane pump: >-
+  Closed-toe heeled shoe with a strap across the instep, fastened by a buckle or button.
+d'orsay pump: >-
+  Closed-toe heeled shoe with the sides cut away to expose the arch.
+loafer pump: >-
+  Heeled shoe with loafer features (moccasin upper, saddle strap, horsebit or tassel) on a heel.
+slingback: >-
+  Heeled shoe with an open back held by a strap around the heel.
+wedge pump: >-
+  Closed-toe shoe whose heel is a solid wedge running from the heel to the front of the sole.
+heeled lace up: >-
+  Heeled shoe closed by laces over the instep. A lace-up boot is a lace up boot.
+mule: >-
+  Backless slip-on with no heel strap, closed or open toe. A flat sole is a flat shoe mule and a raised heel a heeled shoe mule; the category follows the heel.
+
+# ── sandals ──
+flat sandal: >-
+  Open sandal with a flat sole, held by straps. A single wide band across the instep is a slider and a toe-post strap is a thong.
+heeled sandal: >-
+  Open sandal with a raised heel (block, stiletto, kitten) and straps over the foot. A solid wedge sole is a wedge sandal.
+wedge sandal: >-
+  Open sandal on a solid wedge heel or sole.
+thong: >-
+  Sandal held by a strap passing between the first and second toes (flip-flop or toe-post style).
+slider: >-
+  Flat open slip-on sandal with one wide band or several broad bands across the instep and no back strap.
+sandal boot: >-
+  Open-toe or strappy sandal with a shaft that covers the ankle, like a boot (gladiator or sandal-boot).
+
+# ── sneakers ──
+sneaker: >-
+  Low-top sporty shoe with a thick rubber cupsole, usually laced (or velcro or elastic); a laceless shoe with a sporty cupsole is still a sneaker.
+high-top sneaker: >-
+  Sneaker whose upper covers the ankle bone. A dress boot with laces is a lace up boot.

@@ -15,7 +15,7 @@ toe_shape:
 
 heel_type:
   type: enum
-  values: [block-heel, comma-heel, cone-heel, french-heel, kitten-heel, stiletto-heel, wedge-heel, none]
+  values: [block-heel, comma-heel, cone-heel, french-heel, kitten-heel, stiletto-heel, wedge-heel]
 
 heel_height:
   type: enum
@@ -23,10 +23,10 @@ heel_height:
 
 sole_type:
   type: enum
-  values: [flatform, lug-sole, platform, slouch, none]
+  values: [flatform, lug-sole, platform, slouch]
 
 closure:
   type: enum
   values: [slip-on, lace-up, buckle, zip, side-zip, back-zip,
-           velcro, elastic, tie, button, monk-strap, none]
+           velcro, elastic, tie, button, monk-strap]
 

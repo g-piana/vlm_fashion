@@ -21,7 +21,7 @@ bag_closure:
 
 hardware_color:
   type: enum
-  values: [gold, silver, gunmetal, rose-gold, antique-brass, black, none]
+  values: [gold, silver, gunmetal, rose-gold, antique-brass, black]
 
 bag_size:
   type: enum
