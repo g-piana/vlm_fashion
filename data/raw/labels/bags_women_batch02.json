@@ -198,8 +198,10 @@
         "yellow",
         "coral"
       ],
-      "material": "faux-leather",
-      "secondary_materials": [],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
       "embellishments": [
         "chain",
         "horsebit"
@@ -375,7 +377,7 @@
     "image": "GUCCI_BAGS_MISC_002_070.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A beige GG Supreme canvas shoulder bag featuring a signature red and green Web stripe down the center and a gold-tone GG logo plaque on the flap. Constructed with leather trim and a detachable strap, the bag has a curved, half-moon silhouette with a zip-top closure. The design combines classic Gucci heritage with a sport-luxe aesthetic.",
+    "description": "A beige GG Supreme canvas hobo bag featuring a signature red and green Web stripe down the center and a gold-tone GG logo plaque on the flap. Constructed with leather trim and a detachable strap, the bag has a curved, half-moon silhouette with a zip-top closure. The design combines classic Gucci heritage with a sport-luxe aesthetic.",
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "hobo bag",
@@ -411,7 +413,7 @@
     "image": "GUCCI_BAGS_MISC_002_081.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A classic women's shoulder bag featuring a beige GG Supreme canvas with a repeating brown GG logo pattern, accented by signature red, green, and navy web stripes along the curved body. The bag has two adjustable shoulder straps with gold-tone hardware and a distinctive \"G\" logo clasp connecting the straps at the top. The silhouette is a soft, rounded hobo shape with a curved bottom and a top zip closure.",
+    "description": "A classic women's hobo bag featuring a beige GG Supreme canvas with a repeating brown GG logo pattern, accented by signature red, green, and navy web stripes along the curved body. The bag has two adjustable shoulder straps with gold-tone hardware and a distinctive \"G\" logo clasp connecting the straps at the top. The silhouette is a soft, rounded hobo shape with a curved bottom and a top zip closure.",
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "hobo bag",

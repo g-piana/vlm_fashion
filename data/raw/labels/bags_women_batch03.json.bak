@@ -1948,7 +1948,7 @@
     "image": "clutch__BRANDS_BAGS_MISC_CC_003_008.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, vibrant azure leather pouch featuring a distinctive curved front flap with a gold-tone zipper pull and two teardrop-shaped leather handles. The body is defined by bold, stitched panel lines creating a sculpted silhouette, with a top zip closure and the \"CELINE PARIS\" logo embossed in gold at the bottom. The hardware is polished gold-tone, contrasting with the rich blue leather.",
+    "description": "A structured, vibrant azure leather clutch featuring a distinctive curved front flap with a gold-tone zipper pull and two teardrop-shaped leather handles. The body is defined by bold, stitched panel lines creating a sculpted silhouette, with a top zip closure and the \"CELINE PARIS\" logo embossed in gold at the bottom. The hardware is polished gold-tone, contrasting with the rich blue leather.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "clutch",
@@ -3058,11 +3058,11 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_001.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A chic, rose-gold metallic clutch with a distinctive wavy, wood-grain texture and a gold-tone frame closure adorned with a crystal-encrusted dome. The bag features a delicate gold chain strap with a logo tag and a minimalist, elegant silhouette perfect for evening wear.",
+    "description": "A chic, rose-gold metallic minaudière clutch with a distinctive wavy, wood-grain texture and a gold-tone frame closure adorned with a crystal-encrusted dome. The bag features a delicate gold chain strap with a logo tag and a minimalist, elegant silhouette perfect for evening wear.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "minaudière",
-      "primary_color": null,
+      "primary_color": "rose",
       "material": "silk",
       "secondary_materials": [],
       "embellishments": [
@@ -3088,11 +3088,11 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_002.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, metallic copper-toned satin clutch with a rounded rectangular body and a central flap adorned with seven irregularly shaped, iridescent shell-like embellishments. The flap closure is secured by a hidden mechanism, and the smooth, lustrous satin finish catches the light, giving the bag a luxurious sheen.",
+    "description": "A structured, metallic copper-toned satin minaudière clutch with a rounded rectangular body and a central flap adorned with seven irregularly shaped, iridescent shell-like embellishments. The flap closure is secured by a hidden mechanism, and the smooth, lustrous satin finish catches the light, giving the bag a luxurious sheen.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "minaudière",
-      "primary_color": null,
+      "primary_color": "caramel",
       "material": "leather",
       "embellishments": [
         "gemstone"
@@ -3116,7 +3116,7 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_003.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A luxurious gold metallic clutch featuring a prominent twisted knot design across its front, crafted from a smooth, reflective leather-like material. The structured rectangular silhouette is accented by a matching gold-toned clasp at the top center, creating a bold, sculptural aesthetic ideal for evening wear.",
+    "description": "A luxurious gold metallic  minaudière clutch featuring a prominent twisted knot design across its front, crafted from a smooth, reflective leather-like material. The structured rectangular silhouette is accented by a matching gold-toned clasp at the top center, creating a bold, sculptural aesthetic ideal for evening wear.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "minaudière",
@@ -3142,7 +3142,7 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_004.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A glossy black patent leather clutch with a textured, embossed LV monogram pattern and a gold-tone metal frame closure. The bag features a delicate gold chain strap attached to the top edge and a matching gold-tone clasp at the front. The surface has a subtle vertical ribbed texture that enhances its structured, rectangular silhouette.",
+    "description": "A glossy black patent leather  minaudière clutch with a textured, embossed LV monogram pattern and a gold-tone metal frame closure. The bag features a delicate gold chain strap attached to the top edge and a matching gold-tone clasp at the front. The surface has a subtle vertical ribbed texture that enhances its structured, rectangular silhouette.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "minaudière",
@@ -3170,7 +3170,7 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_005.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A compact, rigid rectangular clutch with a glossy gold metallic finish and a distinctive woven texture covering its entire surface. The body features a rounded top edge and is secured by a prominent gold-tone metal frame clasp with a decorative bow-like knot at the top. The material appears to be woven synthetic fiber or raffia with a metallic coating, giving it a luxurious, reflective sheen.",
+    "description": "A compact, rigid rectangular  minaudière clutch with a glossy gold metallic finish and a distinctive woven texture covering its entire surface. The body features a rounded top edge and is secured by a prominent gold-tone metal frame clasp with a decorative bow-like knot at the top. The material appears to be woven synthetic fiber or raffia with a metallic coating, giving it a luxurious, reflective sheen.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "minaudière",
@@ -3196,7 +3196,7 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_006.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A sleek, elongated black patent leather clutch with a glossy finish, featuring a prominent gold-tone YSL logo and a distinctive gold-toned ring-shaped clasp at the top center. The body is structured with visible topstitching along the edges, creating a clean, minimalist silhouette.",
+    "description": "A sleek, elongated black patent leather minaudière clutch with a glossy finish, featuring a prominent gold-tone YSL logo and a distinctive gold-toned ring-shaped clasp at the top center. The body is structured with visible topstitching along the edges, creating a clean, minimalist silhouette.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "minaudière",
@@ -3224,7 +3224,7 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_007.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A sleek, structured black leather clutch featuring a distinctive diamond-patterned intrecciato weave and a prominent gold-tone knot closure at the top. The body is a rigid, slightly rounded rectangle with a smooth, polished finish, designed for a formal or evening occasion.",
+    "description": "A sleek, structured black leather minaudière clutch featuring a distinctive diamond-patterned intrecciato weave and a prominent gold-tone knot closure at the top. The body is a rigid, slightly rounded rectangle with a smooth, polished finish, designed for a formal or evening occasion.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "minaudière",
@@ -3252,7 +3252,7 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_008.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured black box bag featuring a glossy quilted leather body with a prominent circular embellishment of black crystals and sequins at the center. The top edge is trimmed with a textured black fabric, and a matching bow accent sits at the upper back. The design combines classic box-bag proportions with ornate, sparkling detailing for a glamorous evening look.",
+    "description": "A structured black box minaudière bag featuring a glossy quilted leather body with a prominent circular embellishment of black crystals and sequins at the center. The top edge is trimmed with a textured black fabric, and a matching bow accent sits at the upper back. The design combines classic box-bag proportions with ornate, sparkling detailing for a glamorous evening look.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "minaudière",
@@ -3285,7 +3285,7 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_009.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A sleek, minimalist black leather clutch with a curved, slightly rounded rectangular silhouette and a distinctive gold-tone beetle-shaped clasp at the top. The body features a subtle gold trim along the edges and a matching gold frame closure, creating a refined contrast against the matte black leather. The design is clean and elegant, emphasizing the sculptural hardware as its primary decorative element.",
+    "description": "A sleek, minimalist black leather minaudière clutch with a curved, slightly rounded rectangular silhouette and a distinctive gold-tone beetle-shaped clasp at the top. The body features a subtle gold trim along the edges and a matching gold frame closure, creating a refined contrast against the matte black leather. The design is clean and elegant, emphasizing the sculptural hardware as its primary decorative element.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "minaudière",
@@ -3309,11 +3309,11 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_011.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A compact, rigid rectangular clutch with a rose-gold metallic finish and a distinctive shell-shaped clasp adorned with crystals. The body features a subtle, swirling wood-grain texture over a smooth, satin-like surface, giving it a luxurious, sculpted appearance. The edges are defined by a thin gold-tone metal trim, enhancing its structured, elegant silhouette.",
+    "description": "A compact, rigid rectangular minaudière clutch with a rose-gold metallic finish and a distinctive shell-shaped clasp adorned with crystals. The body features a subtle, swirling wood-grain texture over a smooth, satin-like surface, giving it a luxurious, sculpted appearance. The edges are defined by a thin gold-tone metal trim, enhancing its structured, elegant silhouette.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "minaudière",
-      "primary_color": null,
+      "primary_color": "rose",
       "material": "silk",
       "secondary_materials": [],
       "embellishments": [
@@ -3337,7 +3337,7 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_012.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A sleek, satin-finish emerald green box clutch with a rounded rectangular silhouette and a decorative crystal-encrusted bow-shaped clasp at the top. The body is rigid and smooth, with a subtle sheen characteristic of satin, and the hardware is gold-toned. The design is minimalist and elegant, emphasizing clean lines and a single ornamental closure.",
+    "description": "A sleek, satin-finish emerald green box minaudière clutch with a rounded rectangular silhouette and a decorative crystal-encrusted bow-shaped clasp at the top. The body is rigid and smooth, with a subtle sheen characteristic of satin, and the hardware is gold-toned. The design is minimalist and elegant, emphasizing clean lines and a single ornamental closure.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "minaudière",
@@ -3365,7 +3365,7 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_013.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A black rectangular clutch with intricate gold floral embroidery covering its surface, featuring a gold-toned metal frame closure and a detachable gold chain strap. The body is constructed with a rigid, structured box-like silhouette, and the embroidery creates a luxurious, textured floral pattern across the entire surface.",
+    "description": "A black rectangular minaudière clutch with intricate gold floral embroidery covering its surface, featuring a gold-toned metal frame closure and a detachable gold chain strap. The body is constructed with a rigid, structured box-like silhouette, and the embroidery creates a luxurious, textured floral pattern across the entire surface.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "minaudière",
@@ -3421,7 +3421,7 @@
     "image": "pouch__BRANDS_BAGS_MISC_CP_003_006.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A metallic gold, gathered-texture clutched bag with a structured, softly draped silhouette created by vertical ruching. Features a detachable gold-toned chain strap attached via D-rings and a gold-tone clasp closure. The surface has a subtle sheen with a slightly mottled, pearlescent finish.",
+    "description": "A metallic gold, gathered-texture clutched pouch bag with a structured, softly draped silhouette created by vertical ruching. Features a detachable gold-toned chain strap attached via D-rings and a gold-tone clasp closure. The surface has a subtle sheen with a slightly mottled, pearlescent finish.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "pouch",
@@ -3449,7 +3449,7 @@
     "image": "pouch__BRANDS_BAGS_MISC_CP_003_007.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, softly rounded rectangular clutch with a rich burgundy hue, crafted from a distinctive woven intrecciato leather pattern that creates a textured, diamond-like surface. The body features a subtle gathered or pillow-like volume at the base, giving it a gentle slouch while maintaining a defined silhouette. The closure is a full-length zip running along the top edge, concealed beneath the woven texture.",
+    "description": "A structured, softly rounded rectangular pouch with a rich burgundy hue, crafted from a distinctive woven intrecciato leather pattern that creates a textured, diamond-like surface. The body features a subtle gathered or pillow-like volume at the base, giving it a gentle slouch while maintaining a defined silhouette. The closure is a full-length zip running along the top edge, concealed beneath the woven texture.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "pouch",
@@ -3501,11 +3501,11 @@
     "image": "pouch__BRANDS_BAGS_MISC_CP_003_009.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A soft, rose-gold satin clutch with a distinctive ruffled gathered top edge and a small metallic clasp closure. The body is structured with a subtle curved silhouette and a zippered side pocket, crafted from smooth, lustrous satin with a satin finish. The design emphasizes elegant texture and a vintage-inspired silhouette.",
+    "description": "A soft, rose-gold satin pouch with a distinctive ruffled gathered top edge and a small metallic clasp closure. The body is structured with a subtle curved silhouette and a zippered side pocket, crafted from smooth, lustrous satin with a satin finish. The design emphasizes elegant texture and a vintage-inspired silhouette.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "pouch",
-      "primary_color": null,
+      "primary_color": "rose",
       "material": "silk",
       "secondary_materials": [],
       "embellishments": [],
@@ -3527,7 +3527,7 @@
     "image": "pouch__BRANDS_BAGS_MISC_CP_003_010.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A vibrant yellow leather shoulder bag featuring a distinctive gathered, slouchy silhouette with a top zip closure and a matching adjustable strap. The bag has a minimalist design with subtle gold-tone hardware and a discreet embossed logo on the front. The material appears to be smooth, supple leather with a slightly wrinkled texture, giving it a soft, lived-in look.",
+    "description": "A vibrant yellow leather pouch featuring a distinctive gathered, slouchy silhouette with a top zip closure and a matching adjustable strap. The bag has a minimalist design with subtle gold-tone hardware and a discreet embossed logo on the front. The material appears to be smooth, supple leather with a slightly wrinkled texture, giving it a soft, lived-in look.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "pouch",
@@ -3553,7 +3553,7 @@
     "image": "pouch__BRANDS_BAGS_MISC_CP_003_011.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A compact, rigid rectangular clutch with a fully encrusted surface of sparkling crystals, framed by a rose-gold metal kiss-lock clasp with spherical finials. The body is constructed from a smooth, reflective metallic base covered in a dense, uniform crystal embellishment, creating a dazzling, high-shine effect. The silhouette is classic and structured, designed for formal evening wear.",
+    "description": "A compact, rigid rectangular pouch with a fully encrusted surface of sparkling crystals, framed by a rose-gold metal kiss-lock clasp with spherical finials. The body is constructed from a smooth, reflective metallic base covered in a dense, uniform crystal embellishment, creating a dazzling, high-shine effect. The silhouette is classic and structured, designed for formal evening wear.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "pouch",
@@ -3579,7 +3579,7 @@
     "image": "pouch__BRANDS_BAGS_MISC_CP_003_012.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A delicate, handcrafted clutch featuring a round, dome-like silhouette adorned with intricate beadwork in soft pink, mint green, and pearl tones. The body is constructed from a light pink fabric base, embellished with concentric circular patterns of multicolored beads and accented with dangling fringe details along the bottom edge. The curved top handle is also beaded and attached via gold-toned hardware, complementing the ornate, jewel-like aesthetic.",
+    "description": "A delicate, handcrafted pouch  featuring a round, dome-like silhouette adorned with intricate beadwork in soft pink, mint green, and pearl tones. The body is constructed from a light pink fabric base, embellished with concentric circular patterns of multicolored beads and accented with dangling fringe details along the bottom edge. The curved top handle is also beaded and attached via gold-toned hardware, complementing the ornate, jewel-like aesthetic.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "pouch",
@@ -3947,7 +3947,7 @@
     "image": "satchel-bag__BRANDS_BAGS_MISC_SBSAT_003_005.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured tan leather handbag with a classic top handle design, featuring a distinctive circular turn-lock closure at the center and two adjustable buckle straps on either side. The bag has a rigid, upright silhouette with rounded bottom corners and visible stitching details, conveying a refined and timeless aesthetic.",
+    "description": "A structured tan leather satchel bag with a classic top handle design, featuring a distinctive circular turn-lock closure at the center and two adjustable buckle straps on either side. The bag has a rigid, upright silhouette with rounded bottom corners and visible stitching details, conveying a refined and timeless aesthetic.",
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "satchel bag",
@@ -5052,7 +5052,7 @@
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "underarm bag",
-      "primary_color": null,
+      "primary_color": "ivory",
       "secondary_colors": [
         "brown"
       ],
