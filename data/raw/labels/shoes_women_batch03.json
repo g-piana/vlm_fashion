@@ -795,8 +795,7 @@
       "pattern": null,
       "finishing": [],
       "model_details": [
-        "ankle-strap",
-        "double-strap"
+        "ankle-strap"
       ]
     }
   },
@@ -1176,8 +1175,7 @@
       ],
       "pattern": null,
       "model_details": [
-        "ankle-strap",
-        "double-strap"
+        "ankle-strap"
       ],
       "finishing": [
         "metallic"
@@ -1204,8 +1202,7 @@
       "embellishments": [],
       "pattern": null,
       "model_details": [
-        "ankle-wrap",
-        "strappy"
+        "ankle-wrap"
       ],
       "finishing": [],
       "toe_shape": "peep-toe",
@@ -1236,9 +1233,7 @@
       "finishing": [
         "patent"
       ],
-      "model_details": [
-        "strappy"
-      ],
+      "model_details": [],
       "sole_type": null
     }
   },
@@ -1316,8 +1311,7 @@
       "finishing": [],
       "sole_type": null,
       "model_details": [
-        "ankle-strap",
-        "strappy"
+        "ankle-strap"
       ]
     }
   },
@@ -1335,8 +1329,7 @@
       "embellishments": [],
       "pattern": "floral-pattern",
       "model_details": [
-        "ankle-strap",
-        "strappy"
+        "ankle-strap"
       ],
       "finishing": [],
       "toe_shape": "peep-toe",
@@ -1365,9 +1358,7 @@
         "stud"
       ],
       "model_details": [
-        "ankle-strap",
-        "multi-strap",
-        "strappy"
+        "ankle-strap"
       ],
       "closure": "slip-on",
       "toe_shape": null,

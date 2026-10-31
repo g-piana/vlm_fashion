@@ -24,6 +24,9 @@ Usage
 Extra options
     --errors-csv FILE              one row per image with a wrong subcategory/field
     --target-per-subcategory N     coverage check: which subcategories need more images
+    --value-fields a,b,c           per-value precision/recall tables for these list fields
+                                   (default: finishing,embellishments,model_details,handle_type,closure)
+    --values-csv FILE              every per-value statistic as CSV (sortable in a spreadsheet)
 """
 
 from __future__ import annotations
@@ -112,6 +115,16 @@ def score(preds: list[dict], gts: list[dict]) -> dict:
     field_stats = {f: {"exact": 0, "present": 0, "exact_present": 0, "f1_sum": 0.0, "f1_n": 0}
                    for f in field_names}
 
+    # list-like fields: any ground-truth or predicted value is a list
+    list_fields = set()
+    for img in matched:
+        for src in (gt_by[img], pred_by[img]):
+            tg = src.get("tags") if isinstance(src.get("tags"), dict) else {}
+            list_fields |= {k for k, v in tg.items() if isinstance(v, list) and k not in CORE}
+    vtp: dict = defaultdict(Counter)
+    vfp: dict = defaultdict(Counter)
+    vfn: dict = defaultdict(Counter)
+
     compliance = Counter()
     for img in matched:
         gt, pr = gt_by[img], pred_by[img]
@@ -144,6 +157,13 @@ def score(preds: list[dict], gts: list[dict]) -> dict:
                 st["f1_n"] += 1
             if not same:
                 wrong_fields.append(f)
+            if f in list_fields:
+                for v in g_set & p_set:
+                    vtp[f][v] += 1
+                for v in p_set - g_set:
+                    vfp[f][v] += 1
+                for v in g_set - p_set:
+                    vfn[f][v] += 1
 
         per_image[img] = {"gt_category": gc, "gt_subcategory": gs, "pred_category": pc,
                           "pred_subcategory": ps, "ok": bool(s_ok), "wrong_fields": sorted(wrong_fields)}
@@ -153,6 +173,7 @@ def score(preds: list[dict], gts: list[dict]) -> dict:
             compliance["with_validation_record"] += 1
             compliance["invalid_after_repair"] += not val.get("ok", True)
             compliance["category_repaired"] += bool(val.get("repaired"))
+            compliance["value_fixes"] += bool(val.get("value_fixes"))
             compliance["any_issue"] += bool(val.get("issues"))
 
     n = len(matched) or 1
@@ -182,6 +203,16 @@ def score(preds: list[dict], gts: list[dict]) -> dict:
             "exact_when_present": (st["exact_present"] / st["present"]) if st["present"] else None,
             "f1": (st["f1_sum"] / st["f1_n"]) if st["f1_n"] else None,
         }
+    rep["values"] = {}
+    for f in sorted(list_fields):
+        rows = {}
+        for v in set(vtp[f]) | set(vfp[f]) | set(vfn[f]):
+            tp, fp, fn = vtp[f][v], vfp[f][v], vfn[f][v]
+            prec = tp / (tp + fp) if tp + fp else None
+            rec = tp / (tp + fn) if tp + fn else None
+            f1 = (2 * prec * rec / (prec + rec)) if prec and rec else (0.0 if (tp + fp + fn) else None)
+            rows[v] = {"support": tp + fn, "predicted": tp + fp, "tp": tp, "precision": prec, "recall": rec, "f1": f1}
+        rep["values"][f] = rows
     rep["compliance"] = dict(compliance)
     rep["per_image"] = per_image
 
@@ -205,6 +236,35 @@ def pct(x) -> str:
     return "  n/a" if x is None else f"{x:5.1%}"
 
 
+DEFAULT_VALUE_FIELDS = ["finishing", "embellishments", "model_details", "handle_type", "closure"]
+
+
+def print_values(rep: dict, fields: list[str]) -> None:
+    for f in fields:
+        rows = rep.get("values", {}).get(f)
+        if not rows:
+            continue
+        print(f"\n── Per value: {f} ──  (support = images with the value in ground truth)")
+        print(f"  {'value':20s} {'support':>7s} {'predicted':>9s} {'recall':>7s} {'prec':>7s} {'F1':>7s}")
+        for v, r in sorted(rows.items(), key=lambda kv: (-kv[1]["support"], -kv[1]["predicted"], kv[0])):
+            mark = " *" if r["support"] < 5 else ""
+            print(f"  {v:20s} {r['support']:7d} {r['predicted']:9d} {pct(r['recall']):>7s} {pct(r['precision']):>7s} {pct(r['f1']):>7s}{mark}")
+    print("\n  * fewer than 5 images with the value: too few to judge (add images before deciding)")
+
+
+def write_values_csv(rep: dict, path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["field", "value", "support", "predicted", "tp", "precision", "recall", "f1"])
+        for f, rows in sorted(rep.get("values", {}).items()):
+            for v, r in sorted(rows.items(), key=lambda kv: (-kv[1]["support"], kv[0])):
+                w.writerow([f, v, r["support"], r["predicted"], r["tp"],
+                            "" if r["precision"] is None else round(r["precision"], 3),
+                            "" if r["recall"] is None else round(r["recall"], 3),
+                            "" if r["f1"] is None else round(r["f1"], 3)])
+
+
 def print_report(rep: dict, target: int | None, gts: list[dict]) -> None:
     print(f"\nMatched {rep['n_matched']} / {rep['n_ground_truth']} ground-truth images "
           f"({rep['n_predictions']} predictions)")
@@ -219,6 +279,7 @@ def print_report(rep: dict, target: int | None, gts: list[dict]) -> None:
         c = rep["compliance"]
         print(f"  model output needed category repair:  {c.get('category_repaired', 0)}   "
               f"invalid after repair: {c.get('invalid_after_repair', 0)}   any issue: {c.get('any_issue', 0)}")
+        print(f"  outputs with misplaced/unknown values fixed or dropped: {c.get('value_fixes', 0)}")
 
     print("\n── Per subcategory ──  (support = images in ground truth)")
     print(f"  {'subcategory':18s} {'support':>7s} {'recall':>7s} {'prec':>7s} {'F1':>7s}")
@@ -278,6 +339,16 @@ def print_comparison(new: dict, old: dict) -> None:
         o = old["fields"].get(f)
         if o:
             print(f"    {f:22s} {pct(o['f1'])} -> {pct(v['f1'])}   ({d(v['f1'], o['f1'])} pts)")
+    moved = []
+    for f, rows_new in new.get("values", {}).items():
+        for val, r in rows_new.items():
+            o = old.get("values", {}).get(f, {}).get(val)
+            if o and r["support"] >= 3 and r["f1"] is not None and o["f1"] is not None and abs(r["f1"] - o["f1"]) >= 0.25:
+                moved.append((f, val, o["f1"], r["f1"], r["support"]))
+    if moved:
+        print("\n  list values whose F1 moved by 25+ points (support >= 3):")
+        for f, val, a, b, sup in sorted(moved, key=lambda m: m[3] - m[2]):
+            print(f"    {f + ': ' + val:34s} {pct(a)} -> {pct(b)}   (support {sup})")
     rows = []
     for s, v in new["per_subcategory"].items():
         o = old["per_subcategory"].get(s)
@@ -297,11 +368,14 @@ def main() -> int:
     ap.add_argument("--compare", type=Path, help="report JSON from a previous run")
     ap.add_argument("--errors-csv", type=Path)
     ap.add_argument("--target-per-subcategory", type=int)
+    ap.add_argument("--value-fields", default=",".join(DEFAULT_VALUE_FIELDS))
+    ap.add_argument("--values-csv", type=Path)
     args = ap.parse_args()
 
     preds, gts = load_json(args.predictions), load_json(args.ground_truth)
     rep = score(preds, gts)
     print_report(rep, args.target_per_subcategory, gts)
+    print_values(rep, [f.strip() for f in args.value_fields.split(',') if f.strip()])
 
     if args.compare:
         print_comparison(rep, load_json(args.compare))
@@ -309,6 +383,9 @@ def main() -> int:
         args.out_report.parent.mkdir(parents=True, exist_ok=True)
         args.out_report.write_text(json.dumps(rep, indent=1, ensure_ascii=False), encoding="utf-8")
         print(f"\nreport saved: {args.out_report}")
+    if args.values_csv:
+        write_values_csv(rep, args.values_csv)
+        print(f"per-value csv saved: {args.values_csv}")
     if args.errors_csv:
         args.errors_csv.parent.mkdir(parents=True, exist_ok=True)
         with open(args.errors_csv, "w", newline="", encoding="utf-8") as f:

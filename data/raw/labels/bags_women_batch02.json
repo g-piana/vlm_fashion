@@ -20,7 +20,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "piston-closure"
       ],
       "hardware_color": "silver",
@@ -49,7 +49,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "piston-closure"
       ],
       "hardware_color": "gold",
@@ -80,7 +80,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "turn-lock"
       ],
       "hardware_color": "gold",
@@ -111,7 +111,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "hook-closure"
       ],
       "hardware_color": "silver",
@@ -145,7 +145,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap"
       ],
       "hardware_color": "gold",
@@ -173,7 +173,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "open-top"
       ],
       "hardware_color": null,
@@ -211,7 +211,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "open-top"
       ],
       "hardware_color": "silver",
@@ -240,7 +240,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "hook-closure"
       ],
       "hardware_color": "silver",
@@ -266,7 +266,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "piston-closure"
       ],
       "hardware_color": "gold",
@@ -296,7 +296,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "turn-lock"
       ],
       "hardware_color": "gold",
@@ -330,7 +330,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "open-top"
       ],
       "hardware_color": null,
@@ -365,7 +365,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "frame"
       ],
       "hardware_color": "gold",
@@ -398,7 +398,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "zip"
       ],
       "hardware_color": "gold",
@@ -426,9 +426,9 @@
       ],
       "pattern": null,
       "handle_type": [
-        "detachable-strap"
+        "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "zip"
       ],
       "hardware_color": "gold",
@@ -463,7 +463,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "drawstring"
       ],
       "hardware_color": "gold",

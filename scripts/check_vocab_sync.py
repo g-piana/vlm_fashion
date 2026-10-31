@@ -108,6 +108,27 @@ def main() -> int:
                 print(f"  {tmpl.name}: {attr} has values not in the source file: {unknown}")
             else:
                 print(f"  {tmpl.name}: {attr} OK ({len(vals)} values)")
+    # values that appear in more than one field of the same macrocategory: the definitions
+    # (attribute_values.yaml) must say which field wins, and labels must follow it
+    print("\nValues listed in more than one field (information, not an error):")
+    colour_fields = {"primary_color", "secondary_colors", "hardware_color"}   # same colours on purpose
+    base_attrs = {k: v for k, v in attrs.items() if isinstance(v, dict)}
+    for tmpl in sorted((ROOT / "configs" / "attributes").glob("*.yaml")):
+        merged = dict(base_attrs)
+        merged.update({k: v for k, v in _load(tmpl).items() if isinstance(v, dict)})
+        owners: dict[str, list[str]] = {}
+        for name, spec in merged.items():
+            vals = spec.get("values")
+            if name in colour_fields or not isinstance(vals, list):
+                continue
+            for v in vals:
+                if v is not None:
+                    owners.setdefault(str(v), []).append(name)
+        dup = {v: o for v, o in owners.items() if len(o) > 1}
+        if dup:
+            print(f"  {tmpl.name}: " + "; ".join(f"{v} -> {', '.join(o)}" for v, o in sorted(dup.items())))
+        else:
+            print(f"  {tmpl.name}: none")
     if bad:
         print("\nRe-run scripts/extract_vocabularies.py and paste the block into _base.yaml.")
     return 1 if bad else 0

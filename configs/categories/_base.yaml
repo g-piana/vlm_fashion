@@ -89,7 +89,10 @@ prompt_templates:
     TAGS:
     A JSON object using ONLY the controlled vocabulary provided below.
     If a field does not apply, use null. For list fields, use an empty
-    list [] if nothing applies.
+    list [] if nothing applies. Each value belongs only in the field
+    whose list contains it: fabric constructions such as velvet, satin,
+    denim or canvas go in finishing (not material), and quilted goes in
+    model_details (not finishing). Never use a value that is not in the lists.
 
   look: |
     You are a fashion analyst. Given a runway or editorial image showing
@@ -104,5 +107,9 @@ prompt_templates:
     Each element uses the controlled vocabulary provided below. Identify
     every distinct garment and accessory visible. If a field does not
     apply to an item, use null. For list fields, use an empty list [].
+    Each value belongs only in the field whose list contains it: fabric
+    constructions such as velvet, satin, denim or canvas go in finishing
+    (not material), and quilted goes in model_details (not finishing).
+    Never use a value that is not in the lists.
 
   user_message: "Analyze this fashion product."

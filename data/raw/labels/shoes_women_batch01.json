@@ -214,9 +214,7 @@
       "secondary_materials": [],
       "pattern": null,
       "sole_type": null,
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -240,8 +238,7 @@
       "closure": "lace-up",
       "secondary_colors": [],
       "model_details": [
-        "ankle-wrap",
-        "strappy"
+        "ankle-wrap"
       ],
       "finishing": []
     }
@@ -288,9 +285,7 @@
       "heel_height": "low-heel",
       "sole_type": null,
       "closure": "zip",
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": [
         "metallic"
       ]
@@ -471,8 +466,7 @@
       "closure": "slip-on",
       "secondary_colors": [],
       "model_details": [
-        "ankle-strap",
-        "strappy"
+        "ankle-strap"
       ],
       "finishing": []
     }
@@ -1042,8 +1036,7 @@
       "secondary_materials": [],
       "pattern": null,
       "model_details": [
-        "ankle-strap",
-        "single-strap"
+        "ankle-strap"
       ],
       "finishing": [
         "lace"
@@ -1262,9 +1255,7 @@
       "sole_type": "slouch",
       "closure": "slip-on",
       "category": "sandals-women",
-      "model_details": [
-        "t-bar"
-      ],
+      "model_details": [],
       "finishing": [
         "patent",
         "metallic"
@@ -1689,9 +1680,7 @@
       "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": [
         "metallic",
         "python-effect"
@@ -1765,9 +1754,7 @@
       "pattern": null,
       "heel_type": null,
       "heel_height": "flat-heel",
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -2424,8 +2411,7 @@
       "pattern": null,
       "sole_type": null,
       "model_details": [
-        "ankle-strap",
-        "multi-strap"
+        "ankle-strap"
       ],
       "finishing": []
     }
@@ -2576,7 +2562,6 @@
       "secondary_materials": [],
       "pattern": null,
       "model_details": [
-        "single-strap",
         "t-bar"
       ],
       "finishing": [
@@ -2606,7 +2591,6 @@
       "heel_type": null,
       "heel_height": "flat-heel",
       "model_details": [
-        "single-strap",
         "t-bar"
       ],
       "finishing": [
@@ -2633,9 +2617,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": [
         "patent"
       ]
@@ -2662,9 +2644,7 @@
       "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "buckle",
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -3156,9 +3136,7 @@
       "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "slip-on",
-      "secondary_colors": [
-        "black"
-      ],
+      "secondary_colors": [],
       "model_details": [],
       "finishing": []
     }
@@ -3209,9 +3187,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -3675,9 +3651,7 @@
       "heel_height": "high-heel",
       "sole_type": null,
       "closure": "buckle",
-      "model_details": [
-        "double-strap"
-      ],
+      "model_details": [],
       "finishing": [
         "metallic"
       ]
@@ -3723,10 +3697,7 @@
       "category": "sneakers-women",
       "subcategory": "sneaker",
       "primary_color": "caramel",
-      "secondary_colors": [
-        "tan",
-        "black"
-      ],
+      "secondary_colors": [],
       "material": "suede",
       "secondary_materials": [],
       "embellishments": [],
@@ -4223,9 +4194,7 @@
       "pattern": null,
       "secondary_colors": [],
       "secondary_materials": [],
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -4486,8 +4455,7 @@
       "pattern": null,
       "model_details": [
         "ankle-wrap",
-        "cross-over",
-        "strappy"
+        "cross-over"
       ],
       "finishing": []
     }
@@ -5451,9 +5419,7 @@
       "heel_height": "low-heel",
       "sole_type": null,
       "closure": "buckle",
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -5983,9 +5949,7 @@
       "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "buckle",
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": [
         "patent"
       ]
@@ -6012,9 +5976,7 @@
       "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "buckle",
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": [
         "patent"
       ]
@@ -6068,9 +6030,7 @@
       "heel_height": "flat-heel",
       "sole_type": null,
       "closure": "buckle",
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -6256,9 +6216,7 @@
       "heel_height": "low-heel",
       "sole_type": null,
       "closure": "buckle",
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": [
         "patent"
       ]
@@ -6285,9 +6243,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
-      "model_details": [
-        "multi-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -6312,9 +6268,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
-      "model_details": [
-        "multi-strap"
-      ],
+      "model_details": [],
       "finishing": [
         "patent"
       ]
@@ -6341,9 +6295,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -6655,9 +6607,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
-      "model_details": [
-        "single-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   }

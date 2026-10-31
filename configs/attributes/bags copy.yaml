@@ -12,7 +12,7 @@ handle_type:
   values: [top-handle, shoulder-strap, chain-strap, wrist-strap,
            crossbody-strap, detachable-strap, drawstring, none]
 
-bag_closure:
+closure:
   type: enum
   values: [zip, flap, drawstring, clasp, magnetic-snap, turn-lock,
            frame, open-top, buckle, toggle, none]

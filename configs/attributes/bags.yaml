@@ -2,7 +2,7 @@
 
 model_details:
   type: list
-  values: [ quilted, belt-loops, metal-feet, external-pocket ]
+  values: [ quilted, belt-loops, metal-feet, zip-pocket, open-pocket ]
 
 finishing:
   type: list
@@ -10,10 +10,9 @@ finishing:
 
 handle_type:
   type: list
-  values: [top-handle, shoulder-strap, chain-strap, wrist-strap,
-           crossbody-strap, detachable-strap, cut-out-handle]
+  values: [top-handle, shoulder-strap, chain-strap, wrist-strap, cut-out-handle]
 
-bag_closure:
+closure:
   type: list
   values: [zip, front-flap, drawstring, clasp, magnetic-snap, turn-lock,
            frame, open-top, buckle, toggle, hook-closure, kiss-lock-closure, 

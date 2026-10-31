@@ -21,9 +21,9 @@
       "pattern": null,
       "handle_type": [
         "top-handle",
-        "detachable-strap"
+        "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "turn-lock"
       ],
       "hardware_color": "silver",
@@ -53,7 +53,7 @@
       "handle_type": [
         "chain-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap"
       ],
       "hardware_color": "silver",
@@ -68,7 +68,7 @@
     "image": "GUCCI_BAGS_01_19560828_main.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "Finely woven natural straw forms this distinctive shoulder bag with its gracefully curved silhouette, framed by smooth dark brown leather piping with crisp white contrast stitching. An oversized interlocking GG logo in lustrous gold-tone makes a bold sculptural statement, while the substantial chain strap with chunky gold links and black leather accents creates a luxurious bicolor aesthetic perfect for warm-weather elegance.",
+    "description": "Finely woven natural straw forms this distinctive underarm shoulder bag with its gracefully curved silhouette, framed by smooth dark brown leather piping with crisp white contrast stitching. An oversized interlocking GG logo in lustrous gold-tone makes a bold sculptural statement, while the substantial chain strap with chunky gold links and black leather accents creates a luxurious bicolor aesthetic perfect for warm-weather elegance.",
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "underarm bag",
@@ -88,7 +88,7 @@
       "handle_type": [
         "chain-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap"
       ],
       "hardware_color": "gold",
@@ -117,9 +117,9 @@
       "pattern": null,
       "handle_type": [
         "top-handle",
-        "detachable-strap"
+        "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "open-top"
       ],
       "hardware_color": "gold",
@@ -133,7 +133,7 @@
     "image": "GUCCI_BAGS_01_21269657_main.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "Classic GG monogram canvas in beige provides the backdrop for this compact shoulder bag, featuring the legendary green-red-green Web stripe bisecting horizontally and framed by rich brown leather trim. Oversized silver-tone horsebit hardware creates sculptural drama at the center, while a smooth leather shoulder strap and additional chain element provide versatile carrying options in this petite yet statement-making piece that perfectly encapsulates Gucci's heritage symbolism.",
+    "description": "Classic GG monogram canvas in beige provides the backdrop for this compact underarm shoulder bag, featuring the legendary green-red-green Web stripe bisecting horizontally and framed by rich brown leather trim. Oversized silver-tone horsebit hardware creates sculptural drama at the center, while a smooth leather shoulder strap and additional chain element provide versatile carrying options in this petite yet statement-making piece that perfectly encapsulates Gucci's heritage symbolism.",
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "underarm bag",
@@ -154,10 +154,9 @@
       "model_details": [],
       "handle_type": [
         "top-handle",
-        "chain-strap",
-        "detachable-strap"
+        "chain-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap"
       ],
       "hardware_color": "silver",
@@ -181,7 +180,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap"
       ],
       "secondary_colors": [],
@@ -220,14 +219,12 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "hook-closure"
       ],
       "hardware_color": "gold",
       "bag_size": "small",
-      "model_details": [
-        "external-pocket"
-      ],
+      "model_details": [],
       "finishing": [
         "jacquard"
       ]
@@ -251,7 +248,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "hook-closure"
       ],
       "hardware_color": "gold",
@@ -289,7 +286,7 @@
         "top-handle",
         "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "open-top"
       ],
       "hardware_color": "black",
@@ -316,7 +313,7 @@
       ],
       "pattern": "chevron",
       "handle_type": [],
-      "bag_closure": [
+      "closure": [
         "zip"
       ],
       "hardware_color": "gold",
@@ -344,12 +341,13 @@
       ],
       "pattern": null,
       "model_details": [
-        "external-pocket"
+        "zip-pocket",
+        "open-pocket"
       ],
       "handle_type": [
         "wrist-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "zip"
       ],
       "hardware_color": "gold",
@@ -372,9 +370,9 @@
       ],
       "handle_type": [
         "top-handle",
-        "detachable-strap"
+        "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "open-top"
       ],
       "hardware_color": "gold",
@@ -406,7 +404,7 @@
       "handle_type": [
         "chain-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap"
       ],
       "hardware_color": "gold",
@@ -430,10 +428,9 @@
       "material": "leather",
       "hardware_color": "gold",
       "handle_type": [
-        "crossbody-strap",
-        "detachable-strap"
+        "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap"
       ],
       "secondary_colors": [
@@ -471,7 +468,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap"
       ],
       "hardware_color": "gold",
@@ -505,7 +502,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap"
       ],
       "hardware_color": "gold",
@@ -519,7 +516,7 @@
     "image": "GUCCI_BAGS_01_30856611_main.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "Glossy black patent leather reflects light with mirror-like brilliance in this striking Dionysus shoulder bag, creating dramatic visual impact and contemporary edge. The compact structured silhouette features the signature tiger head closure in antiqued silver-tone metal—a bold sculptural detail inspired by Greek mythology that defines the collection. A heavyweight silver-tone chain strap offers adjustable shoulder or crossbody wear, while the high-shine finish transforms this iconic design into a statement piece perfect for evening glamour and bold fashion moments.",
+    "description": "Glossy black patent leather reflects light with mirror-like brilliance in this striking Dionysus underarm shoulder bag, creating dramatic visual impact and contemporary edge. The compact structured silhouette features the signature tiger head closure in antiqued silver-tone metal—a bold sculptural detail inspired by Greek mythology that defines the collection. A heavyweight silver-tone chain strap offers adjustable shoulder or crossbody wear, while the high-shine finish transforms this iconic design into a statement piece perfect for evening glamour and bold fashion moments.",
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "underarm bag",
@@ -528,7 +525,7 @@
       "embellishments": [
         "tiger-element"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap"
       ],
       "hardware_color": "silver",
@@ -559,7 +556,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [],
+      "closure": [],
       "hardware_color": "gold",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -587,7 +584,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap"
       ],
       "hardware_color": "silver",
@@ -618,9 +615,9 @@
       "pattern": null,
       "handle_type": [
         "top-handle",
-        "detachable-strap"
+        "shoulder-strap"
       ],
-      "bag_closure": [
+      "closure": [
         "piston-closure"
       ],
       "hardware_color": "gold",
@@ -648,7 +645,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "buckle"
       ],
       "hardware_color": "gold",
@@ -677,11 +674,11 @@
         "leather"
       ],
       "hardware_color": "gold",
-      "bag_closure": [
+      "closure": [
         "zip"
       ],
       "handle_type": [
-        "detachable-strap"
+        "shoulder-strap"
       ],
       "bag_size": "medium",
       "secondary_colors": [],
@@ -709,7 +706,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "zip"
       ],
       "hardware_color": "gold",
@@ -740,7 +737,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap"
       ],
       "hardware_color": "gold",
@@ -767,7 +764,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap"
       ],
       "hardware_color": null,
@@ -797,7 +794,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "turn-lock"
       ],
       "hardware_color": "silver",
@@ -819,11 +816,11 @@
         "leather"
       ],
       "hardware_color": "silver",
-      "bag_closure": [
+      "closure": [
         "buckle"
       ],
       "handle_type": [
-        "detachable-strap"
+        "shoulder-strap"
       ],
       "secondary_colors": [],
       "embellishments": [],
@@ -849,7 +846,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "turn-lock"
       ],
       "hardware_color": "gold",
@@ -878,7 +875,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "front-flap",
         "buckle"
       ],
@@ -891,7 +888,7 @@
         "bamboo"
       ],
       "model_details": [
-        "external-pocket"
+        "open-pocket"
       ],
       "finishing": []
     }
@@ -920,7 +917,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "bag_closure": [
+      "closure": [
         "zip"
       ],
       "hardware_color": "silver",

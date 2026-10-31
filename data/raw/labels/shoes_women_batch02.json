@@ -40,8 +40,7 @@
       "embellishments": [],
       "pattern": null,
       "model_details": [
-        "ankle-strap",
-        "t-bar"
+        "ankle-strap"
       ],
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
@@ -663,9 +662,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "model_details": [
-        "t-bar"
-      ],
+      "model_details": [],
       "toe_shape": null,
       "heel_type": null,
       "heel_height": "flat-heel",
@@ -690,9 +687,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "model_details": [
-        "t-bar"
-      ],
+      "model_details": [],
       "toe_shape": null,
       "heel_type": null,
       "heel_height": "flat-heel",
@@ -927,9 +922,7 @@
         "logo",
         "pearl"
       ],
-      "model_details": [
-        "t-bar"
-      ],
+      "model_details": [],
       "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "low-heel",
@@ -957,8 +950,7 @@
       ],
       "pattern": null,
       "model_details": [
-        "ankle-strap",
-        "t-bar"
+        "ankle-strap"
       ],
       "toe_shape": "square-toe",
       "heel_type": "kitten-heel",
@@ -983,8 +975,7 @@
         "logo"
       ],
       "model_details": [
-        "quilted",
-        "t-bar"
+        "quilted"
       ],
       "toe_shape": "round-toe",
       "heel_type": null,
@@ -1011,9 +1002,7 @@
         "logo",
         "pearl"
       ],
-      "model_details": [
-        "t-bar"
-      ],
+      "model_details": [],
       "toe_shape": null,
       "heel_type": null,
       "heel_height": "flat-heel",

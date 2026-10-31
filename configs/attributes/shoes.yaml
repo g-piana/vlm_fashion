@@ -2,8 +2,7 @@
 # Edit values here; changes apply to both shoes_men and shoes_women.
 model_details:
   type: list
-  values: [ankle-strap, ankle-wrap, cross-over, double-strap,
-          multi-strap, quilted, single-strap, strappy, t-bar]
+  values: [ankle-strap, ankle-wrap, cross-over, quilted, t-bar]
 
 finishing:
   type: list

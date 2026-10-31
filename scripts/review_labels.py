@@ -248,7 +248,7 @@ function applyFilter() {{
   if (active) {{
     DRAFTS.forEach((d, i) => {{
       const t = d.tags || {{}};
-      const hay = [t.subcategory, t.category, String(d.image || '').split('/').pop()].join(' ').toLowerCase();
+      const hay = [t.subcategory, t.category, String(d.image || '').split('/').pop(), JSON.stringify(t)].join(' ').toLowerCase();
       if (newOnly && reviewed.has(i)) return;
       if (exc.some(x => hay.includes(x))) return;
       if (inc.length && !inc.some(x => hay.includes(x))) return;

@@ -3,7 +3,10 @@
 # values, shoes theirs, ...). Same text in training and inference: editing this file
 # changes the prompts, so re-run prepare_dataset.py and retrain afterwards.
 # Source: product owner's finishing table; "grained" and the patent boundary added.
-
+# double-strap: Two parallel straps across the foot.
+# multi-strap: Three or more straps across the foot.
+# single-strap: One strap across the foot.
+# strappy: Open design built from several thin straps.
 finishing:
   boucle: Looped-yarn fabric with a nubbly surface.
   brocade: Rich jacquard with raised, often metallic motifs; if the motifs are not raised, use jacquard.
@@ -33,7 +36,7 @@ finishing:
   poplin: Smooth, tight plain-weave cotton.
   printed: Design printed on the surface, as opposed to woven or embossed; includes all-over monogram or logo prints on coated canvas or leather. Add a pattern tag as well when one applies.
   python-effect: Leather embossed or printed to imitate python.
-  saffiano: Leather embossed with a fine regular cross-hatch texture, often waxed.
+  saffiano: Leather embossed with a fine regular cross-hatch (small crossing diagonal lines forming tiny squares), usually stiff with a slight sheen from wax. Dots or irregular pebbles are grained, not saffiano.
   satin: Smooth weave with a glossy face.
   stone-washed: Washed with stones for a faded, softened look.
   taffeta: Crisp, rustling plain weave with a sheen.
@@ -44,6 +47,7 @@ finishing:
   velvet: Short dense cut pile with soft sheen.
   waxed: Oiled or waxed matte-sheen surface (waxed cotton, oiled leather).
   woven-leather: Strips of leather interlaced in a basket-weave to form the surface (e.g. intrecciato). Woven plant fibre such as raffia or straw is not woven-leather.
+
 embellishments:
   bead: "Small beads sewn on that are not pearls. Flat discs are sequin."
   bow: "Tied bow of ribbon or fabric. An untied decorative strip is ribbon."
@@ -55,7 +59,7 @@ embellishments:
   fringe: "Row of hanging strands. A single hanging tuft is tassel."
   fur: "Applied fur or fur trim, real or faux."
   gemstone: "Set coloured stone, opaque or cabochon. Faceted sparkling stones are crystal."
-  logo: "Brand logo or monogram physically applied: metal plate, embroidery or patch. Printed or jacquard monograms are pattern."
+  logo: "Brand logo or monogram physically applied: metal plate, embroidery or patch. Printed or jacquard monograms are not embellishments (see finishing: printed, jacquard)."
   mesh-insert: "Transparent net panel."
   mirror: "Small reflective mirror pieces."
   patch: "Applied piece with defined edges that is not a logo."
@@ -86,3 +90,39 @@ embellishments:
   snake-element: "Sculpted or applied snake motif (e.g. a snake-shaped ring or clasp). A snake print is pattern."
   star-element: "Sculpted or applied star motif, including star-shaped studs."
   tiger-element: "Sculpted or applied tiger motif (e.g. a tiger-head clasp). Wins over charm, stud and chain. A tiger print is pattern."
+
+model_details:
+  quilted: Padded surface stitched in a diamond or grid pattern (a construction detail, not a finishing).
+  belt-loops: Loops on the bag body through which a belt passes (typical of waist bags).
+  metal-feet: Small metal studs on the base that lift the bag off the ground.
+  zip-pocket: Pocket on the outside of the bag closed by its own zip, such as a front, side or back zip pocket. The zip that closes the main compartment does not count.
+  open-pocket: Pocket on the outside of the bag without a zip, such as a patch, slip or flap pocket, including a large front pocket under a flap or buckles. Count a pocket only if its outline or opening is clearly visible in the main view. Hidden or tiny slits do not count.
+  ankle-wrap: Long strap or ribbon that winds around the ankle and sometimes up the lower leg.
+  t-bar: Strap running from the front of the shoe along the centre of the instep to meet a horizontal strap across the instep or around the ankle, forming a T seen from above. An instep or ankle strap alone, without the centre strap, is not a t-bar. Toe-post sandals (thong) are not t-bar, because the toe post is already the subcategory.  
+  ankle-strap: Strap fastened around the ankle (buckle or hook). If it forms the horizontal bar of a T with a centre strap, tag t-bar only.
+  cross-over: Two straps that cross each other in an X over the instep or the front of the foot.
+
+toe_shape:
+  apron-toe: Seam or panel across the vamp forming a raised apron over the toe (moccasin-style).
+
+heel_type:
+  comma-heel: Heel shaped like a comma, wide at the top and curving into a pointed tip.
+  cone-heel: Heel that is wide at the top and narrows toward the tip like a cone.
+
+closure:
+  lace-up: Closed by laces over the instep or up the foot.
+  buckle: Functional buckle fastening; a decorative buckle that is part of the design is an embellishment.
+  button: Functional button fastening; a decorative button is an embellishment.
+
+material:
+  python: Real python skin. Leather embossed or printed to imitate python is leather with the finishing python-effect.
+
+pattern:
+  python: Python-skin print on fabric or other flat surfaces. Leather embossed to imitate python is the finishing python-effect.
+
+handle_type:
+  top-handle: Rigid or rolled handle (or pair of handles) on top of the bag for carrying by hand.
+  shoulder-strap: Long strap of leather or fabric, fixed or removable, used to carry the bag on the shoulder or across the body. A chain is chain-strap.
+  chain-strap: Chain used as the carrying strap.
+  wrist-strap: Short loop or strap for carrying over the wrist.
+  cut-out-handle: Handle formed by an opening cut into the top of the bag body, with no separate handle attached.

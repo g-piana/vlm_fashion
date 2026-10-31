@@ -37,6 +37,9 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+import re
+import unicodedata
+
 import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -76,6 +79,19 @@ class ConfigSpec:
                 "values": self._values_of(attrs, attr),
             }
         self.allowed_keys = set(CORE_KEYS) | set(self.attrs)
+
+        # value -> attributes whose vocabulary contains it. Attributes that share one
+        # vocabulary (material / secondary_materials, primary_color / secondary_colors)
+        # count once: the first defined.
+        self.value_owners: dict[str, list[str]] = defaultdict(list)
+        seen_vocabs: set = set()
+        for attr, info in self.attrs.items():
+            vals = info["values"]
+            if not vals or frozenset(vals) in seen_vocabs:
+                continue
+            seen_vocabs.add(frozenset(vals))
+            for v in vals:
+                self.value_owners[v].append(attr)
 
     @staticmethod
     def _values_of(attrs: dict, name: str, seen: tuple = ()) -> set[str] | None:
@@ -173,6 +189,77 @@ def validate_tags(spec: ConfigSpec, tags) -> list[Issue]:
     return issues
 
 
+def slugify(text: str) -> str:
+    """Accent-, case-, space- and apostrophe-insensitive key: "Minaudière" == "minaudiere", "d'orsay" == "d-orsay"."""
+    t = unicodedata.normalize("NFKD", str(text)).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
+
+
+_ALIASES: dict | None = None
+
+
+def load_aliases() -> dict[str, str]:
+    """Optional configs/value_aliases.yaml: {wrong spelling: vocabulary value}, e.g. checker: checks."""
+    global _ALIASES
+    if _ALIASES is None:
+        p = Path(__file__).resolve().parent.parent / "configs" / "value_aliases.yaml"
+        raw = (yaml.safe_load(open(p, encoding="utf-8")) or {}) if p.exists() else {}
+        _ALIASES = {str(k).lower(): str(v) for k, v in raw.items()}
+    return _ALIASES
+
+
+def fix_values(spec: ConfigSpec, tags: dict):
+    """
+    Rescue or drop values the model put outside a field's vocabulary, in this order:
+      1. alias (a known misspelling)          -> the right value in the same field
+      2. exactly one OTHER field lists it     -> moved there (velvet: material -> finishing)
+         (if that single-valued field is already filled, the value is dropped)
+      3. otherwise                            -> dropped
+    Returns (tags, fixes).
+    """
+    fixes: list[str] = []
+    aliases = load_aliases()
+    for key, info in spec.attrs.items():
+        vocab = info["values"]
+        if key not in tags or tags[key] is None or not vocab:
+            continue
+        raw = tags[key]
+        keep = []
+        for v in (raw if isinstance(raw, list) else [raw]):
+            sv = str(v)
+            if sv in vocab:
+                keep.append(v)
+                continue
+            same = [x for x in vocab if slugify(x) == slugify(sv)]
+            if len(same) == 1:
+                fixes.append(f"{key}: {sv!r} -> {same[0]!r} (spelling)")
+                keep.append(same[0])
+                continue
+            canon = aliases.get(sv.lower())
+            if canon and canon in vocab:
+                fixes.append(f"{key}: {sv!r} -> {canon!r} (alias)")
+                keep.append(canon)
+                continue
+            owners = [o for o in spec.value_owners.get(sv, []) if o != key]
+            if len(owners) == 1:
+                dest, cur = owners[0], tags.get(owners[0])
+                if spec.attrs[dest]["multi"]:
+                    lst = list(cur) if isinstance(cur, list) else ([cur] if cur else [])
+                    if sv not in lst:
+                        lst.append(sv)
+                    tags[dest] = lst
+                    fixes.append(f"{key}: {sv!r} moved to {dest}")
+                elif cur in (None, ""):
+                    tags[dest] = sv
+                    fixes.append(f"{key}: {sv!r} moved to {dest}")
+                else:
+                    fixes.append(f"{key}: {sv!r} dropped ({dest} already set)")
+                continue
+            fixes.append(f"{key}: {sv!r} dropped (not in any vocabulary)")
+        tags[key] = keep if isinstance(raw, list) else (keep[0] if keep else None)
+    return tags, fixes
+
+
 def repair_tags(spec: ConfigSpec, tags, strip_unknown: bool = False):
     """
     Deterministic, safe repairs. Returns (new_tags, changes).
@@ -186,6 +273,17 @@ def repair_tags(spec: ConfigSpec, tags, strip_unknown: bool = False):
         return tags, []
     t = copy.deepcopy(tags)
     changes: list[str] = []
+
+    if isinstance(t.get("subcategory"), str) and t["subcategory"] not in spec.sub_index:
+        same = [n for n in spec.sub_index if slugify(n) == slugify(t["subcategory"])]
+        if len(same) == 1:
+            changes.append(f"subcategory {t['subcategory']!r} -> {same[0]!r} (spelling)")
+            t["subcategory"] = same[0]
+    if isinstance(t.get("category"), str) and t["category"] not in spec.taxonomy:
+        same = [n for n in spec.taxonomy if slugify(n) == slugify(t["category"])]
+        if len(same) == 1:
+            changes.append(f"category {t['category']!r} -> {same[0]!r} (spelling)")
+            t["category"] = same[0]
 
     sub, cat = t.get("subcategory"), t.get("category")
     owners = spec.sub_index.get(sub) if isinstance(sub, str) else None
@@ -211,6 +309,9 @@ def repair_tags(spec: ConfigSpec, tags, strip_unknown: bool = False):
             changes.append(f"{key}: {t[key]!r} -> single value")
             t[key] = t[key][0] if t[key] else None
 
+    t, value_fixes = fix_values(spec, t)
+    changes.extend("value: " + f for f in value_fixes)
+
     if strip_unknown:
         for key in list(t):
             if key not in spec.allowed_keys:
@@ -222,7 +323,7 @@ def repair_tags(spec: ConfigSpec, tags, strip_unknown: bool = False):
 def apply_taxonomy_rules(result: dict, config_name: str, repair: bool = True) -> dict:
     """
     Post-process one infer.py result. Adds a "validation" entry:
-        {"ok": bool, "issues": [...], "repaired": [...]}
+        {"ok": bool, "issues": [...], "repaired": [...], "value_fixes": [...]}
     `result["tags"]` is repaired in place when repair=True.
     Look configs (tags is an array) are left untouched.
     """
@@ -241,11 +342,14 @@ def apply_taxonomy_rules(result: dict, config_name: str, repair: bool = True) ->
     repaired: list[str] = []
     if repair:
         result["tags"], repaired = repair_tags(spec, tags)
+    value_fixes = [c[len("value: "):] for c in repaired if c.startswith("value: ")]
+    repaired = [c for c in repaired if not c.startswith("value: ")]
     issues = validate_tags(spec, result["tags"])
     result["validation"] = {
         "ok": not any(level == "error" for level, _ in issues),
         "issues": [f"{level}: {msg}" for level, msg in issues],
         "repaired": repaired,
+        "value_fixes": value_fixes,
     }
     return result
 
