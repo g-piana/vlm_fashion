@@ -217,7 +217,7 @@ try {{
     localStorage.removeItem(savedKey);
     console.log('fresh start: saved progress for this drafts file deleted');
   }} else {{
-    const saved = localStorage.getItem(savedKey);
+    const saved = new URLSearchParams(window.location.search).has('resume') ? localStorage.getItem(savedKey) : null;
     if (saved) {{
       const byImage = new Map(JSON.parse(saved).filter(s => s.image).map(s => [s.image, s]));
       let restored = 0;
@@ -711,6 +711,7 @@ def main():
     parser.add_argument("--port", type=int, default=8501)
     parser.add_argument("--batch-name", type=str, default=None,
                     help="Output filename stem, e.g. batch02. Defaults to batch01.")
+    parser.add_argument("--resume", action="store_true", help="restore saved progress (off by default: saved progress can be stale)")
     args = parser.parse_args()
 
     with open(args.drafts, encoding="utf-8") as f:
@@ -721,7 +722,7 @@ def main():
     # is matched to items by image filename, so it can never land on other images.
     progress_path = Path("outputs") / f"{Path(args.drafts).stem}_review_progress.json"
     ReviewHandler.progress_path = progress_path
-    if progress_path.exists():
+    if args.resume and progress_path.exists():
         with open(progress_path, encoding="utf-8") as f:
             saved = json.load(f)
         by_image = {Path(s.get("image", "")).name: s for s in saved if s.get("image")}
