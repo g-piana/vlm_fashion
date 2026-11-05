@@ -25,8 +25,11 @@ Extra options
     --errors-csv FILE              one row per image with a wrong subcategory/field
     --target-per-subcategory N     coverage check: which subcategories need more images
     --value-fields a,b,c           per-value precision/recall tables for these list fields
-                                   (default: finishing,embellishments,model_details,handle_type,closure)
+                                   (default: finishing,embellishments,model_details,handle_type,bag_closure)
     --values-csv FILE              every per-value statistic as CSV (sortable in a spreadsheet)
+    --min-side N / --max-side N    score only test images whose SHORTER side is >= N / < N pixels
+                                   (needs --manifest, default data/splits/test_manifest.csv): does image
+                                   quality matter for texture attributes?
 """
 
 from __future__ import annotations
@@ -236,7 +239,7 @@ def pct(x) -> str:
     return "  n/a" if x is None else f"{x:5.1%}"
 
 
-DEFAULT_VALUE_FIELDS = ["finishing", "embellishments", "model_details", "handle_type", "closure"]
+DEFAULT_VALUE_FIELDS = ["finishing", "embellishments", "model_details", "handle_type", "bag_closure"]
 
 
 def print_values(rep: dict, fields: list[str]) -> None:
@@ -360,6 +363,26 @@ def print_comparison(new: dict, old: dict) -> None:
             print(f"    {s:18s} {pct(a)} -> {pct(b)}   (support {sup})")
 
 
+def filter_by_size(gts: list[dict], preds: list[dict], manifest: Path, min_side, max_side):
+    """Keep only images whose shorter side is in [min_side, max_side). Sizes are read from the files."""
+    from PIL import Image
+    with open(manifest, encoding="utf-8") as f:
+        paths = {fname(r["image_path"]): r["image_path"] for r in csv.DictReader(f)}
+    sides: dict[str, int] = {}
+    for g in gts:
+        n = fname(g.get("image", ""))
+        p = paths.get(n)
+        if p and Path(p).exists():
+            with Image.open(p) as im:
+                sides[n] = min(im.size)
+    bins = Counter("<400" if v < 400 else "400-699" if v < 700 else "700-999" if v < 1000 else ">=1000" for v in sides.values())
+    print("shorter side of the test images (px): " + "  ".join(f"{k}: {bins.get(k, 0)}" for k in ("<400", "400-699", "700-999", ">=1000"))
+          + (f"  (no file found for {len(gts) - len(sides)})" if len(sides) < len(gts) else ""))
+    keep = {n for n, v in sides.items() if (min_side is None or v >= min_side) and (max_side is None or v < max_side)}
+    print(f"scoring {len(keep)} images with shorter side in [{min_side or 0}, {max_side or 'inf'}) px")
+    return [g for g in gts if fname(g.get("image", "")) in keep], [p for p in preds if fname(p.get("image", "")) in keep]
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--predictions", type=Path, required=True)
@@ -370,9 +393,14 @@ def main() -> int:
     ap.add_argument("--target-per-subcategory", type=int)
     ap.add_argument("--value-fields", default=",".join(DEFAULT_VALUE_FIELDS))
     ap.add_argument("--values-csv", type=Path)
+    ap.add_argument("--min-side", type=int)
+    ap.add_argument("--max-side", type=int)
+    ap.add_argument("--manifest", type=Path, default=Path("data/splits/test_manifest.csv"))
     args = ap.parse_args()
 
     preds, gts = load_json(args.predictions), load_json(args.ground_truth)
+    if args.min_side or args.max_side:
+        gts, preds = filter_by_size(gts, preds, args.manifest, args.min_side, args.max_side)
     rep = score(preds, gts)
     print_report(rep, args.target_per_subcategory, gts)
     print_values(rep, [f.strip() for f in args.value_fields.split(',') if f.strip()])

@@ -106,7 +106,7 @@
     "description": "A sleek, olive-green kitten-heel mule sandal with a low kitten heel and a minimalist slip-on silhouette. The upper is crafted from smooth leather with a decorative flap closure featuring two metallic circular embellishments. The design combines clean lines with subtle hardware accents for a modern, chic aesthetic.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "olive",
       "material": "leather",
       "embellishments": [],
@@ -200,7 +200,7 @@
     "description": "A black suede mule featuring a slender kitten heel and a single strap across the vamp adorned with a cluster of sparkling crystal and iridescent embellishments. The silhouette is minimalist with open back, designed for a sleek, evening-ready profile.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "black",
       "material": "suede",
       "embellishments": [
@@ -478,7 +478,7 @@
     "description": "A sleek, modern mule featuring a peep-toe silhouette with a contrasting navy blue stiletto heel and matching insole. Constructed from a textured navy fabric with visible hand-stitched detailing along the vamp, the shoe combines minimalist design with a bold heel accent. The open-back mule style offers a streamlined, elegant profile.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "blue",
       "material": "faux-leather",
       "secondary_materials": [],
@@ -501,7 +501,7 @@
     "description": "A minimalist white mule featuring a sleek, open-toe silhouette with a slender, metallic stiletto heel and contrasting black sole. The upper is crafted from smooth leather with decorative perforated stitching along the vamp, emphasizing clean lines and modern tailoring. The design combines a peep-toe cut with a slip-on construction for a chic, effortless look.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "white",
       "material": "leather",
       "secondary_colors": [],
@@ -968,7 +968,7 @@
     "description": "A single brown suede mule featuring a slender kitten heel and an open-toe design with a mule-style slip-on construction. The shoe has a minimalist silhouette with clean stitching and a smooth, matte suede finish. The heel is tapered and low-profile, contributing to a refined, elegant profile.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "brown",
       "material": "suede",
       "closure": "slip-on",
@@ -1050,7 +1050,7 @@
     "description": "Open-toe heeled shoe with low block heel and backless mule silhouette in navy blue. Features a wide upper band across the vamp. Embellished with a cluster of blue, green, and clear crystals arranged in a decorative pattern at the center front. Metallic silver-toned heel in a geometric block shape.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "blue",
       "material": "suede",
       "embellishments": [
@@ -1078,7 +1078,7 @@
     "description": "A women's high-heeled mule featuring a peep-toe silhouette with a thin stiletto heel and a decorative lace overlay in a contrasting beige tone. The upper is constructed with black leather straps and a gold-tone buckle closure over the instep. The design combines structured heel and vamp with delicate lace detailing for a sophisticated, evening-appropriate look.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "black",
       "secondary_colors": [
         "beige"
@@ -1108,7 +1108,7 @@
     "description": "A slider sandal in a vibrant turquoise hue, featuring a flat, block heel and a wide strap across the vamp secured with a metallic rectangular buckle. The upper appears to be made of smooth leather with visible stitching. Decorative bow detail at center front is accented with a small metallic hardware piece.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "flat mule",
       "primary_color": "turquoise",
       "material": "leather",
       "embellishments": [
@@ -3173,7 +3173,7 @@
     "description": "A beige mule-style pump with a slender stiletto heel and gold-toned trim along the heel and sole. The upper features a decorative cluster of multi-colored floral appliqués with gemstone centers. Constructed with a single strap across the vamp and an open back, it presents a feminine, embellished silhouette.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "beige",
       "material": "leather",
       "embellishments": [
@@ -3198,7 +3198,7 @@
     "description": "A tan leather mule featuring a block heel and distinctive square-cut perforations along the vamp and heel counter. The silhouette is defined by a peep-toe opening and a slip-on construction, with a smooth, polished leather finish and a structured, mid-height heel.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "tan",
       "material": "leather",
       "closure": "slip-on",
@@ -3611,7 +3611,7 @@
     "description": "A black satin mule featuring a decorative block heel adorned with pearls and silver-toned crystals. The slip-on silhouette has a square toe and a smooth, satiny upper. The heel is embellished with a vertical arrangement of varying-sized pearls and faceted crystals, creating a glamorous, statement-making detail.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "black",
       "material": "silk",
       "embellishments": [
@@ -3957,7 +3957,7 @@
     "description": "A women's heeled mule featuring a bold terracotta leather upper with a peep-toe cutout and five metallic rectangular studs along the vamp. The shoe is constructed with a thick, sculpted wooden block heel and matching platform sole, creating a statement silhouette. The material contrast between the warm leather and light-toned wood, accented by hardware, defines its distinctive design.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "rust",
       "material": "leather",
       "secondary_materials": [
@@ -3982,7 +3982,7 @@
     "description": "A single mustard-yellow patent leather mule featuring a distinctive cork block heel and matching cork platform sole. The slip-on silhouette is defined by an open back and a peep-toe cutout, with a glossy finish on the upper. The construction highlights the natural texture of the cork material on the heel and platform, contrasting with the smooth, shiny leather.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "yellow",
       "material": "leather",
       "secondary_materials": [],
@@ -4038,7 +4038,7 @@
     "description": "A heeled mule with a peep-toe and an open back, in burgundy suede. The upper is heavily ruched across the vamp, creating a draped, sculptural effect, and sits on a curved mid-height heel.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "burgundy",
       "material": "suede",
       "toe_shape": "peep-toe",
@@ -4111,7 +4111,7 @@
     "description": "A sleek black suede mule featuring a bold, metallic gold block heel and a contrasting tan leather strap with a silver-toned buckle closure. The shoe has a peep-toe silhouette and a minimalist, modern aesthetic with a smooth, polished sole.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "black",
       "material": "suede",
       "secondary_materials": [],
@@ -4136,7 +4136,7 @@
     "description": "A bright yellow leather slipper, featuring a low-profile, slightly textured wooden block heel and a rounded toe. The shoe has clean, contrasting stitching and a minimalist, comfortable silhouette.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "flat mule",
       "primary_color": "yellow",
       "material": "leather",
       "secondary_materials": [],
@@ -4159,7 +4159,7 @@
     "description": "A women's slipper in a vibrant teal hue, featuring a slip-on silhouette with a single decorative strap across the vamp. Constructed from smooth leather with visible stitching, it has a low-profile, block heel and a rounded toe. The design combines classic loafer elements with mule styling for a comfortable, casual look.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "flat mule",
       "primary_color": "teal",
       "material": "leather",
       "embellishments": [],
@@ -4182,7 +4182,7 @@
     "description": "A minimalist women's slipper featuring a muted grey suede upper with a single strap closure over the vamp. The silhouette is a classic loafer-inspired mule with a rounded toe and a low, block heel. The construction includes visible stitching along the seam and a contrasting wood-toned heel counter.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "flat mule",
       "primary_color": "grey",
       "material": "suede",
       "closure": "slip-on",
@@ -4257,7 +4257,7 @@
     "description": "A sleek black slipper with a flat heel and a decorative strap adorned with silver-toned pyramid-shaped studs. The shoe features a pointed toe and a smooth leather upper with visible stitching along the vamp. The design combines classic loafer silhouette with edgy, punk-inspired hardware for a modern, versatile look.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "flat mule",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
@@ -4653,7 +4653,7 @@
     "description": "A teal satin heeled-shoe mule featuring a wide, draped vamp adorned with a circular crystal-encrusted buckle. The shoe has a thick block heel and matching platform sole, creating a bold silhouette with a peep-toe opening. The satin material has a subtle sheen, and the embellished buckle serves as the primary decorative focal point.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "teal",
       "material": "silk",
       "embellishments": [],
@@ -4678,7 +4678,7 @@
     "description": "A minimalist women's mule featuring a sleek, pointed-toe silhouette in a matte charcoal grey finish. Constructed with a smooth, satin-like material and a distinctive spherical, pearl-like heel that replaces a traditional heel structure. The shoe has a slip-on design with a low, sculpted platform sole and a contrasting pinkish inner lining.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "charcoal",
       "material": "leather",
       "secondary_materials": [],
@@ -5040,7 +5040,7 @@
     "description": "A sleek, modern mule featuring a minimalist silhouette with a peep-toe design and a bold, angular block heel. The upper is crafted from smooth black leather, accented by a striking metallic silver panel on the heel counter. The construction includes a flat sole and a slip-on closure, emphasizing clean lines and contemporary styling.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "black",
       "material": "leather",
       "secondary_materials": [],
@@ -5063,7 +5063,7 @@
     "description": "A black mule-style pump featuring a substantial block heel and a decorative circular pearl embellishment at the vamp. The upper is crafted from smooth leather with a peep-toe opening and a ruched detail beneath the pearl accent. The silhouette is modern and structured, designed for a confident, elevated look.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
@@ -5142,7 +5142,7 @@
     "description": "A metallic silver mule with a ruched, pleated upper and a contrasting light blue toe cap, featuring a chunky block heel and a slip-on construction. The shoe combines a sleek, modern silhouette with textural detailing and a two-tone color scheme for visual interest.",
     "tags": {
       "category": "heeled-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "heeled mule",
       "primary_color": "silver",
       "secondary_colors": [
         "blue"
@@ -5169,7 +5169,7 @@
     "description": "A sleek, flat mule featuring a pointed toe and a contrasting black cap toe, constructed from a shimmering metallic mesh material. The shoe is accented with a decorative gold-toned buckle embellishment on the vamp and has a thin, flat sole with a light brown leather trim. The silhouette is minimalist yet elegant, designed for easy slip-on wear.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "flat mule",
       "primary_color": "black",
       "secondary_colors": [],
       "material": "faux-leather",
@@ -5194,7 +5194,7 @@
     "description": "Flat-heel pointed-toe mule featuring a backless slip-on silhouette. Upper displays diagonal stripes alternating between navy blue and white. Decorative knotted bow detail appears at the vamp in matching striped pattern, with a tan-colored lining visible at the topline and a brown sole.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "flat mule",
       "primary_color": "blue",
       "secondary_colors": [
         "white"
@@ -5221,7 +5221,7 @@
     "description": "A vibrant red satin mule featuring a pointed toe and a decorative, multi-colored jeweled brooch at the vamp. The slip-on silhouette is defined by a draped satin panel across the instep, creating a soft, flowing detail. The flat heel and smooth sole suggest comfort for casual to smart-casual wear.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "flat mule",
       "primary_color": "red",
       "material": "silk",
       "embellishments": [
@@ -5248,7 +5248,7 @@
     "description": "A women's flat mule featuring a pointed almond-toe silhouette with a contrasting fuchsia satin bow as the primary embellishment. The upper is constructed from black suede with a flat, slip-on profile and a low-profile rubber sole. The design emphasizes a bold color contrast and playful, feminine detailing.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "flat mule",
       "primary_color": "black",
       "secondary_colors": [
         "fuchsia"
@@ -5277,7 +5277,7 @@
     "description": "Pointed-toe flat-heel mule in black with a slip-on silhouette. Features a closed upper that covers the vamp and sides, with an open back construction. Embellished with a cluster of black feathers positioned on the upper vamp, creating a textured decorative accent. Low stacked heel provides minimal elevation.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "flat mule",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
@@ -6494,7 +6494,7 @@
     "description": "A tan suede mule featuring a lace-up closure with matching suede laces, set atop a thick black platform sole. The silhouette is relaxed and slip-on inspired, with a flat heel and a rounded toe shape. The construction highlights clean stitching along the upper edge and a contrasting black sole.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "mule",
+      "subcategory": "flat mule",
       "primary_color": "tan",
       "material": "suede",
       "closure": "lace-up",

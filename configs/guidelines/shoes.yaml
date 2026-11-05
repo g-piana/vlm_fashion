@@ -26,6 +26,8 @@ loafer: >-
   Flat slip-on with a moccasin-style upper, no laces or buckles, often with a saddle strap, tassel or horsebit. Same style on a raised heel is a loafer pump.
 slip on: >-
   Flat casual closed shoe put on without laces, straps or buckles, such as an espadrille, elastic-sided or canvas slip-on. Not a loafer (moccasin construction) and not a sneaker (sporty cupsole).
+flat mule: >-
+  Backless slip-on with a flat sole and no heel strap, closed or open toe.
 other flat shoes: >-
   Flat shoe that fits none of the other flat classes, for example a flat Mary Jane, T-bar flat or other strapped flat.
 
@@ -44,9 +46,8 @@ wedge pump: >-
   Closed-toe shoe whose heel is a solid wedge running from the heel to the front of the sole.
 heeled lace up: >-
   Heeled shoe closed by laces over the instep. A lace-up boot is a lace up boot.
-mule: >-
-  Backless slip-on with no heel strap, closed or open toe. A flat sole is a flat shoe mule and a raised heel a heeled shoe mule; the category follows the heel.
-
+heeled mule: >-
+  Backless slip-on with a raised heel and no heel strap, closed or open toe. A heel strap makes it a slingback.
 # ── sandals ──
 flat sandal: >-
   Open sandal with a flat sole, held by straps. A single wide band across the instep is a slider and a toe-post strap is a thong.

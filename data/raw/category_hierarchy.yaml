@@ -703,10 +703,10 @@ men:
               name: monk strap
               lab_en: monk strap
               order: 6
-            mule:
-              slug: mule
-              name: mule
-              lab_en: mule
+            flat mule:
+              slug: flat-mule
+              name: flat mule
+              lab_en: flat mule
               order: 7
             oxford:
               slug: oxford
@@ -1799,10 +1799,10 @@ women:
               name: loafer
               lab_en: loafer
               order: 3
-            mule:
-              slug: mule
-              name: mule
-              lab_en: mule
+            flat mule:
+              slug: flat-mule
+              name: flat mule
+              lab_en: flat mule
               order: 4
             other flat shoes:
               slug: other-flat-shoes
@@ -1840,10 +1840,10 @@ women:
               name: mary jane pump
               lab_en: mary jane pump
               order: 4
-            mule:
-              slug: mule
-              name: mule
-              lab_en: mule
+            heeled mule:
+              slug: heeled-mule
+              name: heeled mule
+              lab_en: heeled mule
               order: 5
             pump:
               slug: pump

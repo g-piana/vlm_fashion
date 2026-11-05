@@ -1,3 +1,4 @@
 # Known misspellings the model produces -> the vocabulary value. Used only when the
 # target value exists in the same field's vocabulary. One per line, lower case.
 checker: checks
+check: checks
