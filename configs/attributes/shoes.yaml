@@ -2,7 +2,7 @@
 # Edit values here; changes apply to both shoes_men and shoes_women.
 model_details:
   type: list
-  values: [ankle-strap, ankle-wrap, cross-over, quilted, t-bar]
+  values: [ankle-strap, ankle-wrap, cross-over, t-bar]
 
 finishing:
   type: list
@@ -10,11 +10,11 @@ finishing:
 
 toe_shape:
   type: enum
-  values: [almond-toe, apron-toe, cap-toe, peep-toe, plain-toe, pointed-toe, round-toe, split-toe, square-toe]
+  values: [round-toe, square-toe, pointed-toe, peep-toe, brogue, wing-tip]
 
 heel_type:
   type: enum
-  values: [block-heel, comma-heel, cone-heel, french-heel, kitten-heel, stiletto-heel, wedge-heel]
+  values: [block-heel, comma-heel, cone-heel, kitten-heel, stiletto-heel, wedge-heel]
 
 heel_height:
   type: enum
@@ -26,6 +26,5 @@ sole_type:
 
 closure:
   type: enum
-  values: [slip-on, lace-up, buckle, zip, side-zip, back-zip,
-           velcro, elastic, tie, button, monk-strap]
+  values: [slip-on, lace-up, buckle, zip-up]
 
