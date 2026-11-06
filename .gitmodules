@@ -1,0 +1,3 @@
+[submodule "inflowe-taxonomy"]
+	path = inflowe-taxonomy
+	url = git@github.com:g-piana/inflowe-taxonomy.git
