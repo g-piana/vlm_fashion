@@ -16,4 +16,4 @@ generated_configs:
 - shoes_women
 - watches_men
 - watches_women
-source: data/raw/category_hierarchy.yaml
+source: inflowe-taxonomy/data/base/category_hierarchy.yaml

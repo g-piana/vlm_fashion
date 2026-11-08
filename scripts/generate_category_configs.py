@@ -9,11 +9,11 @@ tree so the VLM system prompt constrains output to valid values.
 
 Usage:
     python scripts/generate_category_configs.py \
-        --taxonomy data/raw/category_hierarchy.yaml \
+        --taxonomy inflowe-taxonomy/data/base/category_hierarchy.yaml \
         --output-dir configs/categories/generated
 
     # Regenerate after taxonomy changes:
-    python scripts/generate_category_configs.py --taxonomy data/raw/category_hierarchy.yaml
+    python scripts/generate_category_configs.py
 """
 
 from __future__ import annotations
@@ -123,7 +123,7 @@ def main():
     )
     parser.add_argument(
         "--taxonomy", type=Path,
-        default=Path("data/raw/category_hierarchy.yaml"),
+        default=Path("inflowe-taxonomy/data/base/category_hierarchy.yaml"),
     )
     parser.add_argument(
         "--output-dir", type=Path,

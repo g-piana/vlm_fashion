@@ -6,9 +6,9 @@ formatted lists ready to paste into configs/categories/_base.yaml.
 
 Usage:
     python scripts/extract_vocabularies.py \
-        --colours data/raw/colours.yaml \
-        --materials data/raw/materials.yaml \
-        --material-groups data/raw/material_groups.yaml
+        --colours inflowe-taxonomy/data/base/colours.yaml \
+        --materials inflowe-taxonomy/data/base/materials.yaml \
+        --material-groups inflowe-taxonomy/data/base/material_groups.yaml
 """
 
 from __future__ import annotations
@@ -122,17 +122,17 @@ def main():
         description="Extract vocabulary lists from taxonomy YAMLs"
     )
     parser.add_argument("--colours", type=Path,
-                        default=Path("data/raw/colours.yaml"))
+                        default=Path("inflowe-taxonomy/data/base/colours.yaml"))
     parser.add_argument("--materials", type=Path,
-                        default=Path("data/raw/materials.yaml"))
+                        default=Path("inflowe-taxonomy/data/base/materials.yaml"))
     parser.add_argument("--material-groups", type=Path,
-                        default=Path("data/raw/material_groups.yaml"))
+                        default=Path("inflowe-taxonomy/data/base/material_groups.yaml"))
     parser.add_argument("--embellishments", type=Path,
-                    default=Path("data/raw/embellishments.yaml"))
+                    default=Path("inflowe-taxonomy/data/base/embellishments.yaml"))
     parser.add_argument("--patterns", type=Path,
-                    default=Path("data/raw/patterns.yaml"))
+                    default=Path("inflowe-taxonomy/data/base/patterns.yaml"))
     parser.add_argument("--styles", type=Path,
-                    default=Path("data/raw/styles.yaml"))
+                    default=Path("inflowe-taxonomy/data/base/styles.yaml"))
 
 
     args = parser.parse_args()
