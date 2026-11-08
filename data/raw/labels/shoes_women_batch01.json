@@ -249,7 +249,7 @@
     "image_type": "product",
     "description": "A single pink mule sandal with a distinctive spherical metallic heel and a minimalist open-toe design. The upper is crafted from a matte pink suede-like material, featuring a wide, continuous strap across the vamp. The heel is a low, sculpted block with a polished silver metallic finish, contrasting with the soft pink upper.",
     "tags": {
-      "subcategory": "mule",
+      "subcategory": "mule sandal",
       "primary_color": "pink",
       "material": "suede",
       "secondary_materials": [],
@@ -260,7 +260,7 @@
       "heel_height": "low-heel",
       "sole_type": null,
       "closure": "slip-on",
-      "category": "heeled-shoes-women",
+      "category": "sandals-women",
       "secondary_colors": [],
       "model_details": [],
       "finishing": []
@@ -284,7 +284,7 @@
       "heel_type": "kitten-heel",
       "heel_height": "low-heel",
       "sole_type": null,
-      "closure": "zip-closure",
+      "closure": "zip-up",
       "model_details": [],
       "finishing": [
         "metallic"
@@ -326,7 +326,7 @@
       "subcategory": "pump",
       "primary_color": "white",
       "material": "leather",
-      "closure": "zip-closure",
+      "closure": "zip-up",
       "heel_type": "kitten-heel",
       "heel_height": "low-heel",
       "toe_shape": "pointed-toe",
@@ -919,7 +919,7 @@
     "image_type": "product",
     "description": "A vibrant fuchsia mule sandal with a flat, contoured sole and a wide strap across the vamp secured by a square gold-tone metal plate. The upper appears to be made of smooth synthetic-leather, featuring a peep-toe silhouette and a slip-on construction. The design is minimalist with a single metallic embellishment as the focal point.",
     "tags": {
-      "subcategory": "mule",
+      "subcategory": "mule sandal",
       "primary_color": "fuchsia",
       "material": "faux-leather",
       "embellishments": [
@@ -930,7 +930,7 @@
       "heel_height": "flat-heel",
       "sole_type": "slouch",
       "closure": "slip-on",
-      "category": "flat-shoes-women",
+      "category": "sandals-women",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
@@ -1201,7 +1201,7 @@
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": "platform",
-      "closure": "zip-closure",
+      "closure": "zip-up",
       "model_details": [],
       "finishing": [
         "python-effect"
@@ -2040,7 +2040,7 @@
     "description": "A black low-top sneaker with a chunky white sole, featuring a prominent silver zipper along the side and heavily embellished with multicolored crystals and metallic pyramid studs. The shoe has white laces and a structured silhouette with visible stitching, combining sporty construction with edgy, punk-inspired detailing.",
     "tags": {
       "category": "sneakers-women",
-      "subcategory": "sneaker",
+      "subcategory": "low-top sneaker",
       "primary_color": "black",
       "secondary_colors": [],
       "material": "leather",
@@ -2067,7 +2067,7 @@
     "description": "A modern sneaker with a two-tone design featuring metallic gold leather panels and a glittery, textured rose-gold and black mid-panel. Constructed with white laces, gold-tone hardware, and a distinctive side zipper for closure, it sits on a thick white platform sole. The silhouette is a classic low-top with a rounded toe, blending sporty elements with glamorous embellishments.",
     "tags": {
       "category": "sneakers-women",
-      "subcategory": "sneaker",
+      "subcategory": "low-top sneaker",
       "primary_color": "gold",
       "secondary_colors": [
         "rose",
@@ -2241,7 +2241,7 @@
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "slouch",
-      "closure": "zip-closure",
+      "closure": "zip-up",
       "secondary_colors": [],
       "model_details": [],
       "finishing": []
@@ -2401,7 +2401,7 @@
       "subcategory": "d'orsay pump",
       "primary_color": "red",
       "material": "suede",
-      "closure": "zip-closure",
+      "closure": "zip-up",
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
@@ -2775,8 +2775,8 @@
     "image_type": "product",
     "description": "A women's oxford-style lace-up shoe in a rich burgundy hue, crafted from textured leather with a distinct pebbled finish. It features a chunky, black lug-sole block heel and a rounded toe, presenting a structured silhouette with classic eyelet lacing. The contrast between the smooth upper and rugged sole adds a modern, utilitarian edge.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "flat lace up",
+      "category": "heeled-shoes-women",
+      "subcategory": "heeled lace up",
       "primary_color": "burgundy",
       "material": "leather",
       "closure": "lace-up",
@@ -3110,7 +3110,7 @@
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": "slouch",
-      "closure": "zip-closure",
+      "closure": "zip-up",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
@@ -3599,7 +3599,7 @@
       "sole_type": "platform",
       "closure": "lace-up",
       "category": "sneakers-women",
-      "subcategory": "sneaker",
+      "subcategory": "low-top sneaker",
       "model_details": [],
       "finishing": []
     }
@@ -3695,7 +3695,7 @@
     "description": "A chunky, high-top sneaker with a bold leopard-print suede upper, featuring black laces and a thick, white platform sole. The silhouette is elevated and athletic, with a rounded toe and visible stitching details. The print combines tan, black, and white spots for a wild, textured look.",
     "tags": {
       "category": "sneakers-women",
-      "subcategory": "sneaker",
+      "subcategory": "low-top sneaker",
       "primary_color": "caramel",
       "secondary_colors": [],
       "material": "suede",
@@ -3734,7 +3734,7 @@
       "sole_type": "lug-sole",
       "closure": "lace-up",
       "category": "sneakers-women",
-      "subcategory": "sneaker",
+      "subcategory": "low-top sneaker",
       "model_details": [],
       "finishing": [
         "python-effect"
@@ -4351,7 +4351,7 @@
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
       "sole_type": null,
-      "closure": "zip-closure",
+      "closure": "zip-up",
       "model_details": [],
       "finishing": []
     }
@@ -4569,7 +4569,7 @@
     "description": "A sport-luxe sneaker with a bold color-blocked upper in black, hot pink, and light pink, accented with black piping and a textured perforated panel. The silhouette features a chunky, sculpted platform sole with a rugged, serrated tread and a low-profile, lace-up closure. The design combines athletic construction with graphic, fashion-forward detailing.",
     "tags": {
       "category": "sneakers-women",
-      "subcategory": "sneaker",
+      "subcategory": "low-top sneaker",
       "primary_color": "black",
       "secondary_colors": [
         "pink",
@@ -4597,7 +4597,7 @@
     "description": "A sport-luxe sneaker with a bold color-blocked design in teal and black, featuring decorative teal floral appliqués with crystal centers along the lacing panel. Constructed with a chunky, textured rubber sole and a low-profile silhouette, it combines athletic structure with ornamental embellishment.",
     "tags": {
       "category": "sneakers-women",
-      "subcategory": "sneaker",
+      "subcategory": "low-top sneaker",
       "primary_color": "teal",
       "secondary_colors": [
         "black"
@@ -4627,7 +4627,7 @@
     "description": "A black sneaker with a chunky, textured platform sole and a contrasting white midsole. The upper combines smooth leather and mesh panels, accented by decorative black floral appliqués with central crystal-like embellishments. Features a lace-up closure with black laces and a padded collar for comfort.",
     "tags": {
       "category": "sneakers-women",
-      "subcategory": "sneaker",
+      "subcategory": "low-top sneaker",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
@@ -4810,7 +4810,7 @@
       "embellishments": [
         "buckle"
       ],
-      "toe_shape": "cap-toe",
+      "toe_shape": null,
       "closure": null,
       "sole_type": "slouch",
       "category": "flat-shoes-women",
@@ -4819,7 +4819,9 @@
       "pattern": null,
       "heel_type": null,
       "heel_height": null,
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [
         "patent"
       ]
@@ -4909,8 +4911,8 @@
     "image_type": "product",
     "description": "A dark grey, textured leather lace-up oxford shoe featuring a chunky, ridged block heel and a decorative gold-toned embellishment at the toe. The silhouette is classic with a rounded toe and structured vamp, accented by black laces and a thick, treaded sole.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "flat lace up",
+      "category": "heeled-shoes-women",
+      "subcategory": "heeled lace up",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
@@ -5362,9 +5364,7 @@
       "sole_type": "platform",
       "closure": "lace-up",
       "secondary_colors": [],
-      "model_details": [
-        "quilted"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -5473,7 +5473,7 @@
     "image": "B9W9043-1751582.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A black leather ankle boot featuring a lace-up closure with branded laces, accented by rows of silver eyelets and decorative grommets along the vamp and shaft. The boot has a chunky, textured lug sole and a cap-toe silhouette, presenting a utilitarian yet edgy aesthetic.",
+    "description": "A black leather lace up boot featuring a lace-up closure with branded laces, accented by rows of silver eyelets and decorative grommets along the vamp and shaft. The boot has a chunky, textured lug sole and a cap-toe silhouette, presenting a utilitarian yet edgy aesthetic.",
     "tags": {
       "category": "boots-and-booties-women",
       "subcategory": "lace up boot",
@@ -5482,7 +5482,7 @@
       "embellishments": [
         "eyelet"
       ],
-      "toe_shape": "cap-toe",
+      "toe_shape": null,
       "heel_type": null,
       "sole_type": "lug-sole",
       "closure": "lace-up",
@@ -5490,7 +5490,9 @@
       "secondary_materials": [],
       "pattern": null,
       "heel_height": null,
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": []
     }
   },
@@ -5789,8 +5791,8 @@
     "image_type": "product",
     "description": "A black canvas espadrille with a woven jute sole and decorative chain trim along the edge. Features a lace-up closure with matching black laces and a low, flat heel. The silhouette is a classic oxford-style sneaker with a rounded toe and a textured, natural fiber platform sole.",
     "tags": {
-      "category": "sneakers-women",
-      "subcategory": "sneaker",
+      "category": "flat-shoes-women",
+      "subcategory": "flat lace up",
       "primary_color": "black",
       "material": "cotton",
       "secondary_materials": [
@@ -5818,8 +5820,8 @@
     "image_type": "product",
     "description": "A white espadrille-style flat shoe with a contrasting black toe cap and heel collar, featuring a braided jute sole and white laces. Constructed with a slip-on silhouette and a low-profile, flat heel, the design emphasizes a casual, summery aesthetic with clean lines and minimalist detailing.",
     "tags": {
-      "category": "sneakers-women",
-      "subcategory": "sneaker",
+      "category": "flat-shoes-women",
+      "subcategory": "flat lace up",
       "primary_color": "white",
       "secondary_colors": [
         "black"
@@ -6126,13 +6128,15 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "snake",
-      "toe_shape": "cap-toe",
+      "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": null,
       "closure": "lace-up",
       "secondary_colors": [],
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [
         "patent"
       ]
@@ -6157,12 +6161,14 @@
         "pearl"
       ],
       "pattern": null,
-      "toe_shape": "cap-toe",
+      "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
       "sole_type": null,
       "closure": "buckle",
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": []
     }
   },
@@ -6179,7 +6185,7 @@
       "embellishments": [
         "pearl"
       ],
-      "toe_shape": "cap-toe",
+      "toe_shape": null,
       "closure": "slip-on",
       "sole_type": null,
       "secondary_colors": [],
@@ -6188,7 +6194,8 @@
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
       "model_details": [
-        "t-bar"
+        "t-bar",
+        "cap-toe"
       ],
       "finishing": []
     }
@@ -6239,7 +6246,7 @@
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,
-      "closure": "button-closure",
+      "closure": null,
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
@@ -6263,7 +6270,7 @@
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,
-      "closure": "button-closure",
+      "closure": null,
       "category": "flat-shoes-women",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -6340,12 +6347,14 @@
         "pearl"
       ],
       "pattern": null,
-      "toe_shape": "cap-toe",
+      "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": null,
       "closure": "slip-on",
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": []
     }
   },
@@ -6416,10 +6425,10 @@
     "image": "C9W6018-0546ORN.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A women's loafer-style flat shoe featuring a shimmering metallic fabric with a quilted diamond pattern and a contrasting black cap toe and heel. The silhouette is classic and streamlined with a low, block heel and slip-on construction. The material has a textured, glittery finish that catches the light, giving it a subtle sparkle.",
+    "description": "A women's low heel loafer pump featuring a shimmering metallic fabric with a quilted diamond pattern and a contrasting black cap toe and heel. The silhouette is classic and streamlined with a low, block heel and slip-on construction. The material has a textured, glittery finish that catches the light, giving it a subtle sparkle.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "loafer",
+      "category": "heeled-shoes-women",
+      "subcategory": "loafer pump",
       "primary_color": "black",
       "material": "faux-leather",
       "secondary_materials": [],
@@ -6431,9 +6440,7 @@
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
-      "model_details": [
-        "quilted"
-      ],
+      "model_details": [],
       "finishing": [
         "metallic"
       ]
@@ -6523,7 +6530,7 @@
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
-      "closure": "zip-closure",
+      "closure": "zip-up",
       "embellishments": [],
       "secondary_colors": [],
       "secondary_materials": [],

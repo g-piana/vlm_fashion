@@ -1,0 +1,71 @@
+ary
+         6 x warning: toe_shape: 'cap-toe' not in vocabulary
+         3 x warning: toe_shape: 'almond-toe' not in vocabulary
+         2 x error: unknown subcategory 'mule'
+         2 x warning: model_details: 'quilted' not in vocabulary
+         2 x warning: closure: 'button-closure' not in vocabulary
+      e.g. A8W1046.jpg: error: unknown subcategory 'mule'
+      e.g. A8W1079-1482LSB.jpg: warning: closure: 'zip-closure' not in vocabulary
+      e.g. A8W6028-1532OTW.jpg: warning: closure: 'zip-closure' not in vocabulary
+      e.g. B5S1088.jpg: error: unknown subcategory 'mule'
+      e.g. B5S1255.jpg: warning: closure: 'zip-closure' not in vocabulary
+  shoes_women_batch02: 38 samples, 0 with errors, 1 with warnings
+         1 x warning: model_details: 'quilted' not in vocabulary
+      e.g. C8S2018.jpg: warning: model_details: 'quilted' not in vocabulary
+  bags_women_batch01: 30 samples, 0 with errors, 4 with warnings
+         3 x warning: closure: 'buckle' not in vocabulary
+         1 x warning: model_details: 'zip-pocket' not in vocabulary
+      e.g. GUCCI_BAGS_01_24477204_main.webp: warning: model_details: 'zip-pocket' not in vocabulary
+      e.g. GUCCI_BAGS_01_A5549_main.webp: warning: closure: 'buckle' not in vocabulary
+      e.g. GUCCI_BAGS_01_A8777_main.webp: warning: closure: 'buckle' not in vocabulary
+      e.g. GUCCI_BAGS_01_X3002_main.webp: warning: closure: 'buckle' not in vocabulary
+  bags_women_batch02: 15 samples, 0 with errors, 0 with warnings
+  bags_women_batch03: 194 samples, 0 with errors, 30 with warnings
+        16 x warning: closure: 'buckle' not in vocabulary
+        15 x warning: model_details: 'zip-pocket' not in vocabulary
+      e.g. backpack__BRANDS_BAGS_MISC_BP_003_001.webp: warning: model_details: 'zip-pocket' not in vocabulary
+      e.g. backpack__BRANDS_BAGS_MISC_BP_003_002.webp: warning: model_details: 'zip-pocket' not in vocabulary
+      e.g. backpack__BRANDS_BAGS_MISC_BP_003_005.webp: warning: model_details: 'zip-pocket' not in vocabulary
+      e.g. backpack__BRANDS_BAGS_MISC_BP_003_006.webp: warning: closure: 'buckle' not in vocabulary
+      e.g. backpack__BRANDS_BAGS_MISC_BP_003_008.webp: warning: model_details: 'zip-pocket' not in vocabulary
+  shoes_women_batch03: 59 samples, 0 with errors, 9 with warnings
+         4 x warning: toe_shape: 'cap-toe' not in vocabulary
+         2 x warning: model_details: 'quilted' not in vocabulary
+         2 x warning: closure: 'zip-closure' not in vocabulary
+         1 x warning: toe_shape: 'almond-toe' not in vocabulary
+      e.g. d-orsay-flat__C6S4036.jpg: warning: model_details: 'quilted' not in vocabulary
+      e.g. d-orsay-flat__C9S4009.jpg: warning: toe_shape: 'almond-toe' not in vocabulary
+      e.g. d-orsay-pump__A8W5005-1525ELB.jpg: warning: closure: 'zip-closure' not in vocabulary
+      e.g. flat-lace-up__C5W7052-0099PRN.jpg: warning: toe_shape: 'cap-toe' not in vocabulary
+      e.g. flat-lace-up__C5W7052-0101A41.jpg: warning: toe_shape: 'cap-toe' not in vocabulary
+ ERROR | 12 samples have taxonomy errors — fix the labels (or use --no-validate)
+
+
+== NOTES ==
+  - attribute_values.yaml 'finishing': defined but in no config's vocabulary: ['boucle', 'brocade', 'brushed', 'coated', 'crepe-de-chine', 'crinkled', 'enameled', 'flannel', 'fleece', 'high-gloss', 'organza', 'poplin', 'stone-washed', 'taffeta', 'terry', 'twill', 'waxed']
+  - attribute_values.yaml 'model_details': defined but in no config's vocabulary: ['open-pocket', 'zip-pocket']
+  - attribute_values.yaml 'toe_shape': defined but in no config's vocabulary: ['apron-toe']
+  - attribute_values.yaml 'pattern': defined but in no config's vocabulary: ['python']
+  - bags_women: 'model_details' vocabulary values with no definition: ['external-pocket', 'padded', 'perforated', 'pleated', 'ruched', 'structured', 'woven']
+  - bags_women: 'closure' vocabulary values with no definition: ['button-closure', 'drawstring', 'front-flap', 'hook-closure', 'kiss-lock-closure', 'lock-closure', 'open-top', 'piston-closure', 'toggle-closure', 'turn-lock-closure', 'zip-closure']
+  - bags_women: 'material' vocabulary values with no definition: ['acetate', 'acrylic', 'alpaca', 'angora', 'aramid', 'astrakhan', 'bamboo', 'calfskin', 'camel-hair', 'cashmere', 'chinchilla', 'cork', 'cotton', 'crocodile', 'deerskin', 'elastane', 'faux-fur', 'faux-leather', 'fox', 'goat', 'hemp', 'horse-hair', 'jute', 'kangaroo', 'lambskin', 'lapin', 'leather', 'linen', 'lizard', 'lynx', 'metal', 'mink', 'mohair', 'nappa', 'nylon', 'ostrich', 'pigskin', 'polyester', 'pony-hair', 'pvc', 'raffia', 'rayon', 'resin', 'rubber', 'sable', 'shearling', 'silk', 'straw', 'suede', 'vicuna', 'wood', 'wool']
+  - bags_women: 'pattern' vocabulary values with no definition: ['botanical-pattern', 'camouflage', 'checks', 'chevron', 'cow', 'diamond', 'floral-pattern', 'gingham', 'giraffe', 'graphic-pattern', 'herringbone', 'houndstooth', 'leopard', 'marble', 'monogram', 'optical-pattern', 'paisley-pattern', 'pinstripe', 'polka-dot', 'snake', 'stripes', 'tartan', 'tiger', 'zebra', 'zigzag']
+  - shoes_women: 'toe_shape' vocabulary values with no definition: ['brogue', 'peep-toe', 'pointed-toe', 'round-toe', 'square-toe', 'wing-tip']
+  - shoes_women: 'heel_type' vocabulary values with no definition: ['block-heel', 'kitten-heel', 'stiletto-heel', 'wedge-heel']
+  - shoes_women: 'closure' vocabulary values with no definition: ['slip-on', 'zip-up']
+  - shoes_women: 'material' vocabulary values with no definition: ['acetate', 'acrylic', 'alpaca', 'angora', 'aramid', 'astrakhan', 'bamboo', 'calfskin', 'camel-hair', 'cashmere', 'chinchilla', 'cork', 'cotton', 'crocodile', 'deerskin', 'elastane', 'faux-fur', 'faux-leather', 'fox', 'goat', 'hemp', 'horse-hair', 'jute', 'kangaroo', 'lambskin', 'lapin', 'leather', 'linen', 'lizard', 'lynx', 'metal', 'mink', 'mohair', 'nappa', 'nylon', 'ostrich', 'pigskin', 'polyester', 'pony-hair', 'pvc', 'raffia', 'rayon', 'resin', 'rubber', 'sable', 'shearling', 'silk', 'straw', 'suede', 'vicuna', 'wood', 'wool']
+  - shoes_women: 'pattern' vocabulary values with no definition: ['botanical-pattern', 'camouflage', 'checks', 'chevron', 'cow', 'diamond', 'floral-pattern', 'gingham', 'giraffe', 'graphic-pattern', 'herringbone', 'houndstooth', 'leopard', 'marble', 'monogram', 'optical-pattern', 'paisley-pattern', 'pinstripe', 'polka-dot', 'snake', 'stripes', 'tartan', 'tiger', 'zebra', 'zigzag']
+  - shoes_women_batch03: 5 file(s) named 'flat-lace-up__*' labelled subcategory 'heeled lace up'
+  - bags_women_batch03: 1 file(s) named 'underarm-bag__*' labelled subcategory 'hobo bag'
+  - heel contradiction: ('shoes_women_batch01', 'B5W7083-0090886.jpg', 'flat-shoes-women', 'mid-heel')
+  - heel contradiction: ('shoes_women_batch01', 'B7W7071-1393.jpg', 'flat-shoes-women', 'mid-heel')
+  - heel contradiction: ('shoes_women_batch03', 'flat-lace-up__B7S7018-0013310.jpg', 'heeled-shoes-women', 'flat-heel')
+  - heel contradiction: ('shoes_women_batch03', 'flat-lace-up__B7S7024-1125179.jpg', 'heeled-shoes-women', 'flat-heel')
+  - ... 4 heel_height/category contradictions in total
+  - bags_women: system prompt ~4079 of 8192 tokens (chars/3.5 estimate; image + answer need roughly 2k more)
+  - shoes_women: system prompt ~4347 of 8192 tokens (chars/3.5 estimate; image + answer need roughly 2k more)
+
+== BLOCKERS ==
+  x label validation --strict FAILED (see output below)
+
+1 blocker(s): fix before retraining

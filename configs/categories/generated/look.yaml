@@ -136,13 +136,13 @@ taxonomy:
   - lace up
   - loafer
   - monk strap
-  - flat mule
+  - mule
   - oxford
   - slip on
+  - espadrille
   - other flat shoes
   sandals-men:
-  - flat sandal
-  - heeled sandal
+  - sandal
   - sandal boot
   - slider
   - thong
@@ -329,12 +329,16 @@ taxonomy:
   - waist bag
   flat-shoes-women:
   - ballerina
+  - boat shoe
+  - desert
   - d'orsay flat
   - flat lace up
-  - loafer
   - flat mule
-  - other flat shoes
+  - loafer
   - slip on
+  - espadrille
+  - clog
+  - other flat shoes
   heeled-shoes-women:
   - d'orsay pump
   - heeled lace up
@@ -347,6 +351,7 @@ taxonomy:
   sandals-women:
   - flat sandal
   - heeled sandal
+  - mule sandal
   - sandal boot
   - slider
   - thong
@@ -356,9 +361,13 @@ taxonomy:
   - boot
   - lace up boot
   - over the knee
+  - snow boot
+  - combat boot
+  - western boot
   sneakers-women:
   - high-top sneaker
-  - sneaker
+  - low-top sneaker
+  - tennis shoe
   briefcases-women: []
   suitcases-women: []
   cosmetic-cases-women: []

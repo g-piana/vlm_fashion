@@ -1,234 +1,210 @@
 """
-Bring existing label files in line with the current taxonomy/vocabularies.
+Migrate label files to the aligned vocabulary and queue the judgement calls for review.
 
-Deterministic fixes (always applied):
-  * attributes declared `type: list` that hold a single string  ->  ["string"]
-  * key `macrocategory` (redundant, comes from the category_config)  ->  dropped
-  * key `secondary_color`  ->  merged into `secondary_colors` when that is empty
-Explicit fixes (you choose):
-  --map OLD=NEW     rename a vocabulary value everywhere it appears
-                    (material, secondary_materials, ...). `--map OLD=` removes it.
-                    `--map ATTR:OLD=NEW` limits it to one attribute, e.g. `--map embellishments:none=`
-  --move SRC:VAL=DST[:NEWVAL]
-                    move a value to another attribute, e.g. a value that changed
-                    kind in the taxonomy:  --move material:canvas=finishing:canvas
-                    (skipped, with a message, if DST is not defined in the config)
-  --fallback ATTR=VALUE
-                    value to put in a scalar attribute emptied by --move
-                    (without it the attribute becomes null)
-  --drop-keys K ... also drop these unknown keys (look at them first!)
+Mechanical fixes (applied automatically):
+  bags   closure: buckle -> removed          model_details: zip-pocket -> external-pocket
+  shoes  closure: zip-closure -> zip-up      closure: button-closure -> removed (review)
+         toe_shape 'cap-toe' -> moved to model_details; toe_shape re-guessed from the
+         description (round/square/pointed/almond/peep) or left empty (review)
+         subcategory 'mule' -> the single *mule* subcategory of the sample's category (review)
+         subcategory 'sneaker' -> 'low-top sneaker' (review); model_details 'quilted' -> removed
+Review only (nothing changed): filename prefix vs subcategory, heeled+flat-heel, flat shoe+mid/high heel,
+  bag whose closure became empty.
 
-Default is a dry run that only reports. Use --write to apply (a .bak copy of
-each file is kept).
-
-Usage:
-    python scripts/migrate_labels.py --manifest configs/dataset_manifest.yaml
-    python scripts/migrate_labels.py --manifest configs/dataset_manifest.yaml \
-        --map synthetic-leather=<new-slug> --write
+    python scripts/migrate_labels.py                  # dry run: report only
+    python scripts/migrate_labels.py --apply          # write labels (+ .bak_migrate) and outputs/review_<batch>.json
+    # review each outputs/review_<batch>.json with review_labels.py, export, then:
+    python scripts/migrate_labels.py --merge <exported.json> --batch <batch_name>
 """
-
 from __future__ import annotations
 
-import argparse
-import json
-import shutil
-import sys
+import argparse, copy, json, re, sys, unicodedata
 from collections import Counter
 from pathlib import Path
 
 import yaml
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from taxonomy_utils import DEFAULT_CONFIG, get_spec, validate_tags  # noqa: E402
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+sys.path.insert(0, str(HERE))
+from category_config import load_category_config  # noqa: E402
+
+VALUE_MAP = {
+    "bags": {"closure": {"buckle": None}, "model_details": {"zip-pocket": "external-pocket"}},
+    "shoes": {"closure": {"zip-closure": "zip-up", "button-closure": None},
+              "model_details": {"quilted": None}},
+}
+# old subcategory -> new one; applied only when the old name is gone and the new one exists under the same category
+SUBCATEGORY_MAP = {"sneaker": "low-top sneaker"}
+TOE_WORDS = {"almond-toe": r"\balmond", "round-toe": r"\bround(ed)?\b", "square-toe": r"\bsquare(d)?\b",
+             "pointed-toe": r"\bpoint(ed|y)\b", "peep-toe": r"\bpeep"}
 
 
-def _lookup(value_map: dict, key: str, v):
-    for k in (f"{key}:{v}", str(v)):
-        if k in value_map:
-            return True, value_map[k]
-    return False, None
+def slug(s: str) -> str:
+    s = unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
-def apply_moves(spec, tags: dict, moves: list, fallbacks: dict, log: Counter) -> bool:
-    moved = False
-    for src, val, dst, new_val in moves:
-        cur = tags.get(src)
-        if isinstance(cur, list):
-            hit = val in [str(x) for x in cur]
+def as_list(v) -> list:
+    return list(v) if isinstance(v, list) else ([v] if v else [])
+
+
+def guess_toe(desc: str, allowed: set[str]) -> str | None:
+    hits = [v for v, p in TOE_WORDS.items() if v in allowed and re.search(p, (desc or "").lower())]
+    return hits[0] if len(hits) == 1 else None
+
+
+def migrate_sample(s: dict, cfgs: dict) -> tuple[list[str], list[str]]:
+    """Mutates s. Returns (changes, review reasons)."""
+    changes: list[str] = []
+    review: list[str] = []
+    tags = s.get("tags")
+    if not isinstance(tags, dict):
+        return changes, review
+    cfg_name = s.get("category_config") or "shoes_women"
+    if cfg_name not in cfgs:
+        cfgs[cfg_name] = load_category_config(cfg_name)
+    cfg = cfgs[cfg_name]
+    macro = cfg_name.split("_")[0]
+
+    for attr, mapping in VALUE_MAP.get(macro, {}).items():
+        val = tags.get(attr)
+        if isinstance(val, list):
+            new: list = []
+            for v in val:
+                nv = mapping[v] if v in mapping else v
+                if nv is not None and nv not in new:
+                    new.append(nv)
+            if new != val:
+                tags[attr] = new
+                changes.append(f"{attr}: {val} -> {new}")
+                if not new:
+                    review.append(f"{attr} became empty (was {val})")
+        elif isinstance(val, str) and val in mapping:
+            tags[attr] = mapping[val]
+            changes.append(f"{attr}: {val!r} -> {mapping[val]!r}")
+            if mapping[val] is None:
+                review.append(f"{attr} '{val}' dropped")
+
+    if macro == "shoes" and tags.get("toe_shape") == "cap-toe":
+        md = as_list(tags.get("model_details"))
+        if "cap-toe" not in md:
+            md.append("cap-toe")
+        tags["model_details"] = md
+        spec = cfg.get("attributes", {}).get("toe_shape", {})
+        allowed = {str(v) for v in spec.get("values", [])} if isinstance(spec, dict) else set()
+        shape = guess_toe(s.get("description", ""), allowed)
+        tags["toe_shape"] = shape
+        changes.append(f"toe_shape: 'cap-toe' -> model_details + toe_shape={shape!r}")
+        review.append(f"toe_shape {'guessed from description: ' + shape if shape else 'unknown, set it'}")
+
+    taxonomy = cfg.get("taxonomy", {})
+    cat, sub = tags.get("category"), tags.get("subcategory")
+    if sub == "mule" and "mule" not in taxonomy.get(cat, []):
+        cands = [x for x in taxonomy.get(cat, []) if "mule" in x]
+        if len(cands) == 1:
+            tags["subcategory"] = cands[0]
+            changes.append(f"subcategory: 'mule' -> {cands[0]!r}")
+            review.append("mule: check closed vs open toe (category may need to change)")
         else:
-            hit = cur is not None and str(cur) == val
-        if not hit:
-            continue
-        if dst not in spec.attrs:
-            log.update([f"SKIPPED move {src}:{val} -> {dst}: '{dst}' is not an attribute of this config"])
-            continue
-        # remove from source
-        if isinstance(cur, list):
-            rest = [x for x in cur if str(x) != val]
-            if not rest and not spec.attrs.get(src, {}).get("multi"):
-                tags[src] = fallbacks.get(src)          # single-valued attribute emptied
-            else:
-                tags[src] = rest
+            review.append(f"mule: no single mule subcategory under category '{cat}'")
+
+    cur_sub = tags.get("subcategory")
+    if cur_sub in SUBCATEGORY_MAP and cur_sub not in taxonomy.get(cat, []):
+        new = SUBCATEGORY_MAP[cur_sub]
+        if new in taxonomy.get(cat, []):
+            tags["subcategory"] = new
+            changes.append(f"subcategory: {cur_sub!r} -> {new!r}")
+            review.append(f"'{cur_sub}' -> '{new}': confirm it is not a tennis shoe / other sneaker type")
         else:
-            tags[src] = fallbacks.get(src)
-        # add to destination
-        dcur = tags.get(dst)
-        if spec.attrs[dst]["multi"]:
-            lst = list(dcur) if isinstance(dcur, list) else ([dcur] if dcur else [])
-            if new_val not in lst:
-                lst.append(new_val)
-            tags[dst] = lst
-        elif dcur in (None, ""):
-            tags[dst] = new_val
-        else:
-            log.update([f"{dst} already set ({dcur!r}); {val!r} not copied"])
-        log.update([f"{src}: {val} -> {dst}: {new_val}"])
-        moved = True
-    return moved
+            review.append(f"subcategory '{cur_sub}' is gone and '{new}' is not under '{cat}'")
+
+    img = s.get("image", "")
+    if "__" in img:
+        pre, cur = img.split("__")[0], slug(tags.get("subcategory") or "")
+        if pre != cur:
+            review.append(f"filename says '{pre}', subcategory is '{tags.get('subcategory')}'")
+    hh, cat = tags.get("heel_height"), str(tags.get("category", ""))
+    if "heeled" in cat and hh == "flat-heel":
+        review.append("heeled category but heel_height=flat-heel")
+    if "flat-shoes" in cat and hh in ("mid-heel", "high-heel"):
+        review.append(f"flat category but heel_height={hh}")
+    return changes, review
 
 
-def migrate_tags(spec, tags: dict, value_map: dict, drop_keys: set, log: Counter,
-                 moves=(), fallbacks=None, unresolved=None) -> bool:
-    moved = apply_moves(spec, tags, list(moves), fallbacks or {}, log)
-    # key clean-up
-    tags.pop("macrocategory", None) and log.update(["dropped key macrocategory"])
-    if "secondary_color" in tags:
-        old = tags.pop("secondary_color")
-        log.update(["merged secondary_color -> secondary_colors"])
-        if old and not tags.get("secondary_colors"):
-            tags["secondary_colors"] = [old] if isinstance(old, str) else list(old)
-    for k in drop_keys:
-        if k in tags:
-            del tags[k]
-            log.update([f"dropped key {k}"])
+def write_json(path: Path, data, backup_suffix: str) -> None:
+    bak = path.with_suffix(backup_suffix)
+    if not bak.exists():
+        bak.write_text(path.read_text(encoding="utf-8"), encoding="utf-8")
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    for key in list(tags):
-        if key in ("category", "subcategory"):
-            continue
-        value = tags[key]
-        info = spec.attrs.get(key)
-        if value is None:
-            if info and info["multi"]:
-                tags[key] = []                      # list fields use [] when nothing applies
-            continue
-        # value renames ("OLD=NEW" everywhere, or "ATTR:OLD=NEW" for one attribute)
-        if value_map:
-            if isinstance(value, list):
-                new = []
-                for v in value:
-                    found, repl = _lookup(value_map, key, v)
-                    if found:
-                        log.update([f"{key}: {v} -> {repl or '(removed)'}"])
-                        if repl:
-                            new.append(repl)
-                    else:
-                        new.append(v)
-                tags[key] = value = list(dict.fromkeys(new))   # no duplicates after renames
-            else:
-                found, repl = _lookup(value_map, key, value)
-                if found:
-                    log.update([f"{key}: {value} -> {repl or '(removed)'}"])
-                    tags[key] = value = repl or None
-        # shape: list-declared fields hold lists, enum-declared fields hold one value
-        if info and info["multi"]:
-            if value is None:
-                tags[key] = []
-            elif isinstance(value, str):
-                tags[key] = [value]
-                log.update([f"{key}: string -> list"])
-        elif info and isinstance(value, list):
-            if not value:
-                tags[key] = None
-                log.update([f"{key}: [] -> null"])
-            elif len(value) == 1:
-                tags[key] = value[0]
-                log.update([f"{key}: [x] -> x"])
-            elif key == "material" and "secondary_materials" in spec.attrs:
-                tags[key] = value[0]
-                sec = tags.get("secondary_materials")
-                sec = list(sec) if isinstance(sec, list) else ([sec] if sec else [])
-                tags["secondary_materials"] = sec + [v for v in value[1:] if v not in sec]
-                log.update([f"material: {len(value)} values -> first kept, rest moved to secondary_materials"])
-            elif unresolved is not None:
-                unresolved.append((key, value))     # needs a decision (see summary)
-    return moved
+
+def merge(manifest: dict, batch: str, exported: Path) -> int:
+    b = next((x for x in manifest["batches"] if x.get("name") == batch), None)
+    if not b:
+        print(f"batch '{batch}' not in manifest")
+        return 1
+    path = ROOT / b["labels"]
+    data = json.loads(path.read_text(encoding="utf-8"))
+    by_img = {Path(r["image"]).name: r for r in json.loads(exported.read_text(encoding="utf-8"))}
+    out, n = [], 0
+    for s in data:
+        r = by_img.pop(s["image"], None)
+        out.append(r if r else s)
+        n += bool(r)
+    write_json(path, out, ".json.bak_premerge")
+    print(f"{batch}: replaced {n} samples from {exported.name}")
+    if by_img:
+        print(f"  WARNING {len(by_img)} exported images not in the batch: {sorted(by_img)[:10]}")
+    return 0
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--manifest", type=Path, required=True)
-    ap.add_argument("--map", action="append", default=[], metavar="OLD=NEW")
-    ap.add_argument("--move", action="append", default=[], metavar="SRC:VAL=DST[:NEWVAL]")
-    ap.add_argument("--fallback", action="append", default=[], metavar="ATTR=VALUE")
-    ap.add_argument("--drop-keys", nargs="*", default=[])
-    ap.add_argument("--write", action="store_true")
-    args = ap.parse_args()
+    ap.add_argument("--manifest", type=Path, default=ROOT / "configs/dataset_manifest.yaml")
+    ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--merge", type=Path, help="exported review_labels JSON to merge back")
+    ap.add_argument("--batch", help="batch name for --merge")
+    a = ap.parse_args()
+    manifest = yaml.safe_load(a.manifest.read_text(encoding="utf-8")) or {}
 
-    value_map = {}
-    for m in args.map:
-        old, _, new = m.partition("=")
-        value_map[old] = new
-    drop_keys = set(args.drop_keys)
-    moves = []
-    for m in args.move:
-        left, _, right = m.partition("=")
-        src, _, val = left.partition(":")
-        dst, _, new_val = right.partition(":")
-        moves.append((src, val, dst, new_val or val))
-    fallbacks = dict(f.partition("=")[::2] for f in args.fallback)
+    if a.merge:
+        if not a.batch:
+            ap.error("--merge needs --batch")
+        return merge(manifest, a.batch, a.merge)
 
-    with open(args.manifest, encoding="utf-8") as f:
-        batches = (yaml.safe_load(f) or {}).get("batches", [])
-
-    for b in batches:
-        path = Path(b["labels"])
+    cfgs: dict = {}
+    for b in manifest.get("batches", []):
+        path = ROOT / b["labels"]
         if not path.exists():
-            print(f"\n{b.get('name', path.stem)}: labels file not found, SKIPPED: {path}")
+            print(f"missing: {path}")
             continue
-        samples = json.loads(path.read_text(encoding="utf-8"))
-        log: Counter = Counter()
-        before = after = 0
-        leftovers: Counter = Counter()
-        moved_images: list[str] = []
-        multi_examples: list = []
-        for s in samples:
-            tags = s.get("tags")
-            if not isinstance(tags, dict):
-                continue
-            spec = get_spec(s.get("category_config") or DEFAULT_CONFIG)
-            before += bool(validate_tags(spec, tags))
-            unres: list = []
-            if migrate_tags(spec, tags, value_map, drop_keys, log, moves, fallbacks, unres):
-                moved_images.append(s.get("image", "?"))
-            for k, v in unres:
-                multi_examples.append((s.get("image", "?"), k, v))
-            issues = validate_tags(spec, tags)
-            after += bool(issues)
-            for lv, msg in issues:
-                leftovers[f"{lv}: {msg}"] += 1
-                if "subsubcategory" in msg:
-                    leftovers[f"    {s.get('image')}: subsubcategory = {tags.get('subsubcategory')!r}"] += 1
-
-        print(f"\n{b.get('name', path.stem)}: samples with issues {before} -> {after}")
-        for what, n in log.most_common():
-            print(f"   {n:4d} x {what}")
-        if moved_images:
-            print(f"   moved in {len(moved_images)} samples (check them): " + ", ".join(moved_images[:12])
-                  + (" ..." if len(moved_images) > 12 else ""))
-        if multi_examples:
-            by_field = Counter(k for _, k, _ in multi_examples)
-            print("   several values in a single-valued field (decide: declare it `type: list`, or fix by hand): "
-                  + ", ".join(f"{k} x{n}" for k, n in by_field.items()))
-            for img, k, v in multi_examples[:6]:
-                print(f"      {img}: {k} = {v}")
-        for what, n in leftovers.most_common(12):
-            print(f"   remaining {n:3d} x {what}")
-        if args.write:
-            shutil.copy2(path, path.with_suffix(path.suffix + ".bak"))
-            path.write_text(json.dumps(samples, indent=2, ensure_ascii=False), encoding="utf-8")
-            print(f"   written (backup {path.name}.bak)")
-    if not args.write:
-        print("\nDry run only. Add --write to apply.")
+        data = json.loads(path.read_text(encoding="utf-8"))
+        images_dir = ROOT / b["images_dir"]
+        rules, queue = Counter(), []
+        for s in data:
+            changes, review = migrate_sample(s, cfgs)
+            rules.update(c.split(":")[0] for c in changes)
+            if review:
+                q = copy.deepcopy(s)
+                q["image"] = str((images_dir / s["image"]).resolve())
+                q["_review"] = review
+                queue.append(q)
+        print(f"\n{b['name']}: {len(data)} samples, auto-fixed {dict(rules) or 'nothing'}, {len(queue)} to review")
+        for q in queue[:40]:
+            print(f"    {Path(q['image']).name}: {'; '.join(q['_review'])}")
+        if a.apply:
+            write_json(path, data, ".json.bak_migrate")
+            if queue:
+                out = ROOT / "outputs" / f"review_{b['name']}.json"
+                out.parent.mkdir(exist_ok=True)
+                if out.exists():  # a second --apply would see already-fixed labels and shrink the queue
+                    print(f"  {out.name} already exists: NOT overwritten (delete it to rebuild)")
+                else:
+                    out.write_text(json.dumps(queue, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+                    cat = queue[0].get("category_config", "shoes_women")
+                    print(f"  -> python scripts/review_labels.py --drafts {out} --category {cat} --port 8501")
+    print("\nWRITTEN" if a.apply else "\nDRY RUN: nothing written (use --apply)")
     return 0
 
 

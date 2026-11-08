@@ -187,9 +187,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": "diamond",
-      "model_details": [
-        "quilted"
-      ]
+      "model_details": []
     }
   },
   {
@@ -287,7 +285,7 @@
       "toe_shape": "pointed-toe",
       "heel_type": "kitten-heel",
       "heel_height": "low-heel",
-      "closure": "zip-closure",
+      "closure": "zip-up",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
@@ -567,7 +565,7 @@
       "primary_color": "burgundy",
       "material": "leather",
       "closure": "lace-up",
-      "toe_shape": "cap-toe",
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": null,
@@ -576,7 +574,9 @@
       "embellishments": [],
       "pattern": null,
       "finishing": [],
-      "model_details": []
+      "model_details": [
+        "cap-toe"
+      ]
     }
   },
   {
@@ -597,11 +597,13 @@
       ],
       "embellishments": [],
       "pattern": null,
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [
         "patent"
       ],
-      "toe_shape": "cap-toe",
+      "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": null,
@@ -649,11 +651,13 @@
         "pearl"
       ],
       "pattern": "stripes",
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [
         "metallic"
       ],
-      "toe_shape": "cap-toe",
+      "toe_shape": null,
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "platform",
@@ -678,9 +682,11 @@
         "pearl"
       ],
       "pattern": null,
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [],
-      "toe_shape": "cap-toe",
+      "toe_shape": null,
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "platform",
@@ -1304,7 +1310,7 @@
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
-      "closure": "zip-closure",
+      "closure": "zip-up",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
@@ -1412,9 +1418,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "model_details": [
-        "quilted"
-      ],
+      "model_details": [],
       "finishing": [
         "metallic"
       ],

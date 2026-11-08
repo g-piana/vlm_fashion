@@ -2,7 +2,7 @@
 # Edit values here; changes apply to both shoes_men and shoes_women.
 model_details:
   type: list
-  values: [ankle-strap, ankle-wrap, cross-over, t-bar]
+  values: [ankle-strap, ankle-wrap, cross-over, t-bar, cap-toe]
   app: {field: mod_details}
 
 finishing:
@@ -12,7 +12,7 @@ finishing:
 
 toe_shape:
   type: enum
-  values: [round-toe, square-toe, pointed-toe, peep-toe, brogue, wing-tip]
+  values: [round-toe, square-toe, pointed-toe, peep-toe, brogue, wing-tip, almond-toe]
   app: {field: mod_details}
 
 heel_type:

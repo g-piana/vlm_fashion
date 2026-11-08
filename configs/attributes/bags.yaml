@@ -22,7 +22,7 @@ closure:
   type: list
   values: [zip-closure, front-flap, drawstring, button-closure, turn-lock-closure,
            open-top,  toggle-closure, hook-closure, kiss-lock-closure, 
-           lock-closure, piston-closure,button-closure]
+           lock-closure, piston-closure]
   app: {field: mod_details}
 
 hardware_color:

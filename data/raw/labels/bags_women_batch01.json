@@ -341,7 +341,6 @@
       ],
       "pattern": null,
       "model_details": [
-        "zip-pocket",
         "external-pocket"
       ],
       "handle_type": [
@@ -645,9 +644,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "gold",
       "bag_size": "large",
       "secondary_colors": [
@@ -816,9 +813,7 @@
         "leather"
       ],
       "hardware_color": "silver",
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "handle_type": [
         "shoulder-strap"
       ],
@@ -876,8 +871,7 @@
         "top-handle"
       ],
       "closure": [
-        "front-flap",
-        "buckle"
+        "front-flap"
       ],
       "hardware_color": "silver",
       "bag_size": "small",

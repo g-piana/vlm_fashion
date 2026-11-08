@@ -27,7 +27,7 @@
       "bag_size": "small",
       "secondary_materials": [],
       "model_details": [
-        "zip-pocket"
+        "external-pocket"
       ]
     }
   },
@@ -60,7 +60,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "model_details": [
-        "zip-pocket"
+        "external-pocket"
       ]
     }
   },
@@ -153,7 +153,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "model_details": [
-        "zip-pocket"
+        "external-pocket"
       ]
     }
   },
@@ -175,9 +175,7 @@
         "top-handle",
         "shoulder-strap"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "silver",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -239,7 +237,6 @@
         "shoulder-strap"
       ],
       "model_details": [
-        "zip-pocket",
         "external-pocket"
       ]
     }
@@ -287,8 +284,7 @@
       "material": "leather",
       "hardware_color": "gold",
       "closure": [
-        "drawstring",
-        "buckle"
+        "drawstring"
       ],
       "handle_type": [
         "top-handle"
@@ -299,7 +295,7 @@
       "pattern": null,
       "secondary_materials": [],
       "model_details": [
-        "zip-pocket"
+        "external-pocket"
       ],
       "bag_size": "small"
     }
@@ -329,8 +325,7 @@
         "shoulder-strap"
       ],
       "closure": [
-        "drawstring",
-        "buckle"
+        "drawstring"
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
@@ -366,7 +361,7 @@
       "bag_size": "medium",
       "secondary_colors": [],
       "model_details": [
-        "zip-pocket"
+        "external-pocket"
       ]
     }
   },
@@ -428,7 +423,7 @@
       "bag_size": "medium",
       "secondary_colors": [],
       "model_details": [
-        "zip-pocket"
+        "external-pocket"
       ]
     }
   },
@@ -1723,7 +1718,7 @@
       "bag_size": "medium",
       "secondary_colors": [],
       "model_details": [
-        "zip-pocket"
+        "external-pocket"
       ]
     }
   },
@@ -1742,9 +1737,7 @@
         "top-handle",
         "shoulder-strap"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "antique-brass",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -1770,9 +1763,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "antique-brass",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -1834,7 +1825,6 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "model_details": [
-        "zip-pocket",
         "external-pocket"
       ]
     }
@@ -1854,9 +1844,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "gold",
       "bag_size": "large",
       "secondary_colors": [],
@@ -1968,7 +1956,7 @@
       "bag_size": "medium",
       "secondary_materials": [],
       "model_details": [
-        "zip-pocket"
+        "external-pocket"
       ]
     }
   },
@@ -2517,9 +2505,7 @@
         "top-handle",
         "shoulder-strap"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "gold",
       "bag_size": "large",
       "model_details": []
@@ -2959,9 +2945,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "silver",
       "finishing": [],
       "bag_size": "medium",
@@ -3015,9 +2999,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "silver",
       "finishing": [],
       "secondary_colors": [],
@@ -3650,9 +3632,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "silver",
       "bag_size": "small",
       "secondary_colors": [],
@@ -3849,9 +3829,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "silver",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -3906,9 +3884,7 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "gold",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -3935,9 +3911,7 @@
         "top-handle",
         "shoulder-strap"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "gold",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -3988,9 +3962,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "silver",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -4018,9 +3990,7 @@
         "top-handle",
         "shoulder-strap"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "gold",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -4047,9 +4017,7 @@
       "handle_type": [
         "top-handle"
       ],
-      "closure": [
-        "buckle"
-      ],
+      "closure": [],
       "hardware_color": "gold",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -4080,7 +4048,7 @@
       "hardware_color": "gold",
       "bag_size": "medium",
       "model_details": [
-        "zip-pocket"
+        "external-pocket"
       ]
     }
   },
@@ -5362,7 +5330,7 @@
       "hardware_color": "black",
       "bag_size": "small",
       "model_details": [
-        "zip-pocket"
+        "external-pocket"
       ]
     }
   },
@@ -5389,7 +5357,7 @@
       "embellishments": [],
       "pattern": null,
       "model_details": [
-        "zip-pocket"
+        "external-pocket"
       ],
       "handle_type": [],
       "bag_size": "small"
@@ -5475,7 +5443,7 @@
       "hardware_color": "gold",
       "bag_size": "small",
       "model_details": [
-        "zip-pocket"
+        "external-pocket"
       ]
     }
   },
@@ -5508,7 +5476,7 @@
       "hardware_color": "gold",
       "bag_size": "small",
       "model_details": [
-        "zip-pocket"
+        "external-pocket"
       ]
     }
   }
