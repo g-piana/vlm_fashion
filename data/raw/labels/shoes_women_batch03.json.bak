@@ -40,13 +40,13 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "finishing": [],
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on"
     }
   },
@@ -66,7 +66,7 @@
       "pattern": "floral-pattern",
       "toe_shape": "pointed-toe",
       "closure": "slip-on",
-      "sole_type": "none",
+      "sole_type": null,
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
       "secondary_colors": [
@@ -95,7 +95,7 @@
       "embellishments": [
         "buckle"
       ],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "finishing": [
         "grained"
@@ -103,7 +103,7 @@
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on"
     }
   },
@@ -121,9 +121,9 @@
         "buckle"
       ],
       "toe_shape": "pointed-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -181,7 +181,7 @@
       "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle",
       "finishing": [],
       "secondary_colors": [],
@@ -208,7 +208,7 @@
       "toe_shape": "pointed-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -287,7 +287,7 @@
       "toe_shape": "pointed-toe",
       "heel_type": "kitten-heel",
       "heel_height": "low-heel",
-      "closure": "zip",
+      "closure": "zip-closure",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
@@ -392,7 +392,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap"
       ],
@@ -402,7 +402,7 @@
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle",
       "secondary_colors": []
     }
@@ -431,7 +431,7 @@
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle"
     }
   },
@@ -469,7 +469,7 @@
       "primary_color": "grey",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
@@ -499,7 +499,7 @@
       "toe_shape": "pointed-toe",
       "heel_type": "kitten-heel",
       "heel_height": "low-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "finishing": [
@@ -520,13 +520,13 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "finishing": [
         "patent"
       ],
       "toe_shape": "round-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "platform",
       "closure": "lace-up",
@@ -545,11 +545,11 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "finishing": [],
       "toe_shape": "round-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "platform",
       "closure": "lace-up",
@@ -570,7 +570,7 @@
       "toe_shape": "cap-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
@@ -596,7 +596,7 @@
         "faux-leather"
       ],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "finishing": [
         "patent"
@@ -604,7 +604,7 @@
       "toe_shape": "cap-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "lace-up"
     }
   },
@@ -622,9 +622,9 @@
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "secondary_colors": [],
       "secondary_materials": [],
       "finishing": [],
@@ -654,7 +654,7 @@
         "metallic"
       ],
       "toe_shape": "cap-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "platform",
       "closure": "lace-up"
@@ -677,11 +677,11 @@
       "embellishments": [
         "pearl"
       ],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "finishing": [],
       "toe_shape": "cap-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "platform",
       "closure": "lace-up"
@@ -704,7 +704,7 @@
       "embellishments": [
         "crystal"
       ],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap"
       ],
@@ -714,7 +714,7 @@
       "toe_shape": "plain-toe",
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle"
     }
   },
@@ -788,15 +788,14 @@
       "toe_shape": "peep-toe",
       "heel_type": "wedge-heel",
       "heel_height": "low-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
       "finishing": [],
       "model_details": [
-        "ankle-strap",
-        "double-strap"
+        "ankle-strap"
       ]
     }
   },
@@ -820,15 +819,15 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap"
       ],
       "finishing": [],
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle"
     }
   },
@@ -843,7 +842,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
@@ -944,7 +943,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "finishing": [
         "satin"
@@ -968,11 +967,11 @@
       "material": "suede",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "finishing": [],
       "toe_shape": "round-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "slouch",
       "closure": "lace-up",
@@ -995,7 +994,7 @@
       "heel_height": "mid-heel",
       "sole_type": "slouch",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "secondary_colors": [],
       "secondary_materials": [],
       "finishing": [],
@@ -1115,7 +1114,7 @@
       "primary_color": "burgundy",
       "material": "leather",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap"
       ],
@@ -1125,7 +1124,7 @@
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],
       "secondary_materials": []
@@ -1174,10 +1173,9 @@
         "crystal",
         "pearl"
       ],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
-        "ankle-strap",
-        "double-strap"
+        "ankle-strap"
       ],
       "finishing": [
         "metallic"
@@ -1185,7 +1183,7 @@
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle"
     }
   },
@@ -1202,10 +1200,9 @@
       "material": "suede",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
-        "ankle-wrap",
-        "strappy"
+        "ankle-wrap"
       ],
       "finishing": [],
       "toe_shape": "peep-toe",
@@ -1228,17 +1225,15 @@
       "toe_shape": "peep-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
-      "closure": "none",
+      "closure": null,
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "secondary_colors": [],
       "secondary_materials": [],
       "finishing": [
         "patent"
       ],
-      "model_details": [
-        "strappy"
-      ],
+      "model_details": [],
       "sole_type": null
     }
   },
@@ -1253,11 +1248,11 @@
       "primary_color": "black",
       "material": "suede",
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "toe_shape": "peep-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "lace-up",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -1277,7 +1272,7 @@
       "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "ankle-strap"
       ],
@@ -1309,15 +1304,14 @@
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
-      "closure": "zip",
+      "closure": "zip-closure",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
       "finishing": [],
       "sole_type": null,
       "model_details": [
-        "ankle-strap",
-        "strappy"
+        "ankle-strap"
       ]
     }
   },
@@ -1335,14 +1329,13 @@
       "embellishments": [],
       "pattern": "floral-pattern",
       "model_details": [
-        "ankle-strap",
-        "strappy"
+        "ankle-strap"
       ],
       "finishing": [],
       "toe_shape": "peep-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [
         "white",
@@ -1365,15 +1358,13 @@
         "stud"
       ],
       "model_details": [
-        "ankle-strap",
-        "multi-strap",
-        "strappy"
+        "ankle-strap"
       ],
       "closure": "slip-on",
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "finishing": [],
       "secondary_colors": [],
       "secondary_materials": [],
@@ -1420,7 +1411,7 @@
       "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [
         "quilted"
       ],
@@ -1428,7 +1419,7 @@
         "metallic"
       ],
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "slouch",
       "closure": "slip-on",
@@ -1450,13 +1441,13 @@
         "crystal",
         "stud"
       ],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "finishing": [],
       "toe_shape": "round-toe",
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": []
     }
@@ -1477,9 +1468,9 @@
         "pearl"
       ],
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -1500,9 +1491,9 @@
       "material": "suede",
       "closure": "slip-on",
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "embellishments": [],
       "pattern": null,
       "secondary_colors": [],
@@ -1524,11 +1515,11 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
-      "pattern": "none",
+      "pattern": null,
       "model_details": [],
       "finishing": [],
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "slouch",
       "closure": "slip-on"
@@ -1548,9 +1539,9 @@
         "gemstone"
       ],
       "toe_shape": null,
-      "heel_type": "none",
+      "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "none",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],

@@ -129,10 +129,19 @@ def main() -> int:
     ap.add_argument("--out", type=Path, default=PROJECT_ROOT / "consolidation")
     ap.add_argument("--data", help="taxonomy data dir (default: inflowe-taxonomy package)")
     ap.add_argument("--force", action="store_true", help="overwrite an existing decisions.yaml")
+    ap.add_argument("--field", help="print the values behind one row, e.g. pattern, material, mod_details "
+                                    "(registry names such as patterns also work)")
+    ap.add_argument("--macro", help="with --field mod_details: the macrocategory, e.g. shoes, bags")
     args = ap.parse_args()
 
     from inflowe_taxonomy import ConfigurationLoader
     vocab = Vocabulary(args.client, ConfigurationLoader(args.data))
+    detail_field = args.field
+    if detail_field:  # accept registry attribute names too (patterns -> pattern)
+        spec = vocab.loader.attribute_spec(detail_field)
+        if isinstance(spec.get("import_field"), str):
+            detail_field = spec["import_field"]
+    details: list[str] = []
     vlm, unmapped, generated = collect_vlm(args.configs)
 
     decisions: dict[str, dict] = {}
@@ -158,6 +167,17 @@ def main() -> int:
         if todo:
             decisions[label] = todo
         app_only = sorted(app - set(values))
+        if detail_field == field and (field != "mod_details" or args.macro in (None, macro)):
+            details.append(f"\n── {label}: {len(values) - len(todo)} match, {len(todo)} to decide, "
+                           f"{len(app_only)} app-only ──")
+            for value, d in todo.items():
+                hint = f"-> '{d['app_now']}'" if d["app_now"] else (
+                    f"maybe: {', '.join(d['maybe'])}" if d.get("maybe") else "")
+                details.append(f"  VLM only  {value:22} {hint:32} {d['note']}  [{', '.join(d['vlm_attributes'])}]")
+            for value in app_only:
+                details.append(f"  APP only  {value}")
+            if not todo and not app_only:
+                details.append("  fully aligned")
         report.append(f"| {label} | {len(values)} | {len(values) - len(todo)} | {len(todo)} | {len(app_only)} |")
     report.append("")
 
@@ -214,6 +234,10 @@ def main() -> int:
         f.write(header)
         yaml.safe_dump({"decisions": decisions}, f, allow_unicode=True, sort_keys=False, width=120)
     print(f"{n} values to decide -> {target}\nreport -> {args.out / 'report.md'}")
+    if detail_field:
+        print("\n".join(details) if details else f"\nNo row for field '{args.field}'"
+              + (f" / macro '{args.macro}'" if args.macro else ""))
+        return 0
     for line in report:
         if line.startswith(("|", "-")):
             print(line)

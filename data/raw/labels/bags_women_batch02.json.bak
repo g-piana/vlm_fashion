@@ -81,7 +81,7 @@
         "top-handle"
       ],
       "closure": [
-        "turn-lock"
+        "turn-lock-closure"
       ],
       "hardware_color": "gold",
       "bag_size": "small",
@@ -297,7 +297,7 @@
         "top-handle"
       ],
       "closure": [
-        "turn-lock"
+        "turn-lock-closure"
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
@@ -399,7 +399,7 @@
         "shoulder-strap"
       ],
       "closure": [
-        "zip"
+        "zip-closure"
       ],
       "hardware_color": "gold",
       "bag_size": "small",
@@ -429,7 +429,7 @@
         "shoulder-strap"
       ],
       "closure": [
-        "zip"
+        "zip-closure"
       ],
       "hardware_color": "gold",
       "bag_size": "medium",

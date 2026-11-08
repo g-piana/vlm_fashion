@@ -30,7 +30,7 @@ attributes:
         goat, lambskin, leather, lizard, nappa, ostrich, pigskin, pony-hair,
         shearling, python, suede, astrakhan, chinchilla, faux-fur, fox, kangaroo,
         lapin, lynx, mink, sable, metal, resin, bamboo, cork, jute, raffia,
-        rubber, straw, wood, feathers]
+        rubber, straw, wood]
 
 
   secondary_materials:
@@ -49,11 +49,10 @@ attributes:
 
   pattern:
     type: enum
-    values: [botanical-pattern, camouflage, checks, cheetah, chevron, cow, diamond,
+    values: [botanical-pattern, camouflage, checks, chevron, cow, diamond,
        floral-pattern, gingham, giraffe, graphic-pattern, herringbone,
-       pied-de-poule, leaf-pattern, leopard, marble, optical-pattern,
-       paisley-pattern, pinstripe, polka-dot, python, snake, splatter-pattern,
-       stripes, tartan, tiger, zebra, zigzag]
+       houndstooth, leopard, marble, monogram, optical-pattern,
+       paisley-pattern, pinstripe, polka-dot, snake, stripes, tartan, tiger, zebra, zigzag]
 
   # style_tags:
   #   type: list

@@ -1,0 +1,19 @@
+# consolidation/bags_moddetails.yaml
+decisions:
+  mod_details[bags]:
+    zip:
+      standard: zip-closure
+      app_now: zip-closure
+      vlm_attributes: [closure]
+    toggle:
+      standard: toggle-closure
+      app_now: toggle-closure
+      vlm_attributes: [closure]
+    turn-lock:
+      standard: turn-lock-closure
+      app_now: turn-lock-closure
+      vlm_attributes: [closure]
+    clasp:
+      standard: button-closure
+      app_now: button-closure
+      vlm_attributes: [closure]

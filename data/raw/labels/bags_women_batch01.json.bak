@@ -24,7 +24,7 @@
         "shoulder-strap"
       ],
       "closure": [
-        "turn-lock"
+        "turn-lock-closure"
       ],
       "hardware_color": "silver",
       "bag_size": "medium",
@@ -314,7 +314,7 @@
       "pattern": "chevron",
       "handle_type": [],
       "closure": [
-        "zip"
+        "zip-closure"
       ],
       "hardware_color": "gold",
       "bag_size": "small",
@@ -348,7 +348,7 @@
         "wrist-strap"
       ],
       "closure": [
-        "zip"
+        "zip-closure"
       ],
       "hardware_color": "gold",
       "bag_size": "small",
@@ -675,7 +675,7 @@
       ],
       "hardware_color": "gold",
       "closure": [
-        "zip"
+        "zip-closure"
       ],
       "handle_type": [
         "shoulder-strap"
@@ -707,7 +707,7 @@
         "top-handle"
       ],
       "closure": [
-        "zip"
+        "zip-closure"
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
@@ -795,7 +795,7 @@
         "top-handle"
       ],
       "closure": [
-        "turn-lock"
+        "turn-lock-closure"
       ],
       "hardware_color": "silver",
       "bag_size": "medium",
@@ -847,7 +847,7 @@
         "top-handle"
       ],
       "closure": [
-        "turn-lock"
+        "turn-lock-closure"
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
@@ -918,7 +918,7 @@
         "top-handle"
       ],
       "closure": [
-        "zip"
+        "zip-closure"
       ],
       "hardware_color": "silver",
       "bag_size": "medium",

@@ -1,0 +1,4 @@
+# consolidation/patterns.yaml
+decisions:
+  pattern:
+    pied-de-poule: {standard: houndstooth, app_now: houndstooth, vlm_attributes: [pattern]}

@@ -2,26 +2,44 @@
 
 model_details:
   type: list
-  values: [ quilted, belt-loops, metal-feet, zip-pocket, open-pocket ]
+  values: [padded, perforated, pleated, quilted, ruched, structured,
+          belt-loops, metal-feet, external-pocket, woven]
+  app: {field: mod_details}
 
 finishing:
   type: list
-  values: [canvas, jacquard, patent, saffiano, grained, embossed, croc-effect, python-effect, printed, metallic, satin, velvet, denim, woven-leather]
+  values: [canvas, jacquard, patent, saffiano, grained, embossed,
+           croc-effect, python-effect, printed, metallic, satin,
+           velvet, denim, woven-leather]
+  app: {field: finishing}
 
 handle_type:
   type: list
   values: [top-handle, shoulder-strap, chain-strap, wrist-strap, cut-out-handle]
+  app: {field: mod_details}
 
 closure:
   type: list
-  values: [zip, front-flap, drawstring, clasp, magnetic-snap, turn-lock,
-           frame, open-top, buckle, toggle, hook-closure, kiss-lock-closure, 
+  values: [zip-closure, front-flap, drawstring, button-closure, turn-lock-closure,
+           open-top,  toggle-closure, hook-closure, kiss-lock-closure, 
            lock-closure, piston-closure,button-closure]
+  app: {field: mod_details}
 
 hardware_color:
   type: enum
-  values: [gold, silver, gunmetal, rose-gold, antique-brass, black]
+  values: [gold, silver, gunmetal, rose-gold, antique-brass, black, none]
+  app:
+    field: mod_details
+    rename:
+      gold: gold-hardware
+      silver: silver-hardware
+      gunmetal: gunmetal-hardware
+      rose-gold: rose-gold-hardware
+      antique-brass: antique-brass-hardware
+      black: black-hardware
+    skip: [none]
 
 bag_size:
   type: enum
   values: [micro, mini, small, medium, large, oversized]
+  app: {field: null}

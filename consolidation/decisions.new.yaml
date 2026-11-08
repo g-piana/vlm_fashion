@@ -1,0 +1,787 @@
+# Set `standard` for each entry (see reconcile_taxonomy.py docstring).
+# Remove `note` freely; keep `app_now` and `vlm_attributes`.
+client: base
+fingerprint: 2fb9b7ed1bbc
+decisions:
+  mod_details[accessories]:
+    antique-brass:
+      standard: antique-brass-hardware
+      app_now: null
+      vlm_attributes:
+      - hardware_color
+      note: 'naming rule: app should get ''antique-brass-hardware'''
+    black:
+      standard: black-hardware
+      app_now: null
+      vlm_attributes:
+      - hardware_color
+      note: 'naming rule: app should get ''black-hardware'''
+    gold:
+      standard: gold-hardware
+      app_now: null
+      vlm_attributes:
+      - hardware_color
+      note: 'naming rule: app should get ''gold-hardware'''
+    gunmetal:
+      standard: gunmetal-hardware
+      app_now: null
+      vlm_attributes:
+      - hardware_color
+      note: 'naming rule: app should get ''gunmetal-hardware'''
+    rose-gold:
+      standard: rose-gold-hardware
+      app_now: null
+      vlm_attributes:
+      - hardware_color
+      note: 'naming rule: app should get ''rose-gold-hardware'''
+    silver:
+      standard: silver-hardware
+      app_now: null
+      vlm_attributes:
+      - hardware_color
+      note: 'naming rule: app should get ''silver-hardware'''
+  mod_details[bags]:
+    antique-brass:
+      standard: antique-brass-hardware
+      app_now: antique-brass-hardware
+      vlm_attributes:
+      - hardware_color
+      note: naming rule
+    black:
+      standard: black-hardware
+      app_now: black-hardware
+      vlm_attributes:
+      - hardware_color
+      note: naming rule
+    gold:
+      standard: gold-hardware
+      app_now: gold-hardware
+      vlm_attributes:
+      - hardware_color
+      note: naming rule
+    gunmetal:
+      standard: gunmetal-hardware
+      app_now: gunmetal-hardware
+      vlm_attributes:
+      - hardware_color
+      note: naming rule
+    rose-gold:
+      standard: rose-gold-hardware
+      app_now: rose-gold-hardware
+      vlm_attributes:
+      - hardware_color
+      note: naming rule
+    silver:
+      standard: silver-hardware
+      app_now: silver-hardware
+      vlm_attributes:
+      - hardware_color
+      note: naming rule
+  mod_details[luggage]:
+    black:
+      standard: black-hardware
+      app_now: null
+      vlm_attributes:
+      - hardware_color
+      note: 'naming rule: app should get ''black-hardware'''
+    gold:
+      standard: gold-hardware
+      app_now: null
+      vlm_attributes:
+      - hardware_color
+      note: 'naming rule: app should get ''gold-hardware'''
+    gunmetal:
+      standard: gunmetal-hardware
+      app_now: null
+      vlm_attributes:
+      - hardware_color
+      note: 'naming rule: app should get ''gunmetal-hardware'''
+    silver:
+      standard: silver-hardware
+      app_now: null
+      vlm_attributes:
+      - hardware_color
+      note: 'naming rule: app should get ''silver-hardware'''
+  mod_details[ready-to-wear]:
+    A-line:
+      standard: a-line
+      app_now: a-line
+      vlm_attributes:
+      - model_details
+      note: same value, different spelling
+  subcategory[bags_women]:
+    handbags-women/box bag:
+      standard: box bag
+      app_now: null
+      vlm_attributes:
+      - subcategory
+      note: not in the app
+    handbags-women/duffle bag:
+      standard: duffle bag
+      app_now: null
+      vlm_attributes:
+      - subcategory
+      note: not in the app
+    clutches-women/minaudière:
+      standard: minaudière
+      app_now: minaudiére
+      vlm_attributes:
+      - subcategory
+      note: app has 'minaudiére' (slug 'minaudiere')
+    backpacks-women/sling bag:
+      standard: sling bag
+      app_now: null
+      vlm_attributes:
+      - subcategory
+      note: not in the app
+  subcategory[look]:
+    outerwear-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    coats-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    denim-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    jackets-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    knitwear-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    military-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    pants-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    shorts-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    shirts-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    suits-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    beachwear-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    underwear-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    activewear-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    messengers-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    handbags-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    clutches-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    shoulder-bags-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    totes-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    backpacks-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    belt-bags-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    flat-shoes-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    sandals-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    boots-and-booties-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    sneakers-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    briefcases-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    suitcases-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    cosmetic-cases-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    trunks-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    duffles-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    wheel-luggage-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    hardside-luggage-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    softside-luggage-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    golf-bags-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    tennis-bags-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    hat-boxes-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    ties-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    scarves-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    belts-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    gloves-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    hats-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    sunglasses-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    eyeglasses-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    goggles-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    bracelets-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    earrings-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    necklaces-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    rings-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    watches-men:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    outerwear-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    coats-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    denim-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    dresses-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    jackets-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    knitwear-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    military-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    pants-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    shorts-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    shirts-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    skirts-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    suits-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    beachwear-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    lingerie-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    activewear-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    handbags-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    clutches-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    shoulder-bags-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    backpacks-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    messengers-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    totes-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    waist-bags-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    flat-shoes-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    heeled-shoes-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    sandals-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    boots-and-booties-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    sneakers-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    briefcases-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    suitcases-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    cosmetic-cases-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    trunks-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    duffles-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    wheel-luggage-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    hardside-luggage-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    softside-luggage-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    golf-bags-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    tennis-bags-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    hat-boxes-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    ties-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    scarves-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    belts-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    gloves-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    hats-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    sunglasses-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    eyeglasses-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    goggles-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    bracelets-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    earrings-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    necklaces-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    rings-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+    watches-women:
+      standard: null
+      app_now: null
+      vlm_attributes:
+      - category
+      note: category not in app for None/None
+  subcategory[shoes_men]:
+    flat-shoes-men/flat mule:
+      standard: flat mule
+      app_now: null
+      vlm_attributes:
+      - subcategory
+      note: not in the app
+    sandals-men/flat sandal:
+      standard: flat sandal
+      app_now: null
+      vlm_attributes:
+      - subcategory
+      note: not in the app
+    sandals-men/heeled sandal:
+      standard: heeled sandal
+      app_now: null
+      vlm_attributes:
+      - subcategory
+      note: not in the app
+  subcategory[shoes_women]:
+    flat-shoes-women/flat lace up:
+      standard: flat lace up
+      app_now: null
+      vlm_attributes:
+      - subcategory
+      note: not in the app
+    flat-shoes-women/flat mule:
+      standard: flat mule
+      app_now: null
+      vlm_attributes:
+      - subcategory
+      note: not in the app
+    heeled-shoes-women/heeled lace up:
+      standard: heeled lace up
+      app_now: null
+      vlm_attributes:
+      - subcategory
+      note: not in the app
+    heeled-shoes-women/heeled mule:
+      standard: heeled mule
+      app_now: null
+      vlm_attributes:
+      - subcategory
+      note: not in the app
+    sandals-women/flat sandal:
+      standard: flat sandal
+      app_now: null
+      vlm_attributes:
+      - subcategory
+      note: not in the app
+    sandals-women/heeled sandal:
+      standard: heeled sandal
+      app_now: null
+      vlm_attributes:
+      - subcategory
+      note: not in the app

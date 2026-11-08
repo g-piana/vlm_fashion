@@ -3,28 +3,35 @@
 model_details:
   type: list
   values: [ankle-strap, ankle-wrap, cross-over, t-bar]
+  app: {field: mod_details}
 
 finishing:
   type: list
   values: [patent, grained, metallic, satin, velvet, canvas, jacquard, knit, croc-effect, python-effect, tweed, denim, lace]
+  app: {field: finishing}
 
 toe_shape:
   type: enum
   values: [round-toe, square-toe, pointed-toe, peep-toe, brogue, wing-tip]
+  app: {field: mod_details}
 
 heel_type:
   type: enum
   values: [block-heel, comma-heel, cone-heel, kitten-heel, stiletto-heel, wedge-heel]
+  app: {field: mod_details}
 
 heel_height:
   type: enum
   values: [flat-heel, low-heel, mid-heel, high-heel]
+  app: {field: mod_details}
 
 sole_type:
   type: enum
   values: [flatform, lug-sole, platform, slouch]
+  app: {field: mod_details}
 
 closure:
   type: enum
   values: [slip-on, lace-up, buckle, zip-up]
+  app: {field: mod_details}
 

@@ -287,7 +287,7 @@
       "toe_shape": "pointed-toe",
       "heel_type": "kitten-heel",
       "heel_height": "low-heel",
-      "closure": "zip",
+      "closure": "zip-closure",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
@@ -711,7 +711,7 @@
       "finishing": [
         "python-effect"
       ],
-      "toe_shape": "plain-toe",
+      "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
       "sole_type": null,
@@ -729,7 +729,7 @@
       "primary_color": "blue",
       "material": "leather",
       "embellishments": [],
-      "toe_shape": "plain-toe",
+      "toe_shape": null,
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,
@@ -764,7 +764,7 @@
       "finishing": [
         "metallic"
       ],
-      "toe_shape": "plain-toe",
+      "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": null,
@@ -1304,7 +1304,7 @@
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
-      "closure": "zip",
+      "closure": "zip-closure",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
