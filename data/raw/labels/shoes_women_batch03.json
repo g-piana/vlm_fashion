@@ -311,7 +311,7 @@
       ],
       "toe_shape": "pointed-toe",
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "closure": "slip-on",
       "finishing": [
         "patent"
@@ -951,9 +951,7 @@
       "embellishments": [],
       "pattern": null,
       "model_details": [],
-      "finishing": [
-        "satin"
-      ],
+      "finishing": [],
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",

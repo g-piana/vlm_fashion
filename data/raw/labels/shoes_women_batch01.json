@@ -105,8 +105,8 @@
     "image_type": "product",
     "description": "A sleek, olive-green kitten-heel mule sandal with a low kitten heel and a minimalist slip-on silhouette. The upper is crafted from smooth leather with a decorative flap closure featuring two metallic circular embellishments. The design combines clean lines with subtle hardware accents for a modern, chic aesthetic.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "olive",
       "material": "leather",
       "embellishments": [],
@@ -135,7 +135,7 @@
       "embellishments": [],
       "toe_shape": null,
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
@@ -197,10 +197,10 @@
     "image": "A8W1043-1536BAK.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A black suede mule featuring a slender kitten heel and a single strap across the vamp adorned with a cluster of sparkling crystal and iridescent embellishments. The silhouette is minimalist with open back, designed for a sleek, evening-ready profile.",
+    "description": "A black suede mule sandal featuring a slender kitten heel and a single strap across the vamp adorned with a cluster of sparkling crystal and iridescent embellishments. The silhouette is minimalist with open back, designed for a sleek, evening-ready profile.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "black",
       "material": "suede",
       "embellishments": [
@@ -208,7 +208,7 @@
       ],
       "toe_shape": null,
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -282,7 +282,7 @@
       "pattern": null,
       "toe_shape": null,
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "zip-up",
       "model_details": [],
@@ -328,7 +328,7 @@
       "material": "leather",
       "closure": "zip-up",
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "toe_shape": "pointed-toe",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -475,10 +475,10 @@
     "image": "A9S1059-1650COK.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, modern mule featuring a peep-toe silhouette with a contrasting navy blue stiletto heel and matching insole. Constructed from a textured navy fabric with visible hand-stitched detailing along the vamp, the shoe combines minimalist design with a bold heel accent. The open-back mule style offers a streamlined, elegant profile.",
+    "description": "A sleek, modern mule sandal featuring a peep-toe silhouette with a contrasting navy blue stiletto heel and matching insole. Constructed from a textured navy fabric with visible hand-stitched detailing along the vamp, the shoe combines minimalist design with a bold heel accent. The open-back mule style offers a streamlined, elegant profile.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "blue",
       "material": "faux-leather",
       "secondary_materials": [],
@@ -498,10 +498,10 @@
     "image": "A9S1059-1658WBK.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A minimalist white mule featuring a sleek, open-toe silhouette with a slender, metallic stiletto heel and contrasting black sole. The upper is crafted from smooth leather with decorative perforated stitching along the vamp, emphasizing clean lines and modern tailoring. The design combines a peep-toe cut with a slip-on construction for a chic, effortless look.",
+    "description": "A minimalist white mule sandal featuring a sleek, open-toe silhouette with a slender, metallic stiletto heel and contrasting black sole. The upper is crafted from smooth leather with decorative perforated stitching along the vamp, emphasizing clean lines and modern tailoring. The design combines a peep-toe cut with a slip-on construction for a chic, effortless look.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "white",
       "material": "leather",
       "secondary_colors": [],
@@ -965,15 +965,15 @@
     "image": "B5S1096.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A single brown suede mule featuring a slender kitten heel and an open-toe design with a mule-style slip-on construction. The shoe has a minimalist silhouette with clean stitching and a smooth, matte suede finish. The heel is tapered and low-profile, contributing to a refined, elegant profile.",
+    "description": "A single brown suede mule sandal featuring a slender kitten heel and an open-toe design with a mule-style slip-on construction. The shoe has a minimalist silhouette with clean stitching and a smooth, matte suede finish. The heel is tapered and low-profile, contributing to a refined, elegant profile.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "brown",
       "material": "suede",
       "closure": "slip-on",
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "toe_shape": null,
       "secondary_colors": [],
       "secondary_materials": [],
@@ -1020,7 +1020,7 @@
     "description": "A women's mule-style sandal featuring a peep-toe silhouette with a decorative floral embellishment at the vamp. The upper is crafted from orange-toned leather with a contrasting white lace overlay, secured by a buckle-fastened ankle strap. The shoe is elevated by a slender kitten heel and features a light tan insole.",
     "tags": {
       "category": "sandals-women",
-      "subcategory": "heeled sandal",
+      "subcategory": "mule sandal",
       "primary_color": "orange",
       "material": "leather",
       "embellishments": [
@@ -1029,7 +1029,7 @@
       ],
       "toe_shape": null,
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],
@@ -1038,9 +1038,7 @@
       "model_details": [
         "ankle-strap"
       ],
-      "finishing": [
-        "lace"
-      ]
+      "finishing": []
     }
   },
   {
@@ -1049,8 +1047,8 @@
     "image_type": "product",
     "description": "Open-toe heeled shoe with low block heel and backless mule silhouette in navy blue. Features a wide upper band across the vamp. Embellished with a cluster of blue, green, and clear crystals arranged in a decorative pattern at the center front. Metallic silver-toned heel in a geometric block shape.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "blue",
       "material": "suede",
       "embellishments": [
@@ -1059,7 +1057,7 @@
       ],
       "toe_shape": null,
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
@@ -1077,8 +1075,8 @@
     "image_type": "product",
     "description": "A women's high-heeled mule featuring a peep-toe silhouette with a thin stiletto heel and a decorative lace overlay in a contrasting beige tone. The upper is constructed with black leather straps and a gold-tone buckle closure over the instep. The design combines structured heel and vamp with delicate lace detailing for a sophisticated, evening-appropriate look.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "heeled sandal",
       "primary_color": "black",
       "secondary_colors": [
         "beige"
@@ -1093,12 +1091,10 @@
       "toe_shape": "peep-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
-      "sole_type": null,
+      "sole_type": "platform",
       "closure": "slip-on",
       "model_details": [],
-      "finishing": [
-        "lace"
-      ]
+      "finishing": []
     }
   },
   {
@@ -1377,7 +1373,7 @@
       "embellishments": [],
       "toe_shape": "pointed-toe",
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
@@ -3195,15 +3191,15 @@
     "image": "B6S1187-0615404.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A tan leather mule featuring a block heel and distinctive square-cut perforations along the vamp and heel counter. The silhouette is defined by a peep-toe opening and a slip-on construction, with a smooth, polished leather finish and a structured, mid-height heel.",
+    "description": "A tan leather mule sandal featuring a block heel and distinctive square-cut perforations along the vamp and heel counter. The silhouette is defined by a peep-toe opening and a slip-on construction, with a smooth, polished leather finish and a structured, mid-height heel.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "tan",
       "material": "leather",
       "closure": "slip-on",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "high-heel",
       "toe_shape": "peep-toe",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -3403,7 +3399,7 @@
       "material": "leather",
       "closure": "buckle",
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "toe_shape": "pointed-toe",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -3608,10 +3604,10 @@
     "image": "B6W1132-0163999.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A black satin mule featuring a decorative block heel adorned with pearls and silver-toned crystals. The slip-on silhouette has a square toe and a smooth, satiny upper. The heel is embellished with a vertical arrangement of varying-sized pearls and faceted crystals, creating a glamorous, statement-making detail.",
+    "description": "A black satin mule sandal featuring a decorative block heel adorned with pearls and silver-toned crystals. The slip-on silhouette has a square toe and a smooth, satiny upper. The heel is embellished with a vertical arrangement of varying-sized pearls and faceted crystals, creating a glamorous, statement-making detail.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "black",
       "material": "silk",
       "embellishments": [
@@ -3620,7 +3616,7 @@
       ],
       "toe_shape": "square-toe",
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
@@ -3678,7 +3674,7 @@
       "pattern": null,
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "buckle",
       "model_details": [],
@@ -3954,16 +3950,18 @@
     "image": "B7S1109.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A women's heeled mule featuring a bold terracotta leather upper with a peep-toe cutout and five metallic rectangular studs along the vamp. The shoe is constructed with a thick, sculpted wooden block heel and matching platform sole, creating a statement silhouette. The material contrast between the warm leather and light-toned wood, accented by hardware, defines its distinctive design.",
+    "description": "A women's heeled mule sandal featuring a bold terracotta leather upper with a peep-toe cutout and five metallic rectangular studs along the vamp. The shoe is constructed with a thick, sculpted wooden block heel and matching platform sole, creating a statement silhouette. The material contrast between the warm leather and light-toned wood, accented by hardware, defines its distinctive design.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "rust",
       "material": "leather",
       "secondary_materials": [
         "wood"
       ],
-      "embellishments": [],
+      "embellishments": [
+        "stud"
+      ],
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
@@ -3981,11 +3979,13 @@
     "image_type": "product",
     "description": "A single mustard-yellow patent leather mule featuring a distinctive cork block heel and matching cork platform sole. The slip-on silhouette is defined by an open back and a peep-toe cutout, with a glossy finish on the upper. The construction highlights the natural texture of the cork material on the heel and platform, contrasting with the smooth, shiny leather.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "yellow",
       "material": "leather",
-      "secondary_materials": [],
+      "secondary_materials": [
+        "cork"
+      ],
       "closure": "slip-on",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
@@ -4037,8 +4037,8 @@
     "image_type": "product",
     "description": "A heeled mule with a peep-toe and an open back, in burgundy suede. The upper is heavily ruched across the vamp, creating a draped, sculptural effect, and sits on a curved mid-height heel.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "burgundy",
       "material": "suede",
       "toe_shape": "peep-toe",
@@ -4110,8 +4110,8 @@
     "image_type": "product",
     "description": "A sleek black suede mule featuring a bold, metallic gold block heel and a contrasting tan leather strap with a silver-toned buckle closure. The shoe has a peep-toe silhouette and a minimalist, modern aesthetic with a smooth, polished sole.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "black",
       "material": "suede",
       "secondary_materials": [],
@@ -4121,12 +4121,15 @@
       "pattern": null,
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "high-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "model_details": [],
-      "finishing": []
+      "finishing": [
+        "metallic",
+        "velvet"
+      ]
     }
   },
   {
@@ -4218,7 +4221,7 @@
       "pattern": null,
       "toe_shape": "pointed-toe",
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "buckle",
       "model_details": [],
@@ -4652,14 +4655,14 @@
     "image_type": "product",
     "description": "A teal satin heeled-shoe mule featuring a wide, draped vamp adorned with a circular crystal-encrusted buckle. The shoe has a thick block heel and matching platform sole, creating a bold silhouette with a peep-toe opening. The satin material has a subtle sheen, and the embellished buckle serves as the primary decorative focal point.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "teal",
       "material": "silk",
       "embellishments": [],
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "high-heel",
       "sole_type": "platform",
       "closure": "slip-on",
       "secondary_colors": [],
@@ -4675,7 +4678,7 @@
     "image": "B7W3010-00131KA.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A minimalist women's mule featuring a sleek, pointed-toe silhouette in a matte charcoal grey finish. Constructed with a smooth, satin-like material and a distinctive spherical, pearl-like heel that replaces a traditional heel structure. The shoe has a slip-on design with a low, sculpted platform sole and a contrasting pinkish inner lining.",
+    "description": "A minimalist women's mule featuring a sleek, pointed-toe silhouette in a matte charcoal grey finish. Constructed witha sculptural spherical pearl-effect heel that replaces a traditional heel structure. The shoe has a slip-on design with a low, sculpted platform sole and a contrasting pinkish inner lining.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "heeled mule",
@@ -4686,14 +4689,12 @@
       "pattern": null,
       "toe_shape": "pointed-toe",
       "heel_type": null,
-      "heel_height": "low-heel",
-      "sole_type": "platform",
+      "heel_height": "mid-heel",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "model_details": [],
-      "finishing": [
-        "patent"
-      ]
+      "finishing": []
     }
   },
   {
@@ -5041,8 +5042,8 @@
     "image_type": "product",
     "description": "A sleek, modern mule featuring a minimalist silhouette with a peep-toe design and a bold, angular block heel. The upper is crafted from smooth black leather, accented by a striking metallic silver panel on the heel counter. The construction includes a flat sole and a slip-on closure, emphasizing clean lines and contemporary styling.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "heeled sandal",
       "primary_color": "black",
       "material": "leather",
       "secondary_materials": [],
@@ -5050,12 +5051,14 @@
       "pattern": null,
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "high-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "model_details": [],
-      "finishing": []
+      "finishing": [
+        "metallic"
+      ]
     }
   },
   {
@@ -5064,8 +5067,8 @@
     "image_type": "product",
     "description": "A black mule-style pump featuring a substantial block heel and a decorative circular pearl embellishment at the vamp. The upper is crafted from smooth leather with a peep-toe opening and a ruched detail beneath the pearl accent. The silhouette is modern and structured, designed for a confident, elevated look.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled mule",
+      "category": "sandals-women",
+      "subcategory": "heeled sandal",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
@@ -5073,7 +5076,7 @@
       ],
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "high-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
@@ -5416,7 +5419,7 @@
       "pattern": null,
       "toe_shape": "peep-toe",
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "buckle",
       "model_details": [],
@@ -5538,7 +5541,7 @@
       ],
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
@@ -5585,7 +5588,7 @@
       "material": "leather",
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
@@ -5642,7 +5645,7 @@
       "pattern": null,
       "toe_shape": null,
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "buckle",
       "model_details": [],
@@ -5741,7 +5744,7 @@
       ],
       "toe_shape": "pointed-toe",
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
@@ -6296,7 +6299,7 @@
       ],
       "toe_shape": null,
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],
@@ -6349,7 +6352,7 @@
       "pattern": null,
       "toe_shape": null,
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "slip-on",
       "model_details": [
