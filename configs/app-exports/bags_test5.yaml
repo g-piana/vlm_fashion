@@ -1,0 +1,7 @@
+# App-import metadata for the 5-bag test (configs/app_export/bags_test5.yaml)
+defaults:
+  brand: Gucci
+  gender: women          # cross-check only: must match the category config (bags_women)
+  macrocategory: bags    # cross-check only
+  published: false       # check in the app first, then publish
+# per_image_csv: bags_test5.csv   # later: key column `slug` (or `image`) + year, season, people, ...

@@ -9,7 +9,6 @@ taxonomy:
   flat-shoes-men:
   - boat shoe
   - derby
-  - desert
   - driving shoe
   - lace up
   - loafer
@@ -28,6 +27,7 @@ taxonomy:
   boots-and-booties-men:
   - ankle boot
   - boot
+  - desert
   - lace up boot
   - shoe boot
   - snow boot

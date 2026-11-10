@@ -525,7 +525,7 @@
       ],
       "toe_shape": "round-toe",
       "heel_type": null,
-      "heel_height": "flat-heel",
+      "heel_height": "mid-heel",
       "sole_type": "platform",
       "closure": "lace-up",
       "secondary_colors": []
@@ -548,7 +548,7 @@
       "finishing": [],
       "toe_shape": "round-toe",
       "heel_type": null,
-      "heel_height": "flat-heel",
+      "heel_height": "mid-heel",
       "sole_type": "platform",
       "closure": "lace-up",
       "secondary_colors": []
@@ -567,7 +567,7 @@
       "closure": "lace-up",
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "secondary_colors": [],
       "secondary_materials": [],
@@ -605,7 +605,7 @@
       ],
       "toe_shape": null,
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "lace-up"
     }
@@ -623,7 +623,7 @@
       "closure": "lace-up",
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "embellishments": [],
       "pattern": null,
@@ -657,7 +657,7 @@
       "finishing": [
         "metallic"
       ],
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "platform",
@@ -686,7 +686,7 @@
         "cap-toe"
       ],
       "finishing": [],
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "platform",

@@ -644,7 +644,9 @@
       "handle_type": [
         "top-handle"
       ],
-      "closure": [],
+      "closure": [
+        "zip-closure"
+      ],
       "hardware_color": "gold",
       "bag_size": "large",
       "secondary_colors": [
@@ -813,7 +815,9 @@
         "leather"
       ],
       "hardware_color": "silver",
-      "closure": [],
+      "closure": [
+        "lock-closure"
+      ],
       "handle_type": [
         "shoulder-strap"
       ],

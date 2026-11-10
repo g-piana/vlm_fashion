@@ -131,7 +131,6 @@ taxonomy:
   flat-shoes-men:
   - boat shoe
   - derby
-  - desert
   - driving shoe
   - lace up
   - loafer
@@ -150,6 +149,7 @@ taxonomy:
   boots-and-booties-men:
   - ankle boot
   - boot
+  - desert
   - lace up boot
   - shoe boot
   - snow boot
@@ -330,7 +330,6 @@ taxonomy:
   flat-shoes-women:
   - ballerina
   - boat shoe
-  - desert
   - d'orsay flat
   - flat lace up
   - flat mule
@@ -359,6 +358,7 @@ taxonomy:
   boots-and-booties-women:
   - ankle boot
   - boot
+  - desert
   - lace up boot
   - over the knee
   - snow boot

@@ -1,87 +1,167 @@
-# DRAFT: decisive visual markers per shoe subcategory (same mechanism as bags.yaml).
-# Written from general footwear knowledge, NOT from your taxonomy sheet: check every line
-# against the product owner's definitions and edit freely. Keys are subcategory names
-# exactly as in category_hierarchy.yaml. `mule` exists under flat and heeled shoes, so its
-# text covers both. Loaded for all shoe configs; names that do not exist in a config are ignored.
+# Decisive visual markers per shoe subcategory, agreed with the product owner (2026-11).
+# Keys are subcategory names exactly as in category_hierarchy.yaml; keys starting with "_"
+# are prompt blocks, not subcategories. `_decision_order_women` is printed before the
+# subcategory texts for women's configs only (category_config.py).
 # Editing this file changes the prompt: re-run prepare_dataset.py and retrain afterwards.
+#
+# Shared rules used below:
+#   FLAT SIDE   = heel_height flat-heel or low-heel (heel rises up to ~2 cm above the front of the sole)
+#   HEELED SIDE = heel_height mid-heel or high-heel, including every kitten heel
+#   Heel height is the RISE of the heel above the front of the sole: a flatform or an even
+#   platform is flat. A solid wedge is decided by the wedge rules, not by the flat/heeled pair.
 
-# ── boots and booties ──
+_decision_order_women: |-
+  Decide the subcategory by checking these questions IN ORDER; the first one that applies decides.
+  Heel rule for every flat/heeled pair: flat or low heel (rise up to about 2 cm) = the flat one;
+  mid or high heel, including any kitten heel = the heeled one.
+  1. The upper covers the ankle bone (a shaft): boots family. Open toe or open/strappy upper = sandal boot;
+     sporty rubber cupsole = high-top sneaker; soft unstructured ankle shaft with 2-3 eyelets and a crepe
+     sole = desert; heavy lugged sole with many eyelets = combat boot; padded shaft with heavy tread =
+     snow boot; pointed toe with slanted spool heel = western boot; laces as main closure = lace up boot;
+     otherwise by shaft height: ankle boot (ankle), boot (calf), over the knee (above the knee).
+  2. Sporty rubber cupsole (sneaker construction): thin white vulcanised sole and clean upper = tennis
+     shoe; otherwise low-top sneaker.
+  3. A strap passes between the first two toes: thong (any heel).
+  4. Rigid wooden or wood-effect base: clog (any heel).
+  5. Rope/jute sole visible at the side: solid wedge = wedge sandal; closed toe = espadrille; open upper =
+     flat sandal.
+  6. Backless with no heel strap: flat bands across the instep on a moulded footbed (flat side) = slider;
+     upper made of thin straps = wedge sandal on a solid wedge, else flat sandal or heeled sandal by the
+     heel rule; open toe with a shaped vamp that covers the arch = mule sandal (any heel); closed toe =
+     flat mule or heeled mule by the heel rule.
+  7. Open toe, or an upper made of straps, with a back or heel strap: solid wedge = wedge sandal;
+     otherwise flat sandal or heeled sandal by the heel rule.
+  8. Closed toe (back closed or held by a heel strap): solid wedge = wedge pump; moccasin upper with side
+     lacing around the collar = boat shoe; moccasin upper, saddle strap, horsebit or tassel = loafer /
+     loafer pump; laces over the instep = flat lace up / heeled lace up; sides cut away to the sole =
+     d'orsay flat / d'orsay pump; open back with heel strap = other flat shoes / slingback; strap across
+     the instep = other flat shoes / mary jane pump; plain low-cut heeled shoe = pump; very low-cut flat
+     with thin sole and piped or elastic edge = ballerina; other plain flat shoe put on without fastening
+     = slip on.
+
+# ── boots and booties ── (the upper covers the ankle bone)
 ankle boot: >-
-  Boot whose shaft ends at or just above the ankle bone (bootie), closed by zip, elastic or pull-on. Front lacing as the main closure makes it a lace up boot.
+  Closed boot whose shaft ends at or just above the ankle bone (bootie), closed by zip, elastic or
+  pull-on. Front lacing as the main closure makes it a lace up boot; an open toe or strappy, open upper
+  makes it a sandal boot.
 boot: >-
-  Boot with a shaft reaching mid-calf up to just below the knee. Shorter is ankle boot, above the knee is over the knee.
+  Closed boot with a shaft reaching mid-calf up to just below the knee. Shorter is ankle boot, above the
+  knee is over the knee.
 over the knee: >-
   Boot whose shaft reaches above the knee, usually fitted to the leg.
 lace up boot: >-
-  Boot of any height closed mainly by laces up the front; a lace-up bootie is a lace up boot, not an ankle boot.
-snow boot: >-
-  Boot with bulky, padded shaft, thick sole with pronounced snow tread, often fastened with laces or velcro. Bulk of the padding and heavy snow sole distinguish it from an ankle boot. 
-combat boot: >-
-  Boot with sturdy shaft at ankle/low-calf height, multiple lacing with reinforced eyelets, heavy "tank-tread" lugged sole. If it has no heavy lugged sole it is a lace up boot. 
-western boot: >-
-  Boot with mid-height shaft (ankle to calf) with a characteristically pointed toe, low slanted heel ("cowboy heel", often a spool shape), no lacing or straps.Pronounced pointed toe combined with a slanted spool heel. 
-
-# ── flat shoes ──
-ballerina: >-
-  Flat, very low-cut shoe with a thin sole, round or softly squared toe and a piped or elasticated edge, ballet-style. A strap across the instep is not a ballerina.
-boat shoe: >-
-  Flat shoe with moccasin construction (wraparound upper hand-sewn to the sole), thin leather laces running around the ankle through side eyelets, rubber sole with siped tread channels. Visible hand-stitching along the upper's edge.
-clog: >-
-  Flat shoe with rigid wood or wood-effect base, wide saddle upper covering only the front of the foot, heel almost always exposed. Clog has a rigid wooden base and a wider saddle. If it has a flexible sole and a closer-fitting it is a flat mule.
+  Boot of any height closed mainly by laces up the front; a lace-up bootie is a lace up boot, not an
+  ankle boot. A heavy lugged "tank-tread" sole makes it a combat boot; a soft ankle shaft with 2-3
+  eyelets and a crepe sole makes it a desert.
 desert: >-
-  Flat shoe with low shaft that sits just above or at the ankle (lower than a true boot), 2 lacing eyelets, natural light crepe sole stitched on visibly. Soft shaft with no rigid reinforcement. A taller/stiffer shaft or more than 2 eyelets makes it an Ankle Boot.
-d'orsay flat: >-
-  Flat closed-toe shoe with the sides cut away to expose the arch, usually with a pointed toe.
-flat lace up: >-
-  Flat shoe closed by laces over the instep (oxford, derby, brogue) with a dress or leather-sole look. A sporty rubber cupsole makes it a sneaker.
-flat mule: >-
-  Backless slip-on with a flat and flexible sole and no heel strap, closed toe. Open toe makes it a mule sandal. Wood base makes it a clog. 
-loafer: >-
-  Flat slip-on with a moccasin-style upper, no laces or buckles, often with a saddle strap, tassel or horsebit. Same style on a raised heel is a loafer pump.
-slip on: >-
-  Flat casual closed shoe put on without laces, straps or buckles, such as an espadrille, elastic-sided or canvas slip-on. Not a loafer (moccasin construction) and not a sneaker (sporty cupsole).
-espadrille: >-
-  Flat shoe with sole woven from jute/rope, visible at the side, lightweight canvas upper, often with ankle ties.  Lightweight, unstructured upper, closed at the toe. If there is a wedge it is a wedge sandal. If the upper is open without wedge it is a flat sandal. 
-other flat shoes: >-
-  Flat shoe that fits none of the other flat classes, for example a flat Mary Jane, T-bar flat or other strapped flat.
+  Ankle-high boot with a soft, unstructured suede or leather shaft, 2-3 lacing eyelets and a light
+  natural crepe sole stitched on visibly. Ankle coverage and the soft upper decide, not the sole height.
+  More eyelets or a stiff, structured shaft make it a lace up boot.
+snow boot: >-
+  Boot with a bulky, padded shaft and a thick sole with pronounced snow tread, often fastened with laces
+  or velcro. The padding and heavy tread distinguish it from an ankle boot.
+combat boot: >-
+  Sturdy boot at ankle or low-calf height with many reinforced eyelets and a heavy lugged
+  "tank-tread" sole. Without the heavy lugged sole it is a lace up boot.
+western boot: >-
+  Boot with a mid-height shaft (ankle to calf), pronounced pointed toe and a low slanted "cowboy"
+  heel, often spool-shaped; no lacing or straps.
 
-# ── heeled shoes ──
+# ── flat shoes ── (closed toe, flat side of the heel rule)
+ballerina: >-
+  Flat, very low-cut shoe with a thin sole, round or softly squared toe and a piped or elasticated
+  edge, ballet-style. A strap across the instep or ankle makes it other flat shoes.
+boat shoe: >-
+  Flat shoe with moccasin construction (wraparound upper hand-sewn to the sole, visible stitching along
+  the edge), thin leather laces running around the collar through side eyelets, rubber sole with
+  siped tread.
+clog: >-
+  Shoe on a rigid wooden or wood-effect base with a wide saddle upper over the front of the foot, heel
+  usually exposed; any heel height. A flexible sole with a closer-fitting upper is a flat mule.
+d'orsay flat: >-
+  Flat closed-toe shoe with one or both sides cut away down to the sole, exposing the arch between the
+  vamp and the heel cup; usually a pointed toe. The same shoe with a mid or high (or kitten) heel is a
+  d'orsay pump.
+flat lace up: >-
+  Flat closed shoe fastened by laces over the instep (oxford, derby, brogue) with a dress or
+  leather-sole look; the upper stays below the ankle bone. A sporty rubber cupsole makes it a sneaker.
+flat mule: >-
+  Backless shoe with no heel strap, a CLOSED toe and a flexible flat or low sole (flat side of the heel
+  rule). An open toe makes it a mule sandal; a mid, high or kitten heel a heeled mule; a rigid wooden
+  base a clog.
+loafer: >-
+  Flat slip-on with a moccasin-style upper, no laces, often with a saddle strap, tassel or horsebit.
+  Same style on a mid, high or kitten heel is a loafer pump.
+slip on: >-
+  Plain flat closed shoe put on without laces, straps or buckles: elastic-sided, canvas or knit
+  slip-on, slipper-style shoe. Not a loafer (moccasin construction), not an espadrille (rope sole),
+  not a ballerina (very low-cut, thin sole), not a sneaker (sporty cupsole).
+espadrille: >-
+  Flat closed-toe shoe on a sole of woven jute or rope visible at the side, light unstructured canvas
+  or fabric upper, often with ankle ties. On a solid wedge it is a wedge sandal; with an open upper and
+  no wedge it is a flat sandal.
+other flat shoes: >-
+  Strapped flat: closed-toe flat shoe held by a strap across the instep, around the ankle or around the
+  heel, such as a flat Mary Jane, T-bar flat or slingback flat.
+
+# ── heeled shoes ── (closed toe, heeled side of the heel rule)
 pump: >-
-  Closed-toe, closed-back heeled shoe with a low-cut vamp and no strap or laces. A strap across the instep is a mary jane pump, cut-away sides a d'orsay pump.
+  Closed-toe, closed-back heeled shoe with a low-cut vamp and no strap or laces; the upper runs
+  continuously from toe to heel on both sides. A strap across the instep is a mary jane pump, cut-away
+  sides a d'orsay pump, an open back with heel strap a slingback.
 mary jane pump: >-
   Closed-toe heeled shoe with a strap across the instep, fastened by a buckle or button.
 d'orsay pump: >-
-  Closed-toe heeled shoe with the sides cut away to expose the arch.
+  Closed-toe heeled shoe with one or both sides cut away down to the sole, leaving a visible gap
+  between the vamp and the heel cup on the side shown.
 loafer pump: >-
-  Heeled shoe with loafer features (moccasin upper, saddle strap, horsebit or tassel) on a heel.
+  Heeled shoe with loafer features (moccasin upper, saddle strap, horsebit or tassel) on a mid, high
+  or kitten heel.
 slingback: >-
-  Heeled shoe with an open back held by a strap around the heel.
+  Closed-toe heeled shoe with an open back held by a strap around the heel. Open toe with straps makes
+  it a heeled sandal.
 wedge pump: >-
   Closed-toe shoe whose heel is a solid wedge running from the heel to the front of the sole.
 heeled lace up: >-
-  Heeled shoe closed by laces over the instep. A lace-up boot is a lace up boot.
+  Closed heeled shoe fastened by laces over the instep, upper below the ankle bone. A lace-up upper
+  covering the ankle is a lace up boot.
 heeled mule: >-
-  Backless slip-on with a raised heel and no heel strap, closed toe. A heel strap makes it a slingback. Open toe makes it a mule sandal.
-# ── sandals ──
-flat sandal: >-
-  Open sandal with a flat sole, held by straps. A single wide band across the instep is a slider and a toe-post strap is a thong.
-heeled sandal: >-
-  Open sandal with a raised heel (block, stiletto, kitten) and straps over the foot. A solid wedge sole is a wedge sandal.
-wedge sandal: >-
-  Open sandal on a solid wedge heel or sole.
-thong: >-
-  Sandal held by a strap passing between the first and second toes (flip-flop or toe-post style).
-slider: >-
-  Flat open slip-on sandal with one wide band or several broad bands across the instep and no back strap.
-sandal boot: >-
-  Open-toe or strappy sandal with a shaft that covers the ankle, like a boot (gladiator or sandal-boot).
-mule sandal: >-
-  Backless slip-on with no heel strap and variable heel (from none to high). Open or exposed toe. A closed toe makes it a heeled mule if heel is high or flat mule if heel is low or flat.
+  Backless shoe with no heel strap, a CLOSED toe and a mid, high or kitten heel. A heel strap makes it a
+  slingback; an open toe makes it a mule sandal; a flat or low heel makes it a flat mule.
 
-# ── sneakers ──
+# ── sandals ── (open toe or strap upper; any heel height)
+flat sandal: >-
+  Open sandal held by straps on a flat or low heel (flat side of the heel rule), with or without a back
+  strap. A toe-post strap is a thong; flat bands on a footbed without back strap are a slider.
+heeled sandal: >-
+  Open sandal made of straps over the foot on a mid, high or kitten heel (block, stiletto, cone),
+  with or without a back strap. A solid wedge is a wedge sandal; a backless shaped vamp is a mule
+  sandal.
+wedge sandal: >-
+  Open sandal, or rope-soled shoe, on a solid wedge heel or sole.
+thong: >-
+  Sandal held by a strap passing between the first and second toes (flip-flop or toe-post style), any
+  heel.
+slider: >-
+  Flat backless sandal on a moulded footbed, held by one or more wide flat bands straight across the
+  instep; no shaped vamp and no back strap.
+sandal boot: >-
+  Open-toe or open, strappy or cut-out upper with a shaft that covers the ankle, like a boot
+  (gladiator or sandal-boot). A peep toe on an ankle-high shaft is a sandal boot; a closed toe is an
+  ankle boot.
+mule sandal: >-
+  Backless shoe with no heel strap and an OPEN toe, whose shaped vamp rises over the instep and covers
+  the arch; any heel from flat to high. Flat bands on a footbed make it a slider; thin straps a flat or
+  heeled sandal; a closed toe a flat mule or heeled mule.
+
+# ── sneakers ── (sporty rubber cupsole)
 low-top sneaker: >-
-  Low-top sporty shoe with a thick rubber cupsole, usually laced (or velcro or elastic); a laceless shoe with a sporty cupsole is still a sneaker.
+  Low-top sporty shoe with a thick rubber cupsole, usually laced (or velcro or elastic); a laceless
+  shoe with a sporty cupsole is still a sneaker. A thin vulcanised sole and clean minimal upper make
+  it a tennis shoe.
 high-top sneaker: >-
-  Sneaker whose upper covers the ankle bone. A dress boot with laces is a lace up boot. If the shaft is below the ankle bone it is a low-top sneaker or a tennis shoe.
+  Sneaker whose upper covers the ankle bone. A dress boot with laces is a lace up boot.
 tennis shoe: >-
-  Sporty shoe with clean, low profile, smooth leather or canvas upper with minimal perforations, thin white vulcanised rubber sole and classic look. If it has a chunky sole, technical mesh or running construction it a low-top sneaker.
+  Sporty shoe with a clean, low profile, smooth leather or canvas upper with minimal perforations and
+  a thin white vulcanised rubber sole, classic look. A chunky sole, technical mesh or running
+  construction makes it a low-top sneaker.

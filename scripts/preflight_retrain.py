@@ -69,7 +69,7 @@ def check_guidelines(names: list[str]) -> None:
         if m:
             by_macro.setdefault(m, set()).update(s for subs in cfg["taxonomy"].values() for s in subs)
     for macro, subs in by_macro.items():
-        g = set(load_guidelines(macro))
+        g = {k for k in load_guidelines(macro) if not str(k).startswith("_")}  # _blocks are prompt text
         if g - subs:
             blockers.append(f"guidelines/{macro}.yaml keys not in taxonomy (dropped from prompt): {sorted(g - subs)}")
         if g and subs - g:

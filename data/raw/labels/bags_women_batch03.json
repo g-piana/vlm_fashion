@@ -175,7 +175,9 @@
         "top-handle",
         "shoulder-strap"
       ],
-      "closure": [],
+      "closure": [
+        "front-flap"
+      ],
       "hardware_color": "silver",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -1737,7 +1739,9 @@
         "top-handle",
         "shoulder-strap"
       ],
-      "closure": [],
+      "closure": [
+        "front-flap"
+      ],
       "hardware_color": "antique-brass",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -1763,7 +1767,9 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "closure": [],
+      "closure": [
+        "front-flap"
+      ],
       "hardware_color": "antique-brass",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -1844,7 +1850,9 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "closure": [],
+      "closure": [
+        "front-flap"
+      ],
       "hardware_color": "gold",
       "bag_size": "large",
       "secondary_colors": [],
@@ -2505,7 +2513,9 @@
         "top-handle",
         "shoulder-strap"
       ],
-      "closure": [],
+      "closure": [
+        "zip-closure"
+      ],
       "hardware_color": "gold",
       "bag_size": "large",
       "model_details": []
@@ -2945,7 +2955,9 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "closure": [],
+      "closure": [
+        "front-flap"
+      ],
       "hardware_color": "silver",
       "finishing": [],
       "bag_size": "medium",
@@ -2999,7 +3011,9 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "closure": [],
+      "closure": [
+        "front-flap"
+      ],
       "hardware_color": "silver",
       "finishing": [],
       "secondary_colors": [],
@@ -3632,7 +3646,9 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "closure": [],
+      "closure": [
+        "front-flap"
+      ],
       "hardware_color": "silver",
       "bag_size": "small",
       "secondary_colors": [],
@@ -3829,7 +3845,9 @@
       "handle_type": [
         "top-handle"
       ],
-      "closure": [],
+      "closure": [
+        "front-flap"
+      ],
       "hardware_color": "silver",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -3884,7 +3902,9 @@
       "handle_type": [
         "shoulder-strap"
       ],
-      "closure": [],
+      "closure": [
+        "front-flap"
+      ],
       "hardware_color": "gold",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -3911,7 +3931,9 @@
         "top-handle",
         "shoulder-strap"
       ],
-      "closure": [],
+      "closure": [
+        "front-flap"
+      ],
       "hardware_color": "gold",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -3962,7 +3984,9 @@
       "handle_type": [
         "top-handle"
       ],
-      "closure": [],
+      "closure": [
+        "front-flap"
+      ],
       "hardware_color": "silver",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -3990,7 +4014,9 @@
         "top-handle",
         "shoulder-strap"
       ],
-      "closure": [],
+      "closure": [
+        "front-flap"
+      ],
       "hardware_color": "gold",
       "bag_size": "medium",
       "secondary_colors": [],
@@ -4017,7 +4043,9 @@
       "handle_type": [
         "top-handle"
       ],
-      "closure": [],
+      "closure": [
+        "front-flap"
+      ],
       "hardware_color": "gold",
       "bag_size": "medium",
       "secondary_colors": [],

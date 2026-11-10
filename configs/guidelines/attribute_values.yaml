@@ -97,10 +97,10 @@ model_details:
   metal-feet: Small metal studs on the base that lift the bag off the ground.
   zip-pocket: Pocket on the outside of the bag closed by its own zip, such as a front, side or back zip pocket. The zip that closes the main compartment does not count.
   open-pocket: Pocket on the outside of the bag without a zip, such as a patch, slip or flap pocket, including a large front pocket under a flap or buckles. Count a pocket only if its outline or opening is clearly visible in the main view. Hidden or tiny slits do not count.
-  ankle-wrap: Long strap or ribbon that winds around the ankle and sometimes up the lower leg.
   t-bar: Strap running from the front of the shoe along the centre of the instep to meet a horizontal strap across the instep or around the ankle, forming a T seen from above. An instep or ankle strap alone, without the centre strap, is not a t-bar. Toe-post sandals (thong) are not t-bar, because the toe post is already the subcategory.  
-  ankle-strap: Strap fastened around the ankle (buckle or hook). If it forms the horizontal bar of a T with a centre strap, tag t-bar only.
   cross-over: Two straps that cross each other in an X over the instep or the front of the foot.
+  ankle-strap: One strap that goes around the ankle and fastens (buckle, button, hook) on a shoe or sandal. Not an instep strap (mary jane), not a heel strap (slingback), not used on boots.
+  ankle-wrap: Long straps, ribbons or laces wound around the ankle or lower leg and tied, more than one turn.
 
 toe_shape:
   apron-toe: Seam or panel across the vamp forming a raised apron over the toe (moccasin-style).
@@ -108,6 +108,12 @@ toe_shape:
 heel_type:
   comma-heel: Heel shaped like a comma, wide at the top and curving into a pointed tip.
   cone-heel: Heel that is wide at the top and narrows toward the tip like a cone.
+
+heel_height:
+  flat-heel: No raised heel; the heel sits level with the front of the sole. Flatforms and even platforms are flat-heel.
+  low-heel: A small stacked or block heel rising up to about 2 cm above the front of the sole (less than a tenth of the shoe's length). Never a kitten heel.
+  mid-heel: Clearly raised heel of about 3-7 cm, including every kitten heel.
+  high-heel: Heel of about 7 cm or more, roughly a third of the shoe's length or higher.
 
 closure:
   lace-up: Closed by laces over the instep or up the foot.

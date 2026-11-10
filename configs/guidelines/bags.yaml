@@ -15,17 +15,17 @@ doctor's bag: >-
 duffle bag: >-
   Large barrel or rectangular body (over ~45 cm), full top zip, two handles plus a detachable shoulder strap. Like a boston bag but oversized.
 top handle bag: >-
-  Structured upright body with one rigid handle rising from the top centre, flap or top closure, often a detachable strap; flatter than a box bag, no hinged frame. Also the fallback for a generic bag carried by short handle(s) with no other shape marker.
+  Structured upright body carried mainly by one or two rigid or rolled handles rising from the top; flap or top closure; any strap is detachable and secondary. Judge by how the bag is built, not by how the model holds or wears it. No hinged frame. Also the fallback for a generic bag carried by short handle(s) with no other shape marker.
 clutch: >-
-  Clutch entry: flat rectangular body with no handle or strap, held in the hand; flap, zip or frame closure. A wrist strap does not change the subcategory. Not envelope (V flap), not pouch (soft).
+  Flat, thin rectangular body with no handle or strap, held in the hand; flap, zip or frame closure. A wrist strap does not change the subcategory. Any chain or strap attached to the bag means it is never a clutch, even if the model is holding the strap. A rigid box with visible depth is a minaudière; a soft rounded body is a pouch; a V-shaped flap is an envelope.
 envelope: >-
-  Flat rectangle with a triangular (V-shaped) front flap reaching the middle or bottom, handle-less. An envelope-shaped bag WITH a handle or strap takes the matching shape subcategory instead.
+  Flat rectangle with a triangular (V-shaped) front flap reaching the middle or bottom, hand-carried with no handle or strap. An envelope-shaped bag whose only carry is a handle, strap or chain takes the matching shape subcategory, even if the model is holding that strap or chain in the hand.
 minaudière: >-
-  Small rigid hard-shell box (metal, resin, crystal-covered) with hinged opening, jewel clasp, no handle, reflective or jewelled surface; nothing soft. A larger leather box with a handle is a box bag.
+  Small rigid case with visible depth (box-like, squarish or geometric) and a hinged hard frame or jewel clasp; the shell keeps its shape whatever covers it (metal, resin, satin, crystal or beads). A chain or wrist strap is allowed. A soft, smooth, baggy body is a pouch; a flat thin rectangle is a clutch; a larger leather box with a handle is a box bag.
 pouch: >-
-  Soft, gathered or pillow-like unstructured body with rounded volume; frame, magnetic or zip opening. The opposite of the flat rigid clutch. A wrist strap does not change the subcategory.
+  Soft, smooth or gathered body with rounded, pillow-like or baggy volume that does not keep a rigid shape; frame, magnetic, drawstring or zip opening. The opposite of the flat clutch and the rigid minaudière. A wrist strap or thin chain does not change the subcategory.
 bucket bag: >-
-  Round flat base with cylindrical or conical body, drawstring or open top, single shoulder strap. Plant-fibre weave is basket; a crescent shape without a round base is hobo bag.
+  Round flat base with cylindrical or conical body, drawstring or open top, single shoulder strap. Plant-fibre weave is basket; a crescent shape without a round base is hobo bag. Bucket bag needs a round base. A wedge or trapezoid with two handles is doctor’s bag or top handle bag, never bucket
 camera bag: >-
   Small boxy rectangle with top zip (often double) and a long crossbody strap, sometimes a tassel on the zip pull. Also the fallback for boxy or zip-top bags on a strap that have NO front flap.
 hobo bag: >-
@@ -33,7 +33,7 @@ hobo bag: >-
 saddle bag: >-
   Asymmetric kidney/"D"-shaped body with a curved flap and short shoulder strap, often a hanging logo or ring. Judge from the front view; from the side it can look like a hobo.
 satchel bag: >-
-  Structured upright rectangle with a full-width front flap closed by two buckled straps, small top handle plus shoulder strap. Also the fallback for upright/square flap bags on a strap with no other shape marker. Not messenger (landscape, no top handle).
+  Structured, roughly square or upright body (width under ~1.5x height) with a full-width front flap closed by buckles, a clasp or a lock, carried by a shoulder strap or chain, with or without a small top handle. Wider than 1.5x height is underarm bag; a wide landscape body with a large flap and wide crossbody strap is messenger.
 underarm bag: >-
   Elongated narrow horizontal body (width at least 1.5x height) with a short strap that holds it under the arm, or a front flap bag with as short strap (baguette). Also the fallback for elongated flap bags on a strap or chain, even with a slightly curved lower edge. Rectangular or gently curved, not a soft slouchy crescent.
 backpack: >-

@@ -158,6 +158,10 @@ def build_system_prompt(
     attrs_str = _format_attributes(config.get("attributes", {}))
 
     g_str = _format_guidelines(config.get("taxonomy", {}), config.get("guidelines", {}))
+    
+    order_str = _format_decision_order(config.get("guidelines", {}), gender)
+    order_block = f"\n\nDecision order (apply before the subcategory guidelines):\n{order_str}" if order_str else ""
+    
     guidelines_block = (
         f"\n\nSubcategory guidelines (decisive visual markers):\n{g_str}" if g_str else ""
     )
@@ -174,13 +178,19 @@ You MUST classify this item using EXACTLY one category and one subcategory
 from the taxonomy below. Output the exact names as shown.
 
 Taxonomy (category → subcategories):
-{taxonomy_str}{guidelines_block}
+{taxonomy_str}{order_block}{guidelines_block}
 
 Additional attributes (use controlled vocabulary):
 {attrs_str}{definitions_block}"""
 
     return prompt.strip()
 
+def _format_decision_order(guidelines: dict, gender: str) -> str:
+    """Optional `_decision_order_<gender>` (or `_decision_order`) block from the guidelines file."""
+    text = (guidelines or {}).get(f"_decision_order_{gender}") or (guidelines or {}).get("_decision_order")
+    if not text:
+        return ""
+    return "\n".join(f"    {line}" if line.strip() else "" for line in str(text).strip().splitlines())
 
 def get_user_message() -> str:
     base = load_base_config()
