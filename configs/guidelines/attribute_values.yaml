@@ -29,7 +29,7 @@ finishing:
   jacquard: Pattern woven into the fabric (e.g. GG jacquard). A printed design is not jacquard.
   jersey: Fine stretch single knit.
   knit: Visible knitted stitches (knitwear).
-  lace: Openwork lace fabric; lace used only as trim is an embellishment, not a finishing.
+  lace: Openwork lace fabric; in a shoe the upper is mostly made of lace fabric. Lace used only as trim is an embellishment, not a finishing.
   metallic: Laminated metallic leather or lamé fabric.
   organza: Crisp, stiff sheer fabric that holds volume.
   patent: High-gloss plastic-like coating on leather with mirror-like reflections. Leather that is only moderately shiny is not patent.
@@ -77,7 +77,7 @@ embellishments:
   horsebit: "Double ring and bar hardware derived from the equestrian bit."
   stud: "Metal stud in relief, all shapes including spikes and rivets."
   embroidery: "Decoration stitched with thread. An embroidered brand logo is logo."
-  lace: "Openwork lace trim or insert. Plain net is mesh-insert."
+  lace: "Lace trim, or lace panels inserted into another material. Plain net is mesh-insert."
   bird-element: "Sculpted or applied bird motif. A printed bird is pattern."
   butterfly-element: "Sculpted or applied butterfly motif. A printed butterfly is pattern."
   crown-element: "Sculpted or applied crown motif."

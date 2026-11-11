@@ -79,6 +79,7 @@ def show(v) -> str:
 def build(a) -> int:
     batches = load_batches(a.manifest)
     subs = {s.strip() for s in (a.subcategories or "").split(",") if s.strip()}
+    wanted = {Path(s.strip()).name for s in (a.images or "").split(",") if s.strip()}
     attr_filters = []
     for f in a.attr or []:
         field, _, vals = f.partition("=")
@@ -100,6 +101,8 @@ def build(a) -> int:
             if not isinstance(tags, dict):
                 continue
             reasons = []
+            if wanted and s["image"] in wanted:
+                reasons.append("listed")
             if subs and tags.get("subcategory") in subs:
                 reasons.append(f"subcategory {tags.get('subcategory')!r}")
             for field, vals in attr_filters:
@@ -193,6 +196,7 @@ def main() -> int:
     b = sp.add_parser("build")
     b.add_argument("--name", required=True, help="queue name, used in file names")
     b.add_argument("--subcategories", help="comma-separated subcategory names")
+    b.add_argument("--images", help="comma-separated image file names (spot checks)")
     b.add_argument("--attr", action="append", help="field=value1,value2 (repeatable)")
     b.add_argument("--predictions", nargs="+", help="infer.py output file(s) for a disagreement queue")
     b.add_argument("--compare", help=f"fields compared with predictions (default subcategory): {LIST_FIELDS_HINT}")
@@ -202,8 +206,8 @@ def main() -> int:
     m.add_argument("--exported", type=Path, required=True)
     m.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
-    if a.cmd == "build" and not (a.subcategories or a.attr or a.predictions or a.rules):
-        ap.error("build needs --subcategories, --attr, --rules and/or --predictions")
+    if a.cmd == "build" and not (a.subcategories or a.attr or a.predictions or a.rules or a.images):
+        ap.error("build needs --images, --subcategories, --attr, --rules and/or --predictions")
     return build(a) if a.cmd == "build" else merge(a)
 
 

@@ -360,29 +360,6 @@
     }
   },
   {
-    "image": "B7S3014-0615515.jpg",
-    "category_config": "shoes_women",
-    "image_type": "product",
-    "description": "A single teal loafer-style  flat mule with a flat heel and a contrasting wood-toned sole. The upper is crafted from smooth leather with a prominent, stitched leather tab at the vamp, characteristic of a penny loafer silhouette. The design is minimalist with clean lines and a rounded toe.",
-    "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "flat mule",
-      "primary_color": "teal",
-      "material": "leather",
-      "embellishments": [],
-      "model_details": [],
-      "toe_shape": "round-toe",
-      "heel_type": null,
-      "heel_height": "flat-heel",
-      "sole_type": null,
-      "closure": "slip-on",
-      "secondary_colors": [],
-      "secondary_materials": [],
-      "pattern": null,
-      "finishing": []
-    }
-  },
-  {
     "image": "B7S3036-1082404.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
@@ -414,8 +391,8 @@
     "image_type": "product",
     "description": "A women's mule-style flat mule featuring a low block heel and a peep-toe silhouette. Constructed from black suede with a contrasting burgundy velvet panel accented by red stitching along the vamp. The design includes a slip-on closure and a rounded toe.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "flat mule",
+      "category": "sandals-women",
+      "subcategory": "mule sandal",
       "primary_color": "black",
       "secondary_colors": [
         "burgundy"
@@ -425,7 +402,7 @@
       "embellishments": [],
       "pattern": null,
       "model_details": [],
-      "toe_shape": "square-toe",
+      "toe_shape": "peep-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": null,
@@ -470,7 +447,8 @@
       "material": "faux-leather",
       "secondary_materials": [],
       "embellishments": [
-        "bow"
+        "bow",
+        "mesh-insert"
       ],
       "pattern": null,
       "model_details": [],
@@ -481,60 +459,6 @@
       "closure": "slip-on",
       "secondary_colors": [],
       "finishing": []
-    }
-  },
-  {
-    "image": "B8S3026-1494WHA.jpg",
-    "category_config": "shoes_women",
-    "image_type": "product",
-    "description": "A women's flat mule featuring a pointed toe and a slip-on silhouette with a contrasting blue and white diagonal stripe pattern. The upper is constructed from smooth leather with a decorative bow made from the same striped fabric at the vamp. The shoe has a low-profile, flat heel and a rounded, open back.",
-    "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "flat mule",
-      "primary_color": "blue",
-      "secondary_colors": [
-        "white"
-      ],
-      "material": "leather",
-      "secondary_materials": [],
-      "embellishments": [
-        "bow"
-      ],
-      "pattern": "stripes",
-      "model_details": [],
-      "toe_shape": "pointed-toe",
-      "heel_type": null,
-      "heel_height": "flat-heel",
-      "sole_type": null,
-      "closure": "slip-on",
-      "finishing": []
-    }
-  },
-  {
-    "image": "B8S3036-0163314.jpg",
-    "category_config": "shoes_women",
-    "image_type": "product",
-    "description": "A vibrant red satin  flat mule featuring a pointed toe and a decorative, multi-colored crystal embellishment at the vamp. The slip-on design is constructed with a flat heel and a soft, draped satin overlay that extends over the instep. The silhouette is elegant and feminine, designed for a polished, evening-ready look.",
-    "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "flat mule",
-      "primary_color": "red",
-      "material": "silk",
-      "embellishments": [
-        "crystal"
-      ],
-      "model_details": [],
-      "toe_shape": "pointed-toe",
-      "heel_type": null,
-      "heel_height": "flat-heel",
-      "sole_type": null,
-      "closure": "slip-on",
-      "secondary_colors": [],
-      "secondary_materials": [],
-      "pattern": null,
-      "finishing": [
-        "satin"
-      ]
     }
   },
   {
@@ -547,9 +471,7 @@
       "subcategory": "flat mule",
       "primary_color": "black",
       "material": "silk",
-      "embellishments": [
-        "tassel"
-      ],
+      "embellishments": [],
       "model_details": [],
       "toe_shape": "pointed-toe",
       "heel_type": null,
@@ -766,7 +688,9 @@
         "mesh-insert"
       ],
       "pattern": null,
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
