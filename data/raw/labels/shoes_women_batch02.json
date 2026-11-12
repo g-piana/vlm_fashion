@@ -39,9 +39,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "model_details": [
-        "ankle-strap"
-      ],
+      "model_details": [],
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
@@ -208,9 +206,7 @@
       ],
       "embellishments": [],
       "pattern": null,
-      "model_details": [
-        "ankle-strap"
-      ],
+      "model_details": [],
       "toe_shape": "peep-toe",
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
@@ -263,9 +259,7 @@
         "lace"
       ],
       "pattern": null,
-      "model_details": [
-        "ankle-strap"
-      ],
+      "model_details": [],
       "toe_shape": null,
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
@@ -288,9 +282,7 @@
       "embellishments": [
         "chain"
       ],
-      "model_details": [
-        "ankle-strap"
-      ],
+      "model_details": [],
       "toe_shape": null,
       "heel_type": "wedge-heel",
       "heel_height": "high-heel",
@@ -348,7 +340,7 @@
       "embellishments": [],
       "pattern": null,
       "model_details": [
-        "ankle-strap"
+        "ankle-wrap"
       ],
       "toe_shape": "peep-toe",
       "heel_type": "wedge-heel",

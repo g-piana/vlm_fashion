@@ -32,6 +32,6 @@ sole_type:
 
 closure:
   type: enum
-  values: [slip-on, lace-up, buckle, zip-up]
+  values: [slip-on, lace-up, buckle, zip-up, hook-and-loop]
   app: {field: mod_details}
 

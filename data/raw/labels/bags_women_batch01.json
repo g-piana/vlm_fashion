@@ -150,7 +150,7 @@
         "web",
         "horsebit"
       ],
-      "pattern": null,
+      "pattern": "monogram",
       "model_details": [],
       "handle_type": [
         "top-handle",

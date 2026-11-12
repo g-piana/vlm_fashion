@@ -116,10 +116,36 @@ heel_height:
   high-heel: Heel of about 7 cm or more, roughly a third of the shoe's length or higher.
 
 closure:
-  lace-up: Closed by laces over the instep or up the foot.
-  buckle: Functional buckle fastening; a decorative buckle that is part of the design is an embellishment.
+  # --- shared (shoes / RTW) ---
   button: Functional button fastening; a decorative button is an embellishment.
-
+  buckle: Functional buckle fastening; a decorative buckle that is part of the design is an embellishment.
+  drawstring: Cord threaded through a channel that gathers and closes the opening (bag top, waist, hood).
+  # --- shoes ---
+  lace-up: Closed by laces over the instep or up the foot.
+  slip-on: No fastening; the foot slides in (elastic gussets count). A decorative strap, bow or buckle is still slip-on.
+  zip-up: Zip on the side, back or front that opens the upper or the boot shaft.
+  hook-and-loop: Hook-and-loop (velcro) strap fastening.
+  # --- ready-to-wear ---
+  zip: Zip that opens the garment (front, side or back). A zip only on a pocket does not count.
+  snap: Press studs (poppers) fastening the opening.
+  hook: Hook-and-eye or hook-and-bar fastening, often hidden at a waistband or back neck.
+  tie: Ties or a knotted bow that fasten the opening. Overlapping front panels held by a tie or belt are wrap.
+  wrap: Front panels overlap across the body and are held by a tie, belt or inner button (wrap dress, wrap coat).
+  toggle: Wooden, horn or metal toggles passed through loops (duffle coat).
+  pull-on: No fastening; pulled over the head or up at the waist (knitwear, T-shirts, elastic-waist trousers).
+  # --- bags ---
+  zip-closure: Zip along the top opening or around the body (zip-around). A zip only on an external pocket does not count.
+  front-flap: Flap folding over the front, held by a hidden magnet or snap or by decorative hardware (logo plaque, medallion). Add a second closure only when a distinct mechanism is clearly visible.
+  button-closure: Functional button or press stud visibly fastening a tab or flap. A logo medallion or plaque on a flap is front-flap.
+  turn-lock-closure: Metal knob or clasp that rotates to lock through a plate or slot on a flap or tab.
+  piston-closure: Vertical metal push-lock joining a leather tab to the body, released by pressing a plunger between two hinged links.
+  kiss-lock-closure: Metal frame along the opening closed by two small balls or knobs that twist past each other.
+  frame-closure: Hinged rigid metal frame along the opening closed by a single push button, snap or jewelled clasp (typical of minaudières). Two crossing knobs are kiss-lock-closure.
+  lock-closure: Functional padlock or keyed lock securing the flap or straps. A padlock hanging as decoration is a charm.
+  toggle-closure: Bar or toggle pushed through a loop or slot.
+  hook-closure: Metal hook, clip or sliding clasp that catches a ring, loop or bar, or a rigid ring or clamp clipped over the top edge to hold the opening shut.
+  buckle-closure: Functional buckle on a strap fastening the flap or opening; a decorative buckle is an embellishment.
+  open-top: No visible fastening and no flap; the opening stays open or closes only with an interior magnet or hook that cannot be seen.
 material:
   python: Real python skin. Leather embossed or printed to imitate python is leather with the finishing python-effect.
 

@@ -29,7 +29,7 @@
     "image": "ballerina__B6S6075.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A classic women's flat shoe featuring a pointed toe and a low-profile, flat heel. The upper is constructed from black leather with a contrasting beige trim along the vamp and heel counter, accented by subtle stitching details. The silhouette is sleek and minimalist, designed for comfortable, everyday wear.",
+    "description": "A classic women's  ballerina featuring a pointed toe and a low-profile, flat heel. The upper is constructed from black leather with a contrasting beige trim along the vamp and heel counter, accented by subtle stitching details. The silhouette is sleek and minimalist, designed for comfortable, everyday wear.",
     "tags": {
       "category": "flat-shoes-women",
       "subcategory": "ballerina",
@@ -96,7 +96,9 @@
         "buckle"
       ],
       "pattern": null,
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [
         "grained"
       ],
@@ -129,7 +131,9 @@
       "secondary_materials": [],
       "pattern": null,
       "finishing": [],
-      "model_details": []
+      "model_details": [
+        "cap-toe"
+      ]
     }
   },
   {
@@ -187,7 +191,9 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": "diamond",
-      "model_details": []
+      "model_details": [
+        "ankle-strap"
+      ]
     }
   },
   {
@@ -212,7 +218,9 @@
       "secondary_materials": [],
       "pattern": null,
       "finishing": [],
-      "model_details": []
+      "model_details": [
+        "cap-toe"
+      ]
     }
   },
   {
@@ -250,7 +258,7 @@
     "image": "d-orsay-flat__D6S4033.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, black leather flat shoe featuring a pointed toe and a distinctive T-strap design with gold-tone metallic buckles. The silhouette is minimalist with a flat heel and a low-profile sole, accented by contrasting gold stitching along the vamp. The design emphasizes clean lines and a modern, elegant aesthetic.",
+    "description": "A sleek, black leather flat shoe featuring a d’orsay cut-away sides, pointed toe and a distinctive T-strap design with gold-tone metallic buckles, buckled ankle strap and polished gold metal T-bar. The silhouette is minimalist with a flat heel and a low-profile sole, accented by contrasting gold stitching along the vamp. The design emphasizes clean lines and a modern, elegant aesthetic.",
     "tags": {
       "category": "flat-shoes-women",
       "subcategory": "d'orsay flat",
@@ -262,11 +270,16 @@
       "heel_height": "flat-heel",
       "sole_type": null,
       "closure": "buckle",
-      "secondary_colors": [],
-      "secondary_materials": [],
+      "secondary_colors": [
+        "gold"
+      ],
+      "secondary_materials": [
+        "metal"
+      ],
       "pattern": null,
       "finishing": [],
       "model_details": [
+        "ankle-strap",
         "t-bar"
       ]
     }
@@ -500,9 +513,7 @@
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
-      "finishing": [
-        "lace"
-      ],
+      "finishing": [],
       "model_details": []
     }
   },
@@ -711,9 +722,7 @@
         "crystal"
       ],
       "pattern": null,
-      "model_details": [
-        "ankle-strap"
-      ],
+      "model_details": [],
       "finishing": [
         "python-effect"
       ],
@@ -965,8 +974,8 @@
     "image_type": "product",
     "description": "A black high-top sneaker with a suede-like upper and a thick, textured rubber sole. The ankle collar is trimmed with a soft, fuzzy shearling material, and the shoe features black laces threaded through silver-toned metal eyelets. The silhouette is classic sneaker with a slightly rounded toe and a flat heel.",
     "tags": {
-      "category": "boots-and-booties-women",
-      "subcategory": "lace up boot",
+      "category": "sneakers-women",
+      "subcategory": "high-top sneaker",
       "primary_color": "black",
       "material": "suede",
       "secondary_materials": [],
@@ -1119,9 +1128,7 @@
       "material": "leather",
       "embellishments": [],
       "pattern": null,
-      "model_details": [
-        "ankle-strap"
-      ],
+      "model_details": [],
       "finishing": [
         "grained"
       ],
@@ -1178,9 +1185,7 @@
         "pearl"
       ],
       "pattern": null,
-      "model_details": [
-        "ankle-strap"
-      ],
+      "model_details": [],
       "finishing": [
         "metallic"
       ],
@@ -1314,9 +1319,7 @@
       "pattern": null,
       "finishing": [],
       "sole_type": null,
-      "model_details": [
-        "ankle-strap"
-      ]
+      "model_details": []
     }
   },
   {

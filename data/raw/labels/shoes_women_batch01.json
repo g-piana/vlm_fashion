@@ -53,10 +53,10 @@
     "image": "A8W0010-1533ANR.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, ankle-length boot with a glossy, textured black patent leather finish and a pointed toe. Features a moderate comma heel and a single adjustable buckle strap at the ankle for a secure fit. The sculpted silhouette and reflective surface create a dramatic, evening-ready profile.",
+    "description": "A sleek, mid-calf boot with a glossy, textured black patent leather finish and a pointed toe. Features a moderate comma heel and a single adjustable buckle strap at the ankle for a secure fit. The sculpted silhouette and reflective surface create a dramatic, evening-ready profile.",
     "tags": {
       "category": "boots-and-booties-women",
-      "subcategory": "ankle boot",
+      "subcategory": "boot",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [
@@ -64,14 +64,18 @@
       ],
       "toe_shape": "pointed-toe",
       "heel_type": "comma-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "high-heel",
       "sole_type": null,
-      "closure": "buckle",
+      "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
-      "model_details": [],
-      "finishing": []
+      "model_details": [
+        "ankle-strap"
+      ],
+      "finishing": [
+        "patent"
+      ]
     }
   },
   {
@@ -85,7 +89,7 @@
       "primary_color": "yellow",
       "material": "faux-leather",
       "toe_shape": "pointed-toe",
-      "heel_type": "comma-heel",
+      "heel_type": "kitten-heel",
       "heel_height": "mid-heel",
       "closure": "slip-on",
       "embellishments": [],
@@ -303,7 +307,7 @@
       "subcategory": "d'orsay pump",
       "primary_color": "black",
       "material": "suede",
-      "closure": "lace-up",
+      "closure": "slip-on",
       "toe_shape": "pointed-toe",
       "heel_type": "comma-heel",
       "heel_height": "high-heel",
@@ -407,11 +411,13 @@
         "white",
         "black"
       ],
-      "embellishments": [],
+      "embellishments": [
+        "web"
+      ],
       "pattern": null,
       "toe_shape": "pointed-toe",
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_materials": [],
@@ -648,7 +654,7 @@
     "image": "A9S3030.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A black suede slingback pump featuring a pointed toe and a slender stiletto heel. The design is accentuated by a decorative crystal-embellished strap that crosses the instep and a matching adjustable ankle strap with a silver buckle. The transparent heel cap adds a modern, architectural detail.",
+    "description": "A black suede slingback pump featuring a pointed toe and a slender stiletto heel. The design is accentuated by a decorative crystal-embellished strap that crosses the instep and a matching adjustable slingback strap with a silver buckle. The transparent heel cap adds a modern, architectural detail.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "slingback",
@@ -665,9 +671,7 @@
       "secondary_materials": [],
       "pattern": null,
       "sole_type": null,
-      "model_details": [
-        "ankle-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -754,7 +758,8 @@
       "primary_color": "fuchsia",
       "material": "silk",
       "embellishments": [
-        "crystal"
+        "crystal",
+        "buckle"
       ],
       "toe_shape": "pointed-toe",
       "heel_type": "kitten-heel",
@@ -948,10 +953,10 @@
     "image": "B5S1095.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, black sandal boot featuring a peep-toe silhouette and a slender stiletto heel. Constructed from smooth leather with a lace-up closure along the vamp and side, it combines a modern cutout detail with a classic pointed toe. The design emphasizes a minimalist, elegant aesthetic with a refined, elongating silhouette.",
+    "description": "A sleek, black peep-toe lace-up boot featuring a slender stiletto heel. Constructed from smooth leather with a lace-up closure along the vamp and side, it features a modern cutout detail. The design emphasizes a minimalist, elegant aesthetic with a refined, elongating silhouette.",
     "tags": {
-      "category": "sandals-women",
-      "subcategory": "sandal boot",
+      "category": "boots-and-booties-women",
+      "subcategory": "lace up boot",
       "primary_color": "black",
       "material": "leather",
       "closure": "lace-up",
@@ -1189,8 +1194,8 @@
     "image_type": "product",
     "description": "A women's ankle bootie featuring a peep-toe silhouette with a wide, dark brown block heel and matching platform sole. The upper is crafted from a shimmering gold snakeskin-effect material, contrasted by dark brown leather trim. The design includes a side zipper closure for ease of wear.",
     "tags": {
-      "category": "sandals-women",
-      "subcategory": "sandal boot",
+      "category": "boots-and-booties-women",
+      "subcategory": "ankle boot",
       "primary_color": "gold",
       "secondary_colors": [],
       "material": "leather",
@@ -1204,6 +1209,7 @@
       "closure": "zip-up",
       "model_details": [],
       "finishing": [
+        "patent",
         "python-effect"
       ]
     }
@@ -1310,9 +1316,7 @@
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
-      "model_details": [
-        "ankle-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -1361,7 +1365,9 @@
       "embellishments": [],
       "pattern": null,
       "model_details": [],
-      "finishing": []
+      "finishing": [
+        "grained"
+      ]
     }
   },
   {
@@ -1374,7 +1380,9 @@
       "subcategory": "slingback",
       "primary_color": "red",
       "material": "suede",
-      "embellishments": [],
+      "embellishments": [
+        "bow"
+      ],
       "toe_shape": "pointed-toe",
       "heel_type": "kitten-heel",
       "heel_height": "mid-heel",
@@ -1465,9 +1473,7 @@
       "closure": "buckle",
       "secondary_colors": [],
       "pattern": null,
-      "model_details": [
-        "ankle-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -1519,7 +1525,8 @@
       "closure": "buckle",
       "model_details": [
         "ankle-strap",
-        "cross-over"
+        "cross-over",
+        "cap-toe"
       ],
       "finishing": [
         "metallic",
@@ -1571,7 +1578,7 @@
       "pattern": null,
       "toe_shape": "pointed-toe",
       "heel_type": "kitten-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [
@@ -1902,7 +1909,9 @@
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [
         "patent"
       ]
@@ -2111,7 +2120,9 @@
       "sole_type": "slouch",
       "closure": "slip-on",
       "secondary_colors": [],
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": []
     }
   },
@@ -2134,7 +2145,9 @@
       "heel_height": "flat-heel",
       "sole_type": "flatform",
       "closure": "slip-on",
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [
         "metallic"
       ]
@@ -2193,7 +2206,9 @@
       "heel_height": "flat-heel",
       "sole_type": "slouch",
       "closure": "slip-on",
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": []
     }
   },
@@ -2504,7 +2519,7 @@
       "pattern": "leopard",
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "high-heel",
       "sole_type": "platform",
       "closure": "slip-on",
       "model_details": [],
@@ -2677,17 +2692,17 @@
     "image_type": "product",
     "description": "A black, slip-on flat shoe with a pebbled leather-like texture and a thick, white textured platform sole. The silhouette is casual and modern, featuring a rounded toe and elasticated side panels for ease of wear. A small pull tab is visible at the heel for assistance in slipping on.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "slip on",
+      "category": "boots-and-booties-women",
+      "subcategory": "ankle boot",
       "primary_color": "black",
-      "material": "faux-leather",
+      "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
       "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "platform",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "model_details": [],
@@ -2905,9 +2920,7 @@
       "secondary_colors": [],
       "material": "suede",
       "secondary_materials": [],
-      "embellishments": [
-        "buckle"
-      ],
+      "embellishments": [],
       "pattern": null,
       "toe_shape": "pointed-toe",
       "heel_type": "stiletto-heel",
@@ -3354,9 +3367,7 @@
       "heel_height": "flat-heel",
       "sole_type": "slouch",
       "closure": "slip-on",
-      "model_details": [
-        "ankle-strap"
-      ],
+      "model_details": [],
       "finishing": [
         "metallic"
       ]
@@ -3679,7 +3690,9 @@
       "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "buckle",
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [
         "patent",
         "metallic"
@@ -3860,7 +3873,7 @@
       "material": "leather",
       "closure": "lace-up",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "high-heel",
       "sole_type": "platform",
       "toe_shape": "peep-toe",
       "secondary_colors": [],
@@ -4098,7 +4111,7 @@
       "pattern": null,
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "high-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
@@ -4292,7 +4305,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
-        "crystal"
+        "sequin"
       ],
       "pattern": null,
       "toe_shape": "pointed-toe",
@@ -4340,8 +4353,8 @@
     "image_type": "product",
     "description": "A women's high-heeled ankle boot featuring a distinctive woven metallic gold upper with black patent leather accents and gold-tone buckles. The silhouette is defined by a slender stiletto heel and a peep-toe construction, with a side zipper for ease of wear. The design combines structured elements with an open-weave texture for visual interest.",
     "tags": {
-      "category": "sandals-women",
-      "subcategory": "sandal boot",
+      "category": "boots-and-booties-women",
+      "subcategory": "ankle boot",
       "primary_color": "black",
       "secondary_colors": [
         "gold"
@@ -4446,7 +4459,7 @@
     "description": "A black suede ghillie styled flat shoe featuring a pointed toe with large circular cutouts across the vamp and sides, and a black grosgrain ribbon laced through strap loops, crossing the instep and wrapping the ankle in a bow.. The design includes a thin elasticated ankle strap with a self-tie bow for a secure, adjustable fit. The silhouette is minimalist with a flat, unadorned sole.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "flat lace up",
+      "subcategory": "other flat shoes",
       "primary_color": "black",
       "material": "suede",
       "closure": "lace-up",
@@ -4718,7 +4731,9 @@
       "embellishments": [],
       "pattern": null,
       "sole_type": null,
-      "model_details": [],
+      "model_details": [
+        "ankle-wrap"
+      ],
       "finishing": []
     }
   },
@@ -4780,7 +4795,7 @@
     "image": "B7W7014-1363ACR.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A classic loafer silhouette in smooth tan leather, featuring a distinctive silver-toned metal bar closure across the vamp. The shoe is constructed with visible stitching and sits on a thick, black lug-sole platform with a low heel, offering a modern, structured profile.",
+    "description": "A classic loafer silhouette in smooth tan leather, featuring distinctive silver-toned metal studs across the vamp. The shoe is constructed with visible stitching and sits on a thick, black lug-sole platform with a low heel, offering a modern, structured profile.",
     "tags": {
       "category": "flat-shoes-women",
       "subcategory": "loafer",
@@ -4788,7 +4803,7 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
-        "buckle"
+        "stud"
       ],
       "pattern": null,
       "toe_shape": null,
@@ -5023,9 +5038,7 @@
       "subcategory": "lace up boot",
       "primary_color": "black",
       "material": "leather",
-      "embellishments": [
-        "buckle"
-      ],
+      "embellishments": [],
       "toe_shape": "round-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
@@ -5107,9 +5120,7 @@
       "closure": "slip-on",
       "secondary_colors": [],
       "secondary_materials": [],
-      "model_details": [
-        "ankle-strap"
-      ],
+      "model_details": [],
       "finishing": [
         "metallic"
       ]
@@ -5136,9 +5147,7 @@
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
-      "model_details": [
-        "ankle-strap"
-      ],
+      "model_details": [],
       "finishing": []
     }
   },
@@ -5344,7 +5353,7 @@
       "pattern": null,
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "high-heel",
       "sole_type": null,
       "closure": "lace-up",
       "model_details": [],
@@ -5407,7 +5416,7 @@
     "image": "B9S5004.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A beige perforated mary jane pump with a pointed toe and a slender kitten heel, featuring white piping along the edges and a black buckle closure at the instep. The upper is constructed with a perforated leather-like material, accented with contrasting white trim and a black heel cap. The design includes a slingback strap and a peep-toe silhouette.",
+    "description": "A beige perforated mary jane pump with a pointed toe and a slender kitten heel, featuring white piping along the edges and a black buckle closure at the instep. The upper is constructed with a perforated leather-like material, accented with contrasting white trim and a black heel cap. The design includes a peep-toe silhouette.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "mary jane pump",
@@ -5957,7 +5966,9 @@
       "heel_height": "mid-heel",
       "sole_type": null,
       "closure": "buckle",
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [
         "patent"
       ]
@@ -5981,10 +5992,12 @@
       "pattern": null,
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "high-heel",
       "sole_type": null,
       "closure": "buckle",
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [
         "patent"
       ]
@@ -6030,7 +6043,8 @@
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
-        "logo"
+        "logo",
+        "buckle"
       ],
       "pattern": null,
       "toe_shape": "pointed-toe",
@@ -6038,7 +6052,9 @@
       "heel_height": "flat-heel",
       "sole_type": null,
       "closure": "buckle",
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": []
     }
   },
@@ -6128,7 +6144,7 @@
     "description": "A women's oxford-style loafer with a glossy black patent leather upper accented by a contrasting snakeskin-patterned panel across the vamp. Features a low block heel and classic cap-toe construction with black laces. The design combines formal structure with bold animal print detailing for a modern, edgy twist.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "loafer",
+      "subcategory": "flat lace up",
       "primary_color": "black",
       "material": "leather",
       "secondary_materials": [],
@@ -6173,6 +6189,7 @@
       "sole_type": null,
       "closure": "buckle",
       "model_details": [
+        "t-bar",
         "cap-toe"
       ],
       "finishing": []
@@ -6224,12 +6241,14 @@
         "logo"
       ],
       "pattern": null,
-      "toe_shape": "pointed-toe",
+      "toe_shape": "almond-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": null,
       "closure": "buckle",
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [
         "patent"
       ]
@@ -6319,7 +6338,7 @@
     "description": "A women's lace-up oxford-style shoe featuring a translucent, silver-toned material with a subtle floral pattern, set on a block heel. The design includes metallic eyelets and matching silver laces, with a clean, structured silhouette and a pointed toe. The sole is a contrasting dark brown.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "loafer",
+      "subcategory": "flat lace up",
       "primary_color": "silver",
       "material": "faux-leather",
       "closure": "lace-up",
@@ -6456,14 +6475,14 @@
     "image": "C9W6051-0532603.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A women's loafer featuring a textured, cracked-leather finish in a muted grey tone, accented with a metallic buckle closure on the vamp. The shoe has a low, block heel and a slip-on silhouette with a rounded toe. The surface exhibits a subtle sheen, suggesting a treated or patent-like finish.",
+    "description": "A women's loafer featuring a textured, cracked-leather finish in a muted grey tone, accented with a metallic stud on the vamp. The shoe has a low, block heel and a slip-on silhouette with a rounded toe. The surface exhibits a subtle sheen, suggesting a treated or patent-like finish.",
     "tags": {
       "category": "flat-shoes-women",
       "subcategory": "loafer",
       "primary_color": "grey",
       "material": "leather",
       "embellishments": [
-        "buckle"
+        "stud"
       ],
       "toe_shape": "round-toe",
       "heel_type": null,
@@ -6614,7 +6633,7 @@
       "embellishments": [],
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "high-heel",
       "sole_type": null,
       "closure": "buckle",
       "secondary_colors": [],

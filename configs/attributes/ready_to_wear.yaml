@@ -50,9 +50,9 @@ sleeve_type:
            flutter, null]
 
 closure:
-  type: enum
-  values: [button, zip, snap, hook, tie, wrap, pullover, toggle,
-           double-breasted, none]
+  type: list
+  values: [button, zip, snap, hook, tie, wrap, toggle, drawstring, buckle, pull-on]
+  app: {field: mod_details}
 
 waist:
   type: enum

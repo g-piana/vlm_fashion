@@ -3,7 +3,7 @@
     "image": "GUCCI_BAGS_MISC_002_010.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A classic women's hobo bag featuring a beige GG monogram canvas body with contrasting dark brown leather trim and a curved, slouchy silhouette. The bag is equipped with a shoulder strap attached via a gold-toned metal buckle and a central leather strap with a gold-tone piston closure. The design showcases a vintage aesthetic with visible stitching and a slightly worn, patina-like finish on the leather elements.",
+    "description": "A classic women's hobo bag featuring a beige GG monogram canvas jacquard body with contrasting dark brown leather trim and a curved, slouchy silhouette. The bag is equipped with a shoulder strap attached via a gold-toned metal buckle and a central leather strap with a gold-tone piston closure. The design showcases a vintage aesthetic with visible stitching and a slightly worn, patina-like finish on the leather elements.",
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "hobo bag",
@@ -16,7 +16,7 @@
         "leather"
       ],
       "embellishments": [],
-      "pattern": null,
+      "pattern": "monogram",
       "handle_type": [
         "shoulder-strap"
       ],
@@ -206,7 +206,7 @@
         "chain",
         "horsebit"
       ],
-      "pattern": null,
+      "pattern": "stripes",
       "model_details": [],
       "handle_type": [
         "shoulder-strap"
@@ -216,9 +216,7 @@
       ],
       "hardware_color": "silver",
       "bag_size": "small",
-      "finishing": [
-        "grained"
-      ]
+      "finishing": []
     }
   },
   {
@@ -260,7 +258,9 @@
       "subcategory": "hobo bag",
       "primary_color": "brown",
       "material": "leather",
-      "secondary_materials": [],
+      "secondary_materials": [
+        "suede"
+      ],
       "embellishments": [],
       "pattern": null,
       "handle_type": [
@@ -394,7 +394,7 @@
         "logo",
         "web"
       ],
-      "pattern": null,
+      "pattern": "monogram",
       "handle_type": [
         "shoulder-strap"
       ],
@@ -424,7 +424,7 @@
         "logo",
         "web"
       ],
-      "pattern": null,
+      "pattern": "monogram",
       "handle_type": [
         "shoulder-strap"
       ],

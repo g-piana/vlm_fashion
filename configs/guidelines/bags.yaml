@@ -29,7 +29,7 @@ bucket bag: >-
 camera bag: >-
   Small boxy rectangle with top zip (often double) and a long crossbody strap, sometimes a tassel on the zip pull. Also the fallback for boxy or zip-top bags on a strap that have NO front flap.
 hobo bag: >-
-  Crescent/half-moon body with curved bottom and a single shoulder strap, often cut in one piece with the body; soft slouchy or structured (crescent and half-moon bags are hobo). Has NO front flap: an elongated flap bag is an underarm bag even if its lower edge is curved. No round base (not bucket); symmetric (not saddle).
+  Crescent/half-moon body with curved bottom or a concave top line dipping between the strap attachments,and a single shoulder strap, often cut in one piece with the body; soft slouchy or structured (crescent and half-moon bags are hobo). Has NO front flap: an elongated flap bag is an underarm bag even if its lower edge is curved. No round base (not bucket); symmetric (not saddle).
 saddle bag: >-
   Asymmetric kidney/"D"-shaped body with a curved flap and short shoulder strap, often a hanging logo or ring. Judge from the front view; from the side it can look like a hobo.
 satchel bag: >-
@@ -41,7 +41,7 @@ backpack: >-
 sling bag: >-
   Teardrop or vertical backpack-like body with ONE strap running diagonally across the back or chest. Not backpack (two straps), not waist bag (horizontal curved pouch).
 messenger: >-
-  Wide landscape-format body, large flap covering most of the front, wide adjustable crossbody strap, no top handle. Not satchel (upright, top handle).
+  Wide landscape-format body (width at least 1.5x height), large flap covering most of the front, wide adjustable crossbody strap, no top handle. Below 1.5x with a full-width flap is satchel bag, whatever the brand calls it. Not satchel (upright, roughly square proportions).
 tote: >-
   Large open-top (or top-zip) rectangle or trapezoid with two parallel long handles reaching the shoulder. Plant-fibre texture is basket; smaller structured single-handle bags are top handle bags.
 waist bag: >-
