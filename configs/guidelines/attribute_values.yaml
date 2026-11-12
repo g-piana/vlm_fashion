@@ -46,7 +46,7 @@ finishing:
   twill: Weave with visible diagonal ribs (includes gabardine).
   velvet: Short dense cut pile with soft sheen.
   waxed: Oiled or waxed matte-sheen surface (waxed cotton, oiled leather).
-  woven-leather: Strips of leather interlaced in a basket-weave to form the surface (e.g. intrecciato). Woven plant fibre such as raffia or straw is not woven-leather.
+  woven-leather: Flat strips of leather woven tightly in a basket-weave with no gaps, forming the surface (e.g. Bottega Veneta intrecciato). An open or loose weave, plant fibre such as raffia or straw, or other materials shaped to look woven are the model detail woven, not woven-leather.
 
 embellishments:
   bead: "Small beads sewn on that are not pearls. Flat discs are sequin."
@@ -95,11 +95,11 @@ model_details:
   quilted: Padded surface stitched in a diamond or grid pattern (a construction detail, not a finishing).
   belt-loops: Loops on the bag body through which a belt passes (typical of waist bags).
   metal-feet: Small metal studs on the base that lift the bag off the ground.
-  zip-pocket: Pocket on the outside of the bag closed by its own zip, such as a front, side or back zip pocket. The zip that closes the main compartment does not count.
-  open-pocket: Pocket on the outside of the bag without a zip, such as a patch, slip or flap pocket, including a large front pocket under a flap or buckles. Count a pocket only if its outline or opening is clearly visible in the main view. Hidden or tiny slits do not count.
-  t-bar: Strap running from the front of the shoe along the centre of the instep to meet a horizontal strap across the instep or around the ankle, forming a T seen from above. An instep or ankle strap alone, without the centre strap, is not a t-bar. Toe-post sandals (thong) are not t-bar, because the toe post is already the subcategory.  
+  external-pocket: "Pocket on the outside of the bag (front, back or side), whatever closes it: zip, flap, buckle, snap or no fastening at all (patch or slip pocket), including a large front pocket under a flap or buckles. Count it only if its outline or opening is clearly visible in the main view; hidden or tiny slits do not count. The zip or flap that closes the main compartment is not a pocket."
+  woven: "The bag body is built from interlaced strands, usually an open or loose weave with visible gaps: natural fibres (raffia, straw, rattan, jute, rope) or other materials shaped to look woven (cord, plastic, metal, leather strips with open spaces). Can go with the basket subcategory. Flat leather strips woven tightly with no gaps (intrecciato) are the finishing woven-leather, not woven."
+  t-bar: Strap running from the front of the shoe along the centre of the instep to meet a horizontal strap across the instep or around the ankle, forming a T seen from above. An instep or ankle strap alone, without the centre strap, is not a t-bar. Toe-post sandals (thong) are not t-bar, because the toe post is already the subcategory. A t-bar never decides the subcategory on its own.
   cross-over: Two straps that cross each other in an X over the instep or the front of the foot.
-  ankle-strap: One strap that goes around the ankle and fastens (buckle, button, hook) on a shoe or sandal. Not an instep strap (mary jane), not a heel strap (slingback), not used on boots.
+  ankle-strap: One strap that goes around the ankle and fastens (buckle, button, hook) on a shoe or sandal. It closes behind the leg above the heel bone; a strap that cups the back of the heel at the level of the heel counter is a heel strap (slingback) and is not tagged. Not an instep strap (mary jane), not used on boots. An ankle strap never decides the subcategory on its own.
   ankle-wrap: Long straps, ribbons or laces wound around the ankle or lower leg and tied, more than one turn.
 
 toe_shape:
