@@ -396,7 +396,7 @@
       "model_details": [],
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "flat-heel",
       "sole_type": null,
       "closure": "slip-on",
       "finishing": [
@@ -408,7 +408,7 @@
     "image": "B7W3010-0013302.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "Glossy coral-pink heeled mule featuring a minimalist silhouette with a pointed toe and a distinctive sculptural spherical pearl-effect heel. The smooth, patent-like leather construction is accented by a thin, contrasting tan sole and a clean, slip-on design. The heel is a sculptural, translucent sphere with a metallic finish, adding a modern, avant-garde element to the otherwise classic mule shape.",
+    "description": "Glossy coral-pink heeled mule featuring a minimalist silhouette with a almond toe and a distinctive sculptural spherical pearl-effect heel. The smooth, patent-like leather construction is accented by a thin, contrasting tan sole and a clean, slip-on design. The heel is a sculptural, translucent sphere with a metallic finish, adding a modern, avant-garde element to the otherwise classic mule shape.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "heeled mule",
@@ -418,7 +418,7 @@
       "embellishments": [],
       "pattern": null,
       "model_details": [],
-      "toe_shape": "pointed-toe",
+      "toe_shape": "almond-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -762,7 +762,7 @@
       "model_details": [
         "ankle-strap"
       ],
-      "toe_shape": "square-toe",
+      "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
       "sole_type": null,
@@ -854,7 +854,7 @@
     "image": "C8S2010.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A minimalist navy blue thong sandal with a slender kitten heel featuring a gold-tone CC logo cap. The design includes a single adjustable ankle strap with a metallic buckle and a wide, flat vamp strap. Constructed from a matte-finish suede-like material, the silhouette is sleek and modern with a square toe.",
+    "description": "A minimalist navy blue thong sandal with a slender kitten heel featuring a gold-tone CC logo cap. The design includes a single adjustable ankle strap with a metallic buckle and a wide, flat vamp strap. Constructed from a matte-finish suede-like material, the silhouette is sleek and modern.",
     "tags": {
       "category": "sandals-women",
       "subcategory": "thong",
@@ -868,7 +868,7 @@
       "model_details": [
         "ankle-strap"
       ],
-      "toe_shape": "square-toe",
+      "toe_shape": null,
       "heel_type": "kitten-heel",
       "heel_height": "mid-heel",
       "sole_type": null,

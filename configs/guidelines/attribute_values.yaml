@@ -101,7 +101,8 @@ model_details:
   cross-over: Two straps that cross each other in an X over the instep or the front of the foot.
   ankle-strap: One strap that goes around the ankle and fastens (buckle, button, hook) on a shoe or sandal. It closes behind the leg above the heel bone; a strap that cups the back of the heel at the level of the heel counter is a heel strap (slingback) and is not tagged. Not an instep strap (mary jane), not used on boots. An ankle strap never decides the subcategory on its own.
   ankle-wrap: Long straps, ribbons or laces wound around the ankle or lower leg and tied, more than one turn.
-
+  cap-toe: Separate panel covering the toe, set off by a seam or a contrasting colour or material. A toe that only differs in finish, with no seam, is not a cap-toe.
+  
 toe_shape:
   apron-toe: Seam or panel across the vamp forming a raised apron over the toe (moccasin-style).
 
@@ -163,3 +164,6 @@ sole_type:
   flatform: Thick sole (about 2 cm or more at the front) of nearly even height from toe to heel; the heel rises no more than about 2 cm above the front. The shoe stays on the flat side (flat-heel or low-heel).
   platform: Thick sole under the toes (about 2 cm or more) combined with a heel that rises more than about 2 cm above the front; heel height is measured from the top of the platform.
   lug-sole: Chunky rubber sole with deep, pronounced tread, whatever its height. Wins over flatform when the deep tread is visible.
+
+primary_color:
+  multicolor: Three or more colours with no dominant one. With two colours in roughly equal amounts, the primary is the colour of the structural parts (sole, heel, toe cap, trim, handles; the background of a pattern), otherwise the darker one, and the other goes in secondary_colors.

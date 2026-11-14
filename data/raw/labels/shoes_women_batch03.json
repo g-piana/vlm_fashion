@@ -536,7 +536,7 @@
       ],
       "toe_shape": "round-toe",
       "heel_type": null,
-      "heel_height": "mid-heel",
+      "heel_height": "flat-heel",
       "sole_type": "lug-sole",
       "closure": "lace-up",
       "secondary_colors": []
@@ -559,7 +559,7 @@
       "finishing": [],
       "toe_shape": "round-toe",
       "heel_type": null,
-      "heel_height": "mid-heel",
+      "heel_height": "flat-heel",
       "sole_type": "lug-sole",
       "closure": "lace-up",
       "secondary_colors": []
@@ -614,7 +614,7 @@
       "finishing": [
         "patent"
       ],
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -625,14 +625,14 @@
     "image": "flat-lace-up__C7S7006-0240.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A women's lace-up shoe featuring a translucent, metallic silver upper with a subtle floral pattern and a matching silver block heel. The design includes silver laces threaded through metal eyelets and a contrasting brown sole. The silhouette is classic oxford with a pointed toe and clean, structured lines.",
+    "description": "A women's lace-up shoe featuring a translucent, metallic silver upper with a subtle floral pattern and a matching silver block heel. The design includes silver laces threaded through metal eyelets and a contrasting brown sole. The silhouette is classic oxford with a round toe and clean, structured lines.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "heeled lace up",
       "primary_color": "silver",
       "material": "faux-leather",
       "closure": "lace-up",
-      "toe_shape": "pointed-toe",
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -800,7 +800,7 @@
       "primary_color": "grey",
       "material": "leather",
       "closure": "buckle",
-      "toe_shape": "peep-toe",
+      "toe_shape": null,
       "heel_type": "wedge-heel",
       "heel_height": "low-heel",
       "sole_type": null,
@@ -860,13 +860,12 @@
       "pattern": null,
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "low-heel",
       "sole_type": "flatform",
       "closure": "lace-up",
       "secondary_colors": [],
       "secondary_materials": [],
       "finishing": [
-        "metallic",
         "croc-effect"
       ],
       "model_details": []
@@ -885,7 +884,7 @@
       "closure": "lace-up",
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "low-heel",
       "sole_type": "flatform",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -910,7 +909,7 @@
       "closure": "lace-up",
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "low-heel",
       "sole_type": "lug-sole",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -933,7 +932,7 @@
       "closure": "lace-up",
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "low-heel",
       "sole_type": "flatform",
       "embellishments": [],
       "pattern": null,
@@ -963,7 +962,7 @@
       "finishing": [],
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "low-heel",
       "sole_type": "lug-sole",
       "closure": "lace-up"
     }
@@ -1189,7 +1188,7 @@
       "finishing": [
         "metallic"
       ],
-      "toe_shape": "pointed-toe",
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -1214,7 +1213,7 @@
         "ankle-wrap"
       ],
       "finishing": [],
-      "toe_shape": "peep-toe",
+      "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": null,
@@ -1231,7 +1230,7 @@
       "subcategory": "sandal boot",
       "primary_color": "black",
       "material": "faux-leather",
-      "toe_shape": "peep-toe",
+      "toe_shape": null,
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
       "closure": null,
@@ -1288,7 +1287,7 @@
       "finishing": [
         "metallic"
       ],
-      "toe_shape": "peep-toe",
+      "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "high-heel",
       "sole_type": null,
@@ -1300,7 +1299,7 @@
     "image": "sandal-boot__C9S1092-0085.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A black suede ankle boot featuring a strappy, gladiator-inspired design with pearl embellishments along the vamp. The silhouette is defined by a block heel and a pointed toe, with a gold-tone CC logo at the back. The construction includes multiple crisscross straps for a secure fit and a zip closure on the inner side.",
+    "description": "A black suede ankle boot featuring a strappy, gladiator-inspired design with pearl embellishments along the vamp. The silhouette is defined by a block heel and a round toe, with a gold-tone CC logo at the back. The construction includes multiple crisscross straps for a secure fit and a zip closure on the inner side.",
     "tags": {
       "category": "sandals-women",
       "subcategory": "sandal boot",
@@ -1310,7 +1309,7 @@
         "logo",
         "pearl"
       ],
-      "toe_shape": "pointed-toe",
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "closure": "zip-up",
@@ -1339,7 +1338,7 @@
         "ankle-strap"
       ],
       "finishing": [],
-      "toe_shape": "peep-toe",
+      "toe_shape": null,
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,

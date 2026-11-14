@@ -46,7 +46,9 @@
       "secondary_materials": [],
       "pattern": null,
       "model_details": [],
-      "finishing": []
+      "finishing": [
+        "metallic"
+      ]
     }
   },
   {
@@ -194,7 +196,9 @@
       "secondary_materials": [],
       "pattern": null,
       "model_details": [],
-      "finishing": []
+      "finishing": [
+        "patent"
+      ]
     }
   },
   {
@@ -308,7 +312,7 @@
       "primary_color": "black",
       "material": "suede",
       "closure": "slip-on",
-      "toe_shape": "pointed-toe",
+      "toe_shape": "almond-toe",
       "heel_type": "comma-heel",
       "heel_height": "high-heel",
       "secondary_colors": [],
@@ -431,7 +435,7 @@
     "image": "A9S1054-1659SIY.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A glamorous, metallic silver stiletto-heel sandal with a transparent strap structure adorned with crystal embellishments. The shoe features a pointed toe and a slender, stiletto heel encrusted with crystals, creating a high-shine, evening-ready silhouette. Constructed with clear straps and a reflective metallic finish, it emphasizes a bold, sparkling aesthetic.",
+    "description": "A glamorous, metallic silver stiletto-heel sandal with a transparent strap structure adorned with crystal embellishments. The shoe features a round toe and a slender, stiletto heel encrusted with crystals, creating a high-shine, evening-ready silhouette. Constructed with clear straps and a reflective metallic finish, it emphasizes a bold, sparkling aesthetic.",
     "tags": {
       "category": "sandals-women",
       "subcategory": "heeled sandal",
@@ -440,7 +444,7 @@
       "embellishments": [
         "crystal"
       ],
-      "toe_shape": "pointed-toe",
+      "toe_shape": "round-toe",
       "heel_type": "stiletto-heel",
       "heel_height": "high-heel",
       "closure": null,
@@ -638,7 +642,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "toe_shape": "square-toe",
+      "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": null,
@@ -715,7 +719,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "almond-toe",
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
       "sole_type": "platform",
@@ -735,7 +739,7 @@
       "primary_color": "white",
       "material": "faux-leather",
       "closure": "lace-up",
-      "toe_shape": "pointed-toe",
+      "toe_shape": "round-toe",
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
       "sole_type": "platform",
@@ -812,7 +816,7 @@
         "buckle",
         "chain"
       ],
-      "toe_shape": "pointed-toe",
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -863,7 +867,7 @@
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "toe_shape": null,
+      "toe_shape": "almond-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -1121,7 +1125,7 @@
       ],
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "flat-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
@@ -1262,10 +1266,7 @@
       "closure": "slip-on",
       "category": "sandals-women",
       "model_details": [],
-      "finishing": [
-        "patent",
-        "metallic"
-      ]
+      "finishing": []
     }
   },
   {
@@ -1466,7 +1467,7 @@
       "embellishments": [
         "stud"
       ],
-      "toe_shape": null,
+      "toe_shape": "almond-toe",
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
       "sole_type": "platform",
@@ -1529,7 +1530,6 @@
         "cap-toe"
       ],
       "finishing": [
-        "metallic",
         "python-effect"
       ]
     }
@@ -1921,7 +1921,7 @@
     "image": "B5S6289-0090.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A vibrant red wedge shoe with a peep-toe silhouette and a textured leather upper. The heel and platform feature a distinctive red and gold zigzag woven pattern, while the toe cap is adorned with a circular gold stud embellishment. The interior lining is gold-toned, contrasting with the bold exterior.",
+    "description": "A vibrant red wedge shoe with a almond toe silhouette and a textured leather upper. The heel and platform feature a distinctive red and gold zigzag woven pattern, while the toe cap is adorned with a circular gold stud embellishment. The interior lining is gold-toned, contrasting with the bold exterior.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "wedge pump",
@@ -1931,7 +1931,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "zigzag",
-      "toe_shape": null,
+      "toe_shape": "almond-toe",
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
       "sole_type": "platform",
@@ -2030,7 +2030,7 @@
         "bow"
       ],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "almond-toe",
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
       "sole_type": "platform",
@@ -2060,7 +2060,7 @@
         "stud"
       ],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "lug-sole",
@@ -2173,7 +2173,7 @@
         "sequin"
       ],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "lug-sole",
@@ -2230,7 +2230,7 @@
       ],
       "embellishments": [],
       "pattern": "floral-pattern",
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "lug-sole",
@@ -2344,11 +2344,11 @@
     "image": "B5W4013-0972.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, pointed-toe d'orsay pump in a glossy taupe patent leather with a stud-decorated T-strap design and a slender stiletto heel. The shoe features a thin ankle strap with a silver-toned buckle for secure closure and a contrasting black insole. The minimalist silhouette is accentuated by the high-gloss finish and sharp lines.",
+    "description": "A sleek, pointed-toe d'orsay pump in a glossy pink patent leather with a stud-decorated T-strap design and a slender stiletto heel. The shoe features a thin ankle strap with a silver-toned buckle for secure closure and a contrasting black insole. The minimalist silhouette is accentuated by the high-gloss finish and sharp lines.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "d'orsay pump",
-      "primary_color": "taupe",
+      "primary_color": "pink",
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
@@ -2511,8 +2511,10 @@
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "pump",
-      "primary_color": "black",
-      "secondary_colors": [],
+      "primary_color": "tan",
+      "secondary_colors": [
+        "black"
+      ],
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [],
@@ -2557,11 +2559,11 @@
     "image": "B5W6095-0013.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A minimalist T-strap mary jane flat shoe in a muted taupe hue, featuring a glossy patent leather finish and a sharply pointed toe. The design includes a single adjustable strap with a silver-toned buckle for closure, complemented by a low, flat heel. The silhouette is sleek and modern, emphasizing clean lines and a classic Mary Jane-inspired structure.",
+    "description": "A minimalist T-strap mary jane flat shoe in a muted nude hue, featuring a glossy patent leather finish and a sharply pointed toe. The design includes a single adjustable strap with a silver-toned buckle for closure, complemented by a low, flat heel. The silhouette is sleek and modern, emphasizing clean lines and a classic Mary Jane-inspired structure.",
     "tags": {
       "category": "flat-shoes-women",
       "subcategory": "mary jane flat",
-      "primary_color": "taupe",
+      "primary_color": "nude",
       "material": "leather",
       "embellishments": [
         "stud"
@@ -2644,9 +2646,9 @@
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "mary jane pump",
-      "primary_color": "black",
+      "primary_color": "tan",
       "secondary_colors": [
-        "tan"
+        "black"
       ],
       "material": "leather",
       "secondary_materials": [],
@@ -2674,7 +2676,7 @@
       "embellishments": [
         "chain"
       ],
-      "toe_shape": "pointed-toe",
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,
@@ -2724,7 +2726,7 @@
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "embellishments": [],
       "secondary_colors": [],
       "pattern": null,
@@ -2745,7 +2747,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,
@@ -2794,7 +2796,7 @@
       "material": "leather",
       "closure": "lace-up",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "flat-heel",
       "sole_type": "lug-sole",
       "toe_shape": "round-toe",
       "embellishments": [],
@@ -2820,7 +2822,7 @@
         "embroidery"
       ],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "lug-sole",
@@ -2876,7 +2878,7 @@
       "pattern": null,
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "flat-heel",
       "sole_type": "flatform",
       "closure": "lace-up",
       "model_details": [],
@@ -2899,7 +2901,7 @@
       "pattern": null,
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "flat-heel",
       "sole_type": "flatform",
       "closure": "lace-up",
       "secondary_colors": [],
@@ -2953,7 +2955,7 @@
       "secondary_materials": [],
       "pattern": null,
       "heel_type": null,
-      "heel_height": null,
+      "heel_height": "flat-heel",
       "model_details": [],
       "finishing": [
         "velvet"
@@ -3156,7 +3158,7 @@
     "image": "B5W9125-0321999.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, mid-calf boot crafted from glossy black leather, featuring a prominent gold-tone buckle closure at the ankle and a block heel. The silhouette is straight-cut with a pointed toe, offering a modern, structured look. The smooth, reflective surface and bold hardware accentuate its minimalist yet edgy design.",
+    "description": "A sleek, mid-calf boot crafted from glossy black leather, featuring a prominent gold-tone buckle closure at the ankle and a block heel. The silhouette is straight-cut with a round toe, offering a modern, structured look. The smooth, reflective surface and bold hardware accentuate its minimalist yet edgy design.",
     "tags": {
       "category": "boots-and-booties-women",
       "subcategory": "boot",
@@ -3165,7 +3167,7 @@
       "embellishments": [
         "buckle"
       ],
-      "toe_shape": "pointed-toe",
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": null,
@@ -3454,7 +3456,7 @@
     "image": "B6S4010.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A minimalist d'orsay flat featuring a nude patent leather upper with a pointed almond toe and transparent plastic overlay at the vamp and heel counter. The shoe is adorned with a small, structured bow detail at the toe, secured with a gold-tone metal plate. The silhouette is sleek and modern with a flat, low-profile sole.",
+    "description": "A minimalist d'orsay flat featuring a nude patent leather upper with a pointed toe and transparent plastic overlay at the vamp and heel counter. The shoe is adorned with a small, structured bow detail at the toe, secured with a gold-tone metal plate. The silhouette is sleek and modern with a flat, low-profile sole.",
     "tags": {
       "category": "flat-shoes-women",
       "subcategory": "d'orsay flat",
@@ -3465,7 +3467,7 @@
         "bow"
       ],
       "pattern": null,
-      "toe_shape": "almond-toe",
+      "toe_shape": "pointed-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,
@@ -3545,14 +3547,14 @@
         "crystal",
         "flower"
       ],
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "closure": "slip-on",
       "sole_type": "lug-sole",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
       "heel_type": null,
-      "heel_height": null,
+      "heel_height": "flat-heel",
       "model_details": [],
       "finishing": []
     }
@@ -3577,9 +3579,9 @@
         "flower"
       ],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
-      "heel_height": null,
+      "heel_height": "flat-heel",
       "sole_type": "lug-sole",
       "closure": "slip-on",
       "model_details": [],
@@ -3685,7 +3687,7 @@
         "pearl"
       ],
       "pattern": null,
-      "toe_shape": "pointed-toe",
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -3849,7 +3851,7 @@
         "crystal",
         "feather"
       ],
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": "lug-sole",
@@ -3897,7 +3899,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "almond-toe",
       "heel_type": "wedge-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -3942,7 +3944,7 @@
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "heeled mule",
-      "primary_color": "black",
+      "primary_color": "multicolor",
       "secondary_colors": [
         "slate",
         "fuchsia",
@@ -4162,7 +4164,7 @@
       "pattern": null,
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "flat-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
@@ -4206,7 +4208,7 @@
       "closure": "slip-on",
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "flat-heel",
       "sole_type": null,
       "embellishments": [],
       "pattern": null,
@@ -4355,9 +4357,9 @@
     "tags": {
       "category": "boots-and-booties-women",
       "subcategory": "ankle boot",
-      "primary_color": "black",
+      "primary_color": "beige",
       "secondary_colors": [
-        "gold"
+        "black"
       ],
       "material": "leather",
       "secondary_materials": [],
@@ -4378,16 +4380,16 @@
     "image": "B7S5041-0010999.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A tall, black suede gladiator-style boot with an intricate crisscross lace-up design extending from the toe to the upper calf. The silhouette is defined by a chunky block heel and a peep-toe opening, with transparent plastic panels integrated into the lace-up structure for a modern, architectural look. The construction features multiple straps that wrap around the foot and leg, creating a bold, statement-making profile.",
+    "description": "A tall, black suede gladiator-style sandal boot with an intricate crisscross lace-up design extending from the toe to the upper calf. The silhouette is defined by a chunky block heel and a peep-toe opening, with transparent plastic panels integrated into the lace-up structure for a modern, architectural look. The construction features multiple straps that wrap around the foot and leg, creating a bold, statement-making profile.",
     "tags": {
-      "category": "boots-and-booties-women",
-      "subcategory": "boot",
+      "category": "sandals-women",
+      "subcategory": "sandal boot",
       "primary_color": "black",
       "material": "suede",
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "toe_shape": "peep-toe",
+      "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -4401,7 +4403,7 @@
     "image": "B7S6039.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A mustard-yellow flat shoe with a perforated, textured upper and a decorative metallic bow embellishment at the toe. The silhouette is classic ballet flat with a rounded toe and a low-profile sole. The material appears to be a smooth, possibly patent or lacquered leather with a distinctive woven or perforated pattern across the vamp.",
+    "description": "A mustard-yellow flat shoe with a perforated, textured upper and a decorative metallic bow embellishment at the toe. The silhouette is classic ballet flat with an almond toe and a low-profile sole. The material appears to be a smooth, possibly patent or lacquered leather with a distinctive woven or perforated pattern across the vamp.",
     "tags": {
       "category": "flat-shoes-women",
       "subcategory": "ballerina",
@@ -4411,7 +4413,7 @@
         "bow",
         "stud"
       ],
-      "toe_shape": "round-toe",
+      "toe_shape": "almond-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,
@@ -4490,9 +4492,9 @@
       "material": "leather",
       "closure": "lace-up",
       "heel_type": "wedge-heel",
-      "heel_height": "low-heel",
+      "heel_height": "flat-heel",
       "sole_type": "lug-sole",
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "embellishments": [],
       "pattern": null,
       "secondary_colors": [],
@@ -4545,7 +4547,7 @@
         "gemstone"
       ],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "lug-sole",
@@ -4693,7 +4695,7 @@
     "image": "B7W3010-00131KA.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A minimalist women's mule featuring a sleek, pointed-toe silhouette in a matte charcoal grey finish. Constructed witha sculptural spherical pearl-effect heel that replaces a traditional heel structure. The shoe has a slip-on design with a low, sculpted platform sole and a contrasting pinkish inner lining.",
+    "description": "A minimalist women's mule featuring a sleek, almond-toe silhouette in a matte charcoal grey finish. Constructed witha sculptural spherical pearl-effect heel that replaces a traditional heel structure. The shoe has a slip-on design with a low, sculpted platform sole and a contrasting pinkish inner lining.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "heeled mule",
@@ -4702,7 +4704,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "toe_shape": "pointed-toe",
+      "toe_shape": "almond-toe",
       "heel_type": null,
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -4806,7 +4808,7 @@
         "stud"
       ],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "flatform",
@@ -4828,7 +4830,7 @@
       "embellishments": [
         "buckle"
       ],
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "closure": null,
       "sole_type": null,
       "category": "flat-shoes-women",
@@ -4836,7 +4838,7 @@
       "secondary_materials": [],
       "pattern": null,
       "heel_type": null,
-      "heel_height": null,
+      "heel_height": "low-heel",
       "model_details": [
         "cap-toe"
       ],
@@ -4939,7 +4941,7 @@
       ],
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "mid-heel",
+      "heel_height": "flat-heel",
       "sole_type": "lug-sole",
       "closure": "lace-up",
       "secondary_colors": [],
@@ -4987,7 +4989,7 @@
       "embellishments": [
         "stud"
       ],
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": "lug-sole",
@@ -5019,7 +5021,7 @@
         "fur"
       ],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": "flatform",
@@ -5351,7 +5353,7 @@
         "eyelet"
       ],
       "pattern": null,
-      "toe_shape": "pointed-toe",
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "high-heel",
       "sole_type": null,
@@ -5373,7 +5375,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,
@@ -5391,9 +5393,9 @@
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "slingback",
-      "primary_color": "black",
+      "primary_color": "ivory",
       "secondary_colors": [
-        "beige"
+        "black"
       ],
       "material": "leather",
       "secondary_materials": [
@@ -5448,7 +5450,7 @@
       "subcategory": "ballerina",
       "primary_color": "yellow",
       "material": "suede",
-      "toe_shape": null,
+      "toe_shape": "almond-toe",
       "heel_type": null,
       "sole_type": null,
       "closure": "slip-on",
@@ -5456,7 +5458,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "heel_height": null,
+      "heel_height": "flat-heel",
       "model_details": [],
       "finishing": []
     }
@@ -5465,7 +5467,7 @@
     "image": "B9W9031-1754616.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A muted taupe leather ankle boot with a chunky, textured black lug sole and a low block heel. Features a lace-up closure with branded black-and-white laces and a pull tab at the back for ease of wear. The silhouette is sturdy and utilitarian with visible stitching and a peep-toe design.",
+    "description": "A muted taupe leather ankle boot with a chunky, textured black lug sole and a low block heel. Features a lace-up closure with branded black-and-white laces and a pull tab at the back for ease of wear. The silhouette is sturdy and utilitarian.",
     "tags": {
       "category": "boots-and-booties-women",
       "subcategory": "lace up boot",
@@ -5474,7 +5476,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "toe_shape": "peep-toe",
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": "lug-sole",
@@ -5497,7 +5499,7 @@
       "embellishments": [
         "eyelet"
       ],
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "sole_type": "lug-sole",
       "closure": "lace-up",
@@ -5515,7 +5517,7 @@
     "image": "BAL000001.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A two-tone leather slingback pump featuring a tan upper with a glossy rust-red toe cap and heel, constructed with a block heel and a thin slingback strap. The design includes a distinctive cutout detail at the vamp and a contrasting matte tan sole. The silhouette is classic with a pointed toe and moderate heel height.",
+    "description": "A two-tone leather slingback pump featuring a tan upper with a glossy rust-red toe cap and heel, constructed with a block heel and a thin slingback strap. The design includes a distinctive cutout detail at the vamp and a contrasting matte tan sole. The silhouette is classic with a square toe and moderate heel height.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "slingback",
@@ -5527,7 +5529,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "toe_shape": "pointed-toe",
+      "toe_shape": "square-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -5542,7 +5544,7 @@
     "image": "BAL000184.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A single red suede slingback with a low block heel and a slingback strap. The shoe features a pointed toe and a decorative bow embellishment at the vamp. The construction includes a contrasting black outsole and a visible inner lining.",
+    "description": "A single red suede slingback with a low block heel and a slingback strap. The shoe features a almond toe and a decorative bow embellishment at the vamp. The construction includes a contrasting black outsole and a visible inner lining.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "slingback",
@@ -5551,7 +5553,7 @@
       "embellishments": [
         "bow"
       ],
-      "toe_shape": "pointed-toe",
+      "toe_shape": "almond-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -5655,7 +5657,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -5848,7 +5850,7 @@
       ],
       "embellishments": [],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,
@@ -5874,7 +5876,7 @@
         "jute"
       ],
       "embellishments": [],
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "closure": "lace-up",
       "sole_type": "platform",
       "secondary_colors": [],
@@ -5932,7 +5934,7 @@
       ],
       "embellishments": [],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,
@@ -5947,7 +5949,7 @@
     "image": "C0W6002-0552.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A classic Mary Jane pump featuring a beige leather body with a contrasting black patent cap toe and a gold-tone buckle closure on a T-strap. The shoe has a moderate block heel and a clean, structured silhouette with a pointed toe. The iconic interlocking CC logo is visible on the heel counter.",
+    "description": "A classic Mary Jane pump featuring a beige leather body with a contrasting black patent cap toe and a gold-tone buckle closure on a T-strap. The shoe has a moderate block heel and a clean, structured silhouette with an almond toe. The iconic interlocking CC logo is visible on the heel counter.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "mary jane pump",
@@ -5961,7 +5963,7 @@
         "logo"
       ],
       "pattern": null,
-      "toe_shape": "round-toe",
+      "toe_shape": "almond-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -5969,16 +5971,14 @@
       "model_details": [
         "cap-toe"
       ],
-      "finishing": [
-        "patent"
-      ]
+      "finishing": []
     }
   },
   {
     "image": "C0W6003-0552GNR.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A classic Mary Jane pump featuring a sleek, pointed toe with a contrasting black patent cap, constructed from smooth grey leather with a prominent T-strap and metallic buckle. The silhouette is defined by a substantial block heel and a polished, minimalist aesthetic, accented by a silver-tone brand logo on the vamp.",
+    "description": "A classic Mary Jane pump featuring a sleek, almond toe with a contrasting black patent cap, constructed from smooth grey leather with a prominent T-strap and metallic buckle. The silhouette is defined by a substantial block heel and a polished, minimalist aesthetic, accented by a silver-tone brand logo on the vamp.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "mary jane pump",
@@ -5990,7 +5990,7 @@
         "logo"
       ],
       "pattern": null,
-      "toe_shape": "pointed-toe",
+      "toe_shape": "almond-toe",
       "heel_type": "block-heel",
       "heel_height": "high-heel",
       "sole_type": null,
@@ -5998,9 +5998,7 @@
       "model_details": [
         "cap-toe"
       ],
-      "finishing": [
-        "patent"
-      ]
+      "finishing": []
     }
   },
   {
@@ -6016,14 +6014,14 @@
       "embellishments": [
         "buckle"
       ],
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "closure": "slip-on",
       "sole_type": null,
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
       "heel_type": "block-heel",
-      "heel_height": "flat-heel",
+      "heel_height": "low-heel",
       "model_details": [],
       "finishing": []
     }
@@ -6070,16 +6068,20 @@
       "secondary_colors": [
         "white"
       ],
-      "material": "faux-leather",
-      "secondary_materials": [],
+      "material": "elastane",
+      "secondary_materials": [
+        "leather"
+      ],
       "embellishments": [],
-      "pattern": null,
+      "pattern": "checks",
       "toe_shape": "square-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": null,
       "closure": "slip-on",
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [
         "knit"
       ]
@@ -6097,10 +6099,12 @@
       "secondary_colors": [
         "white"
       ],
-      "material": "faux-leather",
-      "secondary_materials": [],
+      "material": "polyester",
+      "secondary_materials": [
+        "leather"
+      ],
       "embellishments": [],
-      "pattern": null,
+      "pattern": "checks",
       "toe_shape": "pointed-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
@@ -6127,7 +6131,7 @@
         "fur"
       ],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": "flatform",
@@ -6150,7 +6154,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "snake",
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": null,
@@ -6183,7 +6187,7 @@
         "pearl"
       ],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "flat-heel",
       "sole_type": null,
@@ -6208,7 +6212,7 @@
       "embellishments": [
         "pearl"
       ],
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "closure": "slip-on",
       "sole_type": null,
       "secondary_colors": [],
@@ -6243,7 +6247,7 @@
       "pattern": null,
       "toe_shape": "almond-toe",
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "flat-heel",
       "sole_type": null,
       "closure": "buckle",
       "model_details": [
@@ -6319,7 +6323,7 @@
       "embellishments": [
         "button"
       ],
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -6335,7 +6339,7 @@
     "image": "C7S7006-0240TRA.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A women's lace-up oxford-style shoe featuring a translucent, silver-toned material with a subtle floral pattern, set on a block heel. The design includes metallic eyelets and matching silver laces, with a clean, structured silhouette and a pointed toe. The sole is a contrasting dark brown.",
+    "description": "A women's lace-up oxford-style shoe featuring a translucent, silver-toned material with a subtle floral pattern, set on a block heel. The design includes metallic eyelets and matching silver laces, with a clean, structured silhouette and a round toe. The sole is a contrasting dark brown.",
     "tags": {
       "category": "flat-shoes-women",
       "subcategory": "flat lace up",
@@ -6344,7 +6348,7 @@
       "closure": "lace-up",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
-      "toe_shape": "pointed-toe",
+      "toe_shape": "round-toe",
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
@@ -6372,7 +6376,7 @@
         "pearl"
       ],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
       "sole_type": null,
@@ -6459,13 +6463,15 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": "diamond",
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
       "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
-      "model_details": [],
+      "model_details": [
+        "cap-toe"
+      ],
       "finishing": [
         "metallic"
       ]
@@ -6573,9 +6579,10 @@
     "tags": {
       "category": "sneakers-women",
       "subcategory": "high-top sneaker",
-      "primary_color": "purple",
+      "primary_color": "multicolor",
       "secondary_colors": [
         "pink",
+        "purple",
         "brown",
         "gold"
       ],
@@ -6583,7 +6590,7 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,
@@ -6609,7 +6616,7 @@
         "star-element"
       ],
       "pattern": null,
-      "toe_shape": null,
+      "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,

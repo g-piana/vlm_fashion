@@ -133,7 +133,9 @@ def main():
         bf16=False,
         logging_steps=train_cfg["logging_steps"],
         save_strategy="epoch",
-        save_total_limit=2,
+        eval_strategy=train_cfg.get("eval_strategy", "epoch"),   # ← add this
+        save_total_limit=train_cfg.get("save_total_limit", 2),   # ← add this (was hardcoded 2)
+        per_device_eval_batch_size=train_cfg.get("per_device_eval_batch_size", 1),  # ← add this
         seed=train_cfg.get("seed", 42),
         dataloader_num_workers=0,  # 0 to avoid pickling PIL images across processes
         remove_unused_columns=False,

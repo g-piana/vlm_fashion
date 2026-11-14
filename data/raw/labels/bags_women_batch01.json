@@ -741,7 +741,9 @@
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
-      "model_details": [],
+      "model_details": [
+        "perforated"
+      ],
       "finishing": []
     }
   },
@@ -781,9 +783,9 @@
     "tags": {
       "category": "handbags-women",
       "subcategory": "top handle bag",
-      "primary_color": "white",
+      "primary_color": "black",
       "secondary_colors": [
-        "black"
+        "white"
       ],
       "material": "leather",
       "secondary_materials": [],

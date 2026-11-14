@@ -1449,7 +1449,7 @@
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "bucket bag",
-      "primary_color": "ivory",
+      "primary_color": "white",
       "material": "leather",
       "embellishments": [
         "eyelet"
@@ -1895,7 +1895,7 @@
     "tags": {
       "category": "clutches-women",
       "subcategory": "minaudière",
-      "primary_color": "taupe",
+      "primary_color": "grey",
       "secondary_colors": [
         "pink",
         "peach"
@@ -2943,7 +2943,7 @@
       "closure": [
         "front-flap"
       ],
-      "hardware_color": "gold",
+      "hardware_color": "silver",
       "bag_size": "medium",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -3241,7 +3241,7 @@
       "material": "leather",
       "embellishments": [],
       "finishing": [
-        "satin"
+        "woven-leather"
       ],
       "hardware_color": "gold",
       "closure": [
