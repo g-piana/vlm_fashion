@@ -523,8 +523,8 @@
     "image_type": "product",
     "description": "A vibrant fuchsia patent leather lace-up shoe with a distinctive white, scalloped platform sole and a contrasting tan midsole. The silhouette is a classic derby-style flat with a rounded toe and visible stitching details. The glossy finish of the upper contrasts with the textured, chunky sole.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled lace up",
+      "category": "flat-shoes-women",
+      "subcategory": "flat lace up",
       "primary_color": "fuchsia",
       "material": "leather",
       "secondary_materials": [],
@@ -537,7 +537,7 @@
       "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "mid-heel",
-      "sole_type": "platform",
+      "sole_type": "lug-sole",
       "closure": "lace-up",
       "secondary_colors": []
     }
@@ -548,8 +548,8 @@
     "image_type": "product",
     "description": "A tan leather lace-up shoe with a distinctive two-part sole: a woven grey espadrille-style midsole and a white, jagged rubber outsole. The silhouette is a classic lace-up with a rounded toe and pebbled leather upper. The construction features visible stitching and matching tan laces.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled lace up",
+      "category": "flat-shoes-women",
+      "subcategory": "flat lace up",
       "primary_color": "tan",
       "material": "leather",
       "secondary_materials": [],
@@ -560,7 +560,7 @@
       "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "mid-heel",
-      "sole_type": "platform",
+      "sole_type": "lug-sole",
       "closure": "lace-up",
       "secondary_colors": []
     }
@@ -671,7 +671,7 @@
       "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "platform",
+      "sole_type": null,
       "closure": "lace-up"
     }
   },
@@ -700,7 +700,7 @@
       "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "platform",
+      "sole_type": null,
       "closure": "lace-up"
     }
   },
@@ -852,8 +852,8 @@
     "image_type": "product",
     "description": "A women's lace-up shoe featuring a textured, iridescent crocodile-effect leather upper in a dark grey hue, paired with a substantial black block heel and matching platform sole. The silhouette is classic oxford with a rounded toe and traditional lacing system, accented by the shimmering, scale-like surface that catches the light.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled lace up",
+      "category": "flat-shoes-women",
+      "subcategory": "flat lace up",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
@@ -861,7 +861,7 @@
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
-      "sole_type": "platform",
+      "sole_type": "flatform",
       "closure": "lace-up",
       "secondary_colors": [],
       "secondary_materials": [],
@@ -878,15 +878,15 @@
     "image_type": "product",
     "description": "A glossy black patent leather lace-up shoe featuring a classic Oxford silhouette with a thick, block heel and platform sole. The shoe has a rounded toe and is constructed with visible stitching and a contrasting dark lace. The finish is highly reflective, giving it a polished, formal appearance.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled lace up",
+      "category": "flat-shoes-women",
+      "subcategory": "flat lace up",
       "primary_color": "black",
       "material": "leather",
       "closure": "lace-up",
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
-      "sole_type": "platform",
+      "sole_type": "flatform",
       "secondary_colors": [],
       "secondary_materials": [],
       "embellishments": [],
@@ -903,8 +903,8 @@
     "image_type": "product",
     "description": "A sleek, black leather lace-up shoe with a chunky, textured block heel and matching lug sole. The silhouette features a classic derby construction with visible stitching and a rounded toe. The design emphasizes a modern, urban aesthetic with its substantial, sculpted heel and platform.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled lace up",
+      "category": "flat-shoes-women",
+      "subcategory": "flat lace up",
       "primary_color": "black",
       "material": "leather",
       "closure": "lace-up",
@@ -926,15 +926,15 @@
     "image_type": "product",
     "description": "A glossy black patent leather lace-up shoe with a chunky block heel and platform sole. Features traditional wingtip brogue detailing with perforated eyelets and decorative stitching along the vamp and toe cap. The silhouette is classic oxford with a rounded toe and structured construction.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled lace up",
+      "category": "flat-shoes-women",
+      "subcategory": "flat lace up",
       "primary_color": "black",
       "material": "leather",
       "closure": "lace-up",
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
-      "sole_type": "platform",
+      "sole_type": "flatform",
       "embellishments": [],
       "pattern": null,
       "secondary_colors": [],
@@ -951,8 +951,8 @@
     "image_type": "product",
     "description": "A dark brown leather lace-up shoe featuring a classic wingtip silhouette with decorative perforated detailing and contrasting red stitching. The shoe is constructed with a thick, black lug-sole heel and a rounded toe, combining traditional oxford styling with a rugged, modern sole.",
     "tags": {
-      "category": "heeled-shoes-women",
-      "subcategory": "heeled lace up",
+      "category": "flat-shoes-women",
+      "subcategory": "flat lace up",
       "primary_color": "brown",
       "secondary_colors": [],
       "material": "leather",
@@ -963,7 +963,7 @@
       "finishing": [],
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
-      "heel_height": "low-heel",
+      "heel_height": "mid-heel",
       "sole_type": "lug-sole",
       "closure": "lace-up"
     }
@@ -986,7 +986,7 @@
       "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "slouch",
+      "sole_type": null,
       "closure": "lace-up",
       "secondary_colors": []
     }
@@ -1005,7 +1005,7 @@
       "toe_shape": "round-toe",
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
-      "sole_type": "slouch",
+      "sole_type": "lug-sole",
       "embellishments": [],
       "pattern": null,
       "secondary_colors": [],
@@ -1217,7 +1217,7 @@
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
       "heel_height": "low-heel",
-      "sole_type": "platform",
+      "sole_type": null,
       "closure": "lace-up"
     }
   },
@@ -1291,7 +1291,7 @@
       "toe_shape": "peep-toe",
       "heel_type": "block-heel",
       "heel_height": "high-heel",
-      "sole_type": "platform",
+      "sole_type": null,
       "closure": "buckle",
       "secondary_colors": []
     }
@@ -1426,7 +1426,7 @@
       "toe_shape": null,
       "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "slouch",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": []
     }
@@ -1526,7 +1526,7 @@
       "toe_shape": null,
       "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "slouch",
+      "sole_type": null,
       "closure": "slip-on"
     }
   },

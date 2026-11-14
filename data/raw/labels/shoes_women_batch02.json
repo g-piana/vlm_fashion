@@ -372,7 +372,7 @@
       "toe_shape": "round-toe",
       "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": null,
+      "sole_type": "lug-sole",
       "closure": "slip-on",
       "finishing": []
     }
@@ -560,7 +560,7 @@
       "toe_shape": null,
       "heel_type": null,
       "heel_height": "flat-heel",
-      "sole_type": "slouch",
+      "sole_type": null,
       "closure": "slip-on",
       "finishing": []
     }
@@ -659,7 +659,7 @@
       "toe_shape": null,
       "heel_type": "block-heel",
       "heel_height": "mid-heel",
-      "sole_type": "platform",
+      "sole_type": null,
       "closure": "slip-on",
       "secondary_colors": [],
       "finishing": []

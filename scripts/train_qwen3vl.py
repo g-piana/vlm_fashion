@@ -62,7 +62,9 @@ def build_messages(row: dict) -> list[dict]:
         image = Image.open(row["image_path"]).convert("RGB")
     except Exception:
         image = Image.new("RGB", (512, 512), (128, 128, 128))
-
+    
+    image.thumbnail((1024, 1024))
+    
     messages = []
     for msg in convs:
         if msg["role"] in ("system", "assistant"):
@@ -146,9 +148,14 @@ def main():
         args=sft_config,
         train_dataset=train_samples,
         eval_dataset=val_samples,
-        data_collator=UnslothVisionDataCollator(model, tokenizer),
+        data_collator=UnslothVisionDataCollator(
+            model, tokenizer,
+            train_on_responses_only=True,
+            instruction_part="<|im_start|>user\n",
+            response_part="<|im_start|>assistant\n",
+        )
     )
-
+    
     log.info("Starting training...")
     trainer.train()
 

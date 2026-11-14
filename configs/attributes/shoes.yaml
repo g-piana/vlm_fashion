@@ -27,7 +27,7 @@ heel_height:
 
 sole_type:
   type: enum
-  values: [flatform, lug-sole, platform, slouch]
+  values: [flatform, lug-sole, platform]
   app: {field: mod_details}
 
 closure:

@@ -158,3 +158,8 @@ handle_type:
   chain-strap: Chain used as the carrying strap.
   wrist-strap: Short loop or strap for carrying over the wrist.
   cut-out-handle: Handle formed by an opening cut into the top of the bag body, with no separate handle attached.
+
+sole_type:
+  flatform: Thick sole (about 2 cm or more at the front) of nearly even height from toe to heel; the heel rises no more than about 2 cm above the front. The shoe stays on the flat side (flat-heel or low-heel).
+  platform: Thick sole under the toes (about 2 cm or more) combined with a heel that rises more than about 2 cm above the front; heel height is measured from the top of the platform.
+  lug-sole: Chunky rubber sole with deep, pronounced tread, whatever its height. Wins over flatform when the deep tread is visible.

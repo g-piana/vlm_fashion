@@ -109,9 +109,14 @@ class FashionAnalyzer:
 
         with torch.no_grad():
             output_ids = self.model.generate(
-                **inputs, max_new_tokens=1024, temperature=0.3,
-                top_p=0.9, do_sample=True,
+                **inputs, max_new_tokens=1024, do_sample=False
             )
+
+        # with torch.no_grad():
+        #     output_ids = self.model.generate(
+        #         **inputs, max_new_tokens=1024, temperature=0.3,
+        #         top_p=0.9, do_sample=True,
+        #     )
 
         generated = output_ids[0, inputs["input_ids"].shape[1]:]
         text = self.tokenizer.decode(generated, skip_special_tokens=True).strip()
@@ -174,6 +179,8 @@ def main():
     for item in tqdm(items, desc="Analyzing"):
         try:
             image = Image.open(item["image_path"]).convert("RGB")
+            image.thumbnail((1024, 1024))
+            
             result = analyzer.analyze(
                 image, category=item["category"], image_type=item["image_type"]
             )
