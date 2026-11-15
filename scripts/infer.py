@@ -179,7 +179,7 @@ def main():
     for item in tqdm(items, desc="Analyzing"):
         try:
             image = Image.open(item["image_path"]).convert("RGB")
-            image.thumbnail((1024, 1024))
+            image.thumbnail((896, 896))  # was (1024, 1024)
             
             result = analyzer.analyze(
                 image, category=item["category"], image_type=item["image_type"]

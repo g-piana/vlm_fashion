@@ -63,7 +63,7 @@ def build_messages(row: dict) -> list[dict]:
     except Exception:
         image = Image.new("RGB", (512, 512), (128, 128, 128))
     
-    image.thumbnail((1024, 1024))
+    image.thumbnail((896, 896))  # was (1024, 1024)
     
     messages = []
     for msg in convs:

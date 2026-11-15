@@ -111,8 +111,8 @@ heel_type:
   cone-heel: Heel that is wide at the top and narrows toward the tip like a cone.
 
 heel_height:
-  flat-heel: No raised heel; the heel sits level with the front of the sole. Flatforms and even platforms are flat-heel.
-  low-heel: A small stacked or block heel rising up to about 2 cm above the front of the sole (less than a tenth of the shoe's length). Never a kitten heel.
+  flat-heel: No raised heel; the heel sits level with the ground. 
+  low-heel: A small stacked or block heel rising up to about 2 cm above the ground (less than a tenth of the shoe's length). Never a kitten heel.
   mid-heel: Clearly raised heel of about 3-7 cm, including every kitten heel.
   high-heel: Heel of about 7 cm or more, roughly a third of the shoe's length or higher.
 
@@ -162,7 +162,7 @@ handle_type:
 
 sole_type:
   flatform: Thick sole (about 2 cm or more at the front) of nearly even height from toe to heel; the heel rises no more than about 2 cm above the front. The shoe stays on the flat side (flat-heel or low-heel).
-  platform: Thick sole under the toes (about 2 cm or more) combined with a heel that rises more than about 2 cm above the front; heel height is measured from the top of the platform.
+  platform: Thick sole under the toes (about 2 cm or more) combined with a heel that rises more than about 2 cm above the front;
   lug-sole: Chunky rubber sole with deep, pronounced tread, whatever its height. Wins over flatform when the deep tread is visible.
 
 primary_color:
