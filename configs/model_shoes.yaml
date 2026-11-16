@@ -41,7 +41,7 @@ training:
   per_device_eval_batch_size: 1
 
 data:
-  train_path: "data/splits/train.parquet"
-  val_path: "data/splits/val.parquet"
-  test_path: "data/splits/test.parquet"
+  train_path: "data/splits_shoes/train.parquet"
+  val_path:   "data/splits_shoes/val.parquet"
+  test_path:  "data/splits_shoes/test.parquet"
   max_samples: null

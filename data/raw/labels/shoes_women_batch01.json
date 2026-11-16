@@ -205,10 +205,10 @@
     "image": "A8W1043-1536BAK.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A black suede mule sandal featuring a slender kitten heel and a single strap across the vamp adorned with a cluster of sparkling crystal and iridescent embellishments. The silhouette is minimalist with open back, designed for a sleek, evening-ready profile.",
+    "description": "A black suede heeled mule featuring a slender kitten heel and a single strap across the vamp adorned with a cluster of sparkling crystal and iridescent embellishments. The silhouette is minimalist with open back, designed for a sleek, evening-ready profile.",
     "tags": {
-      "category": "sandals-women",
-      "subcategory": "heeled sandal",
+      "category": "heeled-shoes-women",
+      "subcategory": "heeled mule",
       "primary_color": "black",
       "material": "suede",
       "embellishments": [
@@ -278,14 +278,19 @@
     "image": "A8W1079-1482LSB.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A sleek, metallic silver sandal featuring a slender kitten heel and a minimalist open-toe design with a single strap across the vamp. The ankle is secured by a black elasticated band with a white stripe and a zipper closure for ease of wear. The upper is crafted from a textured, metallic leather-like material, giving it a modern, reflective finish.",
+    "description": "A sleek, metallic silver heeled sandal featuring a slender kitten heel and a minimalist open-toe design with a single strap across the vamp. The ankle is secured by a black elasticated band with a white stripe and a zipper closure for ease of wear. The upper is crafted from a textured, metallic leather-like material, giving it a modern, reflective finish.",
     "tags": {
       "category": "sandals-women",
       "subcategory": "heeled sandal",
       "primary_color": "silver",
-      "secondary_colors": [],
+      "secondary_colors": [
+        "white",
+        "black"
+      ],
       "material": "leather",
-      "secondary_materials": [],
+      "secondary_materials": [
+        "elastane"
+      ],
       "embellishments": [],
       "pattern": null,
       "toe_shape": null,
@@ -3913,7 +3918,7 @@
     "image": "B7S1066-0027L12.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A metallic silver and gold mule featuring a slender stiletto heel and a wide, sculpted strap across the instep. The upper is constructed from shiny metallic leather in contrasting silver and gold panels, with a peep-toe silhouette and a perforated heel counter. The design emphasizes a sleek, modern aesthetic with its bold color blocking and minimalist silhouette.",
+    "description": "A metallic silver and gold heeled mule featuring a slender stiletto heel and a wide, sculpted strap across the instep. The upper is constructed from shiny metallic leather in contrasting silver and gold panels, with a peep-toe silhouette and a perforated heel counter. The design emphasizes a sleek, modern aesthetic with its bold color blocking and minimalist silhouette.",
     "tags": {
       "category": "heeled-shoes-women",
       "subcategory": "heeled mule",
@@ -4532,8 +4537,8 @@
     "image_type": "product",
     "description": "A modern, chunky sneaker with a dark green mesh upper and contrasting white sculpted sole with black accents. The shoe features a slip-on construction with distinctive black geometric embellishments along the vamp. The silhouette is bold and architectural, emphasizing volume and contemporary streetwear styling.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "slip on",
+      "category": "sneakers-women",
+      "subcategory": "low-top sneaker",
       "primary_color": "green",
       "secondary_colors": [
         "white",
@@ -6287,9 +6292,9 @@
     "image": "C6S6052.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A glossy black patent leather flat shoe featuring multiple wide straps across the instep, each adorned with ornate silver-toned decorative hardware. The silhouette is classic and structured with a rounded toe and a low, flat heel. The design emphasizes bold embellishments and a sleek, reflective finish.",
+    "description": "A glossy black patent leather mary jane flat shoe featuring multiple wide straps across the instep, each adorned with ornate silver-toned decorative hardware. The silhouette is classic and structured with a rounded toe and a low, flat heel. The design emphasizes bold embellishments and a sleek, reflective finish.",
     "tags": {
-      "subcategory": "other flat shoes",
+      "subcategory": "mary jane flat",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [

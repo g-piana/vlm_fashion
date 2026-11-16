@@ -54,41 +54,29 @@ embellishments:
   button: "Decorative button, not a functional closure."
   charm: "Small hanging ornament such as a letter charm, keyring or padlock tag."
   crystal: "Faceted sparkling stones, rhinestones. Set coloured cabochons are gemstone."
-  feather: "Natural or synthetic feathers."
   flower: "Three-dimensional applied flower. A stitched flower is embroidery, a printed one is pattern."
   fringe: "Row of hanging strands. A single hanging tuft is tassel."
-  fur: "Applied fur or fur trim, real or faux."
   gemstone: "Set coloured stone, opaque or cabochon. Faceted sparkling stones are crystal."
-  logo: "Brand logo or monogram physically applied: metal plate, embroidery or patch. Printed or jacquard monograms are not embellishments (see finishing: printed, jacquard)."
-  mesh-insert: "Transparent net panel."
-  mirror: "Small reflective mirror pieces."
+  logo: "Applied brand logo or monogram (metal plate, embroidery, patch). Printed or jacquard monograms are not embellishments."
   patch: "Applied piece with defined edges that is not a logo."
   pearl: "Pearls, real or faux. Wins over bead."
-  pom-pom: "Ball of yarn or fur."
   ribbon: "Separate decorative fabric strip. A border along an edge is trim."
   rope: "Cylindrical twisted cord used as decoration."
   sequin: "Flat reflective discs."
-  tassel: "Tuft of hanging threads."
   trim: "Contrasting border or piping along edges and seams, including braid. Fur trim is fur, lace trim is lace."
   web: "Striped woven webbing band applied as a detail (e.g. green-red-green). Plain straps do not count."
-  buckle: "Visible buckle that is part of the design (oversized, ornamental, several in a row). Not an ordinary hidden fastening."
-  chain: "Decorative chain as a detail (chain trim, chain on loafers or boots, chain belt). The chain that carries a bag is handle_type, not an embellishment."
+  buckle: "Ornamental buckle that is part of the design (oversized, several in a row), not an ordinary fastening."
+  chain: "Decorative chain detail. A chain that carries a bag is handle_type."
   eyelet: "Decorative or oversized eyelets and grommets. Standard lace eyelets do not count."
-  horsebit: "Double ring and bar hardware derived from the equestrian bit."
   stud: "Metal stud in relief, all shapes including spikes and rivets."
   embroidery: "Decoration stitched with thread. An embroidered brand logo is logo."
   lace: "Lace trim, or lace panels inserted into another material. Plain net is mesh-insert."
   bird-element: "Sculpted or applied bird motif. A printed bird is pattern."
   butterfly-element: "Sculpted or applied butterfly motif. A printed butterfly is pattern."
-  crown-element: "Sculpted or applied crown motif."
   dragon-element: "Sculpted or applied dragon motif. Wins over charm and stud."
-  heart-element: "Sculpted or applied heart motif."
   leaf-element: "Sculpted or applied leaf motif. A printed leaf is pattern."
   leopard-element: "Sculpted or applied leopard motif (e.g. a leopard-head clasp). A leopard print is pattern."
-  moon-element: "Sculpted or applied moon motif."
-  skull-element: "Sculpted or applied skull motif."
   snake-element: "Sculpted or applied snake motif (e.g. a snake-shaped ring or clasp). A snake print is pattern."
-  star-element: "Sculpted or applied star motif, including star-shaped studs."
   tiger-element: "Sculpted or applied tiger motif (e.g. a tiger-head clasp). Wins over charm, stud and chain. A tiger print is pattern."
 
 model_details:
@@ -97,9 +85,9 @@ model_details:
   metal-feet: Small metal studs on the base that lift the bag off the ground.
   external-pocket: "Pocket on the outside of the bag (front, back or side), whatever closes it: zip, flap, buckle, snap or no fastening at all (patch or slip pocket), including a large front pocket under a flap or buckles. Count it only if its outline or opening is clearly visible in the main view; hidden or tiny slits do not count. The zip or flap that closes the main compartment is not a pocket."
   woven: "The bag body is built from interlaced strands, usually an open or loose weave with visible gaps: natural fibres (raffia, straw, rattan, jute, rope) or other materials shaped to look woven (cord, plastic, metal, leather strips with open spaces). Can go with the basket subcategory. Flat leather strips woven tightly with no gaps (intrecciato) are the finishing woven-leather, not woven."
-  t-bar: Strap running from the front of the shoe along the centre of the instep to meet a horizontal strap across the instep or around the ankle, forming a T seen from above. An instep or ankle strap alone, without the centre strap, is not a t-bar. Toe-post sandals (thong) are not t-bar, because the toe post is already the subcategory. A t-bar never decides the subcategory on its own.
+  t-bar: Centre strap running along the instep to meet an instep or ankle strap, forming a T seen from above. An instep or ankle strap alone is not a t-bar; a thong toe post is not a t-bar.
   cross-over: Two straps that cross each other in an X over the instep or the front of the foot.
-  ankle-strap: One strap that goes around the ankle and fastens (buckle, button, hook) on a shoe or sandal. It closes behind the leg above the heel bone; a strap that cups the back of the heel at the level of the heel counter is a heel strap (slingback) and is not tagged. Not an instep strap (mary jane), not used on boots. An ankle strap never decides the subcategory on its own.
+  ankle-strap: Strap around the ankle, above the heel bone, fastened by buckle, button or hook. A strap cupping the back of the heel is a heel strap (slingback), not tagged. Not an instep strap; not used on boots.
   ankle-wrap: Long straps, ribbons or laces wound around the ankle or lower leg and tied, more than one turn.
   cap-toe: Separate panel covering the toe, set off by a seam or a contrasting colour or material. A toe that only differs in finish, with no seam, is not a cap-toe.
   
@@ -111,10 +99,10 @@ heel_type:
   cone-heel: Heel that is wide at the top and narrows toward the tip like a cone.
 
 heel_height:
-  flat-heel: No raised heel; the heel sits level with the ground. 
-  low-heel: A small stacked or block heel rising up to about 2 cm above the ground (less than a tenth of the shoe's length). Never a kitten heel.
-  mid-heel: Clearly raised heel of about 3-7 cm, including every kitten heel.
-  high-heel: Heel of about 7 cm or more, roughly a third of the shoe's length or higher.
+  flat-heel: The heel of the foot sits at most about 1 cm above the ground; no visible heel.
+  low-heel: The heel of the foot sits up to about 2 cm above the ground (small stacked or block heel, or a moderately thick sole). Never a kitten heel.
+  mid-heel: The heel of the foot sits about 2-7 cm above the ground, counting the heel plus any platform, flatform or lug sole; includes every kitten heel.
+  high-heel: The heel of the foot sits about 7 cm or more above the ground, counting any platform.
 
 closure:
   # --- shared (shoes / RTW) ---
@@ -161,8 +149,8 @@ handle_type:
   cut-out-handle: Handle formed by an opening cut into the top of the bag body, with no separate handle attached.
 
 sole_type:
-  flatform: Thick sole (about 2 cm or more at the front) of nearly even height from toe to heel; the heel rises no more than about 2 cm above the front. The shoe stays on the flat side (flat-heel or low-heel).
-  platform: Thick sole under the toes (about 2 cm or more) combined with a heel that rises more than about 2 cm above the front;
+  flatform: Thick sole (about 2 cm or more) of nearly even height from toe to heel, so the foot stays level. heel_height is still its total height from the ground.
+  platform: Thick sole under the toes (about 2 cm or more) combined with a higher heel, so the foot still slopes.
   lug-sole: Chunky rubber sole with deep, pronounced tread, whatever its height. Wins over flatform when the deep tread is visible.
 
 primary_color:

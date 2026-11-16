@@ -31,4 +31,4 @@ splits:
   seed: 42
 
 # Output directory for parquet files
-output_dir: data/splits
+output_dir: data/splits_shoes
