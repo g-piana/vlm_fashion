@@ -433,10 +433,10 @@
     "image": "basket__BRANDS_BAGS_MISC_HBBA_003_001.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A cylindrical basket bag with a natural woven straw body accented by tan leather trim at the top and bottom, featuring a drawstring closure and a curved leather handle. The design combines rustic texture with structured leather detailing for a chic, resort-ready silhouette.",
+    "description": "A cylindrical bucket bag with a natural woven straw body accented by tan leather trim at the top and bottom, featuring a drawstring closure and a curved leather handle. The design combines rustic texture with structured leather detailing for a chic, resort-ready silhouette.",
     "tags": {
-      "category": "handbags-women",
-      "subcategory": "basket",
+      "category": "shoulder-bags-women",
+      "subcategory": "bucket bag",
       "primary_color": "tan",
       "material": "straw",
       "secondary_materials": [
@@ -446,7 +446,8 @@
       "pattern": null,
       "finishing": [],
       "handle_type": [
-        "top-handle"
+        "top-handle",
+        "shoulder-strap"
       ],
       "closure": [
         "drawstring"
@@ -454,7 +455,9 @@
       "hardware_color": "gold",
       "bag_size": "small",
       "secondary_colors": [],
-      "model_details": []
+      "model_details": [
+        "woven"
+      ]
     }
   },
   {
@@ -3281,7 +3284,7 @@
       "bag_size": "small",
       "secondary_colors": [],
       "secondary_materials": [],
-      "pattern": "diamond",
+      "pattern": null,
       "handle_type": [],
       "model_details": [
         "quilted"
@@ -3566,7 +3569,7 @@
     "tags": {
       "category": "clutches-women",
       "subcategory": "pouch",
-      "primary_color": "silver",
+      "primary_color": "rose",
       "material": "cotton",
       "embellishments": [
         "crystal"
@@ -3739,15 +3742,17 @@
       "category": "shoulder-bags-women",
       "subcategory": "saddle bag",
       "primary_color": "blue",
-      "material": "faux-leather",
+      "material": "cotton",
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
       "finishing": [
-        "printed"
+        "jacquard",
+        "denim"
       ],
       "handle_type": [
-        "shoulder-strap"
+        "shoulder-strap",
+        "chain-strap"
       ],
       "closure": [
         "front-flap"
@@ -4595,6 +4600,7 @@
       "material": "leather",
       "hardware_color": "gold",
       "closure": [
+        "front-flap",
         "turn-lock-closure"
       ],
       "handle_type": [
@@ -4604,9 +4610,12 @@
       "bag_size": "medium",
       "secondary_colors": [],
       "secondary_materials": [],
-      "embellishments": [],
+      "embellishments": [
+        "charm"
+      ],
       "pattern": null,
       "model_details": [
+        "structured",
         "metal-feet"
       ]
     }
@@ -5027,14 +5036,14 @@
     "image": "underarm-bag__BRANDS_BAGS_MISC_SBUU_003_002.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured black leather hobo bag featuring a distinctive diamond-quilted pattern with raised, stitched panels creating a geometric, starburst effect across the body. The bag has a curved, slouchy silhouette with a single adjustable shoulder strap attached via a gold-tone buckle. The surface has a smooth, slightly glossy finish.",
+    "description": "A structured black leather hobo bag featuring a distinctive diamond-quilted pattern with raised, stitched panels creating a geometric, starburst effect across the body. The bag has a curved silhouette with a single adjustable shoulder strap attached via a gold-tone buckle. The surface has a smooth, slightly glossy finish.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "underarm bag",
+      "subcategory": "hobo bag",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
-      "pattern": "diamond",
+      "pattern": null,
       "finishing": [],
       "handle_type": [
         "shoulder-strap"

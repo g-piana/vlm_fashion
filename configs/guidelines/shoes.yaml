@@ -32,8 +32,7 @@ _decision_order_women: |-
   4. Rigid wooden or wood-effect base: clog (any heel).
   5. Rope/jute sole visible at the side: solid wedge = wedge sandal; closed toe = espadrille; open upper =
      flat sandal.
-  6. Backless with no heel strap: flat bands straight across the instep on a moulded footbed (flat side)
-     = slider; upper made of thin straps (skin visible between them) = wedge sandal on a solid wedge,
+  6. Backless with no heel strap: flat bands straight across the instep with the toes exposed (flat side) = slider; upper made of thin straps (skin visible between them) = wedge sandal on a solid wedge,
      else flat sandal or heeled sandal by the heel rule; otherwise (a shaped vamp or a wide band covering
      most of the forefoot, with a closed, peep or open toe) = flat mule or heeled mule by the heel rule.
      Cut-outs, sheer or lace panels in a vamp still make it a vamp, not straps.
@@ -41,10 +40,9 @@ _decision_order_women: |-
      solid wedge = wedge sandal; otherwise flat sandal or heeled sandal by the heel rule. A closed back
      with a continuous vamp that only has a peep toe (small toe opening) is NOT a sandal: go on to step 8.
   8. Closed toe or peep toe (back closed or held by a heel strap): solid wedge = wedge pump; moccasin
-     upper with side lacing around the collar = boat shoe; moccasin upper, saddle strap, horsebit or
-     tassel = loafer / loafer pump; laces over the instep = flat lace up / heeled lace up; strap across
+     upper with side lacing around the collar = boat shoe; moccasin upper without laces, saddle strap, horsebit or tassel = loafer / loafer pump; laces over the instep = flat lace up / heeled lace up; strap across
      the instep = mary jane flat / mary jane pump; sides cut away to the sole = d'orsay flat / d'orsay
-     pump; open back with heel strap = other flat shoes / slingback; plain low-cut heeled shoe = pump;
+     pump; open back with heel strap = = slingback flat / slingback; plain low-cut heeled shoe = pump;
      very low-cut flat with thin sole = ballerina; other plain flat shoe put on without fastening =
      slip on.
 
@@ -96,13 +94,15 @@ d'orsay flat: >-
 flat lace up: >-
   Flat closed shoe fastened by laces over the instep (oxford, derby, brogue) with a dress or
   leather-sole look; the upper stays below the ankle bone. A sporty rubber cupsole makes it a sneaker.
-  A thick lug, platform or flatform sole that lifts the heel above about 2 cm makes it a heeled lace up.
+  A thick lug, platform or flatform sole that lifts the heel above about 2 cm makes it a heeled lace up. A moccasin or apron toe does not change it.
 flat mule: >-
   Backless shoe with no heel strap on a flexible flat or low sole, with a shaped vamp or a wide band
   covering most of the forefoot; the toe can be closed, peep or open. Thin straps make it a flat
   sandal; flat bands on a moulded footbed a slider; a rigid wooden base a clog.
 loafer: >-
-  Flat slip-on with a moccasin-style upper, no laces, often with a saddle strap, tassel or horsebit.
+  Flat slip-on with a high vamp covering the instep and no laces: a moccasin-style upper, or a plain
+  vamp with a saddle strap, band, horsebit or tassel across it. A vamp cut low to show the toe cleavage
+  is a ballerina.
 mary jane flat: >-
   Flat closed-toe or peep-toe shoe with one or more straps across the instep (multi-strap included),
   fastened or decorated with a buckle, button or elastic, with or without cut-away sides. A T-bar ending
@@ -115,10 +115,12 @@ espadrille: >-
   Flat closed-toe shoe on a sole of woven jute or rope visible at the side, light unstructured canvas
   or fabric upper, often with ankle ties. On a solid wedge it is a wedge sandal; with an open upper and
   no wedge it is a flat sandal.
+slingback flat: >-
+  Flat closed-toe or peep-toe shoe with an open back held by a strap around the heel, on a flat or low
+  heel (up to about 2 cm from the ground).
 other flat shoes: >-
-  Residual class: a flat closed-toe or peep-toe shoe that fits none of the other flat subcategories,
-  for example a slingback flat (open back held by a heel strap). Choose it only after ruling out all the
-  others.
+  Residual class: a flat closed-toe or peep-toe shoe that fits none of the other flat subcategories.
+  Choose it only after ruling out all the others.
 
 # ── heeled shoes ── (heeled side of the heel rule; closed or peep toe, except heeled mule: any toe)
 pump: >-
@@ -133,16 +135,16 @@ d'orsay pump: >-
   gap between the vamp and the heel cup on the side shown. A strap across the instep makes it a mary
   jane pump.
 loafer pump: >-
-  Heeled shoe with loafer features (moccasin upper, saddle strap, horsebit or tassel).
+  Heeled shoe with loafer features (moccasin upper, saddle strap, horsebit or tassel). No laces: a moccasin or apron toe with laces over the instep is a heeled lace up
 slingback: >-
   Closed-toe or peep-toe heeled shoe with an open back held by a strap around the heel. An open toe
-  with straps makes it a heeled sandal.
+  with straps makes it a heeled sandal. Mid, high or kitten heel; on a flat or low heel it is a slingback flat.
 wedge pump: >-
   Closed-toe or peep-toe shoe whose heel is a solid wedge running from the heel to the front of the
   sole.
 heeled lace up: >-
   Closed heeled shoe fastened by laces over the instep, upper below the ankle bone, including lace-ups
-  raised by a platform or flatform. A lace-up upper covering the ankle is a lace up boot.
+  raised by a platform or flatform. A lace-up upper covering the ankle is a lace up boot. A moccasin or apron toe does not change it.
 heeled mule: >-
   Backless shoe with no heel strap on a mid, high or kitten heel, with a shaped vamp or a wide band
   covering most of the forefoot (heeled slide included); the toe can be closed, peep or open. Thin
@@ -164,8 +166,9 @@ thong: >-
   Sandal held by a strap passing between the first and second toes (flip-flop or toe-post style), any
   heel.
 slider: >-
-  Flat backless sandal on a moulded footbed, held by one or more wide flat bands straight across the
-  instep; no shaped vamp and no back strap.
+  Flat backless sandal held by one or more wide flat bands running straight across the instep, toes
+  exposed in front of the band; on a moulded footbed or a flat sole. No shaped vamp and no back strap.
+  A shaped vamp covering most of the forefoot is a flat mule.
 sandal boot: >-
   Boot-height shaft covering the ankle whose upper is made of straps, or is open or cut away over most
   of its surface (gladiator-style), so skin is visible between straps.

@@ -1,0 +1,4 @@
+# configs/adapters.yaml
+shoes: {configs: ["shoes_*"],          version: v9_ep3, path: models/qwen3vl_v9/checkpoint-168}
+bags:  {configs: ["bags_*"],           version: v9_ep3, path: models/qwen3vl_v9/checkpoint-168}
+rtw:   {configs: ["ready-to-wear_*"],  version: null}
