@@ -3047,7 +3047,7 @@
     "description": "A pair of women's pointed-toe slip-on flats featuring a glossy, textured snakeskin-patterned leather in a rich brown hue. The silhouette is sleek and modern with a sharp almond toe and a seamless, slip-on construction. The interior lining is black with a debossed brand logo.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "other flat shoes",
+      "subcategory": "slip on",
       "primary_color": "brown",
       "material": "leather",
       "secondary_materials": [],
@@ -3110,7 +3110,8 @@
       "heel_type": null,
       "heel_height": "flat-heel",
       "model_details": [
-        "ankle-strap"
+        "ankle-strap",
+        "t-bar"
       ],
       "finishing": []
     }

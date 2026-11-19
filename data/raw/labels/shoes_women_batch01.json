@@ -6270,7 +6270,7 @@
     "description": "An ivory suede flat shoe with a Mary Jane-inspired silhouette featuring multiple wide straps across the instep, each adorned with ornate, metallic decorative buttons. The design includes a rounded toe and a low, flat heel with a contrasting brown sole. The straps are secured with decorative hardware, adding a vintage or embellished detail to the otherwise minimalist profile.",
     "tags": {
       "category": "flat-shoes-women",
-      "subcategory": "other flat shoes",
+      "subcategory": "mary jane flat",
       "primary_color": "ivory",
       "material": "leather",
       "embellishments": [
@@ -6280,7 +6280,7 @@
       "heel_type": null,
       "heel_height": "flat-heel",
       "sole_type": null,
-      "closure": null,
+      "closure": "buckle",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
@@ -6536,8 +6536,8 @@
     "image_type": "product",
     "description": "A tan suede flat shoe featuring a lace-up closure with matching suede laces, set atop a thick black platform sole. The silhouette is relaxed and slip-on inspired, with a flat heel and a rounded toe shape. The construction highlights clean stitching along the upper edge and a contrasting black sole.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "other flat shoes",
+      "category": "heeled-shoes-women",
+      "subcategory": "heeled lace up",
       "primary_color": "tan",
       "material": "suede",
       "closure": "lace-up",

@@ -1,0 +1,300 @@
+[
+  {
+    "image": "SHOES_SLINGBACK-FLAT_B_004b_001.webp",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A flat, pointed-toe slingback flat featuring a woven straw-like material with a braided texture and a low-profile, flat heel. The design includes a slingback strap for secure fit and a minimalist, slip-on construction. The natural tan color and woven construction evoke a summery, bohemian aesthetic.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "slingback flat",
+      "primary_color": "tan",
+      "material": "straw",
+      "closure": "slip-on",
+      "toe_shape": "pointed-toe",
+      "heel_type": null,
+      "heel_height": "flat-heel",
+      "sole_type": null,
+      "embellishments": [],
+      "pattern": null,
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "SHOES_SLINGBACK-FLAT_B_004b_003.webp",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A pair of flat, woven straw sandals featuring thin, braided straps that cross over the instep and wrap around the ankle. The upper is constructed from a textured, light beige woven material with a subtle diamond-stitched pattern, accented by small metallic triangular logos at the toe. The sole is a smooth, tan-colored flat heel.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "slingback flat",
+      "primary_color": "beige",
+      "material": "straw",
+      "embellishments": [
+        "logo"
+      ],
+      "toe_shape": null,
+      "heel_type": null,
+      "heel_height": "flat-heel",
+      "sole_type": null,
+      "closure": "slip-on",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [
+        "ankle-strap"
+      ],
+      "finishing": []
+    }
+  },
+  {
+    "image": "SHOES_SLINGBACK-FLAT_B_004b_004.webp",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A minimalist black suede slingback flat shoe featuring a square toe and a low block heel. The design includes a thin strap with a gold-toned buckle closure across the heel. The silhouette is clean and classic, with a flat sole for comfort.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "slingback flat",
+      "primary_color": "black",
+      "material": "suede",
+      "closure": "buckle",
+      "toe_shape": "round-toe",
+      "heel_type": "block-heel",
+      "heel_height": "flat-heel",
+      "sole_type": null,
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "SHOES_SLINGBACK-FLAT_B_004b_005.webp",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A sleek, black leather slingback flat shoe featuring a pointed toe and a decorative pleated front panel. Constructed with a low, block heel and a slender slingback strap for secure fit, the silhouette is minimalist and elegant. The pebbled leather texture adds subtle dimension to the otherwise clean-lined design.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "slingback flat",
+      "primary_color": "black",
+      "material": "leather",
+      "toe_shape": "pointed-toe",
+      "heel_type": "block-heel",
+      "heel_height": "low-heel",
+      "sole_type": null,
+      "closure": "slip-on",
+      "embellishments": [],
+      "pattern": null,
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "SHOES_SLINGBACK-FLAT_B_004b_006.webp",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A navy blue suede slingback flat featuring a pointed toe and a low, block heel. The shoe is constructed with a slingback strap secured by a silver-toned buckle, and the interior lining is tan leather. The suede material provides a soft, matte texture, and the silhouette is classic and elegant.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "slingback flat",
+      "primary_color": "navy",
+      "material": "suede",
+      "closure": "buckle",
+      "toe_shape": "pointed-toe",
+      "heel_type": "block-heel",
+      "heel_height": "low-heel",
+      "sole_type": null,
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "SHOES_SLINGBACK-FLAT_B_004b_007.webp",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A minimalist pair of beige slingback flats featuring a pointed toe and a thin, flat heel. Constructed from smooth leather with a slip-on silhouette, the design is accented by a thin ankle strap with a gold-tone buckle closure. The clean lines and neutral color make it a versatile, elegant choice for smart-casual or office wear.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "slingback flat",
+      "primary_color": "beige",
+      "material": "leather",
+      "closure": "buckle",
+      "toe_shape": "pointed-toe",
+      "heel_type": null,
+      "heel_height": "flat-heel",
+      "sole_type": null,
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "SHOES_SLINGBACK-FLAT_B_004b_008.webp",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A women's flat sandal featuring a woven brown upper with a square toe and a low block heel. The design includes a thin ankle strap with a gold-tone buckle and a contrasting tan insole. The construction highlights a textured, artisanal woven pattern across the vamp and a layered wooden heel detail.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "slingback flat",
+      "primary_color": "brown",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "toe_shape": "round-toe",
+      "heel_type": "block-heel",
+      "heel_height": "low-heel",
+      "sole_type": null,
+      "closure": "buckle",
+      "secondary_colors": [],
+      "model_details": [
+        "ankle-strap"
+      ],
+      "finishing": []
+    }
+  },
+  {
+    "image": "SHOES_SLINGBACK-FLAT_B_004b_009.webp",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A coral-colored leather loafer-style flat shoe with a pointed toe and decorative white stitching along the vamp. Features a slingback strap with a gold-toned buckle closure and a low-profile, flat heel. The construction includes a slip-on silhouette with a padded collar for comfort.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "slingback flat",
+      "primary_color": "coral",
+      "material": "leather",
+      "embellishments": [],
+      "toe_shape": "pointed-toe",
+      "heel_type": null,
+      "heel_height": "low-heel",
+      "sole_type": null,
+      "closure": "slip-on",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "SHOES_SLINGBACK-FLAT_B_004b_010.webp",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A minimalist, pale yellow leather slingback flat shoe featuring a rounded toe and a distinctive gathered, elasticated strap at the heel. The silhouette is sleek and modern with a flat, slightly textured sole. The construction highlights clean stitching and a slip-on design for ease of wear.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "slingback flat",
+      "primary_color": "yellow",
+      "material": "leather",
+      "closure": "slip-on",
+      "toe_shape": "round-toe",
+      "heel_type": null,
+      "heel_height": "flat-heel",
+      "sole_type": null,
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "SHOES_SLINGBACK-FLAT_B_004b_011.webp",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A two-tone slingback flat featuring a cream body and brown cap toe, accented with a decorative bow and gold-tone logo detail at the vamp. Constructed with a low block heel and a buckle-fastened slingback strap for secure fit. The silhouette is classic and refined, with clean lines and a minimalist aesthetic.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "slingback flat",
+      "primary_color": "ivory",
+      "secondary_colors": [
+        "tan"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "bow",
+        "logo",
+        "tassel"
+      ],
+      "pattern": null,
+      "toe_shape": "round-toe",
+      "heel_type": "block-heel",
+      "heel_height": "low-heel",
+      "sole_type": null,
+      "closure": "buckle",
+      "model_details": [
+        "ankle-strap",
+        "cap-toe"
+      ],
+      "finishing": []
+    }
+  },
+  {
+    "image": "SHOES_SLINGBACK-FLAT_B_004b_012.webp",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A chic, two-tone leather slingback flat featuring a black upper with a contrasting brown toe cap, accented by a decorative black bow and a gold-tone logo plaque. The design includes a thin ankle strap with a buckle closure and a low, block heel for comfortable wear. The silhouette is classic and elegant, with a rounded toe and clean, minimalist lines.",
+    "tags": {
+      "category": "flat-shoes-women",
+      "subcategory": "slingback flat",
+      "primary_color": "black",
+      "secondary_colors": [
+        "brown"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "bow",
+        "logo"
+      ],
+      "pattern": null,
+      "toe_shape": "round-toe",
+      "heel_type": "block-heel",
+      "heel_height": "low-heel",
+      "sole_type": null,
+      "closure": "buckle",
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "SHOES_SLINGBACK-FLAT_B_004b_013.webp",
+    "category_config": "shoes_women",
+    "image_type": "product",
+    "description": "A minimalist, almond-toe slingback pump in a soft ivory hue, crafted from smooth leather with a delicate kitten heel and a slender ankle strap with a silver-toned buckle. The design is accented by a subtle, sculpted logo element at the toe, adding a refined brand detail without overwhelming the clean silhouette.",
+    "tags": {
+      "category": "heeled-shoes-women",
+      "subcategory": "slingback",
+      "primary_color": "ivory",
+      "material": "leather",
+      "embellishments": [
+        "logo"
+      ],
+      "toe_shape": "almond-toe",
+      "heel_type": "kitten-heel",
+      "heel_height": "mid-heel",
+      "closure": "buckle",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "sole_type": null,
+      "model_details": [],
+      "finishing": []
+    }
+  }
+]
