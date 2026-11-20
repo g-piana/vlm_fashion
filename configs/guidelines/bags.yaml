@@ -1,77 +1,116 @@
-# Decisive visual markers per bag subcategory, distilled from the taxonomy sheet
-# ("ML recognisability & primary visual marker" + confusion/fallback notes).
-# Keys are subcategory names exactly as in category_hierarchy.yaml.
-# Injected into the system prompt only for bag configs (see category_config.py).
-# Editing this file changes the prompt: re-run prepare_dataset.py afterwards.
-_decision_order: |-
-  Decide the subcategory by checking these questions IN ORDER; the first one that applies decides.
-  1. Body woven from plant fibre over most of its surface = basket, whatever its shape.
-  2. Carry: look for any strap or chain, including ends visible at the sides or behind the bag.
-     None (a wrist strap is allowed) = clutches family: hard shell = minaudière; soft bulging body =
-     pouch; V-shaped flap = envelope; otherwise clutch.
-     Two back straps = backpack; one diagonal strap on a vertical body = sling bag; worn at the hip = waist bag.
-  3. Otherwise decide by shape using the subcategory guidelines (a V-flap bag on a strap or chain
-     takes its shape subcategory, usually underarm bag).
+# Decisive visual markers per bag subcategory, agreed with the product owner (2026-11).
+# Keys are subcategory names exactly as in category_hierarchy.yaml; keys starting with "_"
+# are prompt blocks, not subcategories. `_decision_order_women` is printed before the
+# subcategory texts for women's configs (category_config.py).
+# NOTE: comments are NOT printed in the prompt. Rules the model must know go in the blocks below.
+# Editing this file changes the prompt: re-run prepare_dataset.py and retrain afterwards.
+#
+# Design: the decision order is MECE. Every bag stops at exactly one step, and the catch-alls
+# (clutch for hand-held flat bags, top handle bag for handle bags, other shoulder bags for strap bags)
+# make it exhaustive. Subcategory texts describe the shape; the order resolves overlaps.
+# 2026-11-20: camera bag removed; other shoulder bags added (catch-all, like other flat shoes);
+# messenger vs satchel decided by the top handle, not by width/height ratio.
 
+_decision_order_women: |-
+  Decide the subcategory by checking these questions IN ORDER; the first one that applies decides.
+  Judge how the bag is BUILT to be carried (handles, straps or chains attached to it), never how the model
+  holds or wears it. A full-front flap covers most of the front panel.
+  1. Two parallel straps on the back panel = backpack; one strap running diagonally across a vertical or
+     teardrop body worn on the back or chest = sling bag; small horizontal curved pouch worn at the hip on
+     a clip-buckle strap or belt loops = waist bag.
+  2. Body woven from plant fibre (straw, raffia, wicker, rattan, rope) = basket, whatever its shape or carry.
+  3. Small evening bags: rigid case with visible depth and a hinged hard frame or jewel clasp = minaudière
+     (even on a chain or wrist strap); soft, rounded or gathered body with no handle, or only a wrist loop or
+     thin chain = pouch; flat thin body with no handle and no strap (a wrist loop is allowed): V-shaped flap
+     = envelope, otherwise clutch.
+  4. Two parallel long handles that reach the shoulder, on a large open or zip-top body = tote.
+  5. Handle(s) on top, and either no shoulder strap at all or no full-front flap (any strap is detachable
+     and secondary): hinged metal frame opening into a mouth = doctor's bag; barrel body with rounded end
+     panels and a full top zip = duffle bag if large (over about 45 cm), else boston bag; rigid cube with
+     depth about equal to height = box bag; otherwise top handle bag.
+  6. Full-front flap and a shoulder or crossbody strap or chain: asymmetric D or kidney shape with a curved
+     flap = saddle bag; a top handle as well = satchel bag; small elongated body on a short strap that sits
+     under the arm = underarm bag; medium or large soft body on a wide flat crossbody strap, no top handle =
+     messenger; otherwise other shoulder bags.
+  7. Any other bag carried on a shoulder strap or chain: round flat base and a cylindrical or conical body =
+     bucket bag; crescent body or a top line dipping between the strap ends, no flap = hobo bag; small
+     elongated body on a short strap that sits under the arm = underarm bag; otherwise other shoulder bags.
+
+# ── handbags ──
 basket: >-
-  Woven plant-fibre body (straw, wicker, raffia, rattan, rope) or visible basket-weave texture over the whole body; texture wins over shape. Woven leather (intrecciato) is NOT a basket.
+  Body woven from plant fibre (straw, wicker, raffia, rattan, rope) or with that basket-weave texture over
+  the whole body; texture wins over shape and carry. Woven leather (intrecciato) is not a basket.
 boston bag: >-
-  Barrel/cylindrical body with rounded end panels, the same width at top and base, closed by a
-  full-length top zip, two short rolled handles, flat base; city size (under ~40 cm). A trapezoid body
-  with a rigid framed opening and no zip is a doctor's bag.
+  Barrel or cylindrical body with rounded end panels, full-length top zip, two short rolled handles, flat
+  base; city size (under about 40 cm). No hinged frame.
 box bag: >-
-  Cube or box-shaped body with depth about equal to height and rigid, sharp edges on all sides, opening
-  at the top with a zip-around or a hinged lid; NO front flap. Top handle, often a detachable strap.
-  A structured bag with a front flap is a top handle bag, however deep it looks.
+  Rigid cube or box body with visible depth (depth about equal to height) and rigid edges, top handle,
+  zip-around or lock closure, often a detachable strap. A flatter structured bag is a top handle bag.
 doctor's bag: >-
-  Trapezoid body clearly wider at the base than at the top, with a flat base and an arched or peaked top
-  line. The top opening is held by a rigid frame running along the top edge and hinged at the sides, so
-  it opens wide like a mouth; the frame may be metal or covered in leather or fabric, often with a
-  central lock or clasp. One or two top handles; no top zip. If no frame can be seen at all, use top
-  handle bag.
+  Trapezoid body wider at the base with a rigid hinged metal frame that opens into a mouth (peaked top
+  line), one or two top handles. If the frame is not visible, use top handle bag.
 duffle bag: >-
-  Large barrel or rectangular body (over ~45 cm), full top zip, two handles plus a detachable shoulder strap. Like a boston bag but oversized.
+  Large barrel or rectangular body (over about 45 cm), full top zip, two handles plus a detachable shoulder
+  strap. Like a boston bag but oversized.
 top handle bag: >-
-  Structured upright body carried mainly by one or two rigid or rolled handles rising from the top,
-  usually with a front flap (with turn-lock, clasp or plaque) or a top closure; any strap is detachable
-  and secondary. Body may be trapezoid or flared with visible side gussets. Judge by how the bag is
-  built, not by how the model holds or wears it. No hinged frame. Also the fallback for a generic bag
-  carried by short handle(s) with no other shape marker.
+  Structured bag carried mainly by one or two rigid or rolled handles rising from the top; top, zip or
+  partial flap closure; any strap is detachable and secondary. Catch-all for handle bags with no other
+  shape marker. A full-front flap with a top handle AND a shoulder strap is a satchel bag.
+
+# ── clutches ──
 clutch: >-
-  Hand-held bag with no handle or strap, flat or with some depth, soft or structured, closed by a flap,
-  zip or frame; includes boxy zip clutches in leather or fabric. A wrist strap does not change it. Any
-  chain or strap attached means it is never a clutch. A hard shell that keeps its shape like a jewel
-  case is a minaudière; a rounded, bulging soft body is a pouch; a V-shaped flap is an envelope.
+  Flat, thin rectangular body with no handle and no strap, held in the hand; a wrist loop is allowed.
+  A flat bag with a chain or shoulder strap is a shoulder bag. A rigid case with visible depth is a
+  minaudière; a soft rounded body is a pouch; a V-shaped flap is an envelope.
 envelope: >-
-  Flat rectangle with a triangular (V-shaped) front flap reaching the middle or bottom, hand-carried with no handle or strap. An envelope-shaped bag whose only carry is a handle, strap or chain takes the matching shape subcategory, even if the model is holding that strap or chain in the hand.
+  Flat rectangle with a triangular (V-shaped) front flap reaching the middle or the bottom, no handle and no
+  strap. The same shape on a strap or chain takes the shoulder-bag subcategory.
 minaudière: >-
-  Small hard-shell case that keeps an exact geometric shape like a jewel box: metal, resin, acrylic or a
-  rigid box covered in fabric or crystals, with crisp edges and no creases or bulging, usually with a
-  push, jewel or hinged clasp. Visible depth, a frame or crystals alone do not make it a minaudière: a
-  soft or bulging body is a pouch, a leather or fabric box with a zip or flap is a clutch.
+  Small rigid evening case with visible depth (box-like, squarish or geometric) and a hinged hard frame or
+  jewel clasp; the shell keeps its shape whatever covers it (metal, resin, satin, crystal, beads). A chain
+  or wrist strap is allowed. A larger leather box with a handle is a box bag.
 pouch: >-
-  Soft body with rounded, pillow-like, gathered or bulging volume that does not hold a rigid shape,
-  including frame and kiss-lock purses whose body bulges below the frame, whatever covers it
-  (crystal mesh, beads, satin). A wrist strap or thin chain does not change it.
+  Soft, smooth or gathered body with rounded, pillow-like or baggy volume that does not keep a rigid shape;
+  frame, magnetic, drawstring or zip opening; no handle, or only a wrist loop or thin chain. The opposite of
+  the flat clutch and the rigid minaudière.
+
+# ── shoulder bags ──
 bucket bag: >-
-  Round flat base with cylindrical or conical body, drawstring or open top, single shoulder strap. Plant-fibre weave is basket; a crescent shape without a round base is hobo bag. Bucket bag needs a round base. A wedge or trapezoid with two handles is doctor’s bag or top handle bag, never bucket
-camera bag: >-
-  Small boxy rectangle with top zip (often double) and a long crossbody strap, sometimes a tassel on the zip pull. Also the fallback for boxy or zip-top bags on a strap that have NO front flap.
+  Round flat base with a cylindrical or conical body, drawstring or open top, shoulder strap. Needs the
+  round base: a crescent without one is a hobo bag; a trapezoid with two handles is a doctor's bag or top
+  handle bag.
 hobo bag: >-
-  Crescent/half-moon body with curved bottom or a concave top line dipping between the strap attachments,and a single shoulder strap, often cut in one piece with the body; soft slouchy or structured (crescent and half-moon bags are hobo). Has NO front flap: an elongated flap bag is an underarm bag even if its lower edge is curved. No round base (not bucket); symmetric (not saddle).
+  Crescent or half-moon body, or a top line dipping between the strap ends, on a single shoulder strap
+  often cut in one piece with the body; slouchy or structured. No front flap and no round base; symmetric
+  (not saddle).
 saddle bag: >-
-  Asymmetric kidney or D-shaped body, one side rounded and the other cut straight, with a curved flap following the outline; carried by a shoulder strap or chain. The asymmetric outline alone decides it, with or without a hanging logo or ring
+  Asymmetric kidney or D-shaped body with a curved flap and a shoulder strap, often a hanging logo or ring.
+  Judge from the front view; from the side it can look like a hobo.
 satchel bag: >-
-  Structured, roughly square or upright body (width under ~1.5x height) with a full-width front flap closed by buckles, a clasp or a lock, carried by a shoulder strap or chain, with or without a small top handle. Wider than 1.5x height is underarm bag; a wide landscape body with a large flap and wide crossbody strap is messenger. Symmetric body; an asymmetric kidney or D-shaped body is a saddle bag.
+  Structured bag with a full-front flap (often closed by buckled straps, a clasp or a lock), a top handle
+  and a shoulder or crossbody strap; carried by hand or on the shoulder. Without a top handle it is a
+  messenger or another shoulder bag.
 underarm bag: >-
-  Elongated narrow horizontal body (width at least 1.5x height) with a short strap that holds it under the arm, or a front flap bag with as short strap (baguette). Also the fallback for elongated flap bags on a strap or chain, even with a slightly curved lower edge. Rectangular or gently curved, not a soft slouchy crescent.
+  Small, clearly elongated horizontal body on a short strap that holds it snugly under the arm (baguette),
+  with a flap or a zip. A long crossbody strap does not make an underarm bag.
+other shoulder bags: >-
+  Catch-all for bags carried on a shoulder strap or chain that fit no other shoulder-bag subcategory, for
+  example small boxy zip-top crossbody bags or flap bags on a chain. Choose it only after ruling out
+  the others.
+
+# ── other categories ──
 backpack: >-
-  Vertical body with two parallel shoulder straps on the back panel and a top grab handle. Mini backpacks stay here. One diagonal strap is a sling bag.
+  Vertical body with two parallel shoulder straps on the back panel and a top grab handle. Mini backpacks
+  stay here. One diagonal strap is a sling bag.
 sling bag: >-
-  Teardrop or vertical backpack-like body with ONE strap running diagonally across the back or chest. Not backpack (two straps), not waist bag (horizontal curved pouch). The strap runs from the top to the bottom of a vertical or teardrop body. Judge orientation from where the strap attaches on the bag, not from the angle of the photo.
+  Teardrop or vertical backpack-like body with one strap running diagonally across the back or chest.
 messenger: >-
-  Wide landscape-format body (width at least 1.5x height), large flap covering most of the front, wide adjustable crossbody strap, no top handle. Below 1.5x with a full-width flap is satchel bag, whatever the brand calls it. Not satchel (upright, roughly square proportions).
+  Medium or large soft body, usually wider than tall, with a flap covering most of the front and a wide
+  flat crossbody strap; no top handle. With a top handle it is a satchel bag; a flap bag on a chain is
+  another shoulder bag.
 tote: >-
-  Large open-top (or top-zip) rectangle or trapezoid with two parallel long handles reaching the shoulder. Plant-fibre texture is basket; smaller structured single-handle bags are top handle bags.
+  Large open-top or top-zip rectangle or trapezoid with two parallel long handles reaching the shoulder.
+  Plant-fibre texture is basket; smaller structured single-handle bags are top handle bags.
 waist bag: >-
-  Small horizontal curved pouch worn at the hip on its own strap with clip buckle, or attached to a real belt (belt loops); may be worn crossbody. Not sling bag (vertical and larger). The strap attaches at the two short ends of an elongated horizontal pouch, usually with a clip buckle; it stays a waist bag even when worn or photographed diagonally.
+  Small horizontal curved pouch worn at the hip on its own clip-buckle strap, or attached to a belt (belt
+  loops); may be worn crossbody. A larger vertical body on a diagonal strap is a sling bag.
