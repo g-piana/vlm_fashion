@@ -1,10 +1,10 @@
 import json, shutil, datetime
 
-path = "outputs/reviewed/bags_women_batch04.json"   # batch that holds the duplicate
+path = "data/raw/labels/bags_women_batch04.json"   # batch that holds the duplicate
  # file names of the copies to remove
 drop = {
-         "BAGS_DOCTORS_B_004_002.webp",       
-         "BAGS_MESSENGER_B_004_004.webp",  
+         "BAGS_DOCTORS_B_004_001.webp",       
+         "BAGS_MESSENGER_B_004_003.webp",  
          "BAGS_DUFFLE_B_004_001.webp",  
         }
 

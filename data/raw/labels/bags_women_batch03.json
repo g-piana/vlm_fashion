@@ -433,10 +433,10 @@
     "image": "basket__BRANDS_BAGS_MISC_HBBA_003_001.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A cylindrical bucket bag with a natural woven straw body accented by tan leather trim at the top and bottom, featuring a drawstring closure and a curved leather handle. The design combines rustic texture with structured leather detailing for a chic, resort-ready silhouette.",
+    "description": "A cylindrical basket bag with a natural woven straw body accented by tan leather trim at the top and bottom, featuring a drawstring closure and a curved leather handle. The design combines rustic texture with structured leather detailing for a chic, resort-ready silhouette.",
     "tags": {
-      "category": "shoulder-bags-women",
-      "subcategory": "bucket bag",
+      "category": "handbags-women",
+      "subcategory": "basket",
       "primary_color": "tan",
       "material": "straw",
       "secondary_materials": [
@@ -934,10 +934,10 @@
     "image": "box-bag__BRANDS_BAGS_MISC_HBBB_003_001.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A compact, structured navy blue leather camera bag with a matte finish and subtle embossed brand logo. Features a top zip closure, a short top handle, and an adjustable black web strap with a metal buckle. The design is minimalist with clean lines and tonal stitching, emphasizing functionality and urban sophistication.",
+    "description": "A compact, structured navy blue leather shoulder bag with a matte finish and subtle embossed brand logo. Features a top zip closure, a short top handle, and an adjustable black web strap with a metal buckle. The design is minimalist with clean lines and tonal stitching, emphasizing functionality and urban sophistication.",
     "tags": {
-      "category": "handbags-women",
-      "subcategory": "box bag",
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
       "primary_color": "navy",
       "material": "leather",
       "secondary_materials": [],
@@ -1077,8 +1077,8 @@
     "image_type": "product",
     "description": "A minimalist black leather shoulder bag with a structured, upright trapezoidal silhouette and a long, adjustable leather strap featuring a buckle closure. The surface is smooth with a subtle sheen, and a small embossed brand mark is visible on the front. The design is clean and unadorned, emphasizing functionality and classic tailoring.",
     "tags": {
-      "category": "handbags-women",
-      "subcategory": "box bag",
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
       "primary_color": "black",
       "material": "leather",
       "handle_type": [
@@ -1131,10 +1131,10 @@
     "image": "box-bag__BRANDS_BAGS_MISC_HBBB_003_009.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, pale pink leather shoulder bag featuring a distinctive gold-tone bird motif clasp centered on a front flap closure. The bag has a rounded rectangular silhouette with a detachable black leather strap attached via gold hardware. The surface is smooth with visible stitching along the edges, and the overall design combines classic satchel proportions with a whimsical, sculptural embellishment.",
+    "description": "A structured, pale pink leather flap shoulder bag featuring a distinctive gold-tone bird motif clasp centered on a front flap closure. The bag has a rounded rectangular silhouette with a detachable black leather strap attached via gold hardware. The surface is smooth with visible stitching along the edges, and the overall design combines classic satchel proportions with a whimsical, sculptural embellishment.",
     "tags": {
-      "category": "handbags-women",
-      "subcategory": "box bag",
+      "category": "shoulder-bags-women",
+      "subcategory": "flap shoulder bag",
       "primary_color": "pink",
       "material": "leather",
       "embellishments": [
@@ -1218,7 +1218,7 @@
     "description": "A glossy burgundy patent leather handbag with a structured, rounded rectangular silhouette and two curved top handles. The bag features gold-tone hardware, including a buckle strap on the front and zipper closures along the top and side. The surface is smooth and reflective, with visible stitching along the handle attachment points.",
     "tags": {
       "category": "handbags-women",
-      "subcategory": "box bag",
+      "subcategory": "top handle bag",
       "primary_color": "burgundy",
       "material": "leather",
       "secondary_materials": [],
@@ -1243,10 +1243,10 @@
     "image": "bucket-bag__BRANDS_BAGS_MISC_SBBU_003_001.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, medium-sized bucket bag in a warm terracotta leather with a pebbled texture and contrasting white stitching along the curved top edge. It features a single, wide, rounded top handle attached with gold-tone hardware and a matching detachable shoulder strap. The front is subtly branded with \"LOUIS VUITTON PARIS\" in gold lettering.",
+    "description": "A structured, medium-sized handbag in a warm terracotta leather with a pebbled texture and contrasting white stitching along the curved top edge. This Louis Vuitton Low Key All In BB features a single, wide, rounded top handle attached with gold-tone hardware and a matching detachable shoulder strap. The front is subtly branded with \"LOUIS VUITTON PARIS\" in gold lettering.",
     "tags": {
-      "category": "shoulder-bags-women",
-      "subcategory": "bucket bag",
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
       "primary_color": "rust",
       "material": "leather",
       "secondary_materials": [],
@@ -1303,10 +1303,10 @@
     "image": "bucket-bag__BRANDS_BAGS_MISC_SBBU_003_003.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A sleek, structured black leather bucket bag featuring a prominent gold-tone Celine logo clasp at the center. The bag has a cylindrical body with a curved, slightly flared silhouette and is equipped with a detachable top handle and a matching adjustable shoulder strap attached via gold-tone hardware. The minimalist design emphasizes clean lines and luxurious material contrast.",
+    "description": "A sleek, structured black leather handbag featuring a prominent gold-tone Celine logo clasp at the center. The bag has a cylindrical body with a curved, slightly flared silhouette and is equipped with a detachable top handle and a matching adjustable shoulder strap attached via gold-tone hardware. The minimalist design emphasizes clean lines and luxurious material contrast.",
     "tags": {
-      "category": "shoulder-bags-women",
-      "subcategory": "bucket bag",
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
       "primary_color": "black",
       "material": "leather",
       "secondary_colors": [],
@@ -1510,7 +1510,7 @@
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "bucket bag",
-      "primary_color": "brown",
+      "primary_color": "chocolate",
       "material": "leather",
       "secondary_colors": [],
       "embellishments": [],
@@ -1617,10 +1617,10 @@
     "image": "camera-bag__BRANDS_BAGS_MISC_HBCB_003_001.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A sleek, structured camera bag with a boxy rectangular silhouette, crafted from textured black leather. It features a wide adjustable shoulder strap, a full-length top zipper closure, and a front zippered pocket. The design is minimalist with clean lines and subtle stitching, emphasizing functionality and a modern, urban aesthetic.",
+    "description": "A sleek, structured bag with a boxy rectangular silhouette, crafted from textured black leather. It features a wide adjustable shoulder strap, a full-length top zipper closure, and a front zippered pocket. The design is minimalist with clean lines and subtle stitching, emphasizing functionality and a modern, urban aesthetic.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "camera bag",
+      "subcategory": "other shoulder bags",
       "primary_color": "black",
       "material": "leather",
       "secondary_materials": [],
@@ -1638,17 +1638,19 @@
       "hardware_color": "black",
       "bag_size": "small",
       "secondary_colors": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
     "image": "camera-bag__BRANDS_BAGS_MISC_HBCB_003_002.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A compact, structured camera bag in a soft pink hue, crafted from textured leather with contrasting black stitching and silver-toned hardware. Features a top zip closure, adjustable shoulder strap with metal D-rings and clips, and a subtle brand logo plaque at the bottom center. The design emphasizes clean lines and minimalist functionality with a slightly rounded rectangular silhouette.",
+    "description": "A compact, structured shoulder bag in a soft pink hue, crafted from textured leather with contrasting black stitching and silver-toned hardware. Features a top zip closure, adjustable shoulder strap with metal D-rings and clips, and a subtle brand logo plaque at the bottom center. The design emphasizes clean lines and minimalist functionality with a slightly rounded rectangular silhouette.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "camera bag",
+      "subcategory": "other shoulder bags",
       "primary_color": "pink",
       "material": "leather",
       "secondary_colors": [],
@@ -1675,16 +1677,14 @@
     "image": "camera-bag__BRANDS_BAGS_MISC_HBCB_003_003.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A sleek, structured black leather shoulder bag with a glossy finish and a single curved top handle attached via gold-tone hardware. The body features a zip-top closure and a minimalist silhouette with clean lines and subtle stitching details. The material exhibits a slightly textured, pebbled leather surface with a reflective sheen.",
+    "description": "A sleek, structured black leather shoulder bag with a glossy finish anda single curved shoulder strap attached with gold-tone hardware. The body features a zip-top closure and a minimalist silhouette with clean lines and subtle stitching details. The material exhibits a slightly textured, pebbled leather surface with a reflective sheen.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "camera bag",
+      "subcategory": "other shoulder bags",
       "primary_color": "black",
       "material": "leather",
       "hardware_color": "gold",
-      "closure": [
-        "zip-closure"
-      ],
+      "closure": [],
       "handle_type": [
         "shoulder-strap"
       ],
@@ -1701,10 +1701,10 @@
     "image": "camera-bag__BRANDS_BAGS_MISC_HBCB_003_004.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, glossy burgundy leather shoulder bag with a curved, slightly slouchy silhouette. Features a top zip closure with gold-tone hardware, a detachable shoulder strap, and a small front zip pocket. The brand logo is subtly embossed on the lower front.",
+    "description": "A structured, glossy burgundy leather shoulder bag with a curved silhouette. Features a top zip closure with gold-tone hardware, a detachable shoulder strap, and a small front zip pocket. The brand logo is subtly embossed on the lower front.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "camera bag",
+      "subcategory": "other shoulder bags",
       "primary_color": "burgundy",
       "material": "leather",
       "secondary_materials": [],
@@ -1731,19 +1731,19 @@
     "image": "camera-bag__BRANDS_BAGS_MISC_HBCB_003_005.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A tan leather camera bag with a structured upright silhouette, featuring a wide adjustable shoulder strap attached via metal D-rings and buckled leather straps. The front flap closure is secured with a brass buckle and decorative stitching, while the body shows natural leather texture and visible grain. The design includes a top handle and a detachable strap for versatile carrying.",
+    "description": "A tan leather satchel bag with a structured upright silhouette, featuring a wide adjustable shoulder strap attached via metal D-rings and buckled leather straps. The front flap closure is secured with a brass buckle and decorative stitching, while the body shows natural leather texture and visible grain. The design includes a top handle and a detachable strap for versatile carrying.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "camera bag",
+      "subcategory": "satchel bag",
       "primary_color": "tan",
       "material": "leather",
       "embellishments": [],
       "handle_type": [
-        "top-handle",
         "shoulder-strap"
       ],
       "closure": [
-        "front-flap"
+        "front-flap",
+        "buckle-closure"
       ],
       "hardware_color": "antique-brass",
       "bag_size": "medium",
@@ -1758,10 +1758,10 @@
     "image": "camera-bag__BRANDS_BAGS_MISC_HBCB_003_006.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A vintage-inspired brown leather camera bagl with a structured upright silhouette and a wide adjustable shoulder strap. The body features a large front flap secured by a brass buckle and a matching leather strap with metal D-rings for attachment. The leather exhibits a distressed, weathered texture with natural creasing and color variation, suggesting a worn-in or artisanal finish. The hardware is metallic with a brass tone, complementing the rich brown leather.",
+    "description": "A vintage-inspired brown leather satchel bagl with a structured upright silhouette and a wide adjustable shoulder strap. The body features a large front flap secured by a brass buckle and a matching leather strap with metal D-rings for attachment. The leather exhibits a distressed, weathered texture with natural creasing and color variation, suggesting a worn-in or artisanal finish. The hardware is metallic with a brass tone, complementing the rich brown leather.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "camera bag",
+      "subcategory": "satchel bag",
       "primary_color": "brown",
       "material": "leather",
       "embellishments": [],
@@ -1771,7 +1771,8 @@
         "shoulder-strap"
       ],
       "closure": [
-        "front-flap"
+        "front-flap",
+        "buckle-closure"
       ],
       "hardware_color": "antique-brass",
       "bag_size": "medium",
@@ -1784,10 +1785,10 @@
     "image": "camera-bag__BRANDS_BAGS_MISC_HBCB_003_007.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A compact, structured olive-green leather camera bag with a pebbled texture, featuring a top zip closure, a detachable shoulder strap with embossed logo, and a matching logo patch on the front. The bag has a minimalist design with silver-toned hardware and a small hanging tag.",
+    "description": "A compact, structured olive-green leather shoulder bag with a pebbled texture, featuring a top zip closure, a detachable shoulder strap with embossed logo, and a matching logo patch on the front. The bag has a minimalist design with silver-toned hardware and a small hanging tag.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "camera bag",
+      "subcategory": "other shoulder bags",
       "primary_color": "olive",
       "material": "leather",
       "secondary_colors": [],
@@ -1812,10 +1813,10 @@
     "image": "camera-bag__BRANDS_BAGS_MISC_HBCB_003_008.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, boxy cream-colored leather handbag with a rounded top and a curved top handle attached via gold-tone hardware. The front features a central flap secured by a gold-tone buckle and two zippered side pockets with matching gold-tone zippers. The bag has a zip-around closure around the top edge and visible stitching details.",
+    "description": "A structured, boxy cream-colored leather top handle bag with a rounded top and a curved top handle attached via gold-tone hardware. The front features a central flap secured by a gold-tone buckle and two zippered side pockets with matching gold-tone zippers. The bag has a zip-around closure around the top edge and visible stitching details.",
     "tags": {
-      "category": "shoulder-bags-women",
-      "subcategory": "camera bag",
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
       "primary_color": "beige",
       "material": "leather",
       "embellishments": [
@@ -1842,10 +1843,10 @@
     "image": "camera-bag__BRANDS_BAGS_MISC_HBCB_003_009.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A large, structured leather satchel bag with a classic messenger silhouette, featuring a wide flap secured by a prominent buckle strap and a detachable shoulder strap. The tan leather shows natural patina and creasing, with a subtle embossed logo on the upper right corner and a matching leather patch on the front flap. The design emphasizes durability and a vintage-inspired, utilitarian aesthetic.",
+    "description": "A large, structured leather satchel bag, featuring a wide flap secured by a prominent buckle strap and a detachable shoulder strap. The tan leather shows natural patina and creasing, with a subtle embossed logo on the upper right corner and a matching leather patch on the front flap. The design emphasizes durability and a vintage-inspired, utilitarian aesthetic.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "camera bag",
+      "subcategory": "satchel bag",
       "primary_color": "tan",
       "material": "leather",
       "embellishments": [],
@@ -1857,7 +1858,7 @@
         "front-flap"
       ],
       "hardware_color": "gold",
-      "bag_size": "large",
+      "bag_size": "medium",
       "secondary_colors": [],
       "secondary_materials": [],
       "pattern": null,
@@ -1868,10 +1869,10 @@
     "image": "camera-bag__BRANDS_BAGS_MISC_HBCB_003_010.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured black leather camera bag with a pebbled texture, featuring a top zip closure, a detachable adjustable shoulder strap with metal hardware, and a small front zip pocket. The bag has a minimalist design with subtle branding and a sleek, functional silhouette.",
+    "description": "A structured black leather shoulderbag with a pebbled texture, featuring a top zip closure, a detachable adjustable shoulder strap with metal hardware, and a small front zip pocket. The bag has a minimalist design with subtle branding and a sleek, functional silhouette.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "camera bag",
+      "subcategory": "other shoulder bags",
       "primary_color": "black",
       "material": "leather",
       "secondary_materials": [],
@@ -1894,10 +1895,10 @@
     "image": "clutch__BRANDS_BAGS_MISC_CC_003_004.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A rectangular box minaudière with a muted taupe base featuring intricate floral embroidery in peach and pink tones, accented with sequins and a gold-toned chain strap. The top is secured by a decorative gold-tone clasp, and the body has a subtle sheen suggesting satin or silk. The design is elegant and detailed, with a focus on ornate embellishments.",
+    "description": "A rectangular box minaudiere with a muted taupe base featuring intricate floral embroidery in peach and pink tones, accented with sequins and a gold-toned chain strap. The top is secured by a decorative gold-tone clasp, and the body has a subtle sheen suggesting satin or silk. The design is elegant and detailed, with a focus on ornate embellishments.",
     "tags": {
       "category": "clutches-women",
-      "subcategory": "minaudière",
+      "subcategory": "minaudiere",
       "primary_color": "grey",
       "secondary_colors": [
         "pink",
@@ -2590,10 +2591,10 @@
     "image": "envelope__BRANDS_BAGS_MISC_CE_003_001.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, vibrant red saffiano-leather underarm bagh with a contrasting gold-tone rectangular clasp and a detachable gold-tone chain strap. The flap closure is secured by a minimalist metal bar, and the textured leather provides a pebbled finish. The design is clean and modern, emphasizing bold color and metallic hardware.",
+    "description": "A structured, vibrant red saffiano-leather envelope bag with a contrasting gold-tone rectangular clasp and a detachable gold-tone chain strap. The flap closure is secured by a minimalist metal bar, and the textured leather provides a pebbled finish. The design is clean and modern, emphasizing bold color and metallic hardware.",
     "tags": {
-      "category": "shoulder-bags-women",
-      "subcategory": "underarm bag",
+      "category": "clutches-women",
+      "subcategory": "envelope",
       "primary_color": "red",
       "material": "leather",
       "secondary_materials": [],
@@ -2694,10 +2695,10 @@
     "image": "envelope__BRANDS_BAGS_MISC_CE_003_005.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, elongatedunderarm bag in a rich burgundy leather with a prominent gold-tone YSL logo at the center of the envelope flap. The bag features a detachable chain strap with a leather handle attachment, combining envelope silhouette with a luxurious metallic accent. The finish is smooth and refined, with clean stitching defining the flap's triangular folds.",
+    "description": "A structured, elongated envelope bag in a rich burgundy leather with a prominent gold-tone YSL logo at the center of the envelope flap. The bag features a detachable chain strap with a leather handle attachment, combining envelope silhouette with a luxurious metallic accent. The finish is smooth and refined, with clean stitching defining the flap's triangular folds.",
     "tags": {
-      "category": "shoulder-bags-women",
-      "subcategory": "underarm bag",
+      "category": "clutches-women",
+      "subcategory": "envelope",
       "primary_color": "burgundy",
       "material": "leather",
       "embellishments": [
@@ -2865,10 +2866,10 @@
     "image": "messenger__BRANDS_BAGS_MISC_HBME_003_003.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured satchel bag with a two-tone design featuring a textured tan leather flap over a suede body in a contrasting brown hue. The bag has a top zip closure secured by a large brass ring and leather strap with buckle fastening. The dimensions are 25 cm wide, 25 cm high, and 7 cm deep, making it a compact medium-sized bag suitable for everyday use.",
+    "description": "A structured flap shoulder bag with a two-tone design featuring a textured tan leather flap over a suede body in a contrasting brown hue. The bag has a top zip closure secured by a large brass ring and leather strap with buckle fastening. The dimensions are 25 cm wide, 25 cm high, and 7 cm deep, making it a compact medium-sized bag suitable for everyday use.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "satchel bag",
+      "subcategory": "flap shoulder bag",
       "primary_color": "brown",
       "secondary_colors": [
         "tan"
@@ -2900,10 +2901,10 @@
     "image": "messenger__BRANDS_BAGS_MISC_HBME_003_004.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured black leather satchel bag featuring a flap closure secured by a brass toggle clasp and a detachable shoulder strap. The bag has a classic upright silhouette with clean lines and visible stitching, showcasing a minimalist and timeless design. The leather exhibits a subtle patina, suggesting a refined, slightly worn-in texture.",
+    "description": "A structured black leather flap shoulder bag featuring a flap closure secured by a brass toggle clasp and a detachable shoulder strap. The bag has a classic upright silhouette with clean lines and visible stitching, showcasing a minimalist and timeless design. The leather exhibits a subtle patina, suggesting a refined, slightly worn-in texture.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "satchel bag",
+      "subcategory": "flap shoulder bag",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
@@ -2927,10 +2928,10 @@
     "image": "messenger__BRANDS_BAGS_MISC_HBME_003_005.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, light blue leather satchel shoulder bag featuring an intricate embossed floral pattern across its surface. The bag has a flap closure secured by a gold-tone turn-lock clasp and is equipped with a detachable black leather strap. The design includes a small brand plaque centered on the flap, adding a refined detail to the botanical motif.",
+    "description": "A structured, light blue leather flap shoulder bag featuring an intricate embossed floral pattern across its surface. The bag has a flap closure secured by a gold-tone turn-lock clasp and is equipped with a detachable black leather strap. The design includes a small brand plaque centered on the flap, adding a refined detail to the botanical motif.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "satchel bag",
+      "subcategory": "flap shoulder bag",
       "primary_color": "blue",
       "material": "leather",
       "embellishments": [
@@ -2957,10 +2958,10 @@
     "image": "messenger__BRANDS_BAGS_MISC_HBME_003_006.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured tan leather shoulder bag featuring a flap-over front closure secured by a buckle and a shoulder strap. The bag has a roughly square silhouette with a contrasting darker brown leather trim and a small brand plaque on the flap. The material appears to be pebbled leather with clean stitching and minimalist hardware.",
+    "description": "A structured tan leather flap shoulder bag featuring a flap-over front closure secured by a buckle and a shoulder strap. The bag has a roughly square silhouette with a contrasting darker brown leather trim and a small brand plaque on the flap. The material appears to be pebbled leather with clean stitching and minimalist hardware.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "satchel bag",
+      "subcategory": "flap shoulder bag",
       "primary_color": "tan",
       "material": "leather",
       "handle_type": [
@@ -3016,8 +3017,8 @@
     "image_type": "product",
     "description": "A structured tan leather satchel bag with a flap front closure secured by two silver-toned buckled straps. The body features a minimalist design with clean lines and a detachable shoulder strap, crafted from smooth leather with visible stitching details.",
     "tags": {
-      "category": "messengers-women",
-      "subcategory": "messenger",
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
       "primary_color": "tan",
       "material": "leather",
       "handle_type": [
@@ -3040,10 +3041,10 @@
     "image": "messenger__BRANDS_BAGS_MISC_HBME_003_009.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A tan leather satchel bag with a slouchy, soft silhouette featuring a large front flap closure and a decorative tassel hanging from the center. The bag has a single wide shoulder strap and a curved, unstructured body that suggests casual, comfortable wear. The material appears to be smooth, supple leather with a natural, slightly worn finish.",
+    "description": "A tan leather flap shoulder bag with a slouchy, soft silhouette featuring a large front flap closure and a decorative tassel hanging from the center. The bag has a single wide shoulder strap and a curved, unstructured body that suggests casual, comfortable wear. The material appears to be smooth, supple leather with a natural, slightly worn finish.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "satchel bag",
+      "subcategory": "flap shoulder bag",
       "primary_color": "tan",
       "material": "leather",
       "embellishments": [
@@ -3068,10 +3069,10 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_001.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A chic, rose-gold metallic minaudière clutch with a distinctive wavy, wood-grain texture and a gold-tone frame closure adorned with a crystal-encrusted dome. The bag features a delicate gold chain strap with a logo tag and a minimalist, elegant silhouette perfect for evening wear.",
+    "description": "A chic, rose-gold metallic minaudiere clutch with a distinctive wavy, wood-grain texture and a gold-tone frame closure adorned with a crystal-encrusted dome. The bag features a delicate gold chain strap with a logo tag and a minimalist, elegant silhouette perfect for evening wear.",
     "tags": {
       "category": "clutches-women",
-      "subcategory": "minaudière",
+      "subcategory": "minaudiere",
       "primary_color": "rose",
       "material": "silk",
       "secondary_materials": [],
@@ -3126,10 +3127,10 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_003.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A luxurious gold metallic  minaudière clutch featuring a prominent twisted knot design across its front, crafted from a smooth, reflective leather-like material. The structured rectangular silhouette is accented by a matching gold-toned clasp at the top center, creating a bold, sculptural aesthetic ideal for evening wear.",
+    "description": "A luxurious gold metallic  minaudiere clutch featuring a prominent twisted knot design across its front, crafted from a smooth, reflective leather-like material. The structured rectangular silhouette is accented by a matching gold-toned clasp at the top center, creating a bold, sculptural aesthetic ideal for evening wear.",
     "tags": {
       "category": "clutches-women",
-      "subcategory": "minaudière",
+      "subcategory": "minaudiere",
       "primary_color": "gold",
       "material": "leather",
       "closure": [
@@ -3152,10 +3153,10 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_004.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A glossy black patent leather  minaudière clutch with a textured, embossed LV monogram pattern and a gold-tone metal frame closure. The bag features a delicate gold chain strap attached to the top edge and a matching gold-tone clasp at the front. The surface has a subtle vertical ribbed texture that enhances its structured, rectangular silhouette.",
+    "description": "A glossy black patent leather  minaudiere clutch with a textured, embossed LV monogram pattern and a gold-tone metal frame closure. The bag features a delicate gold chain strap attached to the top edge and a matching gold-tone clasp at the front. The surface has a subtle vertical ribbed texture that enhances its structured, rectangular silhouette.",
     "tags": {
       "category": "clutches-women",
-      "subcategory": "minaudière",
+      "subcategory": "minaudiere",
       "primary_color": "black",
       "material": "leather",
       "secondary_materials": [],
@@ -3180,10 +3181,10 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_005.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A compact, rigid rectangular  minaudière clutch with a glossy gold metallic finish and a distinctive woven texture covering its entire surface. The body features a rounded top edge and is secured by a prominent gold-tone metal frame clasp with a decorative bow-like knot at the top. The material appears to be woven synthetic fiber or raffia with a metallic coating, giving it a luxurious, reflective sheen.",
+    "description": "A compact, rigid rectangular  minaudiere clutch with a glossy gold metallic finish and a distinctive woven texture covering its entire surface. The body features a rounded top edge and is secured by a prominent gold-tone metal frame clasp with a decorative bow-like knot at the top. The material appears to be woven synthetic fiber or raffia with a metallic coating, giving it a luxurious, reflective sheen.",
     "tags": {
       "category": "clutches-women",
-      "subcategory": "minaudière",
+      "subcategory": "minaudiere",
       "primary_color": "gold",
       "material": "metal",
       "secondary_materials": [],
@@ -3208,7 +3209,7 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_006.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A sleek, elongated black patent leather minaudière clutch with a glossy finish, featuring a prominent gold-tone YSL logo and a distinctive gold-toned ring-shaped hook-closure clasp at the top center. The body is structured with visible topstitching along the edges, creating a clean, minimalist silhouette.",
+    "description": "A sleek, elongated black patent leather minaudiere clutch with a glossy finish, featuring a prominent gold-tone YSL logo and a distinctive gold-toned ring-shaped hook-closure clasp at the top center. The body is structured with visible topstitching along the edges, creating a clean, minimalist silhouette.",
     "tags": {
       "category": "clutches-women",
       "subcategory": "clutch",
@@ -3236,10 +3237,10 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_007.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A sleek, structured black leather minaudière clutch featuring a distinctive diamond-patterned intrecciato weave and a prominent gold-tone knot closure at the top. The body is a rigid, slightly rounded rectangle with a smooth, polished finish, designed for a formal or evening occasion.",
+    "description": "A sleek, structured black leather minaudiere clutch featuring a distinctive diamond-patterned intrecciato weave and a prominent gold-tone knot closure at the top. The body is a rigid, slightly rounded rectangle with a smooth, polished finish, designed for a formal or evening occasion.",
     "tags": {
       "category": "clutches-women",
-      "subcategory": "minaudière",
+      "subcategory": "minaudiere",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
@@ -3295,10 +3296,10 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_009.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A sleek, minimalist black leather minaudière clutch with a curved, slightly rounded rectangular silhouette and a distinctive gold-tone beetle-shaped clasp at the top. The body features a subtle gold trim along the edges and a matching gold frame closure, creating a refined contrast against the matte black leather. The design is clean and elegant, emphasizing the sculptural hardware as its primary decorative element.",
+    "description": "A sleek, minimalist black leather minaudiere clutch with a curved, slightly rounded rectangular silhouette and a distinctive gold-tone beetle-shaped clasp at the top. The body features a subtle gold trim along the edges and a matching gold frame closure, creating a refined contrast against the matte black leather. The design is clean and elegant, emphasizing the sculptural hardware as its primary decorative element.",
     "tags": {
       "category": "clutches-women",
-      "subcategory": "minaudière",
+      "subcategory": "minaudiere",
       "primary_color": "black",
       "material": "leather",
       "embellishments": [],
@@ -3319,10 +3320,10 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_011.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A compact, rigid rectangular minaudière clutch with a rose-gold metallic finish and a distinctive shell-shaped clasp adorned with crystals. The body features a subtle, swirling wood-grain texture over a smooth, satin-like surface, giving it a luxurious, sculpted appearance. The edges are defined by a thin gold-tone metal trim, enhancing its structured, elegant silhouette.",
+    "description": "A compact, rigid rectangular minaudiere clutch with a rose-gold metallic finish and a distinctive shell-shaped clasp adorned with crystals. The body features a subtle, swirling wood-grain texture over a smooth, satin-like surface, giving it a luxurious, sculpted appearance. The edges are defined by a thin gold-tone metal trim, enhancing its structured, elegant silhouette.",
     "tags": {
       "category": "clutches-women",
-      "subcategory": "minaudière",
+      "subcategory": "minaudiere",
       "primary_color": "rose",
       "material": "silk",
       "secondary_materials": [],
@@ -3347,10 +3348,10 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_012.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A sleek, satin-finish emerald green box minaudière clutch with a rounded rectangular silhouette and a decorative crystal-encrusted bow-shaped clasp at the top. The body is rigid and smooth, with a subtle sheen characteristic of satin, and the hardware is gold-toned. The design is minimalist and elegant, emphasizing clean lines and a single ornamental closure.",
+    "description": "A sleek, satin-finish emerald green box minaudiere clutch with a rounded rectangular silhouette and a decorative crystal-encrusted bow-shaped clasp at the top. The body is rigid and smooth, with a subtle sheen characteristic of satin, and the hardware is gold-toned. The design is minimalist and elegant, emphasizing clean lines and a single ornamental closure.",
     "tags": {
       "category": "clutches-women",
-      "subcategory": "minaudière",
+      "subcategory": "minaudiere",
       "primary_color": "green",
       "material": "silk",
       "embellishments": [
@@ -3375,10 +3376,10 @@
     "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_013.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A black rectangular minaudière clutch with intricate gold floral embroidery covering its surface, featuring a gold-toned metal frame closure and a detachable gold chain strap. The body is constructed with a rigid, structured box-like silhouette, and the embroidery creates a luxurious, textured floral pattern across the entire surface.",
+    "description": "A black rectangular minaudiere clutch with intricate gold floral embroidery covering its surface, featuring a gold-toned metal frame closure and a detachable gold chain strap. The body is constructed with a rigid, structured box-like silhouette, and the embroidery creates a luxurious, textured floral pattern across the entire surface.",
     "tags": {
       "category": "clutches-women",
-      "subcategory": "minaudière",
+      "subcategory": "minaudiere",
       "primary_color": "black",
       "secondary_colors": [
         "gold"
@@ -3611,7 +3612,7 @@
         "top-handle"
       ],
       "closure": [
-        "frame-closure"
+        "kiss-lock-closure"
       ],
       "hardware_color": "gold",
       "bag_size": "small",
@@ -3954,17 +3955,19 @@
       "bag_size": "medium",
       "secondary_colors": [],
       "secondary_materials": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
     "image": "satchel-bag__BRANDS_BAGS_MISC_SBSAT_003_005.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured tan leather satchel bag with a classic top handle design, featuring a distinctive circular turn-lock closure at the center and two adjustable buckle straps on either side. The bag has a rigid, upright silhouette with rounded bottom corners and visible stitching details, conveying a refined and timeless aesthetic.",
+    "description": "A structured tan leather handbag with a classic top handle design, featuring a distinctive circular turn-lock closure at the center and two adjustable buckle straps on either side. The bag has a rigid, upright silhouette with rounded bottom corners and visible stitching details, conveying a refined and timeless aesthetic.",
     "tags": {
-      "category": "shoulder-bags-women",
-      "subcategory": "satchel bag",
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
       "primary_color": "tan",
       "material": "leather",
       "embellishments": [],
@@ -3974,7 +3977,8 @@
         "top-handle"
       ],
       "closure": [
-        "turn-lock-closure"
+        "lock-closure",
+        "buckle-closure"
       ],
       "hardware_color": "silver",
       "bag_size": "medium",
@@ -4015,13 +4019,15 @@
     "image": "satchel-bag__BRANDS_BAGS_MISC_SBSAT_003_007.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured tan leather satchel bag featuring a braided top handle, adjustable shoulder strap, and distinctive gold-tone turn-lock closure. The body is crafted from pebbled leather with two adjustable buckled straps securing the flap, and the hardware includes polished gold-tone buckles and a central oval lock. The design combines classic satchel proportions with modern detailing for a chic, versatile look.",
+    "description": "A structured tan leather handbag featuring a braided top handle, adjustable shoulder strap, and distinctive gold-tone turn-lock closure. The body is crafted from pebbled leather with two adjustable buckled straps securing the flap, and the hardware includes polished gold-tone buckles and a central oval lock. The design combines classic satchel proportions with modern detailing for a chic, versatile look.",
     "tags": {
-      "category": "shoulder-bags-women",
-      "subcategory": "satchel bag",
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
       "primary_color": "tan",
       "material": "leather",
-      "embellishments": [],
+      "embellishments": [
+        "buckle"
+      ],
       "pattern": null,
       "finishing": [
         "grained"
@@ -4031,7 +4037,7 @@
         "shoulder-strap"
       ],
       "closure": [
-        "front-flap"
+        "turn-lock-closure"
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
@@ -4065,7 +4071,9 @@
       "hardware_color": "gold",
       "bag_size": "medium",
       "secondary_colors": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
@@ -4411,7 +4419,7 @@
     "image": "top-handle-bag__BRANDS_BAGS_MISC_HBTH_003_004.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, upright box bag with a quilted navy blue leather body accented by vibrant turquoise handles and red side panels. Features a detachable turquoise strap, a prominent silver-tone Dior logo charm with a turquoise circular insert, and a classic top handle design. The bag showcases a glossy finish and precise stitching, embodying luxury craftsmanship.",
+    "description": "A structured, upright top handle bag with a quilted navy blue leather body accented by vibrant turquoise handles and red side panels. Features a detachable turquoise strap, a prominent silver-tone Dior logo charm with a turquoise circular insert, and a classic top handle design. The bag showcases a glossy finish and precise stitching, embodying luxury craftsmanship.",
     "tags": {
       "category": "handbags-women",
       "subcategory": "top handle bag",
@@ -5064,10 +5072,10 @@
     "image": "underarm-bag__BRANDS_BAGS_MISC_SBUU_003_003.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured underarm shoulder bag featuring a cream-colored textured leather body with contrasting brown leather trim and a detachable adjustable strap. The bag has a curved, slouchy silhouette with a top zip closure and a small brand tag attached to the front. The design combines classic hobo proportions with modern detailing, including a metal buckle on the strap and visible stitching along the edges.",
+    "description": "A structured hobo shoulder bag featuring a cream-colored textured leather body with contrasting brown leather trim and a detachable adjustable strap. The bag has a curved, slouchy silhouette with a top zip closure and a small brand tag attached to the front. The design combines classic hobo proportions with modern detailing, including a metal buckle on the strap and visible stitching along the edges.",
     "tags": {
       "category": "shoulder-bags-women",
-      "subcategory": "underarm bag",
+      "subcategory": "hobo bag",
       "primary_color": "ivory",
       "secondary_colors": [
         "brown"
@@ -5255,7 +5263,7 @@
     "image": "underarm-bag__BRANDS_BAGS_MISC_SBUU_003_010.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A sleek, curved-hoof silhouette in black pebbled leather with contrasting white stitching along the central seam and top edge. Features a single adjustable shoulder strap with a buckle closure and a zip-top opening with a tassel pull. The minimalist design emphasizes clean lines and a structured, slightly slouchy profile.",
+    "description": "A sleek, curved-hoof silhouette, with elongated horizontal body, short strap, zip top in black pebbled leather with contrasting white stitching along the central seam and top edge. Features a single adjustable shoulder strap with a buckle closure and a zip-top opening with a tassel pull. The minimalist design emphasizes clean lines and a structured, slightly slouchy profile.",
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "underarm bag",
