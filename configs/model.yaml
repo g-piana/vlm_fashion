@@ -23,7 +23,7 @@ lora:
   use_gradient_checkpointing: "unsloth"
 
 training:
-  output_dir: "models/qwen3vl_v10"
+  output_dir: "models/qwen3vl_v11"
   num_train_epochs: 3
   save_total_limit: 3
   per_device_train_batch_size: 2
