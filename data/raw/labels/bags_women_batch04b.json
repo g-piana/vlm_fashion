@@ -1,0 +1,1513 @@
+[
+  {
+    "image": "BAGS_CLUTCH_B_004b_001.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, black quilted leather envelope clutch with a structured rectangular silhouette and a prominent gold-tone YSL logo plaque centered on the envelope flap. The surface features a diamond-stitched quilted pattern with a pebbled texture, creating a luxurious and classic look. The edges are neatly finished with contrasting black stitching, emphasizing clean lines and refined craftsmanship.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "envelope",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "handle_type": [],
+      "model_details": [
+        "quilted"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_CLUTCH_B_004b_002.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured black leather envelope clutch featuring a prominent V-shaped flap adorned with gold-tone pyramid studs along its entire perimeter. The textured leather body has a clean, minimalist silhouette with a flat base and straight edges, designed for a sleek, edgy aesthetic.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "envelope",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "stud"
+      ],
+      "pattern": null,
+      "finishing": [
+        "grained"
+      ],
+      "handle_type": [],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_CLUTCH_B_004b_003.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A minimalist beige leather handbag with a structured upright silhouette featuring a top zip closure and a short top handle attached with gold-tone hardware. The body has a flap front with visible stitching detail and a subtle pebbled texture. The design is clean and classic, emphasizing functionality and understated elegance.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "beige",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_CLUTCH_B_004b_004.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A compact, rectangular envelope clutch with a fully embellished front flap covered in dense, sparkling sequins in a dark brown hue. The body features a matching sequined envelope closure with a subtle brand logo at the center, and a delicate gold-tone chain strap attached to the bottom right corner. The surface has a textured, glittery finish that catches the light, creating a glamorous, evening-ready appearance.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "envelope",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [
+        "sequin"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_CLUTCH_B_004b_005.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, rectangular white leather clutch with a curved front flap secured by a prominent gold-tone oval turn-lock clasp featuring a crystal embellishment. The bag has a matching white leather top handle and contrasting dark stitching along the edges, with a minimalist and elegant silhouette.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "clutch",
+      "primary_color": "white",
+      "material": "leather",
+      "embellishments": [
+        "crystal"
+      ],
+      "closure": [
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "handle_type": [
+        "top-handle"
+      ],
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "finishing": [],
+      "model_details": [],
+      "bag_size": "small"
+    }
+  },
+  {
+    "image": "BAGS_CLUTCH_B_004b_006.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, rectangular black leather clutch with a structured flap closure secured by a distinctive gold-tone horsebit-style hardware. The bag features a detachable black leather wrist strap attached with a gold-tone ring, and the edges are finished with precise stitching. The minimalist design emphasizes clean lines and a classic, elegant silhouette.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "clutch",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "wrist-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "finishing": [],
+      "secondary_colors": [],
+      "pattern": null,
+      "secondary_materials": [],
+      "model_details": [],
+      "bag_size": "small"
+    }
+  },
+  {
+    "image": "BAGS_CLUTCH_B_004b_007.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, rectangular black satin envelope clutch featuring a dramatic V-shaped flap adorned with a continuous row of faceted crystal embellishments along its edges. The smooth, lustrous satin body has a structured, rigid silhouette with a subtle front pocket detail, designed for elegant evening wear.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "envelope",
+      "primary_color": "black",
+      "material": "silk",
+      "embellishments": [
+        "crystal"
+      ],
+      "finishing": [
+        "satin"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": null,
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "handle_type": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_CLUTCH_B_004b_008.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, structured black leather envelope clutch with a rigid, upright silhouette and a curved top handle. The front features a distinctive gold-tone diamond-shaped clasp centered on the flap, secured by a top zip closure. The edges are neatly stitched, and the material has a smooth, matte finish.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "envelope",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "finishing": [],
+      "secondary_colors": [],
+      "pattern": "diamond",
+      "secondary_materials": [],
+      "model_details": [],
+      "bag_size": "small"
+    }
+  },
+  {
+    "image": "BAGS_CLUTCH_B_004b_009.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, rectangular black leather clutch with a distinctive gold-tone metal frame closure and a matching black leather tassel hanging from the center. The minimalist silhouette features clean lines and a smooth, matte leather finish, accented by the metallic hardware for a refined, elegant look.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "clutch",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "tassel"
+      ],
+      "hardware_color": "gold",
+      "closure": [
+        "frame-closure"
+      ],
+      "finishing": [],
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "handle_type": [],
+      "bag_size": "small",
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_CLUTCH_B_004b_010.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, rectangular envelope clutch in a deep burgundy hue, crafted from textured leather with a pebbled finish. It features a classic flap closure secured by a minimalist gold-tone rectangular hardware clasp and is suspended from a delicate gold-tone chain strap, suggesting convertible wear as a shoulder bag or crossbody. The silhouette is sleek and compact, designed for elegant, hands-free carrying.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "envelope",
+      "primary_color": "burgundy",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "grained"
+      ],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_001.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A black, structured pouch with a gathered, pleated silhouette covered in sparkling sequins. It features a decorative kiss-lock clasp with two spherical black beads and is attached to a delicate chain strap, suggesting it can be worn as a crossbody or shoulder bag. The surface texture is created by the dense sequin application, giving it a shimmering, evening-ready appearance.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "black",
+      "material": "silk",
+      "embellishments": [
+        "crystal",
+        "chain"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "kiss-lock-closure"
+      ],
+      "hardware_color": "black",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_002.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A compact, structured pouch with a metallic silver finish and a distinctive diamond-patterned quilted texture. The bag features a rigid, silver-toned kiss-lock clasp at the top and a small brand plaque on the front. The material appears to be a quilted synthetic-leather with a reflective, metallic sheen, giving it a glamorous, evening-ready appearance.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "silver",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "embossed"
+      ],
+      "handle_type": [],
+      "closure": [
+        "kiss-lock-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "quilted"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_003.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, metallic gold satin pouch with a structured, gathered silhouette and a delicate gold chain strap. The surface features intentional pleats and folds that create a soft, draped effect, while the chain strap adds a touch of elegance and versatility for evening wear.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "gold",
+      "material": "silk",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "satin"
+      ],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_004.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A compact, rigid black pouch clutch with a full surface coverage of tiny black beads, framed by a silver-toned metal kiss-lock clasp with a decorative crystal accent. The body is structured with a slightly curved, trapezoidal silhouette, and the hardware provides a contrasting metallic finish.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "black",
+      "material": "faux-leather",
+      "embellishments": [
+        "bead"
+      ],
+      "closure": [
+        "kiss-lock-closure"
+      ],
+      "hardware_color": "silver",
+      "finishing": [],
+      "secondary_colors": [],
+      "pattern": null,
+      "secondary_materials": [],
+      "handle_type": [],
+      "bag_size": "small",
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_005.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A small, structured black sequin pouch with a distinctive double circular metal handle. The body is fully covered in dense, reflective black sequins creating a textured, glittering surface, with a hidden zip closure at the top. The minimalist silhouette and bold hardware contrast with the opulent embellishment.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "black",
+      "material": "faux-leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "sequin"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "black",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_006.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, black leather pouch with a distinctive curved, dome-like silhouette and a rigid metal frame closure at the top. The body is constructed from smooth, slightly glossy leather with a subtle sheen, featuring a small leather tab detail at the center of the frame. A delicate gold-tone chain strap with a circular tag provides a contrasting metallic accent and shoulder-carry functionality.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "frame-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_007.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, gathered velvet pouch with a rich olive green hue, featuring a delicate chain strap attached via gold-tone hardware. The body is defined by soft, intentional ruching along the top edge, creating a sculpted, petal-like silhouette. The luxurious velvet texture catches the light, enhancing the bag's dimensional folds and elegant, minimalist profile.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "olive",
+      "material": "silk",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "velvet"
+      ],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_008.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A compact, softly gathered pouch with a metallic silver finish, crafted from woven intrecciato leather that creates a textured, basket-weave pattern across its rounded silhouette. The bag features a delicate chain strap attached to the gathered top edge, allowing it to be worn as a crossbody or shoulder bag. The construction highlights the pliable, pleated nature of the woven material, giving it a sculptural, organic drape.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "silver",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "woven-leather"
+      ],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "model_details": [
+        "woven"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_009.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A metallic gold satin pouch with a structured, gathered silhouette and a gold chain strap. The body features a prominent clasp closure at the top and a soft, draped texture across its surface. The chain strap allows for shoulder or crossbody wear, adding a delicate, elegant touch to the evening-ready design.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "gold",
+      "material": "silk",
+      "embellishments": [],
+      "finishing": [
+        "satin"
+      ],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "kiss-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_010.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A luxurious mustard-yellow velvet pouch with a distinctive gathered, pleated silhouette that creates soft, flowing folds across its surface. The bag features a prominent, thick chain strap attached via gold-toned hardware, adding a bold metallic contrast to the rich fabric. The construction includes a structured top edge and a soft, slouchy body, suggesting a comfortable, wearable design.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "mustard",
+      "material": "cotton",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "velvet"
+      ],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_011.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A compact, sculpted pouch in a rich emerald green satin, featuring a distinctive gathered, ruched silhouette with a matching satin ribbon tied into a bow at the top handle. The luxurious sheen of the satin and the soft, voluminous folds create a dramatic, sculptural effect.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "emerald",
+      "material": "silk",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "satin"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": null,
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_012.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A compact, structured pouch with a distinctive woven metallic gold finish, featuring a curved, slightly flared silhouette and a decorative tassel closure with a dark spherical bead. The body is crafted from interlaced metal strips creating a textured, basket-weave pattern, giving it a sculptural and luxurious appearance.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "gold",
+      "material": "metal",
+      "embellishments": [
+        "bead",
+        "tassel"
+      ],
+      "finishing": [],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": null,
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "handle_type": [],
+      "model_details": [
+        "woven"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_013.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, metallic silver pouch with a distinctive snakeskin texture and a central vertical pleat that adds dimension to its structured, slightly rounded rectangular silhouette. The material has a glossy, reflective finish, and the top edge features a subtle zip closure. The design is minimalist, emphasizing texture and a modern, edgy aesthetic.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "silver",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "python-effect"
+      ],
+      "handle_type": [],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": null,
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_014.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A compact, structured pouch with a glossy gold snakeskin-effect finish and a central diamond-shaped textured panel. The body features a curved, slightly flared silhouette with a rounded top edge and a visible seam along the upper border. The material has a metallic sheen and a distinct scale-like pattern, giving it a luxurious, reptilian appearance.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "gold",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "python-effect"
+      ],
+      "handle_type": [],
+      "closure": [
+        "kiss-lock-closure"
+      ],
+      "hardware_color": null,
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_015.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A glamorous black beaded pouch with a ruched, textured surface and a gold-toned chain strap. The body is constructed from densely applied beads creating a sparkling, dimensional effect, while the chain strap provides a luxurious contrast. The design is compact and elegant, suitable for evening wear.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "black",
+      "material": "faux-leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "bead"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "model_details": [
+        "ruched"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_016.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A teal satin pouch with a gathered, pleated front and a silver-toned chain strap attached to a matching fabric clasp. The body is softly rounded with a smooth, lustrous finish, and the chain provides a delicate contrast to the rich fabric.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "teal",
+      "material": "silk",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "satin"
+      ],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "kiss-lock-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_017.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A luxurious teal satin pouch with a dramatic gathered silhouette and an ornate, crystal-encrusted kiss-lock clasp. The rich, lustrous satin creates soft vertical pleats across the body, while the metallic hardware and floral crystal embellishments add opulent detail. Designed as a statement evening accessory, it combines elegant structure with sparkling embellishments.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "teal",
+      "material": "silk",
+      "embellishments": [
+        "crystal",
+        "gemstone"
+      ],
+      "closure": [
+        "kiss-lock-closure"
+      ],
+      "hardware_color": "silver",
+      "finishing": [
+        "satin"
+      ],
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "handle_type": [],
+      "bag_size": "small",
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_018.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A metallic gold pouch with a gathered, ruched silhouette and a curved top opening secured by a silver-toned kiss-lock clasp. The body is constructed from a shiny, reflective leather-like material with a chain strap attached at the top. The design features a soft, slouchy structure with visible folds and a minimalist aesthetic.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "gold",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "kiss-lock-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_POUCH_B_004b_019.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A soft, gathered brown leather pouch with a distinctive kiss-lock clasp adorned with two pearl-like spheres. The body features a slouchy, pleated silhouette created by gathered fabric, giving it a draped, organic shape. The metallic clasp provides a contrasting structural element against the supple, satin-finish leather.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [
+        "pearl"
+      ],
+      "closure": [
+        "kiss-lock-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "handle_type": [],
+      "finishing": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_001.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured brown leather satchel bag with a curved flap closure secured by two silver-toned buckled straps. The bag features a detachable shoulder strap with a buckle and shows natural leather texture and slight wear for a vintage aesthetic. The design is minimalist with no external embellishments, emphasizing clean lines and functional hardware.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "external-pocket"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_002.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, upright trapezoidal satchel bag in dark brown leather with contrasting tan leather trim and white contrast stitching. The front features a flap closure secured by two brass buckled straps and two circular snap buttons, with a top handle and detachable shoulder strap attached via metal D-rings and clips. The hardware is antiqued brass, and the overall design evokes a classic, utilitarian aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "black",
+      "secondary_colors": [
+        "tan"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle",
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "antique-brass",
+      "bag_size": "medium",
+      "model_details": [
+        "external-pocket"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_003.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A vintage-style brown leather briefcase with a distressed, weathered finish and a structured, upright silhouette. Features a top handle, adjustable shoulder strap with metal D-rings, and a front flap secured by two brass buckled straps. The bag has a classic satchel design with visible stitching and a slightly worn, patina-rich surface.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle",
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "antique-brass",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_004.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, structured leather briefcase with a classic satchel silhouette, featuring a wide flap closure secured by two brass buckled straps and a central pocket with a buckle. The tan leather exhibits a distressed, vintage finish with visible grain and creasing, accented by brass hardware and silver-toned rivets. The top handle is attached with metal D-rings, and the sides suggest adjustable shoulder straps.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "tan",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "large",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "external-pocket"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_005.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized brown leather flap shoulder bag with a flap closure secured by a brass buckle and a detachable shoulder strap. The bag features a classic upright silhouette with visible stitching and a subtle brand logo on the flap. The material has a natural, slightly textured finish, and the hardware is gold-toned, contributing to a refined, classic aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "flap shoulder bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_006.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, slate-grey leather satchel bag with a classic flap-over design secured by two brass buckled straps. The bag features a top handle, a detachable shoulder strap with gold-tone hardware, and visible stitching details. The silhouette is compact and upright with a slightly slouchy, trapezoidal body.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "slate",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle",
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "model_details": [
+        "external-pocket"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_007.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized brown leather messenger bag with a flap closure and contrasting white stitching. The bag features a detachable shoulder strap with a buckle and a small embossed logo on the lower right corner. The leather exhibits a natural, slightly worn texture with a warm, caramel tone.",
+    "tags": {
+      "category": "messengers-women",
+      "subcategory": "messenger",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": null,
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_008.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A classic brown leather satchel bag with a structured upright silhouette, featuring a front flap secured by two leather straps with gold-tone buckles and a central leather patch. The bag has a detachable shoulder strap and is detailed with contrasting white stitching along all seams, conveying a traditional, durable craftsmanship aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": [
+        "external-pocket"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_009.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A classic tan leather satchel bag with a structured upright silhouette, featuring a large front flap secured by two brass buckled straps and a detachable shoulder strap. The bag showcases visible hand-stitched detailing along the edges and a vintage, slightly worn leather finish. The design is minimalist and functional, with a focus on durable construction and timeless craftsmanship.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "tan",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": [
+        "external-pocket"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_010.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, structured brown leather messenger with a flap closure and adjustable shoulder strap. The leather exhibits a distressed, vintage finish with visible creasing and natural wear patterns. The bag features a wide, padded shoulder strap attached with brass hardware and a top zippered opening on the front flap. The construction includes visible stitching along the seams and a reinforced bottom panel.",
+    "tags": {
+      "category": "messengers-women",
+      "subcategory": "messenger",
+      "primary_color": "brown",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "large",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_011.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, dark navy leather messenger bag with a pebbled texture and a detachable shoulder strap featuring a gold-tone buckle. The bag has a flap closure secured by a zip on the right side and a small embossed brand logo at the bottom center. The design is minimalist with clean lines and a professional silhouette.",
+    "tags": {
+      "category": "messengers-women",
+      "subcategory": "messenger",
+      "primary_color": "navy",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "grained"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_012.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, dark grey canvas messenger bag with a flap closure and a detachable brown leather-trimmed shoulder strap. The bag features a top handle, a brand tag with \"messenger\" text, and a small leather patch with the brand name \"AUGUR\". The design is functional with a front pocket and a minimalist aesthetic.",
+    "tags": {
+      "category": "messengers-women",
+      "subcategory": "messenger",
+      "primary_color": "grey",
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle",
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": null,
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_013.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, rectangular brown leather messenger bag with a long adjustable strap and a small embossed logo on the lower front corner. The bag features a flap closure over the main compartment and a zippered pocket on the side, with visible stitching and a slightly worn, vintage finish.",
+    "tags": {
+      "category": "messengers-women",
+      "subcategory": "messenger",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_014.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured black leather satchel bag with a classic upright silhouette, featuring a top handle, adjustable shoulder strap, and two front buckled straps securing a flap closure. The bag has a glossy finish, gold-tone hardware, and visible stitching details, with a compact, professional aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle",
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_015.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, rectangular black leather satchel bag with a flap closure secured by two brass buckled straps and contrasting white stitching. The bag features a detachable shoulder strap and a minimalist, classic design with a slightly worn, vintage leather finish.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "external-pocket"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_016.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, rectangular messenger bag in a dark charcoal grey canvas with contrasting brown leather trim and a small brand patch at the bottom. The bag features a flap closure secured by a leather tab and a zippered side pocket, with a wide adjustable shoulder strap for comfortable wear. The design is minimalist and functional, suitable for everyday or professional use.",
+    "tags": {
+      "category": "messengers-women",
+      "subcategory": "messenger",
+      "primary_color": "grey",
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "canvas"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": null,
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_017.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A vintage-style brown leather satchel bag with a distressed, weathered finish and a structured, upright silhouette. The bag features a flap closure secured by three brass buckled leather straps, a top handle, and a detachable shoulder strap with a woven leather pattern. The hardware is brass-toned, and the overall design evokes a classic, rugged, and timeless aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle",
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "external-pocket"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_018.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized brown leather messenger bag with a pebbled texture and contrasting smooth leather panels. It features a detachable web strap with a gold-tone buckle, top zip closure, and visible stitching detailing. The design is minimalist with a focus on clean lines and functional construction.",
+    "tags": {
+      "category": "messengers-women",
+      "subcategory": "messenger",
+      "primary_color": "brown",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_019.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A vintage-style brown leather messenger bag with a textured, slightly worn finish and a detachable shoulder strap featuring a silver-toned buckle. The bag has a structured, upright trapezoidal silhouette with visible stitching and a zippered closure along the top edge. The hardware is metallic with a brushed silver finish, complementing the warm, earthy tone of the leather.",
+    "tags": {
+      "category": "messengers-women",
+      "subcategory": "messenger",
+      "primary_color": "brown",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_020.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A minimalist tan leather messenger bag with a structured, upright trapezoidal silhouette and a detachable shoulder strap featuring a brass buckle. The body is crafted from pebbled leather with clean, contrasting stitching along the edges and a flap closure that extends slightly over the front. The design is unadorned, emphasizing clean lines and functional construction.",
+    "tags": {
+      "category": "messengers-women",
+      "subcategory": "messenger",
+      "primary_color": "tan",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "grained"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_021.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A classic brown leather satchel bag with a structured upright silhouette, featuring a front flap secured by two silver-toned buckled straps and a detachable shoulder strap. The bag showcases visible stitching, a top handle, and a minimalist design with no external embellishments, conveying a timeless, professional aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle",
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_022.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, upright satchel bag in a deep forest green, crafted from smooth leather with a distinctive braided leather strap and two brass buckled straps securing the front flap. The design features a classic satchel silhouette with a curved top edge and a detachable shoulder strap attached via a gold-tone hardware clasp. The hardware has a polished gold finish, contrasting with the muted green leather.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "forest",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_023.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized brown leather satchel bag with a classic flap-over design secured by two brass buckled straps. The bag features clean, contrasting stitching along the edges and a small rectangular leather patch at the center of the flap. The hardware is gold-toned, and the overall silhouette is upright and boxy with rounded bottom corners.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_024.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A rich, caramel-toned leather satchel bag with a structured, upright silhouette featuring a wide front flap secured by two brass buckled straps. The bag is constructed with visible stitching and a detachable shoulder strap, showcasing a vintage-inspired, artisanal aesthetic with a slightly worn, patinated finish.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "external-pocket"
+      ]
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_025.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, rectangular brown leather messenger bag with a flap closure and a detachable shoulder strap. The leather exhibits a distressed, suede-like texture with visible grain and natural color variations, giving it a vintage, well-worn appearance. The bag features clean, contrasting stitching along the flap and strap attachment points, with metal hardware at the strap connectors.",
+    "tags": {
+      "category": "messengers-women",
+      "subcategory": "messenger",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "BAGS_SATCHEL_MESSENGER_B_004b_026.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized brown leather satchel bag with a classic flap-over design secured by two silver-toned buckled straps. The bag features a top handle, a detachable shoulder strap, and a central zippered pocket on the front flap. The leather has a pebbled texture and is finished with visible stitching and metal hardware, including a small brand logo on the upper flap.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "satchel bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle",
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  }
+]

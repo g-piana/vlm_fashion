@@ -1,0 +1,43 @@
+# Dataset manifest — lists all labelled batches for training.
+#
+# Each entry maps a labels JSON to its image directory.
+# prepare_dataset.py reads this file, merges all batches,
+# and produces train/val/test splits.
+#
+# To add a new batch:
+#   1. Run inference on new images
+#   2. Review and export labels JSON
+#   3. Add an entry here
+#   4. Re-run: python scripts/prepare_dataset.py
+# images_dir can be a symlink to /mnt/e/vlm_images/...
+
+batches:
+  - name: bags_women_batch01
+    labels: data/raw/labels/bags_women_batch01.json
+    images_dir: data/raw/images/bags_women_batch01
+
+  - name: bags_women_batch02
+    labels: data/raw/labels/bags_women_batch02.json
+    images_dir: data/raw/images/bags_women_batch02
+
+  - name: bags_women_batch03
+    labels: data/raw/labels/bags_women_batch03.json
+    images_dir: data/raw/images/bags_women_batch03
+  
+  - name: bags_women_batch04
+    labels: data/raw/labels/bags_women_batch04.json
+    images_dir: data/raw/images/bags_women_batch04
+
+  - name: bags_women_batch04b
+    labels: data/raw/labels/bags_women_batch04b.json
+    images_dir: data/raw/images/bags_women_batch04b
+
+# Split configuration
+splits:
+  val_ratio: 0.10
+  test_ratio: 0.05
+  seed: 42
+  test_per_subcategory: 4
+
+# Output directory for parquet files
+output_dir: data/splits_bags
