@@ -30,11 +30,14 @@ _decision_order_women: |-
      Sling vs waist: judge by strap attachment on the bag, not photo angle.
   2. Body woven from plant fibre (straw, raffia, wicker, rattan, rope) over most of its surface
      = basket, whatever its shape.
-  3. Small bag (body fits in one hand — judge from closure, hardware and proportions):
-     rigid hard-shell case with jewel/push clasp = minaudiere; soft/gathered/bulging body
-     = pouch (including frame purses that bulge below the frame); flat body, V-shaped flap
-     = envelope; flat body otherwise = clutch. Any strap, chain or small handle is allowed
-     — size and body shape decide, not the carry method.
+  3. Small evening bags: no hand-carry handle, carried in the hand or on a wrist loop, a thin chain
+     or a thin strap (not a wide shoulder strap):
+     a. Rigid hard shell keeping an exact geometric shape (metal, resin, acrylic, covered rigid box)
+        = minaudiere.
+     b. Visible gathers, pleats or a drawstring, or a frame purse whose body bulges below the frame
+        = pouch.
+     c. V-shaped front flap = envelope.
+     d. Otherwise (flat or slim body) = clutch.
   4. Two parallel long handles reaching the shoulder, large open/zip-top body = tote.
   5. Hand-carry handle(s) (too short to reach the shoulder):
      a. Round flat base + cylindrical/conical body + drawstring/open top = bucket bag.
@@ -75,18 +78,19 @@ top handle bag: >-
 
 # ── clutches ── (small evening bags by body shape, step 3)
 clutch: >-
-  Small flat/slim body held in the hand or on a chain/strap. Rigid case with depth =
-  minaudiere; soft rounded = pouch; V-flap = envelope.
+  Small flat or slim evening bag with no hand-carry handle, held in the hand or on a wrist loop, thin
+  chain or thin strap; no rigid shell, no gathers or drawstring, no V-shaped flap.
 envelope: >-
-  Small flat rectangle with a V-shaped front flap. Any strap or chain allowed.
+  Clutch-type evening bag with a V-shaped (triangular or pointed) front flap of any length; wrist loop,
+  thin chain or thin strap allowed.
 minaudiere: >-
-  Small hard-shell case keeping an exact geometric shape: metal, resin, acrylic or rigid box
-  covered in fabric/crystals, crisp edges, no creases or bulging; push or jewel clasp. Any
-  strap, chain or small handle allowed. Soft/bulging = pouch; leather/fabric box with zip = clutch.
+  Small hard-shell case keeping an exact geometric shape: metal, resin, acrylic or a rigid box covered
+  in fabric or crystals, crisp edges, no creases or bulging; push or jewel clasp. Wrist loop, chain or
+  small strap allowed. A soft leather or fabric case with a zip is a clutch.
 pouch: >-
-  Small soft, gathered or pillow-like body that does not keep a rigid shape; frame, magnetic,
-  drawstring or zip opening. Any strap, chain or small handle allowed. Includes frame purses
-  that bulge below the frame. A large soft bag on a shoulder strap is a hobo bag.
+  Small evening bag with visible gathers, pleats or a drawstring, or a frame purse whose body bulges
+  below the frame; wrist loop, thin chain or thin strap allowed. A smooth, flat or padded body is a
+  clutch; a large soft bag on a shoulder strap is a hobo bag.
 
 # ── shoulder bags ── (strap/chain, step 6 with flap, step 7 without)
 bucket bag: >-
@@ -110,7 +114,7 @@ messenger: >-
   buckled straps; shoulder strap, with or without a small hand-carry handle.
 flap shoulder bag: >-
   Catch-all for flap bags on a strap or chain that are not saddle, underarm, satchel or messenger:
-  short flaps, portrait-shaped flap bags, chain flap bags, decorative-clasp shoulder bags.
+  short flaps, portrait-shaped flap bags, chain flap bags, decorative-clasp shoulder bags. Medium or large flap bags on a chain or leather shoulder strap (for example quilted chain bags) belong here, not to clutch.
 other shoulder bags: >-
   Catch-all for strap/chain bags with NO front flap that fit no other shoulder-bag subcategory.
 
