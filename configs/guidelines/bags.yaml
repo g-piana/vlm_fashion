@@ -39,7 +39,7 @@ _decision_order_women: |-
   5. Hand-carry handle(s) (too short to reach the shoulder):
      a. Round flat base + cylindrical/conical body + drawstring/open top = bucket bag.
      b. Flap bag with a body wider than tall, whose flap is either closed by two buckled straps or
-         long (covering ≥2/3 of the front): apply 6d (satchel bag) and 6e (messenger), even with the handle.
+         long (covering ≥2/3 of the front): apply 6d (satchel bag or messenger), even with the handle.
      c. Hinged frame opening (frame may be covered) = doctor's bag.
      d. Barrel, same width top and base, full top zip = duffle bag if >45 cm, else boston bag.
      e. Rigid cube, depth ≈ height, NO front flap = box bag.
@@ -49,9 +49,9 @@ _decision_order_women: |-
      a. Body asymmetric LEFT-RIGHT (one side rounded, one straight) = saddle bag.
      b. Primary outline semi-circle/D (not a rectangle with rounded corners), curved flap = saddle bag.
      c. Elongated body, short strap tucked under the arm = underarm bag.
-     d. Flap closed by two buckled straps = satchel bag.
-     e. Long flap (≥2/3 of front) on a body wider than tall = messenger.
-     f. Otherwise = flap shoulder bag.
+     d. Body wider than tall with a flap that is either closed by two buckled straps or long
+        (≥2/3 of the front): two buckled straps = satchel bag; otherwise = messenger.
+     e. Otherwise = flap shoulder bag.
 
 # ── handbags ── (hand-carry handle, step 5)
 basket: >-
