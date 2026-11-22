@@ -9,3 +9,12 @@ for ckpt in checkpoint-168 checkpoint-252; do
       --adapter models/qwen3vl_v10/${ckpt} \
       --output outputs/test_v10_${ckpt}.json
 done
+
+
+for ck in checkpoint-168 checkpoint-252; do
+  python scripts/eval_heldout.py --predictions outputs/test_v11_$ck.json \
+    --ground-truth data/splits/test_labels.json \
+    --out-report outputs/reports/test_v11_$ck.json \
+    --errors-csv outputs/reports/errors_v11_$ck.csv \
+    --compare outputs/reports/baseline_v10ep3_bagsfix.json
+done

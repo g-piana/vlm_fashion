@@ -389,17 +389,17 @@
     "image": "GUCCI_BAGS_01_27473948_main.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "Pristine white leather expertly quilted in the signature matelassé chevron pattern showcases this elegant clutch bag, creating soft dimensional waves across the structured envelope-style silhouette. The iconic double G logo in aged gold-tone hardware commands center stage, framed by meticulous contrast stitching along the edges. A substantial gold chain strap provides versatile shoulder or crossbody wear, while the medium-sized proportions offer ample capacity for daily essentials in this timelessly chic design that balances recognizable Gucci codes with refined versatility.",
+    "description": "Pristine white leather expertly quilted in the signature matelassé chevron pattern showcases a small envelope bag on a gold-tone chain strap, creating soft dimensional waves across the structured envelope-style silhouette. The iconic double G logo in aged gold-tone hardware commands center stage, framed by meticulous contrast stitching along the edges. A gold chain strap provides versatile shoulder or crossbody wear for this elegant evening small bag.",
     "tags": {
       "category": "clutches-women",
-      "subcategory": "clutch",
+      "subcategory": "envelope",
       "primary_color": "white",
       "material": "leather",
       "secondary_materials": [],
       "embellishments": [
         "logo"
       ],
-      "pattern": "chevron",
+      "pattern": null,
       "handle_type": [
         "chain-strap"
       ],

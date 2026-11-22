@@ -1,0 +1,2439 @@
+[
+ {
+  "image": "GUCCI_BAGS_01_20289259_main.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "Supple black leather creates this refined hobo bag in a gracefully slouched silhouette, adorned with a discreet GG logo medallion in gold-tone hardware. The distinctive curved bamboo handle adds organic warmth and represents Gucci's iconic post-war heritage, while dual carrying options include a tonal gray leather shoulder strap and an adjustable black leather crossbody strap with gold hardware for versatile everyday luxury.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "hobo bag",
+   "primary_color": "black",
+   "material": "leather",
+   "secondary_materials": [
+    "bamboo"
+   ],
+   "embellishments": [
+    "logo"
+   ],
+   "pattern": null,
+   "handle_type": [
+    "top-handle",
+    "shoulder-strap"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "model_details": [],
+   "finishing": []
+  }
+ },
+ {
+  "image": "GUCCI_BAGS_01_A6897_main.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "Smooth black leather in a structured barrel silhouette defines this classic Boston bag with gently curved sides and dual top handles secured by gold-tone hardware and buckle details. The prominent interlocking GG logo in polished silver-tone within an oval medallion commands center stage, while subtle seam details and the timeless bowling bag shape offer spacious practicality perfect for travel or professional use with enduring sophistication.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "boston bag",
+   "primary_color": "black",
+   "material": "leather",
+   "embellishments": [
+    "logo"
+   ],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "model_details": [],
+   "finishing": []
+  }
+ },
+ {
+  "image": "GUCCI_BAGS_MISC_002_011.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A classic white leather hobo bag featuring a curved, slouchy silhouette with a shoulder strap and a prominent gold-tone piston closure at the center. The smooth leather has a subtle sheen and is detailed with contrasting stitching along the seams and edges. The design is minimalist and elegant, with a focus on clean lines and refined hardware.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "hobo bag",
+   "primary_color": "white",
+   "material": "leather",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "model_details": [],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "piston-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "finishing": []
+  }
+ },
+ {
+  "image": "GUCCI_BAGS_MISC_002_030.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A vintage-style doctor's bag featuring a vibrant vertical striped pattern in pink, green, yellow, and cream on a textured woven fabric body, accented with brown leather trim, handles, and hardware. The bag has a distinctive hinged metal frame closure with a combination lock and pearl-like eyelets on the leather tabs. The base is reinforced with a thick brown leather panel, giving it a structured, retro silhouette.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "doctor's bag",
+   "primary_color": "multicolor",
+   "secondary_colors": [
+    "pink",
+    "green",
+    "mustard",
+    "beige",
+    "brown"
+   ],
+   "material": "cotton",
+   "secondary_materials": [
+    "leather"
+   ],
+   "embellishments": [],
+   "pattern": "stripes",
+   "model_details": [],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "finishing": []
+  }
+ },
+ {
+  "image": "backpack__BRANDS_BAGS_MISC_BP_003_006.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, upright orange leather backpack with a flap-over front closure secured by a silver-toned buckle and adjustable strap. The body features a textured pebbled leather finish, a top grab handle, and a branded plaque at the bottom. Grey padded shoulder straps provide contrast against the vibrant orange main body.",
+  "tags": {
+   "category": "backpacks-women",
+   "subcategory": "backpack",
+   "primary_color": "orange",
+   "material": "leather",
+   "embellishments": [],
+   "finishing": [
+    "grained"
+   ],
+   "handle_type": [
+    "top-handle",
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "model_details": []
+  }
+ },
+ {
+  "image": "backpack__BRANDS_BAGS_MISC_BP_003_012.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, upright rectangular backpack in black pebbled leather features a top zip opening with gold-tone hardware and a matching zippered front pocket. The bag has a detachable top handle and adjustable shoulder strap, with minimalist design and clean lines emphasizing functionality and modern elegance.",
+  "tags": {
+   "category": "backpacks-women",
+   "subcategory": "backpack",
+   "primary_color": "black",
+   "material": "leather",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "grained"
+   ],
+   "handle_type": [
+    "top-handle",
+    "shoulder-strap"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "model_details": [
+    "external-pocket"
+   ]
+  }
+ },
+ {
+  "image": "basket__BRANDS_BAGS_MISC_HBBA_003_001.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A cylindrical basket bag with a natural woven straw body accented by tan leather trim at the top and bottom, featuring a drawstring closure and a curved leather handle. The design combines rustic texture with structured leather detailing for a chic, resort-ready silhouette.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "basket",
+   "primary_color": "tan",
+   "material": "straw",
+   "secondary_materials": [
+    "leather"
+   ],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "top-handle",
+    "shoulder-strap"
+   ],
+   "closure": [
+    "drawstring"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "model_details": [
+    "woven"
+   ]
+  }
+ },
+ {
+  "image": "basket__BRANDS_BAGS_MISC_HBBA_003_006.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A beige basket bag with a structured, rectangular wicker body and two matching canvas top handles. The front features a gold-tone triangular Prada logo plaque and a brown leather brand tag attached by a leather strap. The construction includes a woven wicker body with a canvas-lined rim and handles, creating a classic, utilitarian silhouette with a preppy, resort-ready aesthetic.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "basket",
+   "primary_color": "beige",
+   "material": "straw",
+   "secondary_materials": [
+    "cotton"
+   ],
+   "embellishments": [
+    "logo"
+   ],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": "gold",
+   "finishing": [],
+   "pattern": null,
+   "secondary_colors": [],
+   "bag_size": "small",
+   "model_details": []
+  }
+ },
+ {
+  "image": "boston-bag__BRANDS_BAGS_MISC_BOSBA_003_004.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A vibrant red leather handbag with a cylindrical barrel body and rounded end panels, featuring two rolled top handles attached with gold-tone hardware. The textured pebbled leather surface is accented by a matching leather tag with a heart-shaped ring and a small logo plaque. The bag has a zip-around closure and gold-tone hardware accents along the sides and handle attachments.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "boston bag",
+   "primary_color": "red",
+   "material": "leather",
+   "embellishments": [],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "finishing": [
+    "grained"
+   ],
+   "model_details": []
+  }
+ },
+ {
+  "image": "box-bag__BRANDS_BAGS_MISC_HBBB_003_005.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, boxy black leather handbag featuring a distinctive diamond-quilted pattern and a top zip closure. It is equipped with a detachable gold-tone chain strap and a matching top handle, with gold-tone hardware including a spherical clasp at the strap end. The design combines classic tailoring with luxury hardware for a chic, vintage-inspired silhouette.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "box bag",
+   "primary_color": "black",
+   "material": "leather",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": "diamond",
+   "finishing": [],
+   "handle_type": [
+    "top-handle",
+    "chain-strap"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "model_details": [
+    "quilted"
+   ]
+  }
+ },
+ {
+  "image": "box-bag__BRANDS_BAGS_MISC_HBBB_003_008.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, boxy tan leather handbag with a prominent gold-tone padlock closure featuring the LV logo, white contrast stitching, and a curved top handle. The body is defined by a horizontal gold zipper running across the middle, secured by the padlock, with a matching leather strap attached to the handle hardware. The pebbled leather texture and clean lines create a classic, secure, and elegant silhouette.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "box bag",
+   "primary_color": "tan",
+   "material": "leather",
+   "secondary_colors": [],
+   "embellishments": [
+    "logo"
+   ],
+   "pattern": null,
+   "finishing": [
+    "grained"
+   ],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "bucket-bag__BRANDS_BAGS_MISC_SBBU_003_010.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, elongated oval-shaped bucket bag in rich brown leather with contrasting light tan stitching along the seams. The bag features a single curved top handle attached with a gold-tone logo cap and a detachable shoulder strap with gold-tone end caps. The silhouette is sleek and modern with a soft, slouchy drape.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "bucket bag",
+   "primary_color": "chocolate",
+   "material": "leather",
+   "secondary_colors": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "bucket-bag__BRANDS_BAGS_MISC_SBBU_003_013.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A classic brown leather bucket bag featuring the iconic Louis Vuitton monogram pattern in gold-toned print, with a drawstring closure and a detachable shoulder strap. The bag has a cylindrical body with a gathered top and a contrasting pale tan leather trim and base, accented with gold-tone hardware and visible yellow stitching.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "bucket bag",
+   "primary_color": "brown",
+   "secondary_colors": [
+    "beige"
+   ],
+   "material": "leather",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "printed"
+   ],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "drawstring"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "model_details": []
+  }
+ },
+ {
+  "image": "camera-bag__BRANDS_BAGS_MISC_HBCB_003_001.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A sleek, structured bag with a boxy rectangular silhouette, crafted from textured black leather. It features a wide adjustable shoulder strap, a full-length top zipper closure, and a front zippered pocket. The design is minimalist with clean lines and subtle stitching, emphasizing functionality and a modern, urban aesthetic.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "other shoulder bags",
+   "primary_color": "black",
+   "material": "leather",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "grained"
+   ],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "black",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "model_details": [
+    "external-pocket"
+   ]
+  }
+ },
+ {
+  "image": "camera-bag__BRANDS_BAGS_MISC_HBCB_003_007.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A compact, structured olive-green leather shoulder bag with a pebbled texture, featuring a top zip closure, a detachable shoulder strap with embossed logo, and a matching logo patch on the front. The bag has a minimalist design with silver-toned hardware and a small hanging tag.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "other shoulder bags",
+   "primary_color": "olive",
+   "material": "leather",
+   "secondary_colors": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "grained"
+   ],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "small",
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "clutch__BRANDS_BAGS_MISC_CC_003_012.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A sleek, elongated black leather clutch with a structured, flap-over silhouette and a prominent gold-tone Celine logo clasp at the center. The surface features a subtle pebbled texture, and the flap is secured by precise, contrasting stitching along its edge. The design emphasizes minimalist elegance with a bold brand signature.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "clutch",
+   "primary_color": "black",
+   "material": "leather",
+   "embellishments": [
+    "logo"
+   ],
+   "finishing": [],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "pattern": null,
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": [],
+   "handle_type": []
+  }
+ },
+ {
+  "image": "clutch__BRANDS_BAGS_MISC_CC_003_013.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A minimalist, elongated rectangular clutch in a soft beige leather with a central gold-tone circular clasp featuring an embossed logo. The flap closure is secured by precise, matching beige stitching along the edges, creating a clean, structured silhouette with no external hardware or embellishments.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "clutch",
+   "primary_color": "beige",
+   "material": "leather",
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "finishing": [],
+   "secondary_colors": [],
+   "embellishments": [],
+   "pattern": null,
+   "secondary_materials": [],
+   "handle_type": [],
+   "bag_size": "small",
+   "model_details": []
+  }
+ },
+ {
+  "image": "doctor-s-bag__BRANDS_BAGS_MISC_HBD_003_001.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured tan leather briefcase with a top handle and a front flap secured by a brass turn-lock clasp. The bag features a classic doctor's bag silhouette with a rounded base and visible stitching details, including a brand plaque on the flap. The hardware is gold-toned, complementing the warm leather tone.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "doctor's bag",
+   "primary_color": "tan",
+   "material": "leather",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "turn-lock-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "model_details": [
+    "external-pocket"
+   ]
+  }
+ },
+ {
+  "image": "duffle-bag__BRANDS_BAGS_MISC_HBD_003_001.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A classic black leather duffle bag with a cylindrical barrel body and rounded ends, featuring two sturdy top handles attached with silver-toned metal rings and rivets. The bag has a full-length top zip closure and vertical leather straps with decorative stitching and metal eyelets. The leather exhibits a slightly worn, textured finish, suggesting a vintage or well-crafted aesthetic.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "duffle bag",
+   "primary_color": "black",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "large",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "duffle-bag__BRANDS_BAGS_MISC_HBD_003_004.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A large, structured duffle bag with a cylindrical body featuring a soft, beige shearling exterior and contrasting tan leather trim along the edges and handles. The bag is equipped with two curved top handles attached by gold-tone hardware and a detachable shoulder strap. A distinctive tan leather strap with a gold-tone padlock and brand plaque hangs from the front, adding a security and brand detail. The silhouette is robust and travel-ready, with clean lines and a luxurious, tactile material combination.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "duffle bag",
+   "primary_color": "beige",
+   "secondary_colors": [],
+   "material": "shearling",
+   "secondary_materials": [
+    "leather"
+   ],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "top-handle",
+    "shoulder-strap"
+   ],
+   "closure": [],
+   "hardware_color": "gold",
+   "bag_size": "large",
+   "model_details": []
+  }
+ },
+ {
+  "image": "envelope__BRANDS_BAGS_MISC_CE_003_001.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, vibrant red saffiano-leather envelope bag with a contrasting gold-tone rectangular clasp and a detachable gold-tone chain strap. The flap closure is secured by a minimalist metal bar, and the textured leather provides a pebbled finish. The design is clean and modern, emphasizing bold color and metallic hardware.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "envelope",
+   "primary_color": "red",
+   "material": "leather",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "grained"
+   ],
+   "handle_type": [
+    "chain-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "envelope__BRANDS_BAGS_MISC_CE_003_009.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A taupe suede envelope clutch with a structured, flap-over silhouette featuring precise diagonal stitching and a prominent gold-tone YSL logo at the center. The material has a soft, napped texture, and the construction emphasizes clean lines and minimalist elegance.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "envelope",
+   "primary_color": "taupe",
+   "material": "suede",
+   "embellishments": [
+    "logo"
+   ],
+   "finishing": [],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "handle_type": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "messenger__BRANDS_BAGS_MISC_HBME_003_001.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A softly structured black leather hobo shoulder bag with a curved, slightly slouchy silhouette featuring a contrasting front suede pocket fastened with a gold-tone logo stud. The bag has a zip-top closure with a gold-tone zipper pull and is carried by a matching leather shoulder strap attached with gold-tone hardware. The pebbled leather texture adds dimension to the minimalist design.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "hobo bag",
+   "primary_color": "black",
+   "material": "leather",
+   "secondary_materials": [
+    "suede"
+   ],
+   "embellishments": [],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "pattern": null,
+   "finishing": [
+    "grained"
+   ],
+   "model_details": [
+    "external-pocket"
+   ]
+  }
+ },
+ {
+  "image": "messenger__BRANDS_BAGS_MISC_HBME_003_006.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured tan leather flap shoulder bag featuring a flap-over front closure secured by a buckle and a shoulder strap. The bag has a roughly square silhouette with a contrasting darker brown leather trim and a small brand plaque on the flap. The material appears to be pebbled leather with clean stitching and minimalist hardware.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "flap shoulder bag",
+   "primary_color": "tan",
+   "material": "leather",
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap",
+    "buckle-closure"
+   ],
+   "hardware_color": "silver",
+   "finishing": [],
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "embellishments": [
+    "logo"
+   ],
+   "pattern": null,
+   "model_details": []
+  }
+ },
+ {
+  "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_008.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured black box clutch bag featuring a glossy quilted leather body with a prominent circular embellishment of black crystals and sequins at the center. The top edge is trimmed with a textured black fabric, and a matching bow accent sits at the upper back. The design combines classic box-bag proportions with ornate, sparkling detailing for a glamorous evening look.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "clutch",
+   "primary_color": "black",
+   "material": "leather",
+   "embellishments": [
+    "crystal",
+    "sequin"
+   ],
+   "finishing": [
+    "patent"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": null,
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "handle_type": [],
+   "model_details": [
+    "quilted"
+   ]
+  }
+ },
+ {
+  "image": "minaudiere__BRANDS_BAGS_MISC_CM_003_013.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A black rectangular minaudiere clutch with intricate gold floral embroidery covering its surface, featuring a gold-toned metal frame closure and a detachable gold chain strap. The body is constructed with a rigid, structured box-like silhouette, and the embroidery creates a luxurious, textured floral pattern across the entire surface.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "minaudiere",
+   "primary_color": "black",
+   "secondary_colors": [
+    "gold"
+   ],
+   "material": "silk",
+   "secondary_materials": [],
+   "embellishments": [
+    "embroidery"
+   ],
+   "pattern": "floral-pattern",
+   "finishing": [],
+   "handle_type": [
+    "wrist-strap"
+   ],
+   "closure": [
+    "frame-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "model_details": []
+  }
+ },
+ {
+  "image": "pouch__BRANDS_BAGS_MISC_CP_003_006.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A metallic gold, gathered-texture clutched pouch bag with a structured, softly draped silhouette created by vertical ruching. Features a detachable gold-toned chain strap attached via D-rings and a gold-tone clasp closure. The surface has a subtle sheen with a slightly mottled, pearlescent finish.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "pouch",
+   "primary_color": "gold",
+   "material": "leather",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "metallic"
+   ],
+   "handle_type": [
+    "chain-strap"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "pouch__BRANDS_BAGS_MISC_CP_003_011.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A compact, rigid rectangular pouch with a fully encrusted surface of sparkling crystals, framed by a rose-gold metal kiss-lock clasp with spherical finials. The body is constructed from a smooth, reflective metallic base covered in a dense, uniform crystal embellishment, creating a dazzling, high-shine effect. The silhouette is classic and structured, designed for formal evening wear.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "pouch",
+   "primary_color": "rose",
+   "material": "cotton",
+   "embellishments": [
+    "crystal"
+   ],
+   "closure": [
+    "kiss-lock-closure"
+   ],
+   "hardware_color": "rose-gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "saddle-bag__BRANDS_BAGS_MISC_SBSAD_003_004.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A women's saddle bag featuring a half-moon (saddle) silhouette with a plush white shearling trim along the curved edge. The body is constructed from suede in two colorways (beige and tan), with a front flap secured by a buckle strap and a detachable crossbody strap. Gold-tone hardware accents the buckled strap and attachment points.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "saddle bag",
+   "primary_color": "beige",
+   "secondary_colors": [
+    "white"
+   ],
+   "material": "suede",
+   "secondary_materials": [
+    "shearling"
+   ],
+   "embellishments": [
+    "fur"
+   ],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "model_details": []
+  }
+ },
+ {
+  "image": "saddle-bag__BRANDS_BAGS_MISC_SBSAD_003_005.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A denim-textured saddle bag with a curved, half-moon silhouette featuring a prominent repeating logo pattern in a contrasting lighter shade. The bag has a structured flap closure secured by two gold-tone hardware buttons and is equipped with a detachable gold-tone chain strap attached to the top handle. The material appears to be denim with a woven or printed logo overlay, giving it a bold, graphic look.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "saddle bag",
+   "primary_color": "blue",
+   "material": "cotton",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "jacquard",
+    "denim"
+   ],
+   "handle_type": [
+    "shoulder-strap",
+    "chain-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "satchel-bag__BRANDS_BAGS_MISC_SBSAT_003_003.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured tan leather satchel with a flap-over front secured by two gold-tone buckle straps, featuring a detachable shoulder strap and visible stitching details. The bag has a pebbled leather texture and a subtle brand logo embossed on the flap.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "satchel bag",
+   "primary_color": "brown",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "grained"
+   ],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": [
+    "external-pocket"
+   ]
+  }
+ },
+ {
+  "image": "satchel-bag__BRANDS_BAGS_MISC_SBSAT_003_004.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured grey leather satchel bag with a classic upright silhouette, featuring two prominent brass buckled straps across the front flap and a top handle. The bag has a detachable shoulder strap attached via gold-tone hardware and is detailed with visible stitching and a small hanging brand tag. The finish is smooth, with a slightly pebbled texture.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "satchel bag",
+   "primary_color": "grey",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "top-handle",
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": [
+    "external-pocket"
+   ]
+  }
+ },
+ {
+  "image": "sling-bag__BRANDS_BAGS_MISC_BS_003_002.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A compact, puffy sling backpack with a two-tone olive and slate grey colorway, featuring a quilted main compartment and a zippered front pocket with orange accent zipper pulls. Constructed from lightweight, textured nylon with mesh ventilation panels on the shoulder strap for comfort, this utilitarian design includes adjustable straps and a minimalist logo on the lower panel.",
+  "tags": {
+   "category": "backpacks-women",
+   "subcategory": "sling bag",
+   "primary_color": "olive",
+   "secondary_colors": [
+    "slate"
+   ],
+   "material": "nylon",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": null,
+   "bag_size": "small",
+   "model_details": []
+  }
+ },
+ {
+  "image": "sling-bag__BRANDS_BAGS_MISC_BS_003_009.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A sleek, structured black leather backpack with a distinctive curved, teardrop silhouette and a top zip closure. The body features a textured pebbled leather finish with contrasting silver-toned hardware, including dual zipper pulls with brand tags. The design includes a short top handle and a subtly contoured base with a pointed lower edge, creating a modern, minimalist aesthetic.",
+  "tags": {
+   "category": "backpacks-women",
+   "subcategory": "sling bag",
+   "primary_color": "black",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "saffiano"
+   ],
+   "handle_type": [],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "top-handle-bag__BRANDS_BAGS_MISC_HBTH_003_010.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, upright black leather briefcase-style handbag with a rigid top handle and a prominent gold-tone turn-lock closure at the center. The body features clean, precise stitching and a distinctive curved flap design with a hanging gold-tone padlock charm attached to the front. The bag has a formal, professional silhouette with a slightly flared base and gold-tone feet for protection.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "top handle bag",
+   "primary_color": "black",
+   "material": "leather",
+   "hardware_color": "gold",
+   "closure": [
+    "front-flap",
+    "turn-lock-closure"
+   ],
+   "handle_type": [
+    "top-handle"
+   ],
+   "finishing": [],
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "embellishments": [
+    "charm"
+   ],
+   "pattern": null,
+   "model_details": [
+    "structured",
+    "metal-feet"
+   ]
+  }
+ },
+ {
+  "image": "top-handle-bag__BRANDS_BAGS_MISC_HBTH_003_011.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured black leather handbag with a classic boxy silhouette featuring a top handle, a central gold-tone turn-lock closure, and a decorative gold padlock charm. The bag is constructed with visible stitching along the curved flap and a vertical leather strap with a gold buckle. The hardware is polished gold, contrasting with the smooth, matte black leather.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "top handle bag",
+   "primary_color": "black",
+   "material": "leather",
+   "embellishments": [],
+   "finishing": [],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "turn-lock-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "model_details": []
+  }
+ },
+ {
+  "image": "tote__BRANDS_BAGS_MISC_TOTE_003_005.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, upright tote bag with a clean, minimalist silhouette, featuring a cream-colored body with contrasting brown leather handles attached by gold-tone hardware. The bag has a flat base for standing and a small triangular logo plaque at the bottom center. The material appears to be a smooth, possibly synthetic leather with a matte finish, while the handles are made of a slightly textured brown leather.",
+  "tags": {
+   "category": "totes-women",
+   "subcategory": "tote",
+   "primary_color": "ivory",
+   "secondary_colors": [
+    "brown"
+   ],
+   "material": "faux-leather",
+   "secondary_materials": [],
+   "embellishments": [
+    "logo"
+   ],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "model_details": []
+  }
+ },
+ {
+  "image": "tote__BRANDS_BAGS_MISC_TOTE_003_009.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A large tote bag featuring a navy and white horizontal striped body with a contrasting brown saffiano-leather top flap and matching handles. The flap is adorned with a gold-tone logo plaque and includes a small zippered pocket on the side. The design combines classic nautical stripes with structured leather accents for a chic, casual look.",
+  "tags": {
+   "category": "totes-women",
+   "subcategory": "tote",
+   "primary_color": "white",
+   "secondary_colors": [
+    "navy"
+   ],
+   "material": "cotton",
+   "secondary_materials": [
+    "faux-leather"
+   ],
+   "embellishments": [
+    "logo"
+   ],
+   "pattern": "stripes",
+   "finishing": [
+    "saffiano"
+   ],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "large",
+   "model_details": []
+  }
+ },
+ {
+  "image": "underarm-bag__BRANDS_BAGS_MISC_SBUU_003_002.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured black leather hobo bag featuring a distinctive diamond-quilted pattern with raised, stitched panels creating a geometric, starburst effect across the body. The bag has a curved silhouette with a single adjustable shoulder strap attached via a gold-tone buckle. The surface has a smooth, slightly glossy finish.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "hobo bag",
+   "primary_color": "black",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": [
+    "quilted"
+   ]
+  }
+ },
+ {
+  "image": "underarm-bag__BRANDS_BAGS_MISC_SBUU_003_004.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A minimalist, softly slouching hobo bag in a muted pink hue, crafted from textured suede with a single slender shoulder strap attached at the top. The silhouette is gently curved with a rounded bottom and a subtle zip closure along the top edge, emphasizing clean lines and understated elegance.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "hobo bag",
+   "primary_color": "pink",
+   "material": "suede",
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "silver",
+   "finishing": [],
+   "secondary_colors": [],
+   "embellishments": [],
+   "pattern": null,
+   "secondary_materials": [],
+   "model_details": [],
+   "bag_size": "medium"
+  }
+ },
+ {
+  "image": "waist-bag__BRANDS_BAGS_MISC_WB_003_002.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A sleek, elongated waist bag in a deep burgundy hue, crafted from smooth nylon with a subtle sheen. Features a wide, adjustable webbed strap with black plastic buckle hardware and a single zip-around closure along the top edge. A small, tonal brand patch is stitched to the front panel, maintaining a minimalist aesthetic.",
+  "tags": {
+   "category": "waist-bags-women",
+   "subcategory": "waist bag",
+   "primary_color": "burgundy",
+   "material": "nylon",
+   "closure": [
+    "zip-closure"
+   ],
+   "handle_type": [],
+   "hardware_color": "black",
+   "finishing": [],
+   "secondary_colors": [],
+   "embellishments": [
+    "logo"
+   ],
+   "pattern": null,
+   "secondary_materials": [],
+   "model_details": [],
+   "bag_size": "small"
+  }
+ },
+ {
+  "image": "waist-bag__BRANDS_BAGS_MISC_WB_003_007.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A sleek, curved waist bag crafted from black leather with a subtle embossed LV monogram and floral motifs across its surface. The bag features a central zip closure with matching black hardware and a small leather brand plaque at the bottom. Its elongated, crescent shape is designed to sit at the hip, secured by adjustable straps with triangular metal eyelets.",
+  "tags": {
+   "category": "waist-bags-women",
+   "subcategory": "waist bag",
+   "primary_color": "black",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "embossed"
+   ],
+   "handle_type": [],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "black",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_BASKET_B_004_001.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, round-bottomed basket bag crafted from woven straw with a tan leather trim, handle, and front patch bearing the \"JACQUEMUS\" logo in gold lettering. The body features a consistent herringbone weave pattern, and the leather elements are secured with gold-tone hardware, creating a chic, minimalist silhouette with a natural, bohemian aesthetic.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "basket",
+   "primary_color": "beige",
+   "secondary_colors": [],
+   "material": "straw",
+   "secondary_materials": [
+    "leather"
+   ],
+   "embellishments": [
+    "logo"
+   ],
+   "pattern": null,
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "model_details": [
+    "woven"
+   ],
+   "finishing": []
+  }
+ },
+ {
+  "image": "BAGS_BASKET_B_004_006.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A large, structured basket bag crafted from woven straw with two curved tan leather handles featuring contrasting white stitching. The front is adorned with a brown leather appliqué of the iconic polo player logo. The design combines natural texture with classic equestrian branding for a casual, resort-ready aesthetic.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "basket",
+   "primary_color": "beige",
+   "material": "straw",
+   "secondary_materials": [
+    "leather"
+   ],
+   "embellishments": [
+    "logo"
+   ],
+   "pattern": null,
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": null,
+   "bag_size": "large",
+   "secondary_colors": [
+    "tan"
+   ],
+   "model_details": [
+    "woven"
+   ],
+   "finishing": []
+  }
+ },
+ {
+  "image": "BAGS_BOSTON_B_004_001.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A classic women's leather boston bag in a rich tan hue, featuring a rounded, dome-like silhouette with two sturdy top handles attached by metal hardware and leather reinforcements. The bag showcases meticulous contrast stitching along its curved seams and a zip-top closure across the top opening. The leather exhibits a subtle patina and natural texture, suggesting quality craftsmanship and a timeless, elegant design.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "boston bag",
+   "primary_color": "tan",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_BOSTON_B_004_003.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, dome-shaped boston handbag with a glossy red leather body and contrasting black leather accents on the base and handles. It features two curved top handles attached with silver-toned hardware and a subtle embossed \"PRADA\" logo on the lower right corner. The silhouette is classic and compact, with clean lines and a polished finish.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "boston bag",
+   "primary_color": "red",
+   "secondary_colors": [
+    "black"
+   ],
+   "material": "leather",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [],
+   "hardware_color": "silver",
+   "bag_size": "small",
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_BUCKET_B_004_005.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A compact, vertically oriented drawstring pouch crafted from woven raffia in a deep navy hue, featuring a central granny square embellishment in contrasting beige and blue tones. The brand name \"LOEWE\" is embroidered in matching blue thread below the patterned panel, while a thin navy cord strap with a silver-toned bead provides shoulder or crossbody wear. The design combines bohemian textile techniques with minimalist branding in a small, functional silhouette.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "basket",
+   "primary_color": "navy",
+   "material": "raffia",
+   "embellishments": [
+    "logo"
+   ],
+   "pattern": null,
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "drawstring"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "small",
+   "secondary_colors": [
+    "blue",
+    "beige"
+   ],
+   "secondary_materials": [],
+   "model_details": [
+    "woven"
+   ],
+   "finishing": []
+  }
+ },
+ {
+  "image": "BAGS_BUCKET_B_004_006.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured navy blue drawstring bag with a cylindrical body and a gathered top closure secured by black braided cords ending in decorative tassels. The upper portion is crafted from a satin-like material with a subtle sheen, while the lower section is made of a matte navy fabric, creating a two-tone effect. The black cords are threaded through a gathered opening, forming a drawstring closure that cinches the top.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "bucket bag",
+   "primary_color": "navy",
+   "material": "silk",
+   "embellishments": [
+    "tassel"
+   ],
+   "handle_type": [],
+   "closure": [
+    "drawstring"
+   ],
+   "hardware_color": null,
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [
+    "leather"
+   ],
+   "pattern": null,
+   "model_details": [],
+   "finishing": [
+    "satin"
+   ]
+  }
+ },
+ {
+  "image": "BAGS_CAMERA_B_004_001.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, deep green leather shoulder bag featuring a distinctive diamond-patterned intrecciato weave. The bag has a zip-top closure with gold-tone hardware and is equipped with a detachable, knotted leather strap for crossbody wear. The design combines classic craftsmanship with a modern, compact silhouette.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "other shoulder bags",
+   "primary_color": "forest",
+   "material": "leather",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "woven-leather"
+   ],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_CAMERA_B_004_005.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, square-shaped black leather bag with a glossy finish and visible stitching details. It features a detachable shoulder strap with a silver-toned buckle, a top zip closure, and a front zippered pocket. The bag has a slightly worn, vintage aesthetic with natural leather texture and a minimalist design.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "other shoulder bags",
+   "primary_color": "black",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": [
+    "external-pocket"
+   ]
+  }
+ },
+ {
+  "image": "BAGS_DOCTORS_B_004_003.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, trapezoidal leather briefcase in rich brown with contrasting tan stitching and gold-tone hardware, featuring a top handle, front flap pocket with a keyhole lock; hinged frame top with a central clasp, and a brand plaque. The body has a slightly slouchy, padded silhouette with visible seams.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "doctor's bag",
+   "primary_color": "brown",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "frame-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": [
+    "external-pocket"
+   ]
+  }
+ },
+ {
+  "image": "BAGS_DUFFLE_B_004_004.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A large cylindrical duffle bag with a repeating FF logo pattern in beige and black on a textured fabric body, featuring two black leather top handles attached with silver-tone hardware and a zip-top closure. The silhouette is structured with a slightly flared base, and the material appears to be a durable woven textile with leather accents.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "duffle bag",
+   "primary_color": "beige",
+   "secondary_colors": [
+    "black"
+   ],
+   "material": "cotton",
+   "secondary_materials": [
+    "leather"
+   ],
+   "embellishments": [],
+   "pattern": "monogram",
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "large",
+   "model_details": [],
+   "finishing": [
+    "jacquard"
+   ]
+  }
+ },
+ {
+  "image": "BAGS_DUFFLE_B_004_005.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A large, structured duffle bag with a bold leopard print on a beige-toned canvas base, featuring two black leather top handles and a zip-top closure. The bag has a rigid, barrel-like silhouette with a black leather FENDI logo plaque centered on the front. The material appears to be durable canvas with contrasting black leather trim and hardware.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "duffle bag",
+   "primary_color": "beige",
+   "secondary_colors": [
+    "black"
+   ],
+   "material": "cotton",
+   "secondary_materials": [
+    "leather"
+   ],
+   "embellishments": [],
+   "pattern": "leopard",
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "large",
+   "model_details": [],
+   "finishing": [
+    "canvas",
+    "printed"
+   ]
+  }
+ },
+ {
+  "image": "BAGS_ENVELOPE_B_004_001.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A minimalist envelope clutch with a matte tan finish, crafted from textured suede-like material with a subtle woven pattern. The design features a classic flap closure that folds over the front, secured by a hidden magnetic or snap fastening. The silhouette is a clean, unadorned rectangle with soft, unstructured edges, emphasizing a sleek and understated aesthetic.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "envelope",
+   "primary_color": "tan",
+   "material": "suede",
+   "finishing": [
+    "saffiano"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": null,
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "handle_type": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_ENVELOPE_B_004_009.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A minimalist beige leather envelope clutch featuring a prominent gold-tone YSL logo plaque centered on the flap. The textured leather has a pebbled finish and is secured by a front-flap closure with visible stitching along the edges. The design is clean and classic, emphasizing brand identity through the iconic hardware.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "envelope",
+   "primary_color": "beige",
+   "material": "leather",
+   "embellishments": [
+    "logo"
+   ],
+   "finishing": [
+    "grained"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "handle_type": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_ENVELOPE_B_004_010.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured black leather envelope clutch with a prominent silver-tone YSL logo plaque centered on the flap. The pebbled leather texture and clean, precise stitching define its minimalist aesthetic. The envelope-style closure with a diagonal flap creates a classic, elegant silhouette.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "envelope",
+   "primary_color": "black",
+   "material": "leather",
+   "embellishments": [
+    "logo"
+   ],
+   "finishing": [
+    "grained"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "handle_type": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_MESSENGER_B_004_001.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, rectangular brown leather messenger bag with a textured, slightly worn finish and contrasting tan stitching. It features a wide adjustable shoulder strap with a brass buckle and metal hardware accents at the attachment points. The bag has a flap closure secured by a buckle strap, giving it a classic, utilitarian silhouette.",
+  "tags": {
+   "category": "messengers-women",
+   "subcategory": "messenger",
+   "primary_color": "brown",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_MESSENGER_B_004_002.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, rectangular flap shoulder bag in a deep burgundy hue, crafted from textured canvas with contrasting tan leather trim and a distinctive X-stitched flap closure secured by two silver-toned snap buttons. The bag features a wide, adjustable web strap for crossbody wear and zippered compartments on the sides and front, with visible stitching detailing throughout.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "flap shoulder bag",
+   "primary_color": "burgundy",
+   "material": "cotton",
+   "secondary_materials": [
+    "leather"
+   ],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "canvas"
+   ],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_MESSENGER_B_004_008.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, medium-sized brown leather messenger bag with a pebbled texture and contrasting light stitching. It features a flap-over front closure with a zippered pocket above, a detachable web strap with metal buckle, and a top handle. The brand name is subtly embossed on the lower front panel.",
+  "tags": {
+   "category": "messengers-women",
+   "subcategory": "messenger",
+   "primary_color": "brown",
+   "material": "leather",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "grained"
+   ],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "model_details": [
+    "external-pocket"
+   ]
+  }
+ },
+ {
+  "image": "BAGS_MESSENGER_B_004_012.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, medium-sized brown leather messenger bag with a pebbled texture and a flap closure secured by a silver-toned turn-lock clasp. The bag features a detachable shoulder strap with a buckle and a top handle for carrying. The design includes visible stitching and a minimalist aesthetic with no additional embellishments.",
+  "tags": {
+   "category": "messengers-women",
+   "subcategory": "messenger",
+   "primary_color": "brown",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "grained"
+   ],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_MESSENGER_B_004_013.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, medium-sized brown leather flap shoulder bag with a textured pebbled finish and a flap closure secured by a brass buckle and leather strap. The bag features a detachable shoulder strap with gold-tone hardware and a brand plaque at the base. The silhouette is upright and rectangular with a slightly flared bottom, conveying a classic, tailored menswear-inspired aesthetic.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "flap shoulder bag",
+   "primary_color": "brown",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "grained"
+   ],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_MINAUDIERE_B_004_003.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A compact, heart-shaped minaudiere with a textured silver metallic finish and a prominent crystal-encrusted kiss-lock clasp. The bag features a curved gold-tone metal frame and a matching arched top handle, creating a vintage-inspired silhouette with a glamorous, evening-ready aesthetic.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "minaudiere",
+   "primary_color": "silver",
+   "material": "metal",
+   "embellishments": [
+    "crystal"
+   ],
+   "finishing": [],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "frame-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_MINAUDIERE_B_004_004.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, elongated rectangular minaudiere with a matte beige suede-like finish, featuring a prominent gold-toned metallic leaf-shaped clasp at the center. The bag is equipped with a gold chain strap attached via metal rings, suggesting a convertible design for shoulder or crossbody wear. The silhouette is sleek and minimalist, emphasizing the sculptural leaf embellishment as the primary design focal point.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "minaudiere",
+   "primary_color": "beige",
+   "material": "suede",
+   "embellishments": [
+    "leaf-element"
+   ],
+   "handle_type": [
+    "chain-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "finishing": [],
+   "secondary_colors": [],
+   "pattern": null,
+   "secondary_materials": [],
+   "model_details": [],
+   "bag_size": "small"
+  }
+ },
+ {
+  "image": "BAGS_MINAUDIERE_B_004_006.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A compact, rigid rectangular box minaudiere with a textured grey surface covered in sparkling silver sequins. The bag features a gold-tone metal frame with a decorative dome-shaped clasp at the top and a delicate gold chain strap attached to the sides. The design is embellished with a subtle, all-over sequin pattern that catches the light, creating a glamorous, evening-ready aesthetic.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "minaudiere",
+   "primary_color": "grey",
+   "secondary_colors": [],
+   "material": "faux-leather",
+   "secondary_materials": [],
+   "embellishments": [
+    "sequin"
+   ],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "chain-strap"
+   ],
+   "closure": [
+    "frame-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_POUCH_B_004_002.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, black intrecciato leather pouch with a distinctive woven diamond pattern and a slightly slouchy, soft silhouette. The surface is uniformly textured from the interlaced leather strips, creating a rich, tactile finish. The closure is a subtle, integrated flap with a small black tab at the top center.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "pouch",
+   "primary_color": "black",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "woven-leather"
+   ],
+   "handle_type": [],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": null,
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_POUCH_B_004_007.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, boxy black leather pouch with a prominent crocodile-effect texture and a central circular silver-toned hardware clasp. The silhouette is rigid and rectangular with a slightly curved top edge, featuring a minimalist design with no visible handles or straps. The surface is uniformly textured, emphasizing a luxurious, animal-leather aesthetic.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "pouch",
+   "primary_color": "black",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "croc-effect"
+   ],
+   "closure": [
+    "button-closure"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "handle_type": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_POUCH_B_004_011.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, sequined pouch with a distinctive sculptural silver spoon handle. The body is covered in densely applied silver and black sequins creating a shimmering, textured surface. The handle is a large, polished metal spoon with a curved, organic shape, attached to the top of the bag by silver hardware.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "pouch",
+   "primary_color": "silver",
+   "material": "faux-leather",
+   "embellishments": [
+    "sequin"
+   ],
+   "finishing": [],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_SADDLE_B_004_005.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A compact, structured saddle bag in a muted teal-green hue, crafted from textured leather with a curved, half-moon silhouette. It features a flap closure secured by a decorative tassel detail and is equipped with a detachable shoulder strap attached via gold-tone hardware. The design combines classic equestrian-inspired shape with modern minimalist detailing.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "saddle bag",
+   "primary_color": "teal",
+   "material": "leather",
+   "embellishments": [
+    "tassel"
+   ],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "model_details": [],
+   "finishing": []
+  }
+ },
+ {
+  "image": "BAGS_SADDLE_B_004_006.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, tan leather hobo bag with a curved, crescent-shaped silhouette and contrasting black trim. It features a detachable shoulder strap attached via silver-toned hardware and a distinctive D-ring buckle detail on the front. The bag has a minimalist aesthetic with clean stitching and a smooth leather finish.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "hobo bag",
+   "primary_color": "tan",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_SLING_B_004_005.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A sleek, black leather sling bag with a textured finish and a wide, adjustable web strap. The body features multiple zippered compartments, including a front pocket with a braided leather detail and a D-ring buckle accent. The design combines functionality with a rugged, urban aesthetic.",
+  "tags": {
+   "category": "backpacks-women",
+   "subcategory": "sling bag",
+   "primary_color": "black",
+   "material": "leather",
+   "secondary_materials": [],
+   "embellishments": [
+    "buckle"
+   ],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "model_details": [
+    "external-pocket"
+   ]
+  }
+ },
+ {
+  "image": "BAGS_SLING_B_004_007.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A sleek, black sling bag with a quilted leather front panel and a smooth leather body, featuring a wide adjustable strap with a metal buckle and gold-tone hardware. The bag has a structured, teardrop silhouette with multiple zippered compartments and a secure top zip closure. The design combines classic quilted detailing with modern, functional elements for a chic, urban look.",
+  "tags": {
+   "category": "backpacks-women",
+   "subcategory": "sling bag",
+   "primary_color": "black",
+   "material": "leather",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "model_details": [
+    "quilted",
+    "external-pocket"
+   ]
+  }
+ },
+ {
+  "image": "BAGS_TOP-HANDLE_B_004_002.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, boxy black velvet handbag with a top zip closure featuring a gold-tone padlock hardware detail. The bag has a short, curved top handle attached with dark leather hardware and a contrasting gold zipper track. The silhouette is rigid and compact, suggesting a formal or evening use.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "box bag",
+   "primary_color": "black",
+   "material": null,
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "velvet"
+   ],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_TOTE_B_004_004.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A spacious tote bag featuring a vibrant, multicolored zigzag jacquard pattern in wool and silk blend, framed with smooth black leather trim and reinforced with two sturdy leather handles. The design combines a classic tote silhouette with a bold, textured weave for visual interest and a chic, bohemian edge.",
+  "tags": {
+   "category": "totes-women",
+   "subcategory": "tote",
+   "primary_color": "multicolor",
+   "material": "wool",
+   "secondary_materials": [
+    "leather"
+   ],
+   "embellishments": [],
+   "pattern": "zigzag",
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": null,
+   "bag_size": "large",
+   "secondary_colors": [],
+   "model_details": [],
+   "finishing": [
+    "jacquard"
+   ]
+  }
+ },
+ {
+  "image": "BAGS_TOTE_B_004_005.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, conical-shaped tote bag crafted from glossy green leather in a distinctive intrecciato weave, featuring two matching braided leather handles. The body exhibits a slouchy, soft silhouette with a wide, open top, characteristic of a woven leather tote. The uniform green hue and textured weave create a bold, artisanal aesthetic.",
+  "tags": {
+   "category": "totes-women",
+   "subcategory": "tote",
+   "primary_color": "green",
+   "material": "leather",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "woven-leather"
+   ],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": null,
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_TOTE_B_004_006.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A vibrant orange leather tote bag featuring a distinctive woven intrecciato pattern across its entire surface, including the braided top handles. The structured, slightly flared silhouette has a soft, slouchy yet defined shape with a rounded bottom. The rich, saturated color and textured weave create a bold, artisanal aesthetic.",
+  "tags": {
+   "category": "totes-women",
+   "subcategory": "tote",
+   "primary_color": "orange",
+   "material": "leather",
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "woven-leather"
+   ],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": null,
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_UNDERARM_B_004_003.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A sleek, cylindrical underarm bag in glossy dark brown crocodile-effect leather with a curved top zip closure and a gold-tone spherical logo charm. The bag features a thin, adjustable black leather strap attached with gold hardware, creating a minimalist yet luxurious silhouette. The surface texture is highly reflective, emphasizing the reptilian pattern and structured form.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "underarm bag",
+   "primary_color": "brown",
+   "material": "leather",
+   "embellishments": [
+    "logo"
+   ],
+   "finishing": [
+    "croc-effect"
+   ],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_UNDERARM_B_004_006.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured flap shoulder bag featuring a vibrant blue and green woven textile with a zigzag pattern, accented by a silver-tone T-logo clasp. The bag has a curved top handle and a detachable green leather strap with a buckle, constructed with a rigid, boxy silhouette.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "flap shoulder bag",
+   "primary_color": "olive",
+   "secondary_colors": [
+    "sky-blue",
+    "navy"
+   ],
+   "material": "cotton",
+   "secondary_materials": [
+    "leather"
+   ],
+   "embellishments": [
+    "logo"
+   ],
+   "pattern": "zigzag",
+   "handle_type": [
+    "top-handle",
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "small",
+   "model_details": [
+    "woven"
+   ],
+   "finishing": []
+  }
+ },
+ {
+  "image": "BAGS_UNDERARM_B_004_007.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, rectangular burgundy leather clutch with a saffiano texture and a gold-tone triangular Prada logo plaque centered on the front flap. The bag features a detachable shoulder strap attached via gold-tone hardware and a minimalist, clean silhouette with a slightly flared base. The material appears to be smooth, textured leather with a matte finish.",
+  "tags": {
+   "category": "clutches-women",
+   "subcategory": "clutch",
+   "primary_color": "burgundy",
+   "material": "leather",
+   "embellishments": [
+    "logo"
+   ],
+   "finishing": [
+    "saffiano"
+   ],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "pattern": null,
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_UNDERARM_B_004_013.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, medium-sized shoulder bag featuring a distinctive woven leather construction in a rich brown hue. The body is crafted from square leather panels arranged in a basket-weave pattern, creating a textured, dimensional surface. It is equipped with a single, curved top handle attached with visible stitching, suggesting a comfortable carry. The silhouette is upright with a slightly flared base, offering a modern, architectural aesthetic.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "other shoulder bags",
+   "primary_color": "brown",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [
+    "woven-leather"
+   ],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "open-top"
+   ],
+   "hardware_color": null,
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_WAIST_B_004_002.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A sleek, compact waist bag in a muted slate grey hue, crafted from durable nylon with contrasting black webbing straps and silver-toned hardware. The minimalist design features a central zippered compartment with a leather pull tab and a small front zip pocket, accented by a subtle TUMI logo plaque. The adjustable web belt ensures a secure, comfortable fit, making it ideal for urban mobility with a clean, functional aesthetic.",
+  "tags": {
+   "category": "waist-bags-women",
+   "subcategory": "waist bag",
+   "primary_color": "slate",
+   "material": "nylon",
+   "secondary_materials": [
+    "leather"
+   ],
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [],
+   "closure": [
+    "zip-closure"
+   ],
+   "hardware_color": "silver",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "model_details": [
+    "external-pocket"
+   ]
+  }
+ },
+ {
+  "image": "BAGS_WAIST_B_004_004.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A sleek, black leather waist bag with a curved, rounded rectangular body and a wide adjustable strap. The front features a flap closure with a subtle brand imprint and gold-tone hardware accents, including a zip-top opening and D-ring attachments. The design is minimalist with a smooth, pebbled leather texture and a clean, modern silhouette.",
+  "tags": {
+   "category": "waist-bags-women",
+   "subcategory": "waist bag",
+   "primary_color": "black",
+   "material": "leather",
+   "hardware_color": "gold",
+   "closure": [
+    "zip-closure"
+   ],
+   "handle_type": [],
+   "finishing": [],
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "embellishments": [],
+   "pattern": null,
+   "model_details": [
+    "external-pocket"
+   ],
+   "bag_size": "small"
+  }
+ },
+ {
+  "image": "BAGS_CLUTCH_B_004b_003.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A minimalist beige leather handbag with a structured upright silhouette featuring a top zip closure and a short top handle attached with gold-tone hardware. The body has a flap front with visible stitching detail and a subtle pebbled texture. The design is clean and classic, emphasizing functionality and understated elegance.",
+  "tags": {
+   "category": "handbags-women",
+   "subcategory": "top handle bag",
+   "primary_color": "beige",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "top-handle"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "small",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_SATCHEL_MESSENGER_B_004b_007.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, medium-sized brown leather messenger bag with a flap closure and contrasting white stitching. The bag features a detachable shoulder strap with a buckle and a small embossed logo on the lower right corner. The leather exhibits a natural, slightly worn texture with a warm, caramel tone.",
+  "tags": {
+   "category": "messengers-women",
+   "subcategory": "messenger",
+   "primary_color": "brown",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": null,
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": []
+  }
+ },
+ {
+  "image": "BAGS_SATCHEL_MESSENGER_B_004b_015.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A structured, rectangular black leather satchel bag with a flap closure secured by two brass buckled straps and contrasting white stitching. The bag features a detachable shoulder strap and a minimalist, classic design with a slightly worn, vintage leather finish.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "satchel bag",
+   "primary_color": "black",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": [
+    "external-pocket"
+   ]
+  }
+ },
+ {
+  "image": "BAGS_SATCHEL_MESSENGER_B_004b_017.webp",
+  "category_config": "bags_women",
+  "image_type": "product",
+  "description": "A vintage-style brown leather satchel bag with a distressed, weathered finish and a structured, upright silhouette. The bag features a flap closure secured by three brass buckled leather straps, a top handle, and a detachable shoulder strap with a woven leather pattern. The hardware is brass-toned, and the overall design evokes a classic, rugged, and timeless aesthetic.",
+  "tags": {
+   "category": "shoulder-bags-women",
+   "subcategory": "satchel bag",
+   "primary_color": "brown",
+   "material": "leather",
+   "embellishments": [],
+   "pattern": null,
+   "finishing": [],
+   "handle_type": [
+    "top-handle",
+    "shoulder-strap"
+   ],
+   "closure": [
+    "front-flap"
+   ],
+   "hardware_color": "gold",
+   "bag_size": "medium",
+   "secondary_colors": [],
+   "secondary_materials": [],
+   "model_details": [
+    "external-pocket"
+   ]
+  }
+ }
+]
