@@ -861,7 +861,7 @@
     "image": "BAGS_SATCHEL_MESSENGER_B_004b_003.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A vintage-style brown leather briefcase with a distressed, weathered finish and a structured, upright silhouette. Features a top handle, adjustable shoulder strap with metal D-rings, and a front flap secured by two brass buckled straps. The bag has a classic satchel design with visible stitching and a slightly worn, patina-rich surface.",
+    "description": "A vintage-style brown leather briefcase with a distressed, weathered finish and a structured, upright silhouette. Features a top handle, adjustable shoulder strap with metal D-rings, and a front flap secured by two brass buckled straps, and two external pockets under the flap. The bag has a classic satchel design with visible stitching and a slightly worn, patina-rich surface.",
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "satchel bag",
@@ -881,7 +881,9 @@
       "bag_size": "medium",
       "secondary_colors": [],
       "secondary_materials": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
@@ -1240,7 +1242,9 @@
       "hardware_color": null,
       "bag_size": "medium",
       "secondary_colors": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
@@ -1356,7 +1360,7 @@
     "image": "BAGS_SATCHEL_MESSENGER_B_004b_021.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A classic brown leather satchel bag with a structured upright silhouette, featuring a front flap secured by two silver-toned buckled straps and a detachable shoulder strap. The bag showcases visible stitching, a top handle, and a minimalist design with no external embellishments, conveying a timeless, professional aesthetic.",
+    "description": "A classic brown leather satchel bag with a structured upright silhouette, featuring a front flap secured by two silver-toned buckled straps, a large external pocket under the flap and a detachable shoulder strap. The bag showcases visible stitching, a top handle, and a minimalist design with no external embellishments, conveying a timeless, professional aesthetic.",
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "satchel bag",
@@ -1376,14 +1380,16 @@
       "hardware_color": "silver",
       "bag_size": "medium",
       "secondary_colors": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
     "image": "BAGS_SATCHEL_MESSENGER_B_004b_022.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, upright satchel bag in a deep forest green, crafted from smooth leather with a distinctive braided leather strap and two brass buckled straps securing the front flap. The design features a classic satchel silhouette with a curved top edge and a detachable shoulder strap attached via a gold-tone hardware clasp. The hardware has a polished gold finish, contrasting with the muted green leather.",
+    "description": "A structured, upright satchel bag in a deep forest green, crafted from smooth leather with a distinctive braided leather strap and two brass buckled straps securing the front flap and a large external pocket under the flap. The design features a classic satchel silhouette with a curved top edge and a detachable shoulder strap attached via a gold-tone hardware clasp. The hardware has a polished gold finish, contrasting with the muted green leather.",
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "satchel bag",
@@ -1402,14 +1408,16 @@
       "hardware_color": "gold",
       "bag_size": "medium",
       "secondary_colors": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
     "image": "BAGS_SATCHEL_MESSENGER_B_004b_023.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, medium-sized brown leather satchel bag with a classic flap-over design secured by two brass buckled straps. The bag features clean, contrasting stitching along the edges and a small rectangular leather patch at the center of the flap. The hardware is gold-toned, and the overall silhouette is upright and boxy with rounded bottom corners.",
+    "description": "A structured, medium-sized brown leather satchel bag with a classic flap-over design secured by two brass buckled straps. The bag features clean, contrasting stitching along the edges and a large external pocket under the flap. The hardware is gold-toned, and the overall silhouette is upright and boxy with rounded bottom corners.",
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "satchel bag",
@@ -1426,7 +1434,9 @@
       "bag_size": "medium",
       "secondary_colors": [],
       "secondary_materials": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
@@ -1487,7 +1497,7 @@
     "image": "BAGS_SATCHEL_MESSENGER_B_004b_026.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, medium-sized brown leather satchel bag with a classic flap-over design secured by two silver-toned buckled straps. The bag features a top handle, a detachable shoulder strap, and a central zippered pocket on the front flap. The leather has a pebbled texture and is finished with visible stitching and metal hardware, including a small brand logo on the upper flap.",
+    "description": "A structured, medium-sized brown leather satchel bag with a classic flap-over design secured by two silver-toned buckled straps. The bag features a top handle, a detachable shoulder strap, and a large external pocket under the flap. The leather has a pebbled texture and is finished with visible stitching and metal hardware, including a small brand logo on the upper flap.",
     "tags": {
       "category": "shoulder-bags-women",
       "subcategory": "satchel bag",
@@ -1507,7 +1517,9 @@
       "bag_size": "medium",
       "secondary_colors": [],
       "secondary_materials": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   }
 ]

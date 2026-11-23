@@ -271,7 +271,9 @@
       "bag_size": "medium",
       "secondary_colors": [],
       "secondary_materials": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
@@ -395,7 +397,9 @@
       "hardware_color": "gold",
       "bag_size": "small",
       "secondary_materials": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
@@ -1049,7 +1053,7 @@
     "image": "box-bag__BRANDS_BAGS_MISC_HBBB_003_006.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A structured, boxy black leather handbag with a rigid, upright silhouette and a single curved top handle attached by metal hardware. The body features a flap closure over the front panel, with visible stitching along the seams and a minimalist logo plaque. The material has a smooth, slightly glossy finish, and the overall design is clean and architectural with sharp edges.",
+    "description": "A structured, boxy black leather handbag with a rigid, upright silhouette and a single curved top handle attached by metal hardware. The body features an external pocket closed by a flap. The material has a smooth, slightly glossy finish, and the overall design is clean and architectural with sharp edges.",
     "tags": {
       "category": "handbags-women",
       "subcategory": "box bag",
@@ -1067,7 +1071,9 @@
       "secondary_materials": [],
       "embellishments": [],
       "pattern": null,
-      "model_details": [],
+      "model_details": [
+        "external-pocket"
+      ],
       "bag_size": "medium"
     }
   },
@@ -1888,7 +1894,9 @@
       "hardware_color": "silver",
       "bag_size": "small",
       "secondary_colors": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
@@ -4157,14 +4165,16 @@
       "hardware_color": "silver",
       "bag_size": "small",
       "secondary_colors": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {
     "image": "sling-bag__BRANDS_BAGS_MISC_BS_003_004.webp",
     "category_config": "bags_women",
     "image_type": "product",
-    "description": "A sleek, structured black leather sling bag with a distinctive teardrop silhouette, featuring a detachable adjustable strap with silver-tone hardware, a front zip closure with branded pull, and a contrasting suede patch with visible stitching. The bag showcases a minimalist design with a subtle brand logo at the base and a carabiner-style ring on the strap attachment.",
+    "description": "A sleek, structured black leather sling bag with a distinctive teardrop silhouette, featuring a detachable adjustable strap with silver-tone hardware, a front zip closure with branded pull, and a contrasting suede patch pocket with visible stitching. The bag showcases a minimalist design with a subtle brand logo at the base and a carabiner-style ring on the strap attachment.",
     "tags": {
       "category": "backpacks-women",
       "subcategory": "sling bag",
@@ -4185,7 +4195,9 @@
       "hardware_color": "silver",
       "bag_size": "medium",
       "secondary_colors": [],
-      "model_details": []
+      "model_details": [
+        "external-pocket"
+      ]
     }
   },
   {

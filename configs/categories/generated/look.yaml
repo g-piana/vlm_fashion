@@ -156,7 +156,6 @@ taxonomy:
   sneakers-men:
   - high-top sneaker
   - low-top sneaker
-  - tennis shoe
   briefcases-men: []
   suitcases-men: []
   cosmetic-cases-men: []
@@ -369,7 +368,6 @@ taxonomy:
   sneakers-women:
   - high-top sneaker
   - low-top sneaker
-  - tennis shoe
   briefcases-women: []
   suitcases-women: []
   cosmetic-cases-women: []

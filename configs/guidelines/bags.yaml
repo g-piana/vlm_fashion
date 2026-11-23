@@ -41,8 +41,8 @@ _decision_order_women: |-
   4. Two parallel long handles reaching the shoulder, large open/zip-top body = tote.
   5. Hand-carry handle(s) (too short to reach the shoulder):
      a. Round flat base + cylindrical/conical body + drawstring/open top = bucket bag.
-     b. Flap bag with a body wider than tall, whose flap is either closed by two buckled straps or
-         long (covering ≥2/3 of the front): apply 6d (satchel bag or messenger), even with the handle.
+     b. Flap bag with a body wider than tall whose flap is closed by two buckled straps = satchel bag,
+        even with the handle.
      c. Hinged frame opening (frame may be covered) = doctor's bag.
      d. Barrel, same width top and base, full top zip = duffle bag if >45 cm, else boston bag.
      e. Rigid cube, depth ≈ height, NO front flap = box bag.
@@ -52,8 +52,10 @@ _decision_order_women: |-
      a. Body asymmetric LEFT-RIGHT (one side rounded, one straight) = saddle bag.
      b. Primary outline semi-circle/D (not a rectangle with rounded corners), curved flap = saddle bag.
      c. Elongated body, short strap tucked under the arm = underarm bag.
-     d. Body wider than tall with a flap that is either closed by two buckled straps or long
-        (≥2/3 of the front): two buckled straps = satchel bag; otherwise = messenger.
+     d. Body wider than tall, on a leather or fabric strap (not a chain):
+        flap closed by two buckled straps = satchel bag; plain flap with no visible fastening
+        (hidden magnet or snap) = messenger; any other fastening (one buckle, turn-lock, clasp, lock,
+        closing plaque) = flap shoulder bag.
      e. Otherwise = flap shoulder bag.
 
 # ── handbags ── (hand-carry handle, step 5)
@@ -74,7 +76,7 @@ duffle bag: >-
   Large barrel/rectangular body (>45 cm), full top zip, two handles plus detachable strap.
 top handle bag: >-
   Hand-carry handles on top; zip, top or partial flap closure; any strap is secondary.
-  Catch-all for handle bags with no other shape marker.
+  Catch-all for handle bags with no other shape marker. Two buckled straps = satchel bag
 
 # ── clutches ── (small evening bags by body shape, step 3)
 clutch: >-
@@ -104,17 +106,18 @@ saddle bag: >-
   Rectangular body with soft corners = flap shoulder bag. Symmetric left-right = not saddle.
 satchel bag: >-
   Flap bag with a body wider than tall, flap closed by two buckled straps (school-bag look), any flap
-  length; shoulder strap, with or without a hand-carry handle. One buckle, a clasp or a magnet is not
-  a satchel.
+  length; shoulder strap, with or without a hand-carry handle.
 underarm bag: >-
   Small elongated horizontal body on a short strap tucked under the arm (baguette); flap or
   zip. Long crossbody strap ≠ underarm bag.
 messenger: >-
-  Flap bag with a body wider than tall and a long flap (≥2/3 of front height) not closed by two
-  buckled straps; shoulder strap, with or without a small hand-carry handle.
+  Flap bag with a body wider than tall and a plain flap with no visible fastening (hidden magnet or
+  snap), on a leather or fabric shoulder strap; no hand-carry handle. Any visible fastening = flap
+  shoulder bag; two buckled straps = satchel bag.
 flap shoulder bag: >-
   Catch-all for flap bags on a strap or chain that are not saddle, underarm, satchel or messenger:
-  short flaps, portrait-shaped flap bags, chain flap bags, decorative-clasp shoulder bags. Medium or large flap bags on a chain or leather shoulder strap (for example quilted chain bags) belong here, not to clutch.
+  flaps with one buckle, a turn-lock, clasp, lock or closing plaque, chain flap bags, portrait-shaped
+  flap bags.
 other shoulder bags: >-
   Catch-all for strap/chain bags with NO front flap that fit no other shoulder-bag subcategory.
 

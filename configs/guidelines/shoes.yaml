@@ -26,8 +26,7 @@ _decision_order_women: |-
      with many eyelets = combat boot; padded shaft with heavy tread = snow boot; pointed toe with slanted
      spool heel = western boot; laces as main closure = lace up boot; otherwise by shaft height: ankle
      boot (ankle), boot (calf), over the knee (above the knee).
-  2. Sporty rubber cupsole (sneaker construction): thin white vulcanised sole and clean upper = tennis
-     shoe; otherwise low-top sneaker.
+  2. Sporty rubber cupsole (sneaker construction) = low-top sneaker.
   3. A strap passes between the first two toes: thong (any heel).
   4. Rigid wooden or wood-effect base: clog (any heel).
   5. Rope/jute sole visible at the side: solid wedge = wedge sandal; closed toe = espadrille; open upper =
@@ -176,7 +175,4 @@ low-top sneaker: >-
 high-top sneaker: >-
   Sneaker whose upper covers the ankle bone: sporty upper (laces, velcro, athletic panels) on a rubber
   cupsole.
-tennis shoe: >-
-  Sporty shoe with a clean, low profile, smooth leather or canvas upper with minimal perforations and
-  a thin white vulcanised rubber sole, classic look. A chunky sole, technical mesh or running
-  construction makes it a low-top sneaker.
+
