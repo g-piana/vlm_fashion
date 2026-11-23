@@ -21,6 +21,10 @@ from pathlib import Path
 
 import yaml
 
+# Subcategories the decision order assigns before the flat/heeled heel rule (any heel height).
+ANY_HEEL_SUBS = {"espadrille", "clog"}
+
+
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(HERE))
@@ -127,7 +131,9 @@ def check_labels(manifest: Path) -> None:
                 if pre != sub:
                     mism[(b["name"], pre, t.get("subcategory"))] += 1
             cat, hh = str(t.get("category", "")), t.get("heel_height")
-            if ("heeled" in cat and hh == "flat-heel") or ("flat-shoes" in cat and hh in ("mid-heel", "high-heel")):
+            any_heel = t.get("subcategory") in ANY_HEEL_SUBS          # decided before the heel rule
+            if not any_heel and (("heeled" in cat and hh == "flat-heel")
+                                 or ("flat-shoes" in cat and hh in ("mid-heel", "high-heel"))):
                 contra.append((b["name"], img, cat, hh))
     for (batch, pre, sub), n in mism.most_common(15):
         notes.append(f"{batch}: {n} file(s) named '{pre}__*' labelled subcategory '{sub}'")

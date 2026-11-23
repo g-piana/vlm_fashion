@@ -931,7 +931,8 @@
         "shoulder-strap"
       ],
       "closure": [
-        "front-flap"
+        "front-flap",
+        "buckle-closure"
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
@@ -1118,9 +1119,14 @@
       "secondary_materials": [
         "leather"
       ],
-      "embellishments": [],
+      "embellishments": [
+        "charm",
+        "logo"
+      ],
       "pattern": null,
-      "finishing": [],
+      "finishing": [
+        "canvas"
+      ],
       "handle_type": [
         "top-handle",
         "shoulder-strap"

@@ -444,7 +444,9 @@
       "bag_size": "small",
       "secondary_materials": [],
       "model_details": [],
-      "finishing": []
+      "finishing": [
+        "saffiano"
+      ]
     }
   },
   {
@@ -465,7 +467,8 @@
       ],
       "pattern": null,
       "handle_type": [
-        "shoulder-strap"
+        "shoulder-strap",
+        "chain-strap"
       ],
       "closure": [
         "front-flap"

@@ -1985,7 +1985,8 @@
         "shoulder-strap"
       ],
       "closure": [
-        "front-flap"
+        "front-flap",
+        "button-closure"
       ],
       "hardware_color": "silver",
       "bag_size": "medium",
@@ -2232,7 +2233,8 @@
         "shoulder-strap"
       ],
       "closure": [
-        "front-flap"
+        "front-flap",
+        "buckle-closure"
       ],
       "hardware_color": "gold",
       "bag_size": "medium",
