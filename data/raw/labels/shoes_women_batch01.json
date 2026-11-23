@@ -3763,10 +3763,10 @@
     "image": "B6W7065-0350999.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A black velvet loafer with a distinctive wide, glossy patent leather strap across the vamp and a thick, chunky block heel. The silhouette is classic loafer with a rounded toe and a low-profile, structured sole. The contrast between the matte velvet upper and the shiny strap is a key design feature.",
+    "description": "A black velvet loafer pump with a distinctive wide, glossy patent leather strap across the vamp and a thick, chunky block heel. The silhouette is classic loafer with a rounded toe and a low-profile, structured sole. The contrast between the matte velvet upper and the shiny strap is a key design feature.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "loafer",
+      "category": "heeled-shoes-women",
+      "subcategory": "loafer pump",
       "primary_color": "black",
       "material": "cotton",
       "secondary_materials": [
@@ -3790,10 +3790,10 @@
     "image": "B6W7065.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A women's loafer-style flat shoe featuring a bold leopard-print cowhide upper with contrasting black leather trim and a thick, block heel. The silhouette is classic loafer with a rounded toe and slip-on construction, accented by a single decorative strap across the vamp. The material's natural hair texture adds dimension to the animal print.",
+    "description": "A women loafer pump featuring a bold leopard-print cowhide upper with contrasting black leather trim and a thick, block heel. The silhouette is classic loafer with a rounded toe and slip-on construction, accented by a single decorative strap across the vamp. The material's natural hair texture adds dimension to the animal print.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "loafer",
+      "category": "heeled-shoes-women",
+      "subcategory": "loafer pump",
       "primary_color": "brown",
       "secondary_colors": [
         "black"
@@ -4802,10 +4802,10 @@
     "image": "B7W7014-1363ACR.jpg",
     "category_config": "shoes_women",
     "image_type": "product",
-    "description": "A classic loafer silhouette in smooth tan leather, featuring distinctive silver-toned metal studs across the vamp. The shoe is constructed with visible stitching and sits on a thick, black lug-sole platform with a low heel, offering a modern, structured profile.",
+    "description": "A classic women loafer pump  silhouette in smooth tan leather, featuring distinctive silver-toned metal studs across the vamp. The shoe is constructed with visible stitching and sits on a thick, black lug-sole platform with a low heel, offering a modern, structured profile.",
     "tags": {
-      "category": "flat-shoes-women",
-      "subcategory": "loafer",
+      "category": "heeled-shoes-women",
+      "subcategory": "loafer pump",
       "primary_color": "brown",
       "material": "leather",
       "secondary_materials": [],
