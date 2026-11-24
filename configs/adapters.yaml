@@ -1,4 +1,14 @@
 # configs/adapters.yaml
-shoes: {configs: ["shoes_*"],          version: v9_ep3, path: models/qwen3vl_v9/checkpoint-168}
-bags:  {configs: ["bags_*"],           version: v9_ep3, path: models/qwen3vl_v9/checkpoint-168}
-rtw:   {configs: ["ready-to-wear_*"],  version: null}
+shoes_bags:
+  configs: ["shoes_*", "bags_*"]
+  version: v13_ep3
+  path: models/qwen3vl_v13/checkpoint-267
+  report: outputs/reports/r13_qwen3vl_v13_checkpoint-267.json
+  git_tag: shoes-bags-v1
+  manifest: configs/dataset_manifest_shoes_bags.yaml
+  model_config: configs/model_shoes_bags.yaml
+  taxonomy_fingerprint: "17d87825c47e"
+  scores: {subcategory_acc: 0.832, macro_f1: 0.811, shoes_acc: "~0.90", bags_acc: "~0.78"}
+rtw:
+  configs: ["ready-to-wear_*"]
+  version: null
