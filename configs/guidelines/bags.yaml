@@ -20,12 +20,17 @@
 # messenger = long flap without two buckles; flap shoulder bag = any other flap bag on a strap.
 
 _decision_order_women: |-
+  Describe and tag ONLY the bag. Ignore clothing, jewellery and other accessories worn by the
+  model when present, even where they touch or overlap the bag: crystals, fringe or prints on a garment
+  are never bag embellishments.
   Decide the subcategory IN ORDER; the first match decides.
   Judge how the bag is BUILT to be carried, not how the model wears it.
   FRONT FLAP = panel folding over the front. LONG FLAP = covers ≥2/3 of front height.
   HAND-CARRY = handle too short to reach the shoulder.
 
-  1. Two parallel back-panel straps = backpack. One diagonal strap on a vertical/teardrop body =
+  1. BACKPACK needs TWO parallel straps attached to the back panel; if two straps are not
+     visible, it is not a backpack. A bag hanging behind the shoulder or against the back
+     from ONE strap, chain or handle is judged by its body shape in the steps below. One diagonal strap on a vertical/teardrop body =
      sling bag. Small horizontal pouch on a clip-buckle strap or belt loops = waist bag.
      Sling vs waist: judge by strap attachment on the bag, not photo angle.
   2. Body woven from plant fibre (straw, raffia, wicker, rattan, rope) over most of its surface
@@ -101,7 +106,7 @@ bucket bag: >-
   Round flat base, cylindrical/conical body, drawstring or open top. Needs the round base.
 hobo bag: >-
   Crescent/half-moon body or top line dipping between strap ends; single shoulder strap;
-  no flap, no round base. A dipping top line = hobo even if elongated.
+  no flap, no round base. A dipping top line = hobo even if elongated. A hand-carry handle makes it a top handle bag even if the top line dips.
 saddle bag: >-
   Two paths: (A) body asymmetric LEFT-RIGHT, one side rounded, one straight (kidney/D shape);
   OR (B) primary outline is a semi-circle/D with curved flap and central buckle/clasp.
