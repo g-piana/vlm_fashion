@@ -28,18 +28,20 @@ taxonomy:
   - shirt
   - other-denim
   jackets-men:
+  - anorak
   - baseball
   - biker
   - blazer
   - bolero
   - bomber
   - down
+  - field jacket
   - fur jacket
-  - jacket
   - lumber
   - parka
-  - spencer
-  - tailored
+  - windbreaker
+  - work jacket
+  - other jacket
   knitwear-men:
   - cardigan
   - knit coat
@@ -58,13 +60,13 @@ taxonomy:
   - shirt
   - shorts
   - skirt
-  - other-miltary
+  - other-military
   pants-men:
   - capri
   - cargo
   - chinos
   - dress pants
-  - dungarees
+  - dungaree
   - jumpsuit
   - leggings
   - pajama pants
@@ -103,7 +105,7 @@ taxonomy:
   - jumpsuit
   - pants
   - shirt
-  - short
+  - shorts
   - skirt
   - sweatpants
   - vest
@@ -206,22 +208,24 @@ taxonomy:
   - shirt
   - other-denim
   dresses-women:
-  - long-dress
-  - midi-dress
-  - mini-dress
+  - long dress
+  - midi dress
+  - mini dress
   jackets-women:
+  - anorak
   - baseball
   - biker
   - blazer
   - bolero
   - bomber
   - down
+  - field jacket
   - fur jacket
-  - jacket
   - lumber
   - parka
-  - spencer
-  - tailored
+  - windbreaker
+  - work jacket
+  - other jacket
   knitwear-women:
   - cardigan
   - knit coat
@@ -241,13 +245,13 @@ taxonomy:
   - shirt
   - shorts
   - skirt
-  - other-miltary
+  - other-military
   pants-women:
   - capri
   - cargo
   - chinos
   - dress pants
-  - dungarees
+  - dungaree
   - jumpsuit
   - leggings
   - pajama pants
@@ -269,11 +273,11 @@ taxonomy:
   - western
   - other-top
   skirts-women:
-  - long-skirt
-  - midi-skirt
-  - mini-skirt
+  - long skirt
+  - midi skirt
+  - mini skirt
   suits-women:
-  - skirt-suit
+  - skirt suit
   - three-piece
   - tuxedo
   - two-piece
@@ -294,7 +298,7 @@ taxonomy:
   - jumpsuit
   - pants
   - shirt
-  - short
+  - shorts
   - skirt
   - sweatpants
   - vest

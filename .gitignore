@@ -27,3 +27,4 @@ test_*.png
 *:Zone.Identifier
 *.bak*
 *:Zone.Identifier
+_old/

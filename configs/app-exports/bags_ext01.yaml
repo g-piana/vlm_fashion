@@ -1,0 +1,5 @@
+defaults:
+  brand: <brand>
+  gender: women
+  macrocategory: bags
+  published: false

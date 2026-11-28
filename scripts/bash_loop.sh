@@ -33,3 +33,5 @@ for tag in $tags; do
     --errors-csv outputs/reports/errors_r13_$tag.csv \
     $( [ $tag != qwen3vl_v12_checkpoint-267 ] && echo --compare outputs/reports/r13_qwen3vl_v12_checkpoint-267.json )
 done
+
+mkdir -p docs && cp /mnt/c/Users/Giulio/Downloads/pipeline_runbook.md docs/ && git add docs && git commit -m "docs: pipeline runbook" && git push

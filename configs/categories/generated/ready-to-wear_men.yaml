@@ -30,18 +30,20 @@ taxonomy:
   - shirt
   - other-denim
   jackets-men:
+  - anorak
   - baseball
   - biker
   - blazer
   - bolero
   - bomber
   - down
+  - field jacket
   - fur jacket
-  - jacket
   - lumber
   - parka
-  - spencer
-  - tailored
+  - windbreaker
+  - work jacket
+  - other jacket
   knitwear-men:
   - cardigan
   - knit coat
@@ -60,13 +62,13 @@ taxonomy:
   - shirt
   - shorts
   - skirt
-  - other-miltary
+  - other-military
   pants-men:
   - capri
   - cargo
   - chinos
   - dress pants
-  - dungarees
+  - dungaree
   - jumpsuit
   - leggings
   - pajama pants
@@ -105,7 +107,7 @@ taxonomy:
   - jumpsuit
   - pants
   - shirt
-  - short
+  - shorts
   - skirt
   - sweatpants
   - vest
