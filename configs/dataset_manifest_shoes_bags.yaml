@@ -52,6 +52,10 @@ batches:
     labels: data/raw/labels/bags_women_batch04b.json
     images_dir: data/raw/images/bags_women_batch04b
 
+  - name: bags_women_ext01
+    labels: data/raw/labels/bags_women_ext01.json
+    images_dir: data/raw/images/bags_women_ext01
+
 # Split configuration
 splits:
   val_ratio: 0.10
