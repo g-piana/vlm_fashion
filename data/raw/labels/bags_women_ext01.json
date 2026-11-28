@@ -1,0 +1,5447 @@
+[
+  {
+    "image": "GUCCI_BAGS_MISC_002_001.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, structured red leather handbag with a glossy finish and a curved, slouchy silhouette. The bag features a top zip closure, a short top handle, and contrasting red leather trim along the edges. The rich red color and smooth leather texture create a bold, statement-making piece.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "red",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": null,
+      "bag_size": "large",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_002.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, upright trapezoidal bag with a glossy gold metallic finish and a prominent, ornate dragonfly-shaped clasp at the front flap. The body features a horizontal green-red-green Web stripe across the center, and is carried by a chain strap with a beaded handle. The material appears to be textured leather with a metallic sheen, and the hardware is gold-toned.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "gold",
+      "material": "leather",
+      "embellishments": [
+        "web",
+        "tiger-element"
+      ],
+      "pattern": null,
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "secondary_materials": [],
+      "model_details": [],
+      "finishing": [
+        "metallic"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_003.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured top handle bag with a beige leather body accented by bold red and green horizontal stripes. It features distinctive bamboo handles, a gold-tone horsebit hardware closure, and a matching adjustable shoulder strap with green and red webbing. The design incorporates a star-shaped leather patch on the front flap, embodying a classic equestrian-inspired aesthetic.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "material": "leather",
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "embellishments": [
+        "web",
+        "star-element",
+        "tiger-element"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_004.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured silver crocodile-effect leather handbag featuring a distinctive bamboo handle and matching bamboo hardware. The bag has a flap closure secured by a central bamboo clasp and is adorned with a black leather tassel. A chain strap with silver-toned metal links provides additional carrying options.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "silver",
+      "material": "crocodile",
+      "secondary_materials": [],
+      "embellishments": [
+        "tassel"
+      ],
+      "pattern": null,
+      "finishing": [
+        "croc-effect"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_005.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large tote bag with a two-tone design featuring a brown suede body and a contrasting orange leather panel along the top edge. The front is adorned with a large, embroidered GG logo in orange thread, while the sides display colorful, appliquéd musical note motifs in pink, green, and blue. The bag has a structured, rectangular silhouette with a top zip closure and is carried by a wide, orange leather shoulder strap.",
+    "tags": {
+      "category": "totes-women",
+      "subcategory": "tote",
+      "primary_color": "brown",
+      "secondary_colors": [
+        "pink",
+        "blue",
+        "green",
+        "orange"
+      ],
+      "material": "suede",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo",
+        "patch"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": null,
+      "bag_size": "large",
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_006.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A white leather top handle bag with a distinctive curved flap closure and bamboo handle detailing. The bag features a textured leather body with contrasting black trim and a prominent bamboo hardware clasp at the center of the flap. The handles are crafted from polished bamboo with gold-tone metal fittings.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "white",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap",
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_007.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A striking red leather top handle bag featuring a bold white snakeskin panel at the center, adorned with a metallic fox head clasp and intricate insect embroidery. The bag is distinguished by its unique bamboo handle with ornate gold-tone hardware and a decorative border trim. The design combines rich color, animal motifs, and luxurious materials for a statement-making silhouette.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "red",
+      "material": "leather",
+      "embellishments": [
+        "logo",
+        "stud"
+      ],
+      "pattern": null,
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_008.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, boxy black leather briefcase-style bag with a rigid, upright silhouette and a prominent front flap closure. The bag features a distinctive green and red web stripe with a gold chain detail running vertically down the center, secured by a black leather strap with a gold-tone buckle. The top handle is made of black leather with a decorative crystal embellishment at the attachment point. The overall design is formal and tailored, with clean lines and a professional aesthetic.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "web"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap",
+        "toggle-closure"
+      ],
+      "hardware_color": "gold",
+      "finishing": [],
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "pattern": null,
+      "secondary_materials": [],
+      "model_details": [],
+      "bag_size": "medium"
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_009.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A white leather top handle bag with a distinctive bamboo handle and matching bamboo hardware. The bag features a structured, slightly curved flap closure with a central bamboo clasp and a pebbled leather texture. The design is minimalist yet iconic, emphasizing natural materials and clean lines.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "white",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap",
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "finishing": [
+        "grained"
+      ],
+      "secondary_colors": [],
+      "pattern": null,
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "bag_size": "small",
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_010.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A classic women's hobo bag featuring a beige GG monogram canvas body with contrasting brown leather trim and a curved, slouchy silhouette. The bag is equipped with a single shoulder strap attached via a metal D-ring and a central front flap secured by a gold-tone turn-lock clasp with leather tab. The hardware has a vintage patina, and the overall construction shows signs of wear, particularly on the leather elements.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": "monogram",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_011.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, structured tote bag with a glossy, transparent PVC overlay over a beige GG Supreme canvas base. It features two sturdy top handles attached with diamond-shaped leather reinforcements and a zip-top closure. The design combines luxury branding with a utilitarian, raincoat-inspired aesthetic.",
+    "tags": {
+      "category": "totes-women",
+      "subcategory": "tote",
+      "primary_color": "beige",
+      "material": "polyester",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": "monogram",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": null,
+      "bag_size": "large",
+      "secondary_colors": [],
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_012.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, glossy burgundy leather saddle bag with a curved, slightly slouchy silhouette and a detachable shoulder strap. The bag features a gold-tone hook closure and a matching leather handle attached by a metal ring. The strap is attached with black circular hardware, and the overall design is minimalist with no visible embellishments.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "burgundy",
+      "material": "leather",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_013.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured flap top handle bag featuring a beige GG Supreme canvas body with bold, multi-colored wave and stripe graphic overlays in teal, pink, blue, orange, and white. The bag is accented with brown leather trim, gold-tone hardware, and a distinctive bamboo handle with a black studded grip. A long black leather tassel hangs from the top handle, adding a dramatic, equestrian-inspired detail.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "white",
+        "pink",
+        "blue",
+        "teal",
+        "orange",
+        "black"
+      ],
+      "material": "leather",
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap",
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_014.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, slouchy bucket bag with a curved, unstructured silhouette featuring a beige GG Supreme canvas with navy blue GG pattern. The bag has a detachable shoulder strap with red and green web detailing and a silver-tone GG logo buckle. The top opening is secured with a black leather flap and silver-tone hardware.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "bucket bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "navy",
+        "red"
+      ],
+      "material": "cotton",
+      "secondary_materials": [],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": "monogram",
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "toggle-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "large",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_015.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, structured black leather hobo with a distinctive curved, teardrop silhouette, adorned with a dense, sparkling crystal embellishment across its surface. The bag features a single adjustable shoulder strap and a top zip closure, with a minimalist design accented by subtle metallic hardware. The glossy finish and dramatic crystal detailing create a high-impact, glamorous statement piece.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "crystal"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_016.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured flap shoulder bag with a vibrant color-blocked design featuring red leather body, mustard yellow top flap, and navy blue accents. The bag is secured by a signature gold-tone GG logo clasp set on a navy leather plaque. The silhouette is compact and trapezoidal with a slightly flared base, and it includes a detachable shoulder strap.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "flap shoulder bag",
+      "primary_color": "red",
+      "secondary_colors": [
+        "navy",
+        "mustard"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_017.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag with a distinctive woven chainmail-like texture in a dark metallic finish. The bag features a rounded, slightly slouchy silhouette with a single wide shoulder strap that appears to be made from the same chainmail material. The construction highlights the interlocking metal links creating a rigid, armor-like surface, with a subtle sheen under studio lighting.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "material": "metal",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [],
+      "hardware_color": null,
+      "bag_size": "large",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_018.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A glossy lime-green leather hobo bag with a curved, slouchy silhouette and a single shoulder strap. The bag features a zip closure at the top and a silver-toned buckle detail on the strap. The pebbled texture of the leather adds dimension to the structured yet soft shape.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "green",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": [
+        "grained"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_019.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured tan leather top handle bag with a contrasting bright yellow top handle and hardware. The bag features a classic upright silhouette with a top zip closure and two short handles attached to the front. The material appears to be smooth leather with a matte finish, and the hardware is gold-toned.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "tan",
+      "material": "leather",
+      "hardware_color": "gold",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [],
+      "secondary_colors": [
+        "yellow"
+      ],
+      "finishing": [],
+      "pattern": null,
+      "secondary_materials": [],
+      "embellishments": [],
+      "bag_size": "medium",
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_020.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A glossy mint-green heart-shaped minaudiere with \"SAVOY club\" printed in black, suspended from a silver chain strap. The heart-shaped body has a sculpted, anatomical top section and a smooth, reflective surface. It is worn as a pendant-style accessory against a GG monogram-patterned beige jacket with brown leather trim.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "minaudiere",
+      "primary_color": "mint",
+      "material": "faux-leather",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_021.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured tan leather saddle bag with a curved, half-moon silhouette and a front flap secured by a silver-toned buckle. The bag features a braided yellow and green web strap with a gold-tone buckle and contrasting brown leather trim. The surface has a subtle pebbled texture and clean, stitched seams, presenting a classic equestrian-inspired design with a refined, polished finish.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "saddle bag",
+      "primary_color": "tan",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_022.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized hobo bag with a curved, slouchy silhouette, crafted from glossy yellow snakeskin-effect leather with a contrasting tan leather strap and top zip closure. The bag features a prominent gold-tone turn-lock clasp at the center and a small external zip pocket on the front. The design is accentuated by a white star-shaped paper tag attached to the strap.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "yellow",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "python-effect"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_023.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a curved, slouchy silhouette with a contrasting panel of tan suede and glossy olive green leather. The central design element is a vertical green and red web stripe with a gold-tone zip pull, flanked by smooth leather trim. The bag has a single adjustable shoulder strap with a gold-tone buckle and a top zip closure.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "olive",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "material": "leather",
+      "secondary_materials": [
+        "suede"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_024.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, black leather hobo bag featuring an extensive embellishment of multicolored crystals arranged in a geometric pattern across its surface. The bag has a distinctive curved, almost sculptural silhouette with a wide shoulder strap and a prominent gold-tone hook closure at the center. The crystal embellishment creates a dazzling, reflective effect, making it a statement piece.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "crystal"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_025.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, slouchy hobo bag with a rounded bottom and wide, curved body, featuring a bold pinkish-red GG Supreme pattern on a satin-like base. The bag has a single wide shoulder strap with a buckle detail and a top zip closure. The material appears to be a glossy, smooth-leather with a subtle sheen, and the overall silhouette is soft and unstructured.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "pink",
+      "material": "cotton",
+      "embellishments": [],
+      "pattern": "monogram",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [],
+      "hardware_color": "gold",
+      "bag_size": "large",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_026.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, rectangular clutch with a glossy purple and white GG monogram patterned body, accented by wide lavender suede straps and a prominent gold-tone horsebit hardware closure. The bag features a rigid, boxy silhouette with a curved top edge and a contrasting textured leather trim along the flap. The material appears to be coated canvas or leather with a printed pattern, giving it a luxurious, evening-ready aesthetic.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "clutch",
+      "primary_color": "purple",
+      "secondary_colors": [
+        "white"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "crystal"
+      ],
+      "pattern": "monogram",
+      "model_details": [],
+      "handle_type": [],
+      "closure": [
+        "frame-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_027.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, curved black leather hobo bag with a minimalist silhouette, featuring a detachable shoulder strap with green and red web detailing and silver-toned hardware accents. The bag has a smooth, matte finish and a structured yet soft crescent shape.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "web"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_028.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, soft black leather top-handle bag with a slouchy body that widens toward the base and two short handles",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [],
+      "hardware_color": "silver",
+      "bag_size": "large",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_029.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A small, heart-shaped minaudiere with a vibrant yellow, sequined surface hangs from a gold chain strap. The pouch features a glossy, beaded texture and is attached to a GG monogram-patterned vest via the chain. The design is playful and statement-making, combining a whimsical shape with luxurious embellishments.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "minaudiere",
+      "primary_color": "yellow",
+      "material": "faux-leather",
+      "embellishments": [
+        "crystal"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_030.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large structured tote bag featuring a vibrant, cosmic-themed print with cartoon characters and starbursts on a GG Supreme canvas background. The bag has two sturdy brown leather top handles and a matching leather trim along the edges. A circular leather patch with the \"ANTONIO\" logo is centered on the front, and the interior lining appears to be a solid brown color.",
+    "tags": {
+      "category": "totes-women",
+      "subcategory": "tote",
+      "primary_color": "grey",
+      "secondary_colors": [
+        "blue",
+        "yellow",
+        "orange",
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": "graphic-pattern",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": null,
+      "bag_size": "large",
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_031.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured shoulder bag with a tricolor design featuring black leather base, white leather flap, and mustard yellow leather trim. The front flap of the external pocket is secured by a prominent gold-tone GG logo clasp, and the bag is suspended by a gold-tone chain strap. The silhouette is compact and rectangular with clean, defined edges.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "white",
+      "secondary_colors": [
+        "mustard",
+        "black"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "model_details": [
+        "external-pocket"
+      ],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_032.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A glossy, deep red patent leather hobo bag with a curved, slouchy silhouette and a prominent silver-toned horsebit hardware detail at the center. The bag features a single adjustable shoulder strap attached with silver-tone hardware and a smooth, reflective finish that catches the light. The construction includes visible stitching along the curved body and a minimalist, elegant profile.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "red",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": [
+        "patent"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_033.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, glossy black leather boston bag with a structured, slightly curved silhouette featuring two curved top handles and a zip-around closure. The bag has a minimalist design with a small detachable zip pouch attached to the side and a subtle brand logo on the front flap. The material appears to be smooth, high-shine leather with a matte finish on the handles, and the hardware is metallic with a dark tone.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "boston bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "black",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_034.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A classic white leather hobo bag with a curved, slouchy silhouette and a prominent gold-tone piston closure at the front. The bag features a single wide shoulder strap attached with a gold buckle and contrasting light-colored stitching along the seams. The material appears to be smooth, supple leather with a subtle sheen, and the overall design is minimalist and elegant.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "white",
+      "material": "leather",
+      "hardware_color": "gold",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "finishing": [],
+      "secondary_colors": [],
+      "embellishments": [],
+      "pattern": null,
+      "model_details": [],
+      "bag_size": "medium",
+      "secondary_materials": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_035.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, upright handbag with a woven textile body featuring vertical stripes in mustard yellow, olive green, and beige, accented by brown leather handles and trim. The bag has a rigid, boxy silhouette with a top zip closure secured by a gold-tone turn-lock clasp and dark brown leather side reinforcements. The material appears to be a textured woven plant-fibre or synthetic weave, with visible stitching along the handle attachments.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "multicolor",
+      "secondary_colors": [
+        "pink",
+        "green",
+        "mustard",
+        "beige"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": "stripes",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "model_details": [
+        "woven"
+      ],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_036.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, glossy blue leather duffle bag with a matching wide shoulder strap, featuring a structured, barrel-like silhouette with visible stitching and a top zip closure. The bag's surface has a textured, scaled pattern that catches the light, giving it a luxurious and bold appearance.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "duffle bag",
+      "primary_color": "blue",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "large",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_037.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A striking white hobo bag featuring an oversized, rigid geometric silhouette with a prominent horsebit hardware closure. The entire perimeter is encrusted with a lavish border of multicolored crystals and gemstones, creating a dramatic, high-fashion statement. The backpack is worn as a structured shoulder bag with a wide, jeweled strap that drapes over the shoulder.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "white",
+      "material": "leather",
+      "embellishments": [
+        "crystal",
+        "gemstone"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "large",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_038.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag with a curved, slouchy silhouette featuring a beige woven jacquard body adorned with a repeating floral pattern in burgundy and green. The bag is accented with glossy burgundy leather trim on the shoulder strap, side panels, and a matching leather tag at the silver-toned hook closure. The design combines textured fabric with smooth leather for a contrasting, elegant finish.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "burgundy",
+      "secondary_colors": [
+        "green",
+        "beige"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": "floral-pattern",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_039.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, rounded-top handle bag featuring a vertical striped pattern in earthy tones of pink, red, orange, and green on a textured woven fabric. It is framed with dark brown leather trim and secured by a central toggle clasp. The most distinctive feature is the curved, polished bamboo handle attached via gold-tone hardware.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "multicolor",
+      "secondary_colors": [
+        "pink",
+        "green",
+        "orange",
+        "red"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": "stripes",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap",
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "model_details": [],
+      "finishing": [
+        "canvas"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_040.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a beige GG monogram canvas body with contrasting brown leather trim, a curved top handle, and a prominent gold-tone turn-lock clasp at the center. The design combines classic equestrian-inspired silhouettes with luxury branding elements, including the signature GG pattern and polished hardware.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": "monogram",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_041.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A compact, round pouch clutch with a plush, dark brown fur exterior and a prominent, ornate dragon head embellishment featuring gold and blue accents. The body is circular with a textured, possibly quilted or gathered surface, and is held by a matching fur strap. The dragon motif is the central design element, adding a mythical and luxurious detail.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "pouch",
+      "primary_color": "brown",
+      "material": "faux-fur",
+      "embellishments": [
+        "dragon-element"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [],
+      "closure": [],
+      "hardware_color": null,
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_042.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A white leather hobo bag with a distinctive geometric cut-out pattern and black leather accents. The bag features a structured, slouchy silhouette with a curved body and is equipped with a thick, braided white rope strap attached with silver-toned hardware. The front is adorned with a central metal ring and chain detail, while the sides have adjustable straps with snap closures.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "white",
+      "material": "leather",
+      "embellishments": [
+        "chain",
+        "stud"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [
+        "black"
+      ],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_043.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured flap shoulder bag featuring a vibrant pink and purple snakeskin-patterned leather body with a contrasting magenta interior. The bag is equipped with two detachable shoulder straps and a prominent gold-tone GG logo clasp at the center of the flap. The design combines a classic flap silhouette with bold, animal-print material and luxurious hardware.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "flap shoulder bag",
+      "primary_color": "pink",
+      "secondary_colors": [
+        "purple",
+        "orange"
+      ],
+      "material": "python",
+      "secondary_materials": [],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "finishing": [
+        "python-effect"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_044.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A vintage brown leather saddle bag with a curved, half-moon silhouette featuring a central green and red web stripe running vertically down the front flap. The bag has a structured, slightly slouchy body with visible pebbled leather texture and contrasting tan stitching along the edges and flap. The iconic web stripe is framed by leather panels and secured with a curved leather tab at the center of the flap.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "saddle bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [
+        "web"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": null,
+      "bag_size": "small",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_045.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a beige GG monogram canvas body with contrasting dark brown leather trim, shoulder strap, and a distinctive gold-tone piston closure at the center. The bag has a curved, slouchy silhouette with a single curved top handle and visible stitching details, embodying a classic, slightly vintage aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red",
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": "monogram",
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_046.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured shoulder bag featuring a vibrant vertical striped pattern in coral, yellow, green, and white woven snake-effect leather, framed by white textured leather. It is equipped with a silver-toned horsebit hardware closure connected by a chain strap, and includes a detachable white leather shoulder strap. The design combines bold color blocking with equestrian-inspired detailing for a chic, statement look.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "multicolor",
+      "secondary_colors": [
+        "white",
+        "green",
+        "yellow",
+        "coral"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "horsebit"
+      ],
+      "pattern": "stripes",
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "finishing": [
+        "python-effect"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_047.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, elongated clutch with a textured silver-grey crocodile-effect leather finish, featuring a distinctive geometric metal frame closure with black rectangular panels. The clutch has a structured, rectangular silhouette with a slightly curved top edge and is attached to a thin white cord strap. The hardware is polished silver-toned, contrasting with the muted leather tone.",
+    "tags": {
+      "category": "clutches-women",
+      "subcategory": "clutch",
+      "primary_color": "grey",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "croc-effect"
+      ],
+      "handle_type": [],
+      "closure": [
+        "frame-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_048.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized hobo bag in rich burgundy leather with a curved, slouchy silhouette. The front features a prominent green and red Web stripe with a silver-toned horsebit hardware clasp. The bag has a single curved top handle attached with a buckle, and diamond-shaped leather reinforcements with silver pyramid studs at the base corners. The leather shows natural creasing and wear, indicating use.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "burgundy",
+      "material": "leather",
+      "embellishments": [
+        "web",
+        "stud"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_049.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized hobo bag in a rich burgundy hue, crafted from smooth leather with contrasting tan stitching and a distinctive vertical suede panel. The bag features a curved, slouchy silhouette with a single curved top handle attached by a gold-tone buckle, and a prominent front clasp closure with a metallic toggle mechanism. The design emphasizes clean lines and classic equestrian-inspired detailing.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "burgundy",
+      "material": "leather",
+      "secondary_materials": [
+        "suede"
+      ],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_050.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A women's hobo bag featuring a curved, slouchy silhouette with a woven textile body in vertical stripes of olive, mustard, pink, and beige, accented with brown leather trim and a detachable shoulder strap. The front is secured by a silver-toned metal hook closure attached to a leather tab. The material appears to be a textured woven fabric with leather reinforcements at the base and strap attachments.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "multicolor",
+      "secondary_colors": [
+        "pink",
+        "olive",
+        "mustard",
+        "beige"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": "stripes",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_051.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, vintage-style handbag with a rich brown suede body accented by a central green-red-green Web stripe. Constructed with contrasting dark brown leather trim, dual top handles, and a distinctive brass turn-lock closure, the bag features visible stitching and leather reinforcements at the corners, evoking a classic, tailored aesthetic with a touch of equestrian-inspired detailing.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "brown",
+      "material": "suede",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": null,
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_052.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured bucket bag featuring a woven textile body in a green, beige, and pink patchwork pattern, accented with brown leather trim and a distinctive curved wooden handle. The front is secured with a large leather flap adorned with a brass horsebit buckle, and the base is reinforced with a brown leather sole. The design combines rustic textile with polished leather and metallic hardware for a unique, artisanal aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "bucket bag",
+      "primary_color": "green",
+      "secondary_colors": [
+        "pink",
+        "beige"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "horsebit"
+      ],
+      "pattern": null,
+      "model_details": [
+        "external-pocket"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_053.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured tote bag featuring a beige GG monogram canvas body with contrasting brown leather trim and handles, accented by a signature green and red web stripe down the center. The design combines classic Gucci branding with a practical, spacious silhouette.",
+    "tags": {
+      "category": "totes-women",
+      "subcategory": "tote",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red",
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo",
+        "web"
+      ],
+      "pattern": "monogram",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": null,
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_054.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a textured mustard-yellow woven fabric body with contrasting black leather trim on the curved bottom, shoulder strap, and top edge. The bag has a single curved shoulder strap attached with a gold-tone metal D-ring and a prominent gold-tone hook closure at the center front. The hardware is metallic with a brushed finish, and the overall silhouette is soft and slouchy with a rounded bottom.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "mustard",
+      "secondary_colors": [
+        "black"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "canvas"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_055.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A vintage-style doctor's bag featuring a vibrant vertical striped canvas body in shades of green, yellow, red, and cream, framed by structured brown leather with a thick, stitched base. The bag is equipped with two sturdy leather top handles attached by gold-tone hardware and a distinctive brass combination lock closure at the center. The design includes leather reinforcements and a classic rounded silhouette with a slightly slouchy, well-worn appearance.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "doctor's bag",
+      "primary_color": "multicolor",
+      "secondary_colors": [
+        "green",
+        "yellow",
+        "red"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": "stripes",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "frame-closure"
+      ],
+      "hardware_color": "antique-brass",
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_056.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a distinctive brown and black cowhide patterned body with contrasting black leather trim and a curved, slouchy silhouette. The bag is equipped with a single shoulder strap attached via a silver-toned buckle and a central leather strap with a metal clasp closure. The edges are finished with visible stitching, and the overall design combines rustic texture with classic hobo proportions.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "brown",
+      "secondary_colors": [
+        "black"
+      ],
+      "material": "leather",
+      "secondary_materials": [
+        "cotton"
+      ],
+      "embellishments": [],
+      "pattern": "leopard",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "toggle-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_057.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a curved, crescent-shaped silhouette with a combination of dark brown suede and smooth leather panels. The central zip closure is framed by a beige GG monogram canvas strip, secured with a gold-tone piston lock and leather tab. The single shoulder strap is attached with a metal buckle, and the bag is finished with contrasting stitching along the seams.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "secondary_materials": [
+        "cotton",
+        "suede"
+      ],
+      "embellishments": [],
+      "pattern": "monogram",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_058.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A small, curved shoulder bag with a vibrant, multi-coloured diagonal stripe pattern in yellow, green, coral and white. The body is constructed from woven plant-fibre material with a zip-top closure and a matching woven strap accented with cream leather trim and gold-tone hardware. The design evokes a casual, resort-ready aesthetic with its bright colour palette and textured weave.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "multicolor",
+      "material": "cotton",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": "stripes",
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [
+        "white",
+        "green",
+        "yellow",
+        "coral"
+      ],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_059.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large hobo-style shoulder bag featuring a distinctive cowhide body with natural brown and white markings, framed by smooth brown leather trim and a curved shoulder strap. The front is secured by a prominent silver-toned metal hook closure, and the construction includes visible stitching and a slightly slouchy, unstructured silhouette.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "brown",
+      "material": "pony-hair",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": null,
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "large",
+      "secondary_colors": [
+        "white"
+      ],
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_060.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A classic hobo-style shoulder bag featuring a beige canvas body with contrasting brown leather trim and a curved, slouchy silhouette. The front is accented by a signature green and red web stripe with a gold-tone turn-lock clasp, while the adjustable shoulder strap is also leather with a buckle. The construction includes visible stitching and a structured yet soft body.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": [
+        "canvas"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_061.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A classic black suede hobo bag with contrasting glossy black leather trim and a curved, slouchy silhouette. The bag features a single shoulder strap with a buckle and a distinctive gold-tone piston closure at the center front. The construction includes visible stitching along the seams and a structured, slightly rounded bottom.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "material": "suede",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_062.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag with a curved, slouchy silhouette featuring a cream canvas body adorned with a repeating navy whale pattern accented by teal circular logos. The bag is constructed with glossy black leather trim along the edges, a wide adjustable shoulder strap, and a prominent gold-tone piston closure at the center front. The design combines nautical-inspired graphics with classic hobo proportions for a playful yet sophisticated look.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "ivory",
+      "secondary_colors": [
+        "navy",
+        "teal"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": "graphic-pattern",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_063.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A classic black leather hobo bag with a curved, slouchy silhouette and a single shoulder strap. The front features a prominent gold-tone horsebit hardware closure, and the interior lining is a contrasting deep red. The bag has a soft, worn-in texture and visible stitching along the seams, suggesting a vintage or well-loved condition.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_064.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag with a curved, slouchy silhouette featuring a beige GG Supreme canvas with brown leather trim and a top handle. The body is defined by vertical pleats and gold-tone hardware at the handle attachments. The design combines classic equestrian-inspired tailoring with luxury brand heritage.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": "monogram",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_065.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured flap hobo bag featuring a beige GG Supreme canvas body with contrasting brown leather trim and a signature green-red-green web stripe. The bag has a curved, slightly slouchy silhouette with a top zip closure and a detachable brown leather shoulder strap. The hardware is gold-toned, and the overall design combines classic equestrian-inspired elements with Gucci's signature web detailing.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red",
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_066.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A compact, structured small hobo bag with a bold color-block design featuring vibrant orange suede and glossy black leather. The bag has a curved, slightly slouchy silhouette with a top zip closure and a short, curved top handle. A distinctive gold-tone YSL logo plaque is centered on the front, and the hardware includes a gold-tone piston closure. The material contrast and metallic accents give it a modern, high-fashion edge.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "orange",
+      "secondary_colors": [
+        "black"
+      ],
+      "material": "suede",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_067.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A tan leather flap shoulder bag with a structured upright silhouette, featuring a front flap secured by a silver-toned buckle and a decorative tassel on the side. The bag has a woven leather trim along the edges and a detachable shoulder strap, constructed with visible stitching and a minimalist, equestrian-inspired aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "flap shoulder bag",
+      "primary_color": "tan",
+      "material": "leather",
+      "embellishments": [
+        "tassel"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [
+        "woven"
+      ],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_068.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured flap shoulder bag featuring a beige GG Supreme canvas with brown leather trim and a central leather flap secured by a silver-tone buckle. The bag has a woven leather trim along the edges, a detachable tan leather shoulder strap and decorative tassel details on the side. The design combines classic Gucci branding with equestrian-inspired hardware and a practical, compact silhouette.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "flap shoulder bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "tassel"
+      ],
+      "pattern": "monogram",
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_069.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, glossy black leather saddle bag with a distinctive curved bamboo handle and a textured crocodile-effect body. The bag features a bamboo turn-lock closure and is worn diagonally across the body with a brown leather strap. The design combines equestrian-inspired silhouette with bold, natural-material accents.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "black",
+      "material": "leather",
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "croc-effect"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap",
+        "turn-lock-closure"
+      ],
+      "hardware_color": null,
+      "bag_size": "small",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_070.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized black leather flap shoulder bag with a distinctive quilted texture and a prominent gold-tone GG logo clasp. The bag features a chain strap with gold hardware and a top zip closure, presenting a classic yet luxurious silhouette with a slightly slouchy body. The chain is relatively long, and the bag hangs at hip level, well below the armpit.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "flap shoulder bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "quilted"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_071.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, curved-hoof hobo bag featuring a beige GG Supreme canvas with a central green-red-green Web stripe and a gold-tone GG logo. The bag has a top zip closure and is equipped with a beige leather shoulder strap attached via gold-tone hardware. The design combines classic Gucci heritage elements with a sleek, modern silhouette.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo",
+        "web"
+      ],
+      "pattern": null,
+      "finishing": [
+        "jacquard"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [
+        "ivory",
+        "green",
+        "red"
+      ],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_072.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized brown leather saddle bag with a distinctive brass horsebit hardware closure and a top zip opening. The bag features a classic saddle shape with a curved front flap and a detachable shoulder strap, presented in a warm tan hue with a smooth, polished finish. The design is minimalist and equestrian-inspired, emphasizing clean lines and functional hardware.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "saddle bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [
+        "horsebit"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_073.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a striking snakeskin-patterned leather with alternating beige and brown stripes, accented by black leather trim and a prominent gold-tone turn-lock clasp at the center. The curved, slouchy silhouette is defined by a single wide shoulder strap attached with a gold buckle, creating a bold, luxurious statement piece.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "brown"
+      ],
+      "material": "python",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": "snake",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": [
+        "python-effect"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_074.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, structured black leather hobo bag with a curved, slightly slouchy silhouette and a prominent gold-tone YSL logo clasp. The bag features a single shoulder strap and clean, contrasting white stitching along the edges. The material appears to be smooth, polished leather with a matte finish, and the hardware is a polished gold tone, creating a classic, elegant contrast.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_075.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured blue ostrich leather hobo bag featuring a curved, slouchy silhouette with a single shoulder strap and a prominent gold-tone turn-lock clasp at the center. The textured ostrich skin provides a distinctive pebbled finish, while contrasting black stitching and hardware accents enhance its refined, equestrian-inspired design.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "teal",
+      "material": "ostrich",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "grained"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_076.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A glossy emerald green snakeskin-effect leather hobo bag with a curved, slouchy silhouette and a single curved top handle. The front features a prominent gold-tone piston closure with a leather tab, while the interior lining and stitching are in contrasting black. The material's scaled texture and shiny finish give it a luxurious, reptilian appearance.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "emerald",
+      "material": "python",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "python-effect"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_077.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a beige GG monogram canvas body with contrasting brown leather trim and a curved, slouchy silhouette. The front is accented by a vertical green and red web stripe with a gold-tone piston closure. The bag has a single curved top handle attached with a gold-tone buckle and matching leather reinforcements at the base and shoulder straps.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red",
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": "monogram",
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_078.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag with a curved, slouchy silhouette, featuring a beige GG monogram canvas body with brown leather trim and a distinctive green-red-green web stripe down the front. The bag has a top zip closure with a gold-tone hardware pull and a curved top handle made of brown leather. The design combines classic equestrian-inspired elements with sporty detailing.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red",
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": "monogram",
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_079.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured tan leather hobo bag with a curved, slouchy silhouette and a single curved top handle. The body features a central leather strap with a gold-tone horsebit-style piston closure and contrasting black stitching along the seams. The pebbled leather texture and clean construction give it a classic, equestrian-inspired look.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "tan",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "grained"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_080.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured black lizard leather hobo bag featuring a prominent front flap adorned with a sequined GG logo pattern and a gold-tone horsebit clasp. The bag has a curved, slouchy silhouette with a top handle and a detachable gold chain strap, combining equestrian heritage with glamorous embellishments.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "material": "lizard",
+      "secondary_materials": [],
+      "embellishments": [
+        "crystal",
+        "mesh-insert"
+      ],
+      "pattern": "monogram",
+      "finishing": [
+        "croc-effect"
+      ],
+      "handle_type": [
+        "shoulder-strap",
+        "chain-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [
+        "silver"
+      ],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_081.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, curved hobo bag in a rich navy blue leather with a distinctive crescent moon silhouette. It features a wide, adjustable shoulder strap with iconic green and red webbing, attached via gold-tone hardware and a prominent interlocking G logo clasp. The minimalist design emphasizes clean lines and a structured, slouchy body with a top zip closure.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "blue",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "logo",
+        "web"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_082.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A beige GG monogram canvas hobo bag with a curved, crescent-shaped silhouette and a detachable shoulder strap featuring red, green, and navy web. The bag has a top zip closure and is accented with gold-tone hardware, including a distinctive G logo clasp at the strap attachment. The edges are trimmed in brown leather, and the design is classic Gucci with its signature interlocking G pattern.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": "monogram",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [
+        "navy",
+        "green",
+        "red"
+      ],
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_083.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A minimalist beige leather hobo bag featuring a curved, slouchy silhouette with a single shoulder strap and a prominent gold-tone GG logo clasp at the center. The bag has clean, stitched seams and a smooth, pebbled leather texture, presenting a classic and elegant profile.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "material": "leather",
+      "embellishments": [
+        "logo"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_084.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized brown leather hobo bag with a curved, slouchy silhouette and a prominent gold-tone GG logo clasp at the front. The bag features a single top handle attached with a buckle detail and a smooth, pebbled leather finish. The design is minimalist with clean lines and a classic equestrian-inspired shape.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [
+        "logo"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_085.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A compact, structured pink leather underarm with a curved, elongated silhouette and a short leather strap that holds it under the arm, a classic baguette carry. The bag features a prominent gold-tone GG logo plaque centered on the front and a matching gold-tone zip closure along the top edge. Contrasting black leather trim accents the handle attachment and zipper pull, while fine stitching defines the panelled construction.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "underarm bag",
+      "primary_color": "pink",
+      "material": "leather",
+      "embellishments": [
+        "logo"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_086.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, round-shoulder hobo bag with a quilted black leather body featuring a repeating GG logo pattern. The bag is equipped with a gold-tone chain strap and a prominent GG logo at the front. The silhouette is compact and structured, designed for a chic, minimalist aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "finishing": [
+        "embossed"
+      ],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "quilted"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_087.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A vibrant orange quilted leather hobo bag with a distinctive diamond-patterned GG logo embossing and a gold-tone GG logo clasp. The bag features a curved, half-moon silhouette with a top zip closure and a gold chain strap attached to a leather handle. The quilted construction creates a padded, structured texture, and the bold color contrasts with the neutral outfit.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "orange",
+      "material": "leather",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "quilted"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_088.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, rectangular white leather bag with diagonal quilting and a prominent circular GG logo patch at the center. The bag features a detachable shoulder strap with gold-tone hardware and a matching leather tassel on the side. The top is secured with a zip closure.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "white",
+      "material": "leather",
+      "embellishments": [
+        "logo",
+        "tassel"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "quilted"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_089.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured white leather hobo bag featuring a signature curved bamboo handle and a matching red leather shoulder strap with gold-tone hardware. The body has a soft, slouchy silhouette with a top zip closure and a gold-tone GG logo clasp at the center. The design combines classic hobo proportions with luxury detailing and a bold color contrast.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "white",
+      "secondary_colors": [
+        "red"
+      ],
+      "material": "leather",
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "top-handle",
+        "shoulder-strap"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_090.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured white leather saddle bag with a curved, half-moon silhouette, featuring a prominent gold-tone horsebit hardware closure and a detachable shoulder strap. The bag has a smooth, polished leather finish with a flap-over front and a minimalist, elegant design. The gold hardware provides a striking contrast against the white leather, enhancing its classic equestrian-inspired aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "saddle bag",
+      "primary_color": "white",
+      "material": "leather",
+      "embellishments": [
+        "horsebit"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_091.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured bucket bag with a cylindrical body featuring a beige GG Supreme canvas with brown leather trim and a drawstring closure at the top. The bag is accented with gold-tone hardware, including a prominent GG logo clasp and decorative end caps on the drawstrings. The curved top handle is made of smooth brown leather, complementing the overall equestrian-inspired aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "bucket bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "drawstring"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_092.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured white leather saddle bag with a curved, elongated body and a distinctive horsebit hardware closure. The bag features a detachable white shoulder strap with silver-tone hardware and contrasting black stitching along the edges. The design is minimalist with clean lines and a classic equestrian-inspired detail.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "saddle bag",
+      "primary_color": "white",
+      "material": "leather",
+      "embellishments": [
+        "horsebit"
+      ],
+      "pattern": null,
+      "finishing": [
+        "grained"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_093.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, structured black leather hobo bag featuring a curved, trapezoidal silhouette with a single curved shoulder strap. The front is secured by a distinctive silver-toned metal horsebit-style hardware bar with circular rings, attached to the body via silver rectangular plates. The bag has a minimalist, clean aesthetic with visible stitching along the edges and a subtle brand tag on the strap attachment.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "horsebit"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_094.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured black shoulder bag with a glossy GG Supreme patterned body and contrasting black leather trim. The silhouette is compact, squarish, and upright.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "black",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "crystal"
+      ],
+      "pattern": "monogram",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "model_details": [],
+      "finishing": [
+        "embossed"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_095.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, white leather shoulder bag with a minimalist silhouette, featuring a silver-toned metal frame closure and a shoulder strap. The bag has clean, contrasting black stitching along its edges and a sleek, modern profile.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "white",
+      "material": "leather",
+      "embellishments": [
+        "horsebit"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_096.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A bold, oversized hobo bag with a slouchy, unstructured silhouette featuring a vibrant orange leather body contrasted by black leather trim and a curved bottom. The bag has a single adjustable shoulder strap and a top zip closure, with a minimalist design accented by a small metallic logo plaque on the strap attachment. The material appears to be smooth, supple leather with a slight sheen, and the construction highlights clean, contrasting color blocking.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "orange",
+      "secondary_colors": [
+        "black"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "large",
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_097.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large hobo-style bag with a curved, slouchy silhouette featuring a two-tone design of glossy white and black leather. The body is constructed with white leather panels accented by black leather trim at the top handle attachment, shoulder strap, and base. A central black leather strap with a silver-toned metal piston closure runs down the front, adding a functional and decorative element. The hardware is polished silver-toned, contrasting with the monochrome leather.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "white",
+      "secondary_colors": [
+        "black"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "large",
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_098.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large black hobo bag featuring a plush, velvety GG monogram pattern with contrasting smooth leather trim on the base, handles, and front flap. The bag has a curved, slouchy silhouette with a detachable top handle and a central leather strap with a silver-tone piston closure. The material appears to be a soft, textured fabric with a subtle sheen, accented by polished metal hardware.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "velvet"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "large",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_099.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured black hobo bag with a curved, slouchy silhouette, featuring a textured GG monogram velvet body contrasted by smooth black leather trim and a detachable shoulder strap. The bag has a top zip closure with a silver-tone piston closure. The design combines classic equestrian-inspired tailoring with modern luxury detailing.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [],
+      "pattern": "monogram",
+      "finishing": [
+        "embossed"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_100.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized underarm bag featuring a signature GG monogram canvas body with a bold red, green, and black web stripe running vertically. The bag is equipped with a silver-toned horsebit hardware closure and a detachable chain strap, combining equestrian heritage with modern luxury aesthetics. The silhouette is elongated, classical underarm baguette shape with a short chain strap to be held underarm.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "underarm bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red",
+        "black"
+      ],
+      "material": "leather",
+      "secondary_materials": [
+        "cotton"
+      ],
+      "embellishments": [
+        "web",
+        "horsebit"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_101.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured underarm bag featuring a beige GG monogram canvas body with a central green-red-green Web stripe. The design is dominated by a large silver-tone horsebit hardware detail with brown leather straps, and includes a detachable chain strap for shoulder or crossbody wear.  The silhouette is elongated, classical underarm baguette shape with a short chain strap to be held underarm.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "underarm bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "web",
+        "horsebit"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap",
+        "chain-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_102.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, quilted grey leather underarm bag with a distinctive diamond-patterned texture and a prominent silver-toned circular ring hardware detail. The bag features a chain strap attached to a leather shoulder strap, creating a hybrid sling-shoulder design.  The silhouette is elongated, classical underarm baguette shape with a short chain strap to be held underarm.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "underarm bag",
+      "primary_color": "grey",
+      "material": "leather",
+      "embellishments": [
+        "chain",
+        "horsebit"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "quilted"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_103.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized hobo bag with a glossy green snakeskin-effect leather body and a matching long shoulder strap. The bag features a curved flap closure secured by a gold-tone turn-lock clasp. The design includes a contrasting red web detail on a long leather strap.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "green",
+      "material": "python",
+      "embellishments": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": [
+        "python-effect"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_104.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A glossy pink hobo with a structured, slightly slouchy trapezoidal silhouette, featuring a top zip closure and a detachable shoulder strap with a gold-tone hook closure. The material has a wet-look finish with subtle glitter texture, and the edges are neatly stitched in matching pink. The design is minimalist with no external pockets or additional embellishments.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "pink",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "patent"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_105.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, elongated, curved-hoof silhouette in ivory leather with contrasting black trim and gold-tone hardware. Features a central turn-lock closure with a branded plate, two adjustable shoulder straps with gold rings, and a signature green-red-green web stripe at the strap attachment. The design combines classic equestrian-inspired tailoring with modern hardware detailing.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "underarm bag",
+      "primary_color": "ivory",
+      "material": "leather",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_106.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A vibrant red leather hobo bag with a curved, slouchy silhouette and a detachable shoulder strap featuring red leather with blue and white striped webbing. The strap is attached with gold-tone hardware. The smooth, glossy leather and bold color create a striking, sport-luxe aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "red",
+      "material": "leather",
+      "secondary_colors": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_107.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A glossy black crocodile-effect leather handbag with a rounded, dome-like silhouette and a single curved top handle. The leather handle features dark brown bamboo inserts with gold-tone metal accents at the attachment points. The body features a structured, semi-circular shape with visible stitching along the lower edge.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "black",
+      "material": "crocodile",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "croc-effect"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_108.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured black leather handbag with a glossy finish and two top handles, featuring a prominent gold-tone horsebit hardware closure. The bag has a rigid, boxy silhouette with visible stitching and gold-tone hardware accents on the handle attachments. The design is minimalist with no external embellishments other than the iconic hardware.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "horsebit"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [],
+      "hardware_color": "gold",
+      "finishing": [
+        "grained"
+      ],
+      "secondary_colors": [],
+      "pattern": null,
+      "secondary_materials": [],
+      "model_details": [],
+      "bag_size": "small"
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_109.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, cylindrical black leather bucket bag with a structured, rigid body and a smooth, slightly pebbled texture. It features two detachable top handles attached with gold-tone hardware and a distinctive horsebit detail.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "bucket bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "chain",
+        "horsebit"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_110.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured handbag with a curved, bamboo handle and matching bamboo toggle clasp set against a beige fabric with a vibrant, repeating floral and geometric pattern in red, green, and gold. The bag features red leather accents at the handle attachments and a flap closure secured by the central bamboo clasp. The silhouette is compact and rounded at the base, with a slightly flared lower edge.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red",
+        "gold"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather",
+        "bamboo"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": "floral-pattern",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap",
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_111.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized hobo bag in a rich burgundy hue, crafted from smooth leather with contrasting suede paneling and visible stitching. The design features a curved, slouchy silhouette with a single shoulder strap attached via a gold-tone buckle, and a distinctive central vertical strap with a metallic toggle clasp closure. The bag's clean lines and classic construction evoke a timeless, elegant aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "burgundy",
+      "material": "leather",
+      "secondary_materials": [
+        "suede"
+      ],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_112.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large white leather hobo bag with a distinctive horizontal stripe of brown and mustard orange webbing. The bag features a curved, slouchy and large silhouette with a short shoulder strap. The hardware is silver-toned, and the overall design is minimalist with clean lines and contrasting color accents.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "white",
+      "secondary_colors": [
+        "mustard",
+        "brown"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "large",
+      "model_details": [
+        "external-pocket"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_114.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, slouchy hobo bag with a curved, unstructured silhouette, crafted from dark blue suede with a matte finish. It features a single wide shoulder strap and a top zip closure, with a minimalist design devoid of external embellishments or hardware. The bag's soft, draped construction and muted color create a casual, understated aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "blue",
+      "material": "suede",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": null,
+      "bag_size": "large",
+      "secondary_colors": [
+        "black"
+      ],
+      "secondary_materials": [],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_115.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, doctor's handbag with a distinctive woven jacquard body featuring a repeating pineapple motif in yellow, green, and red on a cream background. The bag is framed and accented with rich brown leather trim, handles, and a prominent brass lock closure with a keyhole. The design combines vintage-inspired craftsmanship with bold, tropical patterning.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "doctor's bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "yellow",
+        "red"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": "botanical-pattern",
+      "model_details": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "frame-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_116.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A classic women's top handle bag featuring a rich brown leather body with a curved, pebbled texture and a distinctive bamboo handle attached via gold-tone hardware. The front flap closure is secured by a central bamboo toggle clasp, echoing the handle's natural material. The silhouette is compact and structured with rounded edges, exuding timeless elegance and a signature tropical-inspired design.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap",
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "finishing": [
+        "grained"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_117.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured brown leather hobo bag featuring a prominent red and green web stripe down the center, secured with a gold-tone horsebit clasp. The bag has a curved top handle attached with a buckle, and diamond-shaped leather reinforcements with gold-tone pyramid studs at the base corners. The leather shows natural creasing and wear, indicating use.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [
+        "web",
+        "stud"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [
+        "external-pocket"
+      ],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_118.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured top handle bag featuring a beige woven textile with a repeating floral pattern in earthy tones, framed by dark brown leather trim. The bag is distinguished by its iconic curved bamboo handle and matching bamboo toggle closure set within a leather oval frame. The design combines natural materials with a classic silhouette for a refined, vintage-inspired look.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "rust",
+        "brown",
+        "tan"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather",
+        "bamboo"
+      ],
+      "embellishments": [],
+      "pattern": "floral-pattern",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap",
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_119.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a beige GG monogram canvas with navy blue leather trim and a central navy-blue web stripe accented by a red grosgrain ribbon. The bag has a curved, slouchy silhouette with a single curved top handle attached by gold-tone hardware. The front is secured by a prominent gold-tone piston closure with a leather tab, and the edges are reinforced with black leather.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "navy",
+        "red"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo",
+        "web"
+      ],
+      "pattern": "monogram",
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_120.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a tan suede body with a repeating GG monogram pattern, accented by smooth tan leather trim and a curved shoulder strap. The front is secured by a distinctive gold-tone piston closure with a leather tab, and the bag has a slightly slouchy, crescent silhouette with rounded bottom corners.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "tan",
+      "material": "suede",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": "monogram",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [
+        "mustard"
+      ],
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_121.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A small, structured shoulder bag with a distinctive embroidered pattern featuring red, green, and gold motifs on a cream background. The bag has a curved, slightly slouchy silhouette with a detachable shoulder strap and a top zip closure. The edges are trimmed with dark leather, and the hardware is silver-toned.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "ivory",
+      "secondary_colors": [
+        "green",
+        "red",
+        "gold"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": "floral-pattern",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_122.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, upright trapezoidal handbag with a flap closure, crafted from tan suede with a central green and red web stripe. It features a gold-tone turn-lock clasp and a curved top handle attached with gold hardware. The design is classic and elegant, with clean stitching and a minimalist aesthetic.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "tan",
+      "material": "suede",
+      "embellishments": [
+        "charm",
+        "web"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_123.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured small handle bag with a rectangular silhouette, featuring a beige canvas body adorned with a repeating embroidered floral and vine pattern in red, green, and gold. The bag is accented with rich red leather trim along the curved front flap and top handle, secured with gold-tone hardware and diamond-shaped metal studs. The top zip closure and leather handle suggest a classic, elegant design with decorative embellishments.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red",
+        "gold"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "stud"
+      ],
+      "pattern": "floral-pattern",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_124.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured blue suede shoulder bag featuring a curved front flap secured by a prominent gold-tone GG logo clasp. The bag has a detachable shoulder strap with a silver-toned inner lining and gold-tone hardware accents at the strap attachments. The silhouette is a classic underarm style with a slightly slouchy, rounded bottom.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "flap shoulder bag",
+      "primary_color": "blue",
+      "material": "suede",
+      "embellishments": [
+        "logo"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_125.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A vintage-style top handle bag featuring a textured floral pattern in red, yellow, and green on a beige background, with a distinctive curved bamboo handle and a matching leather flap closure. The body is structured with a rounded silhouette, and the material appears to be cotton canvas.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "yellow",
+        "red"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather",
+        "bamboo"
+      ],
+      "embellishments": [],
+      "pattern": "floral-pattern",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": null,
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_126.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized brown leather hobo bag with a curved, half-moon silhouette. The body features a full-length gold-tone zipper closure along the top edge, with matching leather pull tabs. The adjustable shoulder strap is made of signature green-red-green webbing with brown leather reinforcements and gold-tone hardware attachments. The interior lining appears to be a contrasting light beige or tan color.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_127.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A sleek, curved hobo bag in rich burgundy leather with a full-length top zip closure. The strap features a distinctive black and red web pattern with leather ends and silver-toned hardware attachments. The minimalist design emphasizes clean lines and a half-moon silhouette.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "burgundy",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [
+        "red",
+        "black"
+      ],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_128.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured shoulder bag featuring a white canvas base with a repeating red and navy blue geometric pattern, accented with glossy red leather trim, a wide adjustable shoulder strap, and a prominent gold-tone CC logo clasp. The design combines a classic hobo silhouette with bold color blocking and iconic branding.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "white",
+      "secondary_colors": [
+        "navy",
+        "red"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": "graphic-pattern",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_129.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A black suede flap shoulder bag with a curved front flap secured by a prominent silver-toned GG logo hardware. The bag features a wide, adjustable shoulder strap with gold-tone hardware and a structured, slightly slouchy silhouette. The suede material has a soft, napped texture, and the overall design is minimalist with no additional embellishments.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "flap shoulder bag",
+      "primary_color": "black",
+      "material": "suede",
+      "embellishments": [
+        "logo"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_130.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a curved, crescent-shaped silhouette with a combination of brown suede and dark brown leather. The central zip closure is accented by a signature green and red web stripe, and the bag is equipped with a detachable shoulder strap. The design includes contrasting white stitching along the leather trim and a gold-tone metal clasp on the strap attachment.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "brown",
+      "material": "suede",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": null,
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [
+        "green",
+        "red",
+        "black"
+      ],
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_131.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A compact white leather handbag with a distinctive curved bamboo handle and matching bamboo toggle closure. The bag features a structured, slightly rounded rectangular silhouette with visible stitching along the edges and a pebbled leather texture. The hardware is gold-toned, connecting the handle to the body and framing the central bamboo clasp.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "white",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap",
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_132.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a two-tone design with a deep purple leather upper and a woven jacquard panel below in cream, navy, and rust tones. The body has a curved, slouchy silhouette with a detachable shoulder strap attached via gold-tone hardware. The top edge is finished with a contrasting leather trim, and the hardware includes circular logo tags.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "purple",
+      "secondary_colors": [
+        "white",
+        "navy",
+        "rust"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": "graphic-pattern",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_133.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured top handle bag featuring a contrasting design with a solid red leather flap and a lower body adorned with a intricate floral and vine pattern on a light pink background. The bag is equipped with two curved bamboo handles accented with gold-tone hardware and a central turn-lock closure. The material appears to be textured leather with a printed or woven patterned panel.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "red",
+      "secondary_colors": [
+        "pink",
+        "black"
+      ],
+      "material": "leather",
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "embellishments": [],
+      "pattern": "floral-pattern",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_134.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A rich burgundy suede hobo bag with contrasting smooth leather trim on the base and handle attachment. The bag features a curved, slouchy silhouette with a single wide shoulder strap and a distinctive gold-tone piston closure at the center front. The construction includes visible stitching along the seams and a minimalist, elegant profile.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "burgundy",
+      "material": "suede",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_135.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured flap shoulder bag with a curved, half-moon silhouette featuring a pink GG monogram canvas body framed by glossy red leather trim. The bag is equipped with a detachable shoulder strap and a prominent gold-tone GG logo plaque at the center. The hardware includes gold-tone rings and a buckle on the strap, contributing to its classic, equestrian-inspired aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "flap shoulder bag",
+      "primary_color": "pink",
+      "secondary_colors": [
+        "red"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": "monogram",
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_136.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a beige GG monogram canvas with navy blue GG logo pattern, accented with burgundy leather trim along the curved edges and a black leather shoulder strap. The bag has a distinctive crescent moon silhouette with a top zip closure and a gold-tone GG logo hardware clasp at the strap attachment. The interior lining appears to be black leather.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "grey",
+      "secondary_colors": [
+        "navy",
+        "burgundy"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": "monogram",
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_137.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured flap shoulder bag with a nautical theme, featuring a cream canvas body adorned with vertical brown stripes and blue anchor motifs. The central flap is covered in navy blue leather and secured by a large, metallic anchor-shaped clasp. The bag is equipped with a detachable black leather shoulder strap attached via gold-tone hardware.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "flap shoulder bag",
+      "primary_color": "white",
+      "secondary_colors": [
+        "blue",
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "finishing": [
+        "canvas",
+        "printed"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_138.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A distinctive circular hobo bag featuring a cream canvas body with vertical brown rope-like stripes and green embroidered \"G\" logos. The bag is framed by a metallic silver border and accented with green leather panels at the top and bottom. A large, oval silver ring serves as the primary handle, creating a bold, sculptural silhouette.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "white",
+      "secondary_colors": [
+        "green",
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo",
+        "web"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "finishing": [
+        "canvas",
+        "printed"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_139.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, upright tote bag featuring a beige GG Supreme canvas base with a bold red and green Web stripe running vertically down the center. The front is adorned with a large, three-dimensional embroidered bee embellishment in black, red, and white, with brown leather handles attached by gold-tone hardware. The design combines classic Gucci heritage with a whimsical, nature-inspired motif.",
+    "tags": {
+      "category": "totes-women",
+      "subcategory": "tote",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo",
+        "web",
+        "embroidery"
+      ],
+      "pattern": "checks",
+      "model_details": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_140.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, glossy dark brown crocodile-effect leather hobo bag with a rounded, slouchy silhouette featuring vertical pleats and two curved top handles. The bag is adorned with two prominent gold-tone circular logo hardware pieces at the handle attachment points and includes a detachable shoulder strap with a gold-tone buckle. The surface has a textured, scaled finish that catches the light, giving it a luxurious and bold appearance.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "brown",
+      "material": "crocodile",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "finishing": [
+        "croc-effect"
+      ],
+      "handle_type": [
+        "top-handle",
+        "shoulder-strap"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "pleated"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_141.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, rounded hobo-style bag in a deep burgundy snakeskin-effect leather with prominent vertical pleats. It features two short top handles attached with large gold-tone circular logo hardware and a detachable shoulder strap with gold-tone hardware. The body is gathered at the top, creating a soft, slouchy silhouette.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "burgundy",
+      "material": "python",
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "finishing": [
+        "python-effect"
+      ],
+      "handle_type": [
+        "top-handle",
+        "shoulder-strap"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "pleated"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_142.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured boston bag featuring a beige GG monogram canvas body with contrasting brown leather trim and vertical stripes. The design is accentuated by gold-tone hardware, including a prominent heart-shaped Gucci logo plaque, and decorative black and gold spherical studs along the sides. The bag has two top handles attached with gold rings and a detachable brown leather strap with a tassel.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "boston bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "logo",
+        "stud"
+      ],
+      "pattern": "checks",
+      "model_details": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_143.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a beige GG Supreme canvas body with contrasting brown leather trim and hardware. The design is accentuated by gold-tone studs along the seams and fringed leather tassels hanging from the front. It has a curved top handle attached with gold rings and a detachable shoulder strap, both adorned with studs. A heart-shaped logo plaque hangs from the center front.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "fringe",
+        "logo",
+        "stud"
+      ],
+      "pattern": "monogram",
+      "model_details": [],
+      "handle_type": [
+        "top-handle",
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "large",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_144.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large shoulder bag featuring a beige GG monogram canvas body with contrasting dark brown leather trim and a distinctive woven leather border. The bag has a slouchy, unstructured silhouette with a wide shoulder strap and is adorned with decorative tassels and wooden bead embellishments hanging from the front. The hardware is gold-toned, and the overall design combines classic Gucci branding with bohemian detailing.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "tassel"
+      ],
+      "pattern": "monogram",
+      "model_details": [
+        "woven"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "large",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_145.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large structured tote bag featuring a bold vertical stripe pattern of white, green, and red leather. The bag has a distinctive bamboo handle with a red leather strap adorned with silver-tone studs and gold-tone hardware. The front is accented with a white leather GG logo plaque and matching white leather tabs. The design combines sport-luxe aesthetics with Gucci's signature green-red-green web motif.",
+    "tags": {
+      "category": "totes-women",
+      "subcategory": "tote",
+      "primary_color": "white",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "material": "leather",
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "embellishments": [
+        "logo",
+        "web"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "large",
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_146.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured black leather saddle bag with a distinctive studded and spiked embellishment along its lower edge and front flap. The bag features a top zip closure with a black leather flap secured by a silver-toned horsebit hardware, and is attached to a black leather strap with gold-tone hardware. The surface is covered in a dense pattern of silver-toned metal studs and spikes, creating a bold, edgy aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "saddle bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [
+        "stud"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap",
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_147.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A compact, structured handbag featuring a bold orange suede panel contrasted with black leather trim and a curved top handle. The body is defined by a central gold-tone piston closure with a leather strap, set against a minimalist silhouette with clean lines and a slightly flared base. The material combination and metallic hardware create a striking, high-contrast aesthetic.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "orange",
+      "secondary_colors": [
+        "black"
+      ],
+      "material": "suede",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_148.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized shoulder bag with a glossy black and white diagonal stripe pattern, featuring a prominent gold-tone YSL logo hardware at the front. The bag has a curved, slightly slouchy silhouette with a top zip closure and a detachable shoulder strap with a gold-tone buckle. The material appears to be a smooth leather with a subtle sheen, accented by the metallic hardware.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "black",
+      "secondary_colors": [
+        "white"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_149.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large hobo bag with a vibrant, multicolored floral embroidery on a black base, featuring contrasting smooth black leather trim and a curved, slouchy silhouette. The bag has a single shoulder strap and a top zip closure, with a decorative metal logo plaque at the strap attachment. The design combines bohemian floral elements with structured leather detailing for a bold, statement-making look.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "secondary_colors": [
+        "white",
+        "pink",
+        "purple",
+        "blue",
+        "green",
+        "yellow",
+        "orange"
+      ],
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "logo",
+        "embroidery"
+      ],
+      "pattern": "floral-pattern",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "large",
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_150.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, structured top handle bag with a distinctive geometric pattern in navy blue velvet. The bag features a curved, metallic silver handle and a slouchy, trapezoidal silhouette with a slightly flared bottom. The material has a soft, plush texture, and the design is minimalist with no visible closure or external hardware.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "navy",
+      "material": "cotton",
+      "embellishments": [],
+      "pattern": "diamond",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "large",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [],
+      "finishing": [
+        "velvet"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_151.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A vintage saddle bag with a distinctive curved, half-moon silhouette, featuring a contrasting panel of GG monogram patterned leather and a solid dark leather border. The bag is suspended from a thin shoulder strap and secured with a central buckle closure. The monochrome presentation highlights the structured, sculpted form and classic equestrian-inspired design.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "saddle bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": "monogram",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "buckle-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_152.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a beige canvas body with contrasting dark brown leather trim and a distinctive green-red-green Web stripe down the center. The bag has a curved, slouchy silhouette with a single shoulder strap and a gold-tone turn-lock closure at the top. The leather accents show a slightly worn, vintage texture, and the stitching is visible along the seams.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red",
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": [
+        "canvas"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_153.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A glossy, deep red patent leather shoulder bag with a structured, slightly slouchy trapezoidal silhouette. The bag features a top zip closure with a silver-toned horsebit hardware detail and a matching adjustable shoulder strap. The material's high sheen and clean stitching create a modern, chic aesthetic.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "red",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "patent"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "hook-closure"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_155.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A vintage-style brown leather saddle bag with a curved, half-moon silhouette and a distinctive horsebit buckle closure. The bag features a detachable shoulder strap and shows natural wear and creasing, suggesting a well-loved or intentionally distressed aesthetic. The construction includes visible stitching and a flap-over front opening.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "saddle bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [
+        "horsebit"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_156.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A glossy, iridescent hobo bag with a slouchy, gathered silhouette and a single curved top handle. The material reflects light in shifting hues of purple, blue, and silver, creating a metallic sheen. The bag features a zip-top closure and decorative metal hardware, including a circular ring detail on the side.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "black",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "metallic"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "pleated"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_157.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, metallic silver leather underarm shoulder bag, elongated and with a distinctive quilted, padded body and a prominent horsebit hardware. The bag features a chain strap with leather accents and a top zip closure, presented in a sleek, modern silhouette against a muted olive background.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "underarm bag",
+      "primary_color": "silver",
+      "material": "leather",
+      "embellishments": [
+        "horsebit"
+      ],
+      "pattern": null,
+      "finishing": [
+        "metallic"
+      ],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "quilted"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_158.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A compact, glossy emerald green leather flap shoulder bag with a curved, slightly flared silhouette and a prominent bamboo-inspired hardware clasp at the center. The bag features a short bamboo top handles attached with gold-tone hardware and a matching green leather trim. The material appears to be smooth, polished leather with visible stitching along the edges.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "emerald",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap",
+        "turn-lock-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_159.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, dome-shaped  handbag in a warm tan leather with a soft, slightly worn texture. It features two curved top handles attached with distinctive gold-tone horsebit hardware and a matching adjustable shoulder strap with a buckle closure. The silhouette is spacious and slouchy with a rounded bottom, suggesting a comfortable, everyday carry.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "tan",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_160.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured tan leather handbag with a curved, dome-like silhouette and two rounded top handles attached with gold-tone hardware. The front features a prominent circular GG logo clasp, while the sides show a detachable shoulder strap attachment. The bag has a smooth, slightly worn leather finish with visible stitching along the edges.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "tan",
+      "material": "leather",
+      "embellishments": [
+        "logo"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "finishing": [],
+      "secondary_colors": [],
+      "pattern": null,
+      "secondary_materials": [],
+      "model_details": [],
+      "bag_size": "medium"
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_161.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, dome-shaped handbag in tan leather with a prominent gold-tone GG logo clasp at the front. It features two curved top handles attached with gold-tone hardware and a matching detachable shoulder strap visible at the side. The bag has a classic, slightly slouchy silhouette with clean stitching and a minimalist aesthetic.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "tan",
+      "material": "leather",
+      "embellishments": [
+        "logo"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_162.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, dome-shaped handbag in a rich brown leather with a pebbled texture, featuring two curved top handles attached with gold-tone hardware and a prominent circular GG logo clasp at the center front. The silhouette is rounded and spacious, with visible stitching and a minimalist aesthetic.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [
+        "logo"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_163.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured black leather handbag with a distinctive curved, dome-like silhouette and two rounded top handles. The front features a prominent gold-tone and white enamel GG logo clasp, while the handles are attached with matching gold-tone hardware. The bag has a clean, minimalist aesthetic with visible stitching and a side zip closure.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "black",
+      "material": "leather",
+      "hardware_color": "gold",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "secondary_colors": [],
+      "embellishments": [
+        "logo"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "bag_size": "medium",
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_164.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, glossy brown crocodile-effect leather handbag with a curved, dome-like silhouette and two rounded top handles. The bag features a prominent gold-tone GG logo clasp at the center and matching gold-tone hardware at the handle attachments. Contrasting brown stitching outlines the seams, and a detachable shoulder strap with a gold buckle is visible on the side.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "brown",
+      "material": "crocodile",
+      "embellishments": [
+        "logo"
+      ],
+      "finishing": [
+        "croc-effect"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_165.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, structured tan leather top handle bag with a curved, crescent-shaped silhouette and a detachable shoulder strap featuring a silver-toned buckle. The bag has a top zip closure and is accented with contrasting black stitching along the seams.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "tan",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "large",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_167.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag with a curved, slouchy silhouette featuring a beige and brown diamond-patterned canvas body with contrasting brown leather trim and a top handle. The front is secured by a gold-tone turn-lock clasp with a leather tab, and the handle is attached with a gold-tone ring and buckle. The design combines classic hobo proportions with a sport-luxe aesthetic through its patterned fabric and metallic hardware.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "brown",
+        "tan"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [],
+      "pattern": "diamond",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_168.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured hobo bag featuring a beige GG Supreme canvas with brown leather trim and a distinctive green-red-green web stripe down the front, secured by a gold-tone zip pull. The bag has a curved, slouchy silhouette with a piston closure. The hardware is gold-toned, and the overall design combines classic equestrian-inspired elements with Gucci's signature web detailing.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "hobo bag",
+      "primary_color": "beige",
+      "secondary_colors": [
+        "green",
+        "red",
+        "brown"
+      ],
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": "monogram",
+      "model_details": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "piston-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "medium",
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_169.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, dome-shaped top handle bag with a glossy fuchsia and black snakeskin patterned body. It features a black bamboo handle a central lock closure with a black patent leather tag. The bag has a rigid, sculpted silhouette with visible stitching and a reflective, textured surface.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "fuchsia",
+      "secondary_colors": [
+        "black"
+      ],
+      "material": "python",
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "embellishments": [],
+      "pattern": "snake",
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "lock-closure"
+      ],
+      "hardware_color": "black",
+      "bag_size": "small",
+      "model_details": [],
+      "finishing": [
+        "python-effect"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_170.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, rounded-top handbag in a rich burgundy suede with a glossy finish, featuring two curved bamboo-effect handles and a prominent, oversized black metal lock clasp. The bag has a classic bamboo top handle silhouette and a leather brand tag hanging from the side. The hardware is polished metal, contrasting with the deep red body.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "burgundy",
+      "material": "suede",
+      "embellishments": [],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "lock-closure"
+      ],
+      "hardware_color": "gunmetal",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [
+        "bamboo"
+      ],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_171.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, upright trapezoidal top handle bag with a glossy lizard leather finish in a warm brown and black pattern. It features a top zip closure secured by a prominent black rectangular lock clasp, a short top handle, and a tag hanging from the side. The edges are neatly stitched, and the hardware is black, creating a bold contrast with the textured surface.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "brown",
+      "material": "lizard",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "python-effect"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "lock-closure"
+      ],
+      "hardware_color": "black",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_172.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, glossy blue crocodile-effect leather handbag with a classic dome silhouette, featuring distinctive black bamboo handles and a prominent black turn-lock closure. The bag has a rigid, boxy structure with a curved bottom and a small leather tag attached to the front. The material's textured, lacquered finish and contrasting hardware create a luxurious, high-impact look.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "blue",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "croc-effect"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "turn-lock-closure"
+      ],
+      "hardware_color": "black",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_173.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, slouchy brown leather backpack with a distinctive gathered front panel and a square metal lock clasp. The bag features two short top handles and a wide adjustable shoulder strap, constructed with visible stitching and hardware accents. The leather has a polished, slightly worn finish, giving it a structured yet relaxed silhouette.",
+    "tags": {
+      "category": "backpacks-women",
+      "subcategory": "backpack",
+      "primary_color": "brown",
+      "material": "leather",
+      "embellishments": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "open-top"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "large",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_174.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, structured shoulder bag with a beige GG Supreme canvas body and contrasting brown leather trim and handles. The bag features a distinctive green-red-green web stripe along the lower edge and a top zip closure. The design is classic Gucci with its iconic GG monogram pattern and web detailing, presented in a relaxed, oversized silhouette.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "beige",
+      "material": "cotton",
+      "secondary_materials": [
+        "leather"
+      ],
+      "embellishments": [
+        "web"
+      ],
+      "pattern": "monogram",
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "zip-closure"
+      ],
+      "hardware_color": "gold",
+      "bag_size": "large",
+      "secondary_colors": [
+        "green",
+        "red"
+      ],
+      "model_details": [],
+      "finishing": [
+        "jacquard"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_175.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, slouchy white backpack with a front panel and a wide shoulder strap. The bag features a flap closure and a small logo patch on the front flap. Constructed from smooth, matte-finish leather with contrasting black trim and silver-toned hardware, it has a minimalist, functional design with a slightly slouchy silhouette.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "white",
+      "material": "leather",
+      "secondary_colors": [],
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "large",
+      "secondary_materials": [],
+      "model_details": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_176.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A large, structured shoulder bag with a glossy yellow exterior featuring a croc-effect texture and a single wide shoulder strap. The bag has a slouchy, trapezoidal silhouette. The material appears to be a leather with a croc-effect finish.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "other shoulder bags",
+      "primary_color": "yellow",
+      "material": "leather",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "croc-effect"
+      ],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [],
+      "hardware_color": "gold",
+      "bag_size": "large",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": [
+        "quilted"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_178.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, glossy black crocodile-effect leather underarm bag with a prominent chain strap and large silver-tone circular hardware. The bag is held vertically and features a rigid, elongated baguette silhouette. The material has a textured, alligator-like finish, and the hardware provides a bold, metallic contrast.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "underarm bag",
+      "primary_color": "black",
+      "material": "crocodile",
+      "embellishments": [
+        "horsebit"
+      ],
+      "handle_type": [
+        "chain-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "finishing": [
+        "croc-effect"
+      ],
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "bag_size": "small"
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_180.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, metallic silver quilted flap underarm bag with a glossy, reflective finish and a chain strap. The bag features a prominent quilted texture and a curved, slightly flared silhouette. The hardware is silver-toned, and the chain strap adds a bold, edgy contrast to the sleek body.",
+    "tags": {
+      "category": "shoulder-bags-women",
+      "subcategory": "underarm bag",
+      "primary_color": "silver",
+      "material": "leather",
+      "secondary_materials": [],
+      "embellishments": [
+        "chain"
+      ],
+      "pattern": null,
+      "finishing": [],
+      "handle_type": [
+        "shoulder-strap"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "small",
+      "secondary_colors": [],
+      "model_details": [
+        "quilted"
+      ]
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_181.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, dome-shaped handbag in tan leather with a prominent silver-toned GG logo clasp at the center. The bag features two curved top handles attached with silver hardware and a smooth, slightly worn leather finish. The silhouette is rounded and spacious, with visible stitching along the edges and a minimalist, classic design.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "top handle bag",
+      "primary_color": "tan",
+      "material": "leather",
+      "embellishments": [
+        "logo"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [
+        "front-flap"
+      ],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "pattern": null,
+      "model_details": [],
+      "finishing": []
+    }
+  },
+  {
+    "image": "GUCCI_BAGS_MISC_002_182.webp",
+    "category_config": "bags_women",
+    "image_type": "product",
+    "description": "A structured, medium-sized grey crocodile-effect leather handbag with a rounded barrel body and two rolled top handles. The bag features a zip-around closure with silver-tone hardware, a detachable strap with a brand tag, and a pebbled leather trim at the base. The textured croc-embossed leather and metallic accents give it a luxurious, tailored appearance.",
+    "tags": {
+      "category": "handbags-women",
+      "subcategory": "boston bag",
+      "primary_color": "grey",
+      "material": "crocodile",
+      "embellishments": [],
+      "pattern": null,
+      "finishing": [
+        "croc-effect"
+      ],
+      "handle_type": [
+        "top-handle"
+      ],
+      "closure": [],
+      "hardware_color": "silver",
+      "bag_size": "medium",
+      "secondary_colors": [],
+      "secondary_materials": [],
+      "model_details": []
+    }
+  }
+]
