@@ -30,10 +30,13 @@ _decision_order_women: |-
   FRONT FLAP = panel folding over the front and covering most of its width.
   A narrow tab fastening the top edge is not a front flap.
 
-  1. BACKPACK needs TWO parallel straps attached to the back panel; if two straps are not
-     visible, it is not a backpack. A bag hanging behind the shoulder or against the back
-     from ONE strap, chain or handle is judged by its body shape in the steps below. One diagonal strap on a vertical/teardrop body =
-     sling bag. Small horizontal pouch on a clip-buckle strap or belt loops = waist bag.
+  1. BACKPACK = rucksack-style bag worn on the back with TWO parallel shoulder straps. The straps may
+     show on the back panel, at the sides or above the body; in a front view they are often hidden,
+     and a rucksack body (top grab handle, front pocket, flap or drawstring) with no strap in view is
+     still a backpack. A bag hanging behind the shoulder or against the back from ONE strap, chain or
+     handle is not a backpack: judge it by its body shape in the steps below.
+     One diagonal strap on a vertical/teardrop body = sling bag. Small horizontal pouch on a
+     clip-buckle strap or belt loops = waist bag.
      Sling vs waist: judge by strap attachment on the bag, not photo angle.
   2. Body woven from plant fibre (straw, raffia, wicker, rattan, rope) over most of its surface
      = basket, whatever its shape.
@@ -131,7 +134,9 @@ other shoulder bags: >-
 
 # ── other categories ── (steps 1 and 4)
 backpack: >-
-  Two parallel shoulder straps on the back panel plus a top grab handle. Mini backpacks stay here.
+  Rucksack-style bag worn on the back with two parallel shoulder straps (seen on the back panel or at
+  the sides; in a front view they are often hidden), usually plus a top grab handle. Mini backpacks
+  stay here.
 sling bag: >-
   Vertical/teardrop body with one diagonal strap across back or chest. Judge by strap
   attachment, not photo angle.
